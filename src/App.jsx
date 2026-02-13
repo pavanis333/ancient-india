@@ -85,6 +85,8 @@ function App() {
       filtered = topicsData.filter(v => v.category === 'mahajanapadas')
     } else if (selectedTopic === 'mauryan') {
       filtered = topicsData.filter(v => v.category === 'mauryan')
+    } else if (selectedTopic === 'literary') {
+      filtered = topicsData.filter(v => v.category === 'literary')
     }
 
     return filtered
@@ -188,6 +190,8 @@ function App() {
     const mahajanapadasQuiz = quizQuestions.filter(q => q.category === 'mahajanapadas').length
     const mauryanCount = topicsData.filter(t => t.category === 'mauryan').length
     const mauryanQuiz = quizQuestions.filter(q => q.category === 'mauryan').length
+    const literaryCount = topicsData.filter(t => t.category === 'literary').length
+    const literaryQuiz = quizQuestions.filter(q => q.category === 'literary').length
 
     return (
       <div className="mode-selector">
@@ -243,6 +247,12 @@ function App() {
           <div className="mode-icon">👑</div>
           <h3>Mauryan Empire</h3>
           <p>{mauryanCount} flashcards · {mauryanQuiz} quiz questions</p>
+        </div>
+
+        <div className="mode-card" onClick={() => setSelectedTopic('literary')}>
+          <div className="mode-icon">📚</div>
+          <h3>Literary & Cultural Contributions</h3>
+          <p>{literaryCount} flashcards · {literaryQuiz} quiz questions</p>
         </div>
       </div>
     )
