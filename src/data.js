@@ -7,6 +7,12 @@ export const topics = [
     name: '🏛️ Neolithic Sites',
     emoji: '🏛️',
     description: 'Neolithic Sites and Their Characteristics'
+  },
+  {
+    id: 'chalcolithic',
+    name: '⚒️ Chalcolithic Sites',
+    emoji: '⚒️',
+    description: 'Early Chalcolithic Sites and Copper Age Settlements'
   }
 ];
 
@@ -387,6 +393,115 @@ export const flashcards = [
       'Stone and wooden memorials for dead',
       'Austro-Asiatic languages presence',
       'Unique regional characteristics'
+    ]
+  },
+
+  // Early Chalcolithic Sites
+  {
+    id: 'chalcolithic-1',
+    category: 'chalcolithic',
+    subcategory: 'South-eastern Rajasthan',
+    title: 'South-eastern Rajasthan - Key Sites',
+    content: 'Key sites: Ahar, Gilund, Ganeshwar. Ahar shows absence of stone axes or blades. Gilund had stone-blade industry. Ganeshwar provided copper supply to Harappa. Economy: Hunting and agriculture.',
+    period: 'Chalcolithic Period',
+    importance: 'high',
+    location: 'South-eastern Rajasthan',
+    upsc_year: '2021',
+    facts: [
+      'Ahar: No stone axes or blades',
+      'Gilund: Stone-blade industry',
+      'Ganeshwar: Copper supply to Harappa [UPSC 2021]',
+      'Economy: Hunting and agriculture'
+    ]
+  },
+  {
+    id: 'chalcolithic-2',
+    category: 'chalcolithic',
+    subcategory: 'Western Madhya Pradesh',
+    title: 'Western Madhya Pradesh - Chalcolithic Settlements',
+    content: 'Key sites: Kayatha, Eran (Malwa), Navdatoli (Narmada). Evidence of Chalcolithic settlements found in this region. Economy: Hunting and agriculture.',
+    period: 'Chalcolithic Period',
+    importance: 'high',
+    location: 'Western Madhya Pradesh',
+    facts: [
+      'Kayatha',
+      'Eran (Malwa region)',
+      'Navdatoli (Narmada valley)',
+      'Evidence of Chalcolithic settlements',
+      'Economy: Hunting and agriculture'
+    ]
+  },
+  {
+    id: 'chalcolithic-3',
+    category: 'chalcolithic',
+    subcategory: 'Uttar Pradesh',
+    title: 'Uttar Pradesh - Allahabad Region',
+    content: 'Multiple sites in the Allahabad region, in proximity to Vindhyas. Multiple Chalcolithic settlements found in this area. Economy: Hunting and agriculture.',
+    period: 'Chalcolithic Period',
+    importance: 'medium',
+    location: 'Uttar Pradesh',
+    facts: [
+      'Allahabad region sites',
+      'Proximity to Vindhyas mountain range',
+      'Multiple Chalcolithic settlements',
+      'Economy: Hunting and agriculture'
+    ]
+  },
+  {
+    id: 'chalcolithic-4',
+    category: 'chalcolithic',
+    subcategory: 'Western Maharashtra',
+    title: 'Western Maharashtra - Early Metallurgy',
+    content: 'Key sites: Jorwe, Nevasa, Daimabad (Ahmadnagar), Chandoli, Songaon, Inamgaon (Pune). Jorwe shows flat and rectangular copper axes. Chandoli provides evidence of copper chisels. Notable for early metallurgy. Economy: Hunting, agriculture, and early metallurgy.',
+    period: 'Chalcolithic Period',
+    importance: 'high',
+    location: 'Western Maharashtra',
+    upsc_year: '2024',
+    facts: [
+      'Jorwe: Flat and rectangular copper axes',
+      'Nevasa',
+      'Daimabad (Ahmadnagar district)',
+      'Chandoli: Copper chisels [UPSC 2024]',
+      'Songaon',
+      'Inamgaon (Pune district)',
+      'Early metallurgy evidence',
+      'Economy: Hunting, agriculture, and early metallurgy'
+    ]
+  },
+  {
+    id: 'chalcolithic-5',
+    category: 'chalcolithic',
+    subcategory: 'Eastern India',
+    title: 'Eastern India - Chalcolithic Sites',
+    content: 'Key sites: Chirand (Ganga River), Pandu Rajar Dhibi, Mahishdal (West Bengal). Eastern Chalcolithic settlements found in this region. Economy: Hunting and agriculture.',
+    period: 'Chalcolithic Period',
+    importance: 'medium',
+    location: 'Eastern India',
+    facts: [
+      'Chirand (on Ganga River)',
+      'Pandu Rajar Dhibi',
+      'Mahishdal (West Bengal)',
+      'Eastern Chalcolithic settlements',
+      'Economy: Hunting and agriculture'
+    ]
+  },
+  {
+    id: 'chalcolithic-6',
+    category: 'chalcolithic',
+    subcategory: 'Andhra Pradesh',
+    title: 'Andhra Pradesh - Chalcolithic Elements',
+    content: 'Key sites: Kodekal, Utnur, Nagatjunkonda, Palavoy. Some Chalcolithic elements present, but notable for absence of copper objects. Economy: Hunting and agriculture.',
+    period: 'Chalcolithic Period',
+    importance: 'medium',
+    location: 'Andhra Pradesh',
+    facts: [
+      'Kodekal',
+      'Utnur',
+      'Nagatjunkonda',
+      'Palavoy',
+      'Some Chalcolithic elements',
+      'Absence of copper objects (unique feature)',
+      'Economy: Hunting and agriculture'
     ]
   }
 ];

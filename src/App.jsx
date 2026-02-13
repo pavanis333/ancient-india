@@ -70,6 +70,8 @@ function App() {
     let filtered = topicsData
     if (selectedTopic === 'neolithic') {
       filtered = topicsData.filter(v => v.category === 'neolithic')
+    } else if (selectedTopic === 'chalcolithic') {
+      filtered = topicsData.filter(v => v.category === 'chalcolithic')
     }
     
     // Then apply additional filters
@@ -159,6 +161,8 @@ function App() {
   const renderTopicMenu = () => {
     const neolithicCount = topicsData.filter(t => t.category === 'neolithic').length
     const neolithicQuiz = quizQuestions.filter(q => q.category === 'neolithic').length
+    const chalcolithicCount = topicsData.filter(t => t.category === 'chalcolithic').length
+    const chalcolithicQuiz = quizQuestions.filter(q => q.category === 'chalcolithic').length
     
     return (
       <div className="mode-selector">
@@ -166,6 +170,12 @@ function App() {
           <div className="mode-icon">🏛️</div>
           <h3>Neolithic Sites</h3>
           <p>{neolithicCount} flashcards · {neolithicQuiz} quiz questions</p>
+        </div>
+        
+        <div className="mode-card" onClick={() => setSelectedTopic('chalcolithic')}>
+          <div className="mode-icon">⚒️</div>
+          <h3>Chalcolithic Sites</h3>
+          <p>{chalcolithicCount} flashcards · {chalcolithicQuiz} quiz questions</p>
         </div>
       </div>
     )
@@ -899,7 +909,7 @@ function App() {
               onClick={resetMode}
               style={{marginBottom: '20px'}}
             >
-              ← Back to Neolithic Sites
+              ← Back to {selectedTopic === 'chalcolithic' ? 'Chalcolithic Sites' : 'Neolithic Sites'}
             </button>
 
             {mode === 'flashcards' && renderFlashcards()}
