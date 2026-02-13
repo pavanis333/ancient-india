@@ -639,7 +639,7 @@ function App() {
 
         <div className="quiz-question">
           <h3>Question {currentIndex + 1} of {filteredQuiz.length}</h3>
-          <p style={{fontSize: '1.3rem', marginBottom: '30px', color: '#1a3a0f'}}>
+          <p style={{fontSize: '1.3rem', marginBottom: '30px', color: '#1a3a0f', whiteSpace: 'pre-line'}}>
             {question.question}
           </p>
 
