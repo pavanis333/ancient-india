@@ -43,6 +43,12 @@ export const topics = [
     name: '🕉️ Jainism',
     emoji: '🕉️',
     description: 'Jain Councils, Literature, Temples & Terminology'
+  },
+  {
+    id: 'mahajanapadas',
+    name: '🏛️ Mahajanapadas',
+    emoji: '🏛️',
+    description: '16 Mahajanapadas - Capitals, Rulers & Historical Significance'
   }
 ];
 
@@ -1836,6 +1842,303 @@ export const flashcards = [
       'Gunasthanas - Purification stages',
       'Arhat - Kevalajnana stage',
       'Tirthankara - Teacher of doctrine'
+    ]
+  },
+
+  // Mahajanapadas
+  {
+    id: 'mahajanapada-1',
+    category: 'mahajanapadas',
+    subcategory: 'Major Kingdoms',
+    title: 'Magadha',
+    content: 'Capital: Rajagriha or Girivraja (Modern Patna and Gaya). Rulers: Haryanka Dynasty ruled Magadha (Ganga and son river flow through this region).',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'Modern Patna and Gaya',
+    capital: 'Rajagriha or Girivraja',
+    facts: [
+      'Capital: Rajagriha or Girivraja',
+      'Modern: Patna and Gaya',
+      'Dynasty: Haryanka',
+      'Rivers: Ganga and Son',
+      'Most powerful Mahajanapada'
+    ]
+  },
+  {
+    id: 'mahajanapada-2',
+    category: 'mahajanapadas',
+    subcategory: 'Trade Centers',
+    title: 'Anga',
+    content: 'Capital: Champa (located at the confluence of the Ganga and Champa Rivers). Modern districts of Monghyr and Bhagalpur, Bihar. Champa was an important commercial centre, and merchants sailed from here to Suvarnabhumi (Southeast Asia).',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'Monghyr and Bhagalpur, Bihar',
+    capital: 'Champa',
+    facts: [
+      'Capital: Champa (Ganga-Champa confluence)',
+      'Modern: Monghyr, Bhagalpur, Bihar',
+      'Important commercial centre',
+      'Trade route to Suvarnabhumi (Southeast Asia)'
+    ]
+  },
+  {
+    id: 'mahajanapada-3',
+    category: 'mahajanapadas',
+    subcategory: 'Republics',
+    title: 'Vajji',
+    content: 'Capital: Vaishali (Modern Basarh in North Bihar). Gandak river flow through this region. North of Ganga in the division of Tirhut. King: Chetaka. It was a confederacy including Lichchhavis, Jnatrikas, and Vajjis. Mahavira belonged to the Jnatrikas Clan. Buddha took his last meal and was ill at Pava and attained Mahaparinirvana at Kusinara.',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'North Bihar',
+    capital: 'Vaishali',
+    facts: [
+      'Capital: Vaishali (Modern Basarh)',
+      'Confederacy: Lichchhavis, Jnatrikas, Vajjis',
+      'King: Chetaka',
+      'Mahavira belonged to Jnatrikas Clan',
+      'Buddha\'s last meal at Pava',
+      'Buddha attained Mahaparinirvana at Kusinara',
+      'Gandak river flows through region'
+    ]
+  },
+  {
+    id: 'mahajanapada-4',
+    category: 'mahajanapadas',
+    subcategory: 'Buddhist Sites',
+    title: 'Mallas',
+    content: 'Capital: Kushinara and Pava (Gangetic Plains U.P.). Buddha took his last meal and was ill at Pava and attained Mahaparinirvana at Kusinara.',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'Gangetic Plains, U.P.',
+    capital: 'Kushinara and Pava',
+    facts: [
+      'Capitals: Kushinara and Pava',
+      'Gangetic Plains, U.P.',
+      'Buddha took last meal at Pava',
+      'Buddha attained Mahaparinirvana at Kusinara',
+      'Important Buddhist pilgrimage site'
+    ]
+  },
+  {
+    id: 'mahajanapada-5',
+    category: 'mahajanapadas',
+    subcategory: 'Ancient Cities',
+    title: 'Kashi',
+    content: 'Capital: Varanasi (between the Varuna and Assi rivers) (Varanasi U.P.). Later Kashi was incorporated into Kosala.',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'Varanasi, U.P.',
+    capital: 'Varanasi',
+    facts: [
+      'Capital: Varanasi',
+      'Between Varuna and Assi rivers',
+      'Later incorporated into Kosala',
+      'Ancient religious center'
+    ]
+  },
+  {
+    id: 'mahajanapada-6',
+    category: 'mahajanapadas',
+    subcategory: 'North-Western Kingdoms',
+    title: 'Gandhara',
+    content: 'Capital: Takshashila (Major centre for trade and learning) (north-western Pakistan). The Behistun Inscription of the Achaemenid Emperor Darius mentions that the Persians conquered Gandhara in the later part of the 6th century BC.',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'North-western Pakistan',
+    capital: 'Takshashila',
+    facts: [
+      'Capital: Takshashila',
+      'Major trade and learning centre',
+      'North-western Pakistan',
+      'Behistun Inscription mentions conquest',
+      'Persians conquered in 6th century BC',
+      'Famous ancient university'
+    ]
+  },
+  {
+    id: 'mahajanapada-7',
+    category: 'mahajanapadas',
+    subcategory: 'Major Kingdoms',
+    title: 'Kosala',
+    content: 'Capital: Sarayu River divides the state into two parts. [UPSC 2025]. Northern Kosala: Shravasti. Southern Kosala: Kushavati. (Eastern U.P., including Ayodhya). King: Prasenjit (Buddha\'s contemporary). Lumbini, included in the tribal republic of the Shakyas, is the birthplace of Gautama Buddha.',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'Eastern U.P., Ayodhya',
+    capital: 'Shravasti (North), Kushavati (South)',
+    upsc_year: '2025',
+    facts: [
+      'Sarayu River divides into two parts [UPSC 2025]',
+      'Northern Kosala: Shravasti',
+      'Southern Kosala: Kushavati',
+      'King: Prasenjit (Buddha\'s contemporary)',
+      'Lumbini (Shakyas tribal republic)',
+      'Birthplace of Gautama Buddha',
+      'Eastern U.P., including Ayodhya'
+    ]
+  },
+  {
+    id: 'mahajanapada-8',
+    category: 'mahajanapadas',
+    subcategory: 'Southern Kingdoms',
+    title: 'Ashavaka/Assaka',
+    content: 'Capital: Potali (Modern Bodhan, district Nizamabad, and parts of Adilabad in Telangana). Only Mahajanapada, situated south of the Vindhya Range, was in Dakshinapatha. (Located between the rivers Godavari and Manjira)',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'Telangana',
+    capital: 'Potali',
+    facts: [
+      'Capital: Potali',
+      'Modern: Bodhan, Nizamabad, Adilabad (Telangana)',
+      'Only Mahajanapada south of Vindhya Range',
+      'Located in Dakshinapatha',
+      'Between Godavari and Manjira rivers'
+    ]
+  },
+  {
+    id: 'mahajanapada-9',
+    category: 'mahajanapadas',
+    subcategory: 'Ancient Kingdoms',
+    title: 'Cheti or Chedi',
+    content: 'Capital: Shuktimati or Sotthivatinagara (Ken River flow through this region.) (Eastern part of Bundelkhand region). King: Shishupala',
+    period: 'Mahajanapada Period',
+    importance: 'medium',
+    location: 'Bundelkhand region',
+    capital: 'Shuktimati or Sotthivatinagara',
+    facts: [
+      'Capital: Shuktimati or Sotthivatinagara',
+      'Ken River flows through region',
+      'Eastern Bundelkhand',
+      'King: Shishupala',
+      'Mahabharata connection'
+    ]
+  },
+  {
+    id: 'mahajanapada-10',
+    category: 'mahajanapadas',
+    subcategory: 'Trade Centers',
+    title: 'Vatsa',
+    content: 'Capital: Kaushambi (at the confluence of the Ganga and Yamuna, near Allahabad) (on the banks of river Yamuna). King: Udayana. Vatsa was known for its fine cotton textiles.',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'Near Allahabad',
+    capital: 'Kaushambi',
+    facts: [
+      'Capital: Kaushambi',
+      'Ganga-Yamuna confluence, near Allahabad',
+      'King: Udayana',
+      'Known for fine cotton textiles',
+      'Important trade center'
+    ]
+  },
+  {
+    id: 'mahajanapada-11',
+    category: 'mahajanapadas',
+    subcategory: 'Epic Kingdoms',
+    title: 'Kuru',
+    content: 'Capital: Indraprastha (Western U.P.). Mahabharata elaborates on the conflict between two branches of the reigning Kuru clan.',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'Western U.P.',
+    capital: 'Indraprastha',
+    facts: [
+      'Capital: Indraprastha',
+      'Western U.P.',
+      'Mahabharata conflict setting',
+      'Two branches of Kuru clan',
+      'Epic significance'
+    ]
+  },
+  {
+    id: 'mahajanapada-12',
+    category: 'mahajanapadas',
+    subcategory: 'Major Kingdoms',
+    title: 'Panchala',
+    content: 'Capital: Ganga River divides the state into two parts: Northern Panchala: Ahichchhatra (Bareilly, U.P). Southern Panchala: Kampilya (Farukkhabad, U.P). (Western U.P.). Kanauj was situated in the kingdom of Panchala.',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'Western U.P.',
+    capital: 'Ahichchhatra (North), Kampilya (South)',
+    facts: [
+      'Ganga River divides into two parts',
+      'Northern: Ahichchhatra (Bareilly, U.P)',
+      'Southern: Kampilya (Farukkhabad, U.P)',
+      'Kanauj in Panchala kingdom',
+      'Western U.P.'
+    ]
+  },
+  {
+    id: 'mahajanapada-13',
+    category: 'mahajanapadas',
+    subcategory: 'Ancient Kingdoms',
+    title: 'Matsya',
+    content: 'Capital: Viratanagara (Jaipur, Alwar and Bharatpur area of Rajasthan). Founder: Virata. Chambal river flow through this region.',
+    period: 'Mahajanapada Period',
+    importance: 'medium',
+    location: 'Rajasthan',
+    capital: 'Viratanagara',
+    facts: [
+      'Capital: Viratanagara',
+      'Jaipur, Alwar, Bharatpur (Rajasthan)',
+      'Founder: Virata',
+      'Chambal river flows through',
+      'Mahabharata connection'
+    ]
+  },
+  {
+    id: 'mahajanapada-14',
+    category: 'mahajanapadas',
+    subcategory: 'Religious Centers',
+    title: 'Shurasena',
+    content: 'Capital: Mathura (on the banks of river Yamuna) (Braj region in U.P). King: Avantipura (Disciple of Buddha)',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'Braj region, U.P.',
+    capital: 'Mathura',
+    facts: [
+      'Capital: Mathura',
+      'On banks of Yamuna river',
+      'Braj region in U.P.',
+      'King: Avantipura (Buddha\'s disciple)',
+      'Important religious center'
+    ]
+  },
+  {
+    id: 'mahajanapada-15',
+    category: 'mahajanapadas',
+    subcategory: 'Major Kingdoms',
+    title: 'Avanti',
+    content: 'Capital: Divided by the Vindhyas. North Avanti - Ujjain. South Avanti - Mahishmati. (Central Malwa). King: Pradyota (Father-in-law of Udayana). Shipra & Narmada river Flow throgh this region [UPSC 2025]',
+    period: 'Mahajanapada Period',
+    importance: 'high',
+    location: 'Central Malwa',
+    capital: 'Ujjain (North), Mahishmati (South)',
+    upsc_year: '2025',
+    facts: [
+      'Divided by Vindhyas',
+      'North Avanti: Ujjain',
+      'South Avanti: Mahishmati',
+      'King: Pradyota (Udayana\'s father-in-law)',
+      'Shipra & Narmada rivers [UPSC 2025]',
+      'Central Malwa'
+    ]
+  },
+  {
+    id: 'mahajanapada-16',
+    category: 'mahajanapadas',
+    subcategory: 'North-Western Kingdoms',
+    title: 'Kamboja',
+    content: 'Capital: Pooncha (Rajouri and Hajra (Kashmir) and NorthWest Frontier Province of Pakistan). Famous in ancient times for their excellent breed of horses and as remarkable horsemen located in the Uttarapatha or North-West.',
+    period: 'Mahajanapada Period',
+    importance: 'medium',
+    location: 'Kashmir & NW Pakistan',
+    capital: 'Pooncha',
+    facts: [
+      'Capital: Pooncha',
+      'Rajouri, Hajra (Kashmir)',
+      'NW Frontier Province of Pakistan',
+      'Famous for breed of horses',
+      'Remarkable horsemen',
+      'Located in Uttarapatha (North-West)'
     ]
   }
 ];

@@ -82,6 +82,8 @@ function App() {
       filtered = topicsData.filter(v => v.category === 'buddhism')
     } else if (selectedTopic === 'jainism') {
       filtered = topicsData.filter(v => v.category === 'jainism')
+    } else if (selectedTopic === 'mahajanapadas') {
+      filtered = topicsData.filter(v => v.category === 'mahajanapadas')
     }
     
     // Then apply additional filters
@@ -183,6 +185,8 @@ function App() {
     const buddhismQuiz = quizQuestions.filter(q => q.category === 'buddhism').length
     const jainismCount = topicsData.filter(t => t.category === 'jainism').length
     const jainismQuiz = quizQuestions.filter(q => q.category === 'jainism').length
+    const mahajanapadasCount = topicsData.filter(t => t.category === 'mahajanapadas').length
+    const mahajanapadasQuiz = quizQuestions.filter(q => q.category === 'mahajanapadas').length
     
     return (
       <div className="mode-selector">
@@ -226,6 +230,12 @@ function App() {
           <div className="mode-icon">🕉️</div>
           <h3>Jainism</h3>
           <p>{jainismCount} flashcards · {jainismQuiz} quiz questions</p>
+        </div>
+        
+        <div className="mode-card" onClick={() => setSelectedTopic('mahajanapadas')}>
+          <div className="mode-icon">🏛️</div>
+          <h3>Mahajanapadas</h3>
+          <p>{mahajanapadasCount} flashcards · {mahajanapadasQuiz} quiz questions</p>
         </div>
       </div>
     )
@@ -966,6 +976,7 @@ function App() {
                 selectedTopic === 'vedic' ? 'Vedic Literature' :
                 selectedTopic === 'buddhism' ? 'Buddhism' :
                 selectedTopic === 'jainism' ? 'Jainism' :
+                selectedTopic === 'mahajanapadas' ? 'Mahajanapadas' :
                 'Neolithic Sites'
               }
             </button>
