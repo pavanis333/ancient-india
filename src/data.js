@@ -31,6 +31,12 @@ export const topics = [
     name: '📜 Vedic Literature',
     emoji: '📜',
     description: 'Vedic Texts, Upanishads, Vedangas & Terminology'
+  },
+  {
+    id: 'buddhism',
+    name: '🧘 Buddhism',
+    emoji: '🧘',
+    description: 'Buddhist Councils, Bodhisattvas, Sects, Literature & Philosophers'
   }
 ];
 
@@ -1357,6 +1363,287 @@ export const flashcards = [
       'Niyoga - Widow-remarriage type',
       'Goghna - Guest fed on cattle',
       'Palagala - Messenger'
+    ]
+  },
+
+  // Buddhism - Buddhist Councils
+  {
+    id: 'buddhism-1',
+    category: 'buddhism',
+    subcategory: 'Buddhist Councils',
+    title: '1st Buddhist Council',
+    content: 'Date: ~483 BC (shortly after Buddha\'s death). Place: Sattapani cave at Rajagriha. King: Ajatashatru. President: Maha Kassapa. Events: Upali recited Vinay Pitaka; Ananda recited Sutta Pitaka.',
+    period: '~483 BC',
+    importance: 'high',
+    location: 'Rajagriha',
+    facts: [
+      'Shortly after Buddha\'s death',
+      'Sattapani cave at Rajagriha',
+      'King: Ajatashatru',
+      'President: Maha Kassapa',
+      'Upali recited Vinay Pitaka',
+      'Ananda recited Sutta Pitaka'
+    ]
+  },
+  {
+    id: 'buddhism-2',
+    category: 'buddhism',
+    subcategory: 'Buddhist Councils',
+    title: '2nd Buddhist Council',
+    content: 'Date: ~383 BC (a century after Buddha\'s death). Place: Vaishali. King: Kalashoka. President: Sabbakami. Events: Buddhist order split into Sthaviravadin (Believers in the Teachings of the Elders) and the Mahasanghika (Members of the Great Community).',
+    period: '~383 BC',
+    importance: 'high',
+    location: 'Vaishali',
+    facts: [
+      'Century after Buddha\'s death',
+      'Vaishali',
+      'King: Kalashoka',
+      'President: Sabbakami',
+      'Split into Sthaviravadin (Elders)',
+      'and Mahasanghika (Great Community)'
+    ]
+  },
+  {
+    id: 'buddhism-3',
+    category: 'buddhism',
+    subcategory: 'Buddhist Councils',
+    title: '3rd Buddhist Council',
+    content: 'Date: ~250 BC. Place: Patliputra. King: Ashoka. President: Moggaliputta-Tissa. Events: The last section, called "Kathavatthu", was added to Abhidhamma Pitaka. Mission sent outside India (Sri lanka); for the first time buddhism crossed India.',
+    period: '~250 BC',
+    importance: 'high',
+    location: 'Patliputra',
+    facts: [
+      'King: Ashoka',
+      'President: Moggaliputta-Tissa',
+      'Kathavatthu added to Abhidhamma Pitaka',
+      'Mission to Sri Lanka',
+      'First time Buddhism crossed India'
+    ]
+  },
+  {
+    id: 'buddhism-4',
+    category: 'buddhism',
+    subcategory: 'Buddhist Councils',
+    title: '4th Buddhist Council',
+    content: 'Date: 1st Century CE. Place: Kundalvana, Srinagar. King: Kanishka. President: Vasumitra (Monk of Sarvastivada school) & Ashwaghosh (Vice President). Events: Commentaries on Pitaka were written. Sarvastivadin doctrines were compiled in Mahavibhasa. Division of Buddhism into Mahayana & Hinayana.',
+    period: '1st Century CE',
+    importance: 'high',
+    location: 'Kundalvana, Srinagar',
+    facts: [
+      'King: Kanishka',
+      'President: Vasumitra (Sarvastivada monk)',
+      'Vice President: Ashwaghosh',
+      'Commentaries on Pitaka written',
+      'Sarvastivadin doctrines in Mahavibhasa',
+      'Division into Mahayana & Hinayana'
+    ]
+  },
+
+  // Buddhism - Bodhisattvas
+  {
+    id: 'buddhism-5',
+    category: 'buddhism',
+    subcategory: 'Bodhisattvas',
+    title: 'Major Bodhisattvas - Part 1',
+    content: 'Avalokiteshwara: Known as "The Lord Who Looks Down", Padmapani (Sanskrit), Lokesvara (Theravada Buddhism). Manifests Buddha\'s Compassion. Manjusri: Male Bodhisattva, Interlocutor on ultimate truth. Also known as Wenshu (China) and Jampelyang (Tibet). Wields a flaming sword (to destroy falsehood) & holds a book. Tara: Female Bodhisattva in Mahayana, Female Buddha in Vajrayana. Also known as Jetsun Dolma (Tibetan Buddhism). Represents compassion and protection. Ksitigarbha: Means "Earth Womb," guardian of children.',
+    period: 'Buddhist Period',
+    importance: 'high',
+    facts: [
+      'Avalokiteshwara - Compassion, Padmapani',
+      'Manjusri - Wisdom, flaming sword',
+      'Tara - Compassion & protection',
+      'Ksitigarbha - Earth Womb, guardian of children'
+    ]
+  },
+  {
+    id: 'buddhism-6',
+    category: 'buddhism',
+    subcategory: 'Bodhisattvas',
+    title: 'Major Bodhisattvas - Part 2',
+    content: 'Maitreya [UPSC 2018]: Also known as Ajita Bodhisattva, the future Buddha. Accepted by both Mahayana and non-Mahayana traditions. Samantabhadra: Associated with meditation. Vajrapani: Manifests Buddha\'s Power. Vasudhara: Associated with wealth, prosperity, and abundance. Amitabha: Great saviour buddha. Akasagarbha: Associated with elements of space. Skanda: Guardian of Viharas and Buddhist teachings.',
+    period: 'Buddhist Period',
+    importance: 'high',
+    upsc_year: '2018',
+    facts: [
+      'Maitreya - Future Buddha [UPSC 2018]',
+      'Samantabhadra - Meditation',
+      'Vajrapani - Buddha\'s Power',
+      'Vasudhara - Wealth & prosperity',
+      'Amitabha - Great saviour',
+      'Akasagarbha - Space elements',
+      'Skanda - Guardian'
+    ]
+  },
+
+  // Buddhism - Sects
+  {
+    id: 'buddhism-7',
+    category: 'buddhism',
+    subcategory: 'Buddhist Sects',
+    title: 'Major Buddhist Sects - Part 1',
+    content: 'Sthaviravada: Realist philosophy: all phenomena exist as unstable compounds of elements. Emphasized Arahantship (liberation from Samsara). After the 2nd Council (~383 BCE), rejected the transcendental nature of Buddhas. Root of Theravada. Strict adherence to Vinaya (monk\'s code). Mahasanghika: The mind\'s original nature is pure but contaminated by passions. Buddhas are supramundane and transcendental. After the 2nd Council (~383 BCE), introduced Buddha divinity and anthropomorphic art. Mahayana Buddhism evolved from this sect. Represented majority after the 2nd Council.',
+    period: 'Post 2nd Council (~383 BCE)',
+    importance: 'high',
+    facts: [
+      'Sthaviravada - Realist, Arahantship, Vinaya adherence',
+      'Root of Theravada',
+      'Mahasanghika - Buddha divinity, anthropomorphic art',
+      'Root of Mahayana'
+    ]
+  },
+  {
+    id: 'buddhism-8',
+    category: 'buddhism',
+    subcategory: 'Buddhist Sects',
+    title: 'Major Buddhist Sects - Part 2',
+    content: 'Lokottaravadin: Concept of Lokottara Buddha (Supernatural Buddha). Buddha\'s teachings transcend worldly reality. Sub-sect of Mahasanghika (~1st CE). Highlighted Buddha\'s supernatural qualities. Ekavyavaharika: Emphasized unity of teachings (Ekavyavahara). Sub-sect of Mahasanghika. Focused on the transcendental nature of Buddha. Kaukkutika: Conservative interpretation of Mahasanghika teachings. Sub-sect of Mahasanghika. Focused on scriptural analysis and doctrinal adherence.',
+    period: '1st Century CE',
+    importance: 'medium',
+    facts: [
+      'Lokottaravadin - Supernatural Buddha',
+      'Ekavyavaharika - Unity of teachings',
+      'Kaukkutika - Conservative interpretation'
+    ]
+  },
+  {
+    id: 'buddhism-9',
+    category: 'buddhism',
+    subcategory: 'Buddhist Sects',
+    title: 'Major Buddhist Sects - Part 3',
+    content: 'Sarvastivada: Doctrine of Sarvam asti – everything exists (past, present, future). Split from Sthaviravada (~3rd BCE). Influential in Abhidharma texts. Spread across Central Asia and China. Pudgalavada: Doctrine of Pudgala (self/person) distinct from aggregates. Split from Sthaviravada (~3rd BCE). Proposed a quasi-self concept. Criticized and declined after the 7th century CE. Dharmaguptaka: Emphasized monastic discipline and merit-making. Split from Sarvastivada (~3rd BCE). Spread Buddhism to China and East Asia. Developed own Vinaya (monastic code).',
+    period: '3rd Century BCE onwards',
+    importance: 'medium',
+    facts: [
+      'Sarvastivada - Everything exists (past/present/future)',
+      'Pudgalavada - Quasi-self concept',
+      'Dharmaguptaka - Monastic discipline, China spread'
+    ]
+  },
+  {
+    id: 'buddhism-10',
+    category: 'buddhism',
+    subcategory: 'Buddhist Sects',
+    title: 'Navayana Buddhism',
+    content: 'Focused on social equality and justice. Modern reinterpretation by Dr. B.R. Ambedkar (~20th CE). Popular among Dalits and marginalized communities. Addressed modern social issues.',
+    period: '20th Century CE',
+    importance: 'high',
+    facts: [
+      'Modern reinterpretation by Dr. B.R. Ambedkar',
+      '20th Century CE',
+      'Focus on social equality and justice',
+      'Popular among Dalits',
+      'Addresses modern social issues'
+    ]
+  },
+
+  // Buddhism - Literature
+  {
+    id: 'buddhism-11',
+    category: 'buddhism',
+    subcategory: 'Buddhist Literature',
+    title: 'Buddhist Epics and Texts - Part 1',
+    content: 'Manimekalai (one of the twin epics of post-Sangam age): Author - Sattanar. Kundalakesi: Author - Nagakuthanaar. Madhyami Karika: Author - Nagarjuna. Prajanaparamita Karika: Author - Nagarjuna. Abhidhmma Kosh: Author - Vasubandhu. Pramāṇasamuccaya: Author - Dignāga.',
+    period: 'Buddhist Period',
+    importance: 'medium',
+    facts: [
+      'Manimekalai - Sattanar (post-Sangam epic)',
+      'Kundalakesi - Nagakuthanaar',
+      'Madhyami Karika - Nagarjuna',
+      'Abhidhmma Kosh - Vasubandhu',
+      'Pramāṇasamuccaya - Dignāga'
+    ]
+  },
+  {
+    id: 'buddhism-12',
+    category: 'buddhism',
+    subcategory: 'Buddhist Literature',
+    title: 'Buddhist Texts by Ashwaghosh',
+    content: '1. Buddhcharita, 2. Saudaranand, 3. Sariputra Prakaran, 4. Vajrasuchi, 5. Sutralankara. All authored by Ashwaghosh.',
+    period: 'Buddhist Period',
+    importance: 'medium',
+    author: 'Ashwaghosh',
+    facts: [
+      'Buddhcharita',
+      'Saudaranand',
+      'Sariputra Prakaran',
+      'Vajrasuchi',
+      'Sutralankara'
+    ]
+  },
+  {
+    id: 'buddhism-13',
+    category: 'buddhism',
+    subcategory: 'Buddhist Literature',
+    title: 'Important Buddhist Texts',
+    content: 'Vishuddhi magga, Sumangal-vilasini and Atthakathayen were written by Buddhaghosha. Ceylonese chronicles [Dipavamsa (Island Chronicles), Mahavamsa (Great Chronicle) and Culavamsa (Lesser Chronicle)] contain regional histories of Buddhism. Milinda Panha: Conversations between King Menander and monk Nagasena. [UPSC 2022]. Netti Pakarana: It is a Buddhist scripture, sometimes included in the Khuddaka Nikaya of Theravada Buddhism\'s Pali Canon. [UPSC 2022]',
+    period: 'Buddhist Period',
+    importance: 'high',
+    upsc_year: '2022',
+    facts: [
+      'Buddhaghosa - Vishuddhi magga, Sumangal-vilasini, Atthakathayen',
+      'Dipavamsa, Mahavamsa, Culavamsa - Ceylonese chronicles',
+      'Milinda Panha - Menander & Nagasena [UPSC 2022]',
+      'Netti Pakarana - Pali Canon [UPSC 2022]'
+    ]
+  },
+  {
+    id: 'buddhism-14',
+    category: 'buddhism',
+    subcategory: 'Buddhist Literature',
+    title: 'Buddhist Texts - Avadana and Mahayana',
+    content: 'Avadana literature is an anthology in Sanskrit of one hundred Buddhist legends. Mahayana texts: Lalitavistara, Saddharmapundarika, Vajracchedika, Sukhavativyuha, Karandavyuha, Astasahasrika Prajnaparamita. Lalitavistara is a biography of the Gautama Buddha, written in a combination of Sanskrit and vernacular. Samannaphala Sutta: It is the second sutta of the Digha Nikaya and is related to the conversation between Buddha and Ajatasatru. [UPSC 2024]',
+    period: 'Buddhist Period',
+    importance: 'high',
+    upsc_year: '2024',
+    facts: [
+      'Avadana - 100 Buddhist legends in Sanskrit',
+      'Mahayana texts - 6 major texts listed',
+      'Lalitavistara - Buddha\'s biography (Sanskrit + vernacular)',
+      'Samannaphala Sutta - Buddha & Ajatasatru [UPSC 2024]'
+    ]
+  },
+
+  // Buddhism - Philosophers
+  {
+    id: 'buddhism-15',
+    category: 'buddhism',
+    subcategory: 'Buddhist Philosophers',
+    title: 'Buddhist Philosophers - Part 1',
+    content: 'Nāgārjuna (1st–2nd Century CE): Founder of Madhyamika School (Middle Path). Developed concept of Śūnyatā (emptiness); emphasized the middle path between eternalism and nihilism. Āryadeva (3rd Century CE): Disciple of Nāgārjuna; expanded Madhyamika philosophy. Used dialectical reasoning to refute non-Buddhist schools; strengthened logical foundations of Mahayana thought. Ashvaghosha (1st–2nd Century CE): Early Mahayana philosopher and poet. Authored Buddhacharita; integrated philosophy with Sanskrit poetic tradition; emphasized Buddha\'s divinity and humanism.',
+    period: '1st-3rd Century CE',
+    importance: 'high',
+    facts: [
+      'Nāgārjuna - Madhyamika School, Śūnyatā concept',
+      'Āryadeva - Dialectical reasoning, Nāgārjuna\'s disciple',
+      'Ashvaghosha - Buddhacharita, philosopher-poet'
+    ]
+  },
+  {
+    id: 'buddhism-16',
+    category: 'buddhism',
+    subcategory: 'Buddhist Philosophers',
+    title: 'Buddhist Philosophers - Part 2',
+    content: 'Asanga (4th Century CE): Co-founder of Yogācāra (Vijnanavada) School. Wrote Mahayana Sutralankara, emphasized Mind-only (Cittamatra) doctrine. Vasubandhu (4th–5th Century CE): Proponent of Yogācāra and Abhidharma traditions. Authored Abhidharmakośa; systematized Buddhist psychology and metaphysics. Dignāga (5th–6th Century CE): Founder of Buddhist Logic (Hetu Vidya). Focused on Pratyakṣa (perception) and Anumāna (inference) as valid means of knowledge.',
+    period: '4th-6th Century CE',
+    importance: 'high',
+    facts: [
+      'Asanga - Yogācāra School, Mind-only doctrine',
+      'Vasubandhu - Abhidharmakośa, Buddhist psychology',
+      'Dignāga - Buddhist Logic founder, Pratyakṣa & Anumāna'
+    ]
+  },
+  {
+    id: 'buddhism-17',
+    category: 'buddhism',
+    subcategory: 'Buddhist Philosophers',
+    title: 'Buddhist Philosophers - Part 3',
+    content: 'Dharmakirti (7th Century CE): Refined Buddhist epistemology. Developed theory of Pramāna (valid knowledge); advanced logic and philosophy of language. Buddhaghosa (5th Century CE): Theravāda scholar and commentator. Authored Visuddhimagga; systematized Buddhist ethics, meditation, and philosophy in Pali literature. Shantideva (8th Century CE): Mahayana philosopher and poet. Wrote Bodhisattvacharyavatara; elaborated Bodhisattva ideals and path of compassion.',
+    period: '5th-8th Century CE',
+    importance: 'high',
+    facts: [
+      'Dharmakirti - Pramāna theory, epistemology',
+      'Buddhaghosa - Visuddhimagga, Pali literature',
+      'Shantideva - Bodhisattvacharyavatara, compassion path'
     ]
   }
 ];
