@@ -37,6 +37,12 @@ export const topics = [
     name: '🧘 Buddhism',
     emoji: '🧘',
     description: 'Buddhist Councils, Bodhisattvas, Sects, Literature & Philosophers'
+  },
+  {
+    id: 'jainism',
+    name: '🕉️ Jainism',
+    emoji: '🕉️',
+    description: 'Jain Councils, Literature, Temples & Terminology'
   }
 ];
 
@@ -1644,6 +1650,192 @@ export const flashcards = [
       'Dharmakirti - Pramāna theory, epistemology',
       'Buddhaghosa - Visuddhimagga, Pali literature',
       'Shantideva - Bodhisattvacharyavatara, compassion path'
+    ]
+  },
+
+  // Jainism
+  {
+    id: 'jainism-1',
+    category: 'jainism',
+    subcategory: 'Jain Councils',
+    title: 'First Jain Council',
+    content: 'Held at Patliputra in 300 BC and was presided over by Sthulbhadra. Compilation of 12 Angas (limbs).',
+    period: '300 BC',
+    importance: 'high',
+    location: 'Patliputra',
+    facts: [
+      'Held at Patliputra',
+      'Year: 300 BC',
+      'President: Sthulbhadra',
+      'Compilation of 12 Angas (limbs)'
+    ]
+  },
+  {
+    id: 'jainism-2',
+    category: 'jainism',
+    subcategory: 'Jain Councils',
+    title: 'Second Jain Council',
+    content: 'Held at Vallabhi in 512 AD and was presided over by Devardhi Kshmasramana. Added 12 Upangas (minor sections).',
+    period: '512 AD',
+    importance: 'high',
+    location: 'Vallabhi',
+    facts: [
+      'Held at Vallabhi',
+      'Year: 512 AD',
+      'President: Devardhi Kshmasramana',
+      'Added 12 Upangas (minor sections)'
+    ]
+  },
+  {
+    id: 'jainism-3',
+    category: 'jainism',
+    subcategory: 'Jain Literature',
+    title: 'Jain Literature - Part 1',
+    content: 'Kalpa Sutra: Author - Bhadrabahu. Tattavartha Sutra: Author - Umaswami in Sanskrit. Yogasastra, Parishishta Parvan, Arhaniti: Author - Hemachandra. Shatkhandagama: Authors - Pushpadanta and Bhutabali. Trishasthilkshana Mahapurana: Author - Jinasena. Dravya Sangrah: Author - Nemichandra.',
+    period: 'Jain Period',
+    importance: 'medium',
+    facts: [
+      'Kalpa Sutra - Bhadrabahu',
+      'Tattavartha Sutra - Umaswami (Sanskrit)',
+      'Yogasastra, Parishishta Parvan, Arhaniti - Hemachandra',
+      'Shatkhandagama - Pushpadanta & Bhutabali',
+      'Trishasthilkshana Mahapurana - Jinasena',
+      'Dravya Sangrah - Nemichandra'
+    ]
+  },
+  {
+    id: 'jainism-4',
+    category: 'jainism',
+    subcategory: 'Jain Literature',
+    title: 'Jain Literature - Part 2',
+    content: 'Lilavatisara: Author - Acharya Jinaratna. Samayasara: Author - Acharya Kundakunda. Ratnakaranda Sravakacara: Author - Samantabhadra Swamy Swamy. Sarvarthasiddhi: Author - Pujyapada. Syadvadmanjari: Author - Mallisen.',
+    period: 'Jain Period',
+    importance: 'medium',
+    facts: [
+      'Lilavatisara - Acharya Jinaratna',
+      'Samayasara - Acharya Kundakunda',
+      'Ratnakaranda Sravakacara - Samantabhadra Swamy',
+      'Sarvarthasiddhi - Pujyapada',
+      'Syadvadmanjari - Mallisen'
+    ]
+  },
+  {
+    id: 'jainism-5',
+    category: 'jainism',
+    subcategory: 'Jain Temples',
+    title: 'Ranakpur Temple',
+    content: 'Location: Rajasthan. Built by Darna Shah in 1437 AD. It is a Svetambara Jain temple dedicated to Tirthankara Rishabh dev.',
+    period: '1437 AD',
+    importance: 'high',
+    location: 'Rajasthan',
+    facts: [
+      'Built by Darna Shah',
+      'Year: 1437 AD',
+      'Svetambara Jain temple',
+      'Dedicated to Tirthankara Rishabh dev'
+    ]
+  },
+  {
+    id: 'jainism-6',
+    category: 'jainism',
+    subcategory: 'Jain Temples',
+    title: 'Mount Mangi Tungi',
+    content: 'Location: Maharashtra. It enshrines images of Tirthankaras in several postures, including Padmasana and Kayotsarga.',
+    period: 'Jain Period',
+    importance: 'medium',
+    location: 'Maharashtra',
+    facts: [
+      'Maharashtra location',
+      'Tirthankaras images',
+      'Multiple postures',
+      'Padmasana posture',
+      'Kayotsarga posture'
+    ]
+  },
+  {
+    id: 'jainism-7',
+    category: 'jainism',
+    subcategory: 'Jain Temples',
+    title: 'Shikharji (Jharkhand)',
+    content: 'It is located on Parasnath Hill. It is an important Jain Tirtha for both Digambara and Svetambara. It is where twenty of the twenty-four Jain Tirthankaras attained Moksha.',
+    period: 'Jain Period',
+    importance: 'high',
+    location: 'Jharkhand',
+    facts: [
+      'Located on Parasnath Hill',
+      'Important for Digambara & Svetambara',
+      '20 of 24 Tirthankaras attained Moksha',
+      'Sacred pilgrimage site'
+    ]
+  },
+  {
+    id: 'jainism-8',
+    category: 'jainism',
+    subcategory: 'Jain Temples',
+    title: 'Khajuraho Group of Monuments',
+    content: 'Location: Madhya Pradesh. The Jain temples are located in the southeast region of the Khajuraho monuments.',
+    period: 'Jain Period',
+    importance: 'medium',
+    location: 'Madhya Pradesh',
+    facts: [
+      'Madhya Pradesh',
+      'Southeast region of Khajuraho',
+      'Part of Khajuraho monuments complex'
+    ]
+  },
+  {
+    id: 'jainism-9',
+    category: 'jainism',
+    subcategory: 'Jain Temples',
+    title: 'Dilawara Jain Temple of Mount Abu',
+    content: 'Made of marble. It was built by the Samanta Vimalshah of Chalukya (Solanki) ruler Bhimdev I of Gujarat.',
+    period: 'Medieval Period',
+    importance: 'high',
+    location: 'Mount Abu, Rajasthan',
+    facts: [
+      'Made of marble',
+      'Built by Samanta Vimalshah',
+      'Chalukya (Solanki) period',
+      'Ruler: Bhimdev I of Gujarat',
+      'Famous for intricate marble carvings'
+    ]
+  },
+  {
+    id: 'jainism-10',
+    category: 'jainism',
+    subcategory: 'Jain Temples',
+    title: 'Jain Cave Temples',
+    content: 'Sittanavasal Paintings: These represent the theme of Jain Samasvasarana. Ellora Caves (Maharashtra), Udaygiri Caves (Odisha), and Sittanavasal Caves (Tamil Nadu) also depict Jain influence.',
+    period: 'Jain Period',
+    importance: 'medium',
+    location: 'Various',
+    facts: [
+      'Sittanavasal Paintings - Jain Samasvasarana theme',
+      'Ellora Caves (Maharashtra)',
+      'Udaygiri Caves (Odisha)',
+      'Sittanavasal Caves (Tamil Nadu)',
+      'All depict Jain influence'
+    ]
+  },
+  {
+    id: 'jainism-11',
+    category: 'jainism',
+    subcategory: 'Jain Terminology',
+    title: 'Important Terms Related to Jainism',
+    content: 'Basadis: Jaina monastic establishment. Avadhijnana: Superhuman cognition. Ganadharas: Chief disciples of Mahavira. Siddha: Fully liberated. Pudgala: Aggregates of atoms that have form, colour, taste and smell, and can be touched and felt. Chaitanya: Consciousness. Mohaniya: Delusion. Gunasthanas: Stages of purification. Arhat: Who has entered the stage of Kevalajnana. Tirthankara: Arhat, who has already acquired the capability of teaching the doctrine.',
+    period: 'Jain Period',
+    importance: 'medium',
+    facts: [
+      'Basadis - Monastic establishment',
+      'Avadhijnana - Superhuman cognition',
+      'Ganadharas - Chief disciples of Mahavira',
+      'Siddha - Fully liberated',
+      'Pudgala - Aggregates of atoms',
+      'Chaitanya - Consciousness',
+      'Mohaniya - Delusion',
+      'Gunasthanas - Purification stages',
+      'Arhat - Kevalajnana stage',
+      'Tirthankara - Teacher of doctrine'
     ]
   }
 ];
