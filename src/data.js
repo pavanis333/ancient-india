@@ -49,6 +49,12 @@ export const topics = [
     name: '🏛️ Mahajanapadas',
     emoji: '🏛️',
     description: '16 Mahajanapadas - Capitals, Rulers & Historical Significance'
+  },
+  {
+    id: 'mauryan',
+    name: '👑 Mauryan Empire',
+    emoji: '👑',
+    description: 'Ashoka\'s Rock & Pillar Edicts, Administrative Officers'
   }
 ];
 
@@ -2139,6 +2145,251 @@ export const flashcards = [
       'Famous for breed of horses',
       'Remarkable horsemen',
       'Located in Uttarapatha (North-West)'
+    ]
+  },
+
+  // Mauryan Empire - Ashoka's Edicts
+  {
+    id: 'mauryan-1',
+    category: 'mauryan',
+    subcategory: 'Rock Edicts',
+    title: 'Major Rock Edict 1',
+    content: 'Prohibition of animal sacrifice and holiday on festive gatherings. Also describes about Cholas, Pandyas, Satyaputras and Keralaputras of South India.',
+    period: 'Mauryan Period',
+    importance: 'high',
+    ruler: 'Ashoka',
+    facts: [
+      'Prohibition of animal sacrifice',
+      'Holiday on festive gatherings',
+      'Mentions Cholas, Pandyas',
+      'Mentions Satyaputras, Keralaputras',
+      'South India references'
+    ]
+  },
+  {
+    id: 'mauryan-2',
+    category: 'mauryan',
+    subcategory: 'Rock Edicts',
+    title: 'Major Rock Edict 2',
+    content: 'One of the functions of the state was to provide medical care. He ordered hospitals to be set up to treat human beings and animals and also describes about Chola, Pandyas, Satyaputras and Keralaputras of South India.',
+    period: 'Mauryan Period',
+    importance: 'high',
+    ruler: 'Ashoka',
+    facts: [
+      'State function: provide medical care',
+      'Hospitals for humans and animals',
+      'Welfare state concept',
+      'Mentions South Indian kingdoms',
+      'Chola, Pandyas, Satyaputras, Keralaputras'
+    ]
+  },
+  {
+    id: 'mauryan-3',
+    category: 'mauryan',
+    subcategory: 'Rock Edicts',
+    title: 'Major Rock Edict 3',
+    content: 'Officials, like the Yuktas (subordinate officials) and Pradesikas (heads of the districts), were to go on tours every five years to instruct people about dhamma. [UPSC 2025]',
+    period: 'Mauryan Period',
+    importance: 'high',
+    ruler: 'Ashoka',
+    upsc_year: '2025',
+    facts: [
+      'Yuktas - subordinate officials',
+      'Pradesikas - heads of districts',
+      'Tours every five years',
+      'Instruct people about dhamma [UPSC 2025]',
+      'Administrative supervision'
+    ]
+  },
+  {
+    id: 'mauryan-4',
+    category: 'mauryan',
+    subcategory: 'Rock Edicts',
+    title: 'Major Rock Edict 6',
+    content: 'It expresses King\'s desire to be constantly informed about the people\'s conditions.',
+    period: 'Mauryan Period',
+    importance: 'medium',
+    ruler: 'Ashoka',
+    facts: [
+      'King\'s desire for constant information',
+      'People\'s welfare concern',
+      'Administrative efficiency'
+    ]
+  },
+  {
+    id: 'mauryan-5',
+    category: 'mauryan',
+    subcategory: 'Rock Edicts',
+    title: 'Major Rock Edicts 7 and 12',
+    content: 'All religions should co-exist, and the ascetics of all religions should be honoured. [UPSC 2020]',
+    period: 'Mauryan Period',
+    importance: 'high',
+    ruler: 'Ashoka',
+    upsc_year: '2020',
+    facts: [
+      'Religious co-existence',
+      'All religions should co-exist [UPSC 2020]',
+      'Honor ascetics of all religions',
+      'Religious tolerance policy',
+      'Secular approach'
+    ]
+  },
+  {
+    id: 'mauryan-6',
+    category: 'mauryan',
+    subcategory: 'Rock Edicts',
+    title: 'Major Rock Edict 13',
+    content: 'It mentions the war with Kalinga. It is important to understand the Asokan policy of Dhamma, which pleads for conquest by Dhamma instead of War.',
+    period: 'Mauryan Period',
+    importance: 'high',
+    ruler: 'Ashoka',
+    facts: [
+      'Mentions war with Kalinga',
+      'Asokan policy of Dhamma',
+      'Conquest by Dhamma instead of War',
+      'Turning point in Ashoka\'s life',
+      'Dhamma Vijaya over Digvijaya'
+    ]
+  },
+  {
+    id: 'mauryan-7',
+    category: 'mauryan',
+    subcategory: 'Rock Edicts',
+    title: 'Kalinga Rock Edict 1',
+    content: 'The officials should recognise their responsibilities and strive to be impartial and just. He would send an officer every five years to verify if his instructions were carried out.',
+    period: 'Mauryan Period',
+    importance: 'high',
+    ruler: 'Ashoka',
+    location: 'Kalinga',
+    facts: [
+      'Officials\' responsibilities',
+      'Impartiality and justice',
+      'Verification every five years',
+      'Administrative accountability',
+      'Specific to Kalinga region'
+    ]
+  },
+  {
+    id: 'mauryan-8',
+    category: 'mauryan',
+    subcategory: 'Minor Edicts',
+    title: 'Maski Edict',
+    content: 'It mentioned that Ashoka had the inscriptions carved under \'Devanampiya\'.',
+    period: 'Mauryan Period',
+    importance: 'high',
+    ruler: 'Ashoka',
+    location: 'Maski, Karnataka',
+    facts: [
+      'Ashoka\'s name as \'Devanampiya\'',
+      'Inscriptions identification',
+      'Important for historical dating',
+      'Karnataka location'
+    ]
+  },
+  {
+    id: 'mauryan-9',
+    category: 'mauryan',
+    subcategory: 'General Theme',
+    title: 'Ashoka\'s Edicts - Common Theme',
+    content: 'Preventing unnecessary slaughter of animals and showing respect for all living beings was a recurrent theme in his edicts.',
+    period: 'Mauryan Period',
+    importance: 'high',
+    ruler: 'Ashoka',
+    facts: [
+      'Preventing unnecessary slaughter',
+      'Respect for all living beings',
+      'Recurrent theme in edicts',
+      'Ahimsa principle',
+      'Environmental and animal welfare'
+    ]
+  },
+
+  // Pillar Edicts
+  {
+    id: 'mauryan-10',
+    category: 'mauryan',
+    subcategory: 'Pillar Edicts',
+    title: 'Seven Pillar Edicts - Locations',
+    content: '7 Pillar Edicts found at: Meerut-Delhi, Topra-Delhi, Allahabad, Lauriya-nandangarh, Lauriya-Areraj, Rampurva.',
+    period: 'Mauryan Period',
+    importance: 'high',
+    ruler: 'Ashoka',
+    facts: [
+      'Total: 7 Pillar Edicts',
+      'Meerut-Delhi',
+      'Topra-Delhi',
+      'Allahabad',
+      'Lauriya-nandangarh',
+      'Lauriya-Areraj',
+      'Rampurva'
+    ]
+  },
+  {
+    id: 'mauryan-11',
+    category: 'mauryan',
+    subcategory: 'Pillar Edicts',
+    title: 'Minor and Terai Pillar Edicts',
+    content: '4 Minor pillar Edicts: Sanchi, Sarnath, Allahabad. 2 Terai pillar Edicts: Rummindei/Lumbini, Nigalisagar.',
+    period: 'Mauryan Period',
+    importance: 'medium',
+    ruler: 'Ashoka',
+    facts: [
+      '4 Minor Pillar Edicts',
+      'Locations: Sanchi, Sarnath, Allahabad',
+      '2 Terai Pillar Edicts',
+      'Rummindei/Lumbini (Buddha\'s birthplace)',
+      'Nigalisagar'
+    ]
+  },
+
+  // Administrative Officers
+  {
+    id: 'mauryan-12',
+    category: 'mauryan',
+    subcategory: 'Administrative Officers',
+    title: 'Mauryan Administrative Officers - Part 1',
+    content: 'Siladhyaksha: Supervised agriculture. Pautavadhyaksha: Superintendent of weight and measure. Lohadhyaksha/Sauvarnika: Looked after goods manufactured in the centres. Nava Adhyaksha: Superintendent of ships. Annapala: Head of Food Grains Department. Koshadhyaksha: Treasury Officer.',
+    period: 'Mauryan Period',
+    importance: 'high',
+    facts: [
+      'Siladhyaksha - Supervised agriculture',
+      'Pautavadhyaksha - Weight and measure',
+      'Lohadhyaksha/Sauvarnika - Goods manufacturing',
+      'Nava Adhyaksha - Ships superintendent',
+      'Annapala - Food Grains Department head',
+      'Koshadhyaksha - Treasury Officer'
+    ]
+  },
+  {
+    id: 'mauryan-13',
+    category: 'mauryan',
+    subcategory: 'Administrative Officers',
+    title: 'Mauryan Administrative Officers - Part 2',
+    content: 'Nayaka: City Security Chief. Karmantika: Head of Industries and Factories. Bandhanagaradhyaksha: Looked after the jail. Panyadhyaksha: Incharge of trade and commerce. Dandapala: Head of Police. Sulkaadhyaksha: Collector of tolls.',
+    period: 'Mauryan Period',
+    importance: 'high',
+    facts: [
+      'Nayaka - City Security Chief',
+      'Karmantika - Industries & Factories head',
+      'Bandhanagaradhyaksha - Jail superintendent',
+      'Panyadhyaksha - Trade & commerce incharge',
+      'Dandapala - Head of Police',
+      'Sulkaadhyaksha - Toll collector'
+    ]
+  },
+  {
+    id: 'mauryan-14',
+    category: 'mauryan',
+    subcategory: 'Administrative Officers',
+    title: 'Mauryan Administrative Officers - Part 3',
+    content: 'Durgapal: Head of Royal Fort. Akaradhyaksha: Mining Officer. Vyabharika: Chief Judge. Kupyadhyaksha: Officer of Forest.',
+    period: 'Mauryan Period',
+    importance: 'medium',
+    facts: [
+      'Durgapal - Head of Royal Fort',
+      'Akaradhyaksha - Mining Officer',
+      'Vyabharika - Chief Judge',
+      'Kupyadhyaksha - Forest Officer'
     ]
   }
 ];
