@@ -13,6 +13,12 @@ export const topics = [
     name: '⚒️ Chalcolithic Sites',
     emoji: '⚒️',
     description: 'Early Chalcolithic Sites and Copper Age Settlements'
+  },
+  {
+    id: 'megalithic',
+    name: '🗿 Megalithic Sites',
+    emoji: '🗿',
+    description: 'Megalithic Burial Sites and Iron Age Settlements'
   }
 ];
 
@@ -502,6 +508,283 @@ export const flashcards = [
       'Some Chalcolithic elements',
       'Absence of copper objects (unique feature)',
       'Economy: Hunting and agriculture'
+    ]
+  },
+
+  // Megalithic Sites
+  {
+    id: 'megalithic-1',
+    category: 'megalithic',
+    subcategory: 'Tamil Nadu',
+    title: 'Adichanallur',
+    content: 'Burial mound with megalithic culture evidence. Artifacts found: Iron objects, gold diadems, pottery. Type of burials: Urn burials.',
+    period: 'Megalithic Period',
+    importance: 'high',
+    location: 'Tamil Nadu',
+    facts: [
+      'Burial mound',
+      'Megalithic culture',
+      'Iron objects',
+      'Gold diadems',
+      'Pottery',
+      'Urn burials'
+    ]
+  },
+  {
+    id: 'megalithic-2',
+    category: 'megalithic',
+    subcategory: 'Tamil Nadu',
+    title: 'Palyampalli',
+    content: 'Black-and-red ware pottery found at this site. Artifacts: Iron implements, beads. Type of burials: Urn burials.',
+    period: 'Megalithic Period',
+    importance: 'medium',
+    location: 'Vellore, Tamil Nadu',
+    facts: [
+      'Black-and-red ware pottery',
+      'Iron implements',
+      'Beads',
+      'Urn burials'
+    ]
+  },
+  {
+    id: 'megalithic-3',
+    category: 'megalithic',
+    subcategory: 'Tamil Nadu',
+    title: 'Kodumanal',
+    content: 'Located in Erode, Tamil Nadu. Features: Pit burials, urn burials, and chamber tombs. Artifacts: Iron tools, beads of carnelian and quartz. Type of burials: Pit burials, urn burials.',
+    period: 'Megalithic Period',
+    importance: 'high',
+    location: 'Erode, Tamil Nadu',
+    facts: [
+      'Pit burials',
+      'Urn burials',
+      'Chamber tombs',
+      'Iron tools',
+      'Carnelian beads',
+      'Quartz beads'
+    ]
+  },
+  {
+    id: 'megalithic-4',
+    category: 'megalithic',
+    subcategory: 'Tamil Nadu',
+    title: 'Amritamangalam',
+    content: 'Stone circles and cairn burials found at this site. Artifacts: Iron objects, beads. Type of burials: Cairn burials.',
+    period: 'Megalithic Period',
+    importance: 'medium',
+    location: 'Tamil Nadu',
+    facts: [
+      'Stone circles',
+      'Cairn burials',
+      'Iron objects',
+      'Beads'
+    ]
+  },
+  {
+    id: 'megalithic-5',
+    category: 'megalithic',
+    subcategory: 'Karnataka',
+    title: 'Brahmagiri',
+    content: 'Stone circle burials showing Neolithic to Megalithic transition. Artifacts: Iron tools, ornaments, red-and-black ware pottery. Type of burials: Cist burials.',
+    period: 'Neolithic to Megalithic transition',
+    importance: 'high',
+    location: 'Karnataka',
+    facts: [
+      'Stone circle burials',
+      'Neolithic to Megalithic transition',
+      'Iron tools',
+      'Ornaments',
+      'Red-and-black ware pottery',
+      'Cist burials'
+    ]
+  },
+  {
+    id: 'megalithic-6',
+    category: 'megalithic',
+    subcategory: 'Karnataka',
+    title: 'Hirebenkal',
+    content: 'Largest megalithic site in South India. Artifacts: Pottery, iron tools, figurines. Type of burials: Dolmenoid cists, menhirs.',
+    period: 'Megalithic Period',
+    importance: 'high',
+    location: 'Karnataka',
+    facts: [
+      'Largest megalithic site in South India',
+      'Pottery',
+      'Iron tools',
+      'Figurines',
+      'Dolmenoid cists',
+      'Menhirs'
+    ]
+  },
+  {
+    id: 'megalithic-7',
+    category: 'megalithic',
+    subcategory: 'Karnataka',
+    title: 'Maski',
+    content: 'First site to mention the name "Ashoka". Artifacts: Iron implements, black-and-red ware. Type of burials: Cist burials.',
+    period: 'Megalithic Period',
+    importance: 'high',
+    location: 'Karnataka',
+    facts: [
+      'First site to mention "Ashoka"',
+      'Iron implements',
+      'Black-and-red ware',
+      'Cist burials',
+      'Historically significant'
+    ]
+  },
+  {
+    id: 'megalithic-8',
+    category: 'megalithic',
+    subcategory: 'Karnataka',
+    title: 'Hallur',
+    content: 'Early use of iron; agricultural settlements found. Artifacts: Pottery, iron implements. Type of burials: Cist burials.',
+    period: 'Megalithic Period',
+    importance: 'high',
+    location: 'Karnataka',
+    facts: [
+      'Early use of iron',
+      'Agricultural settlements',
+      'Pottery',
+      'Iron implements',
+      'Cist burials'
+    ]
+  },
+  {
+    id: 'megalithic-9',
+    category: 'megalithic',
+    subcategory: 'Karnataka',
+    title: 'Chandravalli',
+    content: 'Evidence of megalithic settlements. Artifacts: Pottery, copper and iron implements. Type of burials: Pit burials.',
+    period: 'Megalithic Period',
+    importance: 'medium',
+    location: 'Karnataka',
+    facts: [
+      'Megalithic settlements evidence',
+      'Pottery',
+      'Copper implements',
+      'Iron implements',
+      'Pit burials'
+    ]
+  },
+  {
+    id: 'megalithic-10',
+    category: 'megalithic',
+    subcategory: 'Karnataka',
+    title: 'Rajankolur',
+    content: 'Dolmens and cairn burials found at this site. Artifacts: Iron tools, pottery. Type of burials: Dolmens.',
+    period: 'Megalithic Period',
+    importance: 'medium',
+    location: 'Karnataka',
+    facts: [
+      'Dolmens',
+      'Cairn burials',
+      'Iron tools',
+      'Pottery'
+    ]
+  },
+  {
+    id: 'megalithic-11',
+    category: 'megalithic',
+    subcategory: 'Andhra Pradesh',
+    title: 'Sangarampet',
+    content: 'Cist burials and dolmens found. Artifacts: Stone tools, pottery. Type of burials: Dolmenoid cists.',
+    period: 'Megalithic Period',
+    importance: 'medium',
+    location: 'Andhra Pradesh',
+    facts: [
+      'Cist burials',
+      'Dolmens',
+      'Stone tools',
+      'Pottery',
+      'Dolmenoid cists'
+    ]
+  },
+  {
+    id: 'megalithic-12',
+    category: 'megalithic',
+    subcategory: 'Andhra Pradesh',
+    title: 'Nagarjunakonda',
+    content: 'Cairn burials and dolmens found at this site. Artifacts: Pottery, beads, iron tools. Type of burials: Cairn burials, dolmenoid cists.',
+    period: 'Megalithic Period',
+    importance: 'high',
+    location: 'Andhra Pradesh',
+    facts: [
+      'Cairn burials',
+      'Dolmens',
+      'Pottery',
+      'Beads',
+      'Iron tools',
+      'Dolmenoid cists'
+    ]
+  },
+  {
+    id: 'megalithic-13',
+    category: 'megalithic',
+    subcategory: 'Maharashtra',
+    title: 'Jorwe - Megalithic',
+    content: 'Chalcolithic and Megalithic continuity observed. Artifacts: Black-and-red ware, copper objects. Type of burials: Pit burials, urn burials.',
+    period: 'Chalcolithic to Megalithic',
+    importance: 'high',
+    location: 'Maharashtra',
+    facts: [
+      'Chalcolithic and Megalithic continuity',
+      'Black-and-red ware',
+      'Copper objects',
+      'Pit burials',
+      'Urn burials'
+    ]
+  },
+  {
+    id: 'megalithic-14',
+    category: 'megalithic',
+    subcategory: 'Maharashtra',
+    title: 'Junapani',
+    content: 'Stone circles and megalithic graves found. Artifacts: Pottery, iron implements, beads. Type of burials: Stone circle burials.',
+    period: 'Megalithic Period',
+    importance: 'medium',
+    location: 'Maharashtra',
+    facts: [
+      'Stone circles',
+      'Megalithic graves',
+      'Pottery',
+      'Iron implements',
+      'Beads',
+      'Stone circle burials'
+    ]
+  },
+  {
+    id: 'megalithic-15',
+    category: 'megalithic',
+    subcategory: 'Kerala',
+    title: 'Porkalam',
+    content: 'Stone circles and urn burials found. Artifacts: Pottery, beads, iron implements. Type of burials: Urn burials.',
+    period: 'Megalithic Period',
+    importance: 'medium',
+    location: 'Kerala',
+    facts: [
+      'Stone circles',
+      'Urn burials',
+      'Pottery',
+      'Beads',
+      'Iron implements'
+    ]
+  },
+  {
+    id: 'megalithic-16',
+    category: 'megalithic',
+    subcategory: 'Kashmir',
+    title: 'Gufkral',
+    content: 'Neolithic-Megalithic transition; early agriculture evidence. Artifacts: Stone tools, pottery. Type of burials: Pit burials.',
+    period: 'Neolithic to Megalithic transition',
+    importance: 'high',
+    location: 'Kashmir',
+    facts: [
+      'Neolithic-Megalithic transition',
+      'Early agriculture',
+      'Stone tools',
+      'Pottery',
+      'Pit burials'
     ]
   }
 ];
