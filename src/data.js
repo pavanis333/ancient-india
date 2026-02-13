@@ -25,6 +25,12 @@ export const topics = [
     name: '🏛️ Harappan Civilization',
     emoji: '🏛️',
     description: 'Indus Valley Civilization - Sites, Features & Trade'
+  },
+  {
+    id: 'vedic',
+    name: '📜 Vedic Literature',
+    emoji: '📜',
+    description: 'Vedic Texts, Upanishads, Vedangas & Terminology'
   }
 ];
 
@@ -1124,6 +1130,233 @@ export const flashcards = [
       'Lapis lazuli (blue stone): Shortughai',
       'Copper: Rajasthan and Oman',
       'Diverse material procurement strategy'
+    ]
+  },
+
+  // Vedic Literature
+  {
+    id: 'vedic-1',
+    category: 'vedic',
+    subcategory: 'Brahmanas',
+    title: 'Brahmanas',
+    content: 'They describe the rules for the performance of sacrificial ceremonies and explain the hymns of the Vedas in an orthodox manner. Each Veda has several Brahmanas attached to it. The most important and exhaustive Brahmana is the Satpatha Brahmana (attached to the Yajur Veda).',
+    period: 'Vedic Period',
+    importance: 'high',
+    facts: [
+      'Rules for sacrificial ceremonies',
+      'Explain hymns of Vedas',
+      'Orthodox manner',
+      'Each Veda has several Brahmanas',
+      'Satpatha Brahmana - most important (Yajur Veda)'
+    ]
+  },
+  {
+    id: 'vedic-2',
+    category: 'vedic',
+    subcategory: 'Aranyakas',
+    title: 'Aranyakas',
+    content: 'They are called the \'forest books\' as they were written mainly by hermits living in the forests for their pupils. They deal with mysticism and philosophy and oppose sacrifice. They were composed during the later Vedic period. They emphasise meditation and philosophically interpret rituals.',
+    period: 'Later Vedic Period',
+    importance: 'high',
+    facts: [
+      'Called \'forest books\'',
+      'Written by hermits in forests',
+      'Deal with mysticism and philosophy',
+      'Oppose sacrifice',
+      'Composed during later Vedic period',
+      'Emphasise meditation',
+      'Philosophically interpret rituals'
+    ]
+  },
+  {
+    id: 'vedic-3',
+    category: 'vedic',
+    subcategory: 'Upanishads',
+    title: 'Upanishads - Overview',
+    content: 'The literal meaning of \'Upanishad\' is \'to sit near someone\'. They are records of philosophical dialogues and discourses between teachers (Gurus) and students (Shishyas). [UPSC-2024]. There are 108 Upanishads, of which 13 are the most prominent.',
+    period: 'Vedic Period',
+    importance: 'high',
+    upsc_year: '2024',
+    facts: [
+      'Literal meaning: \'to sit near someone\'',
+      'Philosophical dialogues',
+      'Between Gurus and Shishyas',
+      '108 total Upanishads',
+      '13 most prominent [UPSC-2024]'
+    ]
+  },
+  {
+    id: 'vedic-4',
+    category: 'vedic',
+    subcategory: 'Upanishads',
+    title: 'Mandukyopanishad',
+    content: 'Amongst the longest of all Upanishads, mentioned "Satyamev Jayate". [UPSC 2014]',
+    period: 'Vedic Period',
+    importance: 'high',
+    upsc_year: '2014',
+    facts: [
+      'Longest Upanishad',
+      'Contains "Satyamev Jayate" [UPSC 2014]',
+      'National motto of India'
+    ]
+  },
+  {
+    id: 'vedic-5',
+    category: 'vedic',
+    subcategory: 'Upanishads',
+    title: 'Chhandogya Upanishad',
+    content: 'Refers to the first three ashrams.',
+    period: 'Vedic Period',
+    importance: 'medium',
+    facts: [
+      'Refers to first three ashrams',
+      'Brahmacharya, Grihastha, Vanaprastha'
+    ]
+  },
+  {
+    id: 'vedic-6',
+    category: 'vedic',
+    subcategory: 'Upanishads',
+    title: 'Dara Shukoh and Upanishads',
+    content: 'Dara Shukoh, the Mughal prince, translated the Upanishads into Persian in 1657, much before the colonial scholars developed any interest in ancient Indian literature.',
+    period: '1657 CE',
+    importance: 'high',
+    facts: [
+      'Dara Shukoh - Mughal prince',
+      'Translated Upanishads to Persian',
+      'Year: 1657',
+      'Before colonial interest in Indian literature'
+    ]
+  },
+  {
+    id: 'vedic-7',
+    category: 'vedic',
+    subcategory: 'Upanishads',
+    title: 'Jabala Upanishad - Four Purusharthas',
+    content: 'Jabala Upanishad mentions a 4-fold ashram (stages) for 4 Purusharthas (goals). It was not applicable to women or Shudras. Brahmacharya (Celibate Student) for knowledge, i.e. Dharma. Grihastha (Householder) for wealth and progeny, i.e. \'Artha\' and \'Kama\'. Vanaprastha (hermit) for retreat, spiritual wisdom. Sanyasa (Renunciation) for liberation i.e. Mukti/Moksha.',
+    period: 'Vedic Period',
+    importance: 'high',
+    facts: [
+      '4-fold ashram for 4 Purusharthas',
+      'Not applicable to women or Shudras',
+      'Brahmacharya → Dharma (knowledge)',
+      'Grihastha → Artha & Kama (wealth & progeny)',
+      'Vanaprastha → Spiritual wisdom (retreat)',
+      'Sanyasa → Mukti/Moksha (liberation)'
+    ]
+  },
+  {
+    id: 'vedic-8',
+    category: 'vedic',
+    subcategory: 'Vedanta',
+    title: 'Vedanta',
+    content: 'These are the philosophical and spiritual traditions that evolved from the Upanishads, the concluding part of the Vedas, which signifies the final objective of the Vedas. It criticises sacrifices and rituals, representing the concluding phase of the Vedic era.',
+    period: 'Vedic Period',
+    importance: 'high',
+    facts: [
+      'Philosophical and spiritual traditions',
+      'Evolved from Upanishads',
+      'Concluding part of Vedas',
+      'Final objective of Vedas',
+      'Criticises sacrifices and rituals',
+      'Concluding phase of Vedic era'
+    ]
+  },
+  {
+    id: 'vedic-9',
+    category: 'vedic',
+    subcategory: 'Vedanga',
+    title: 'Vedanga - Limbs of the Vedas',
+    content: 'They translate to \'limbs of the Vedas,\' serving as supplementary texts to aid in proper recitation and comprehension of the Vedas. They are not classified as Shruti since they are considered to be of human origin, not revealed by Gods, and are in the form of Sutra or condensed statements conveying various ideas. These are 6 in number.',
+    period: 'Vedic Period',
+    importance: 'high',
+    facts: [
+      '\'Limbs of the Vedas\'',
+      'Supplementary texts',
+      'Aid in recitation and comprehension',
+      'Not Shruti (human origin, not revealed by Gods)',
+      'Form of Sutra (condensed statements)',
+      'Six in number'
+    ]
+  },
+  {
+    id: 'vedic-10',
+    category: 'vedic',
+    subcategory: 'Vedanga',
+    title: 'Six Vedangas',
+    content: 'Siksha: Pronunciation of the words; education. Nirukta: Origin of the words. Chhanda: Metrics used in Sanskrit verses. Jyotish: Astrology. Vyakaran: Sanskrit grammar. Kalpa: Knowledge of rituals (Dharma sutras).',
+    period: 'Vedic Period',
+    importance: 'high',
+    facts: [
+      '1. Siksha - Pronunciation, education',
+      '2. Nirukta - Origin of words',
+      '3. Chhanda - Metrics in Sanskrit verses',
+      '4. Jyotish - Astrology',
+      '5. Vyakaran - Sanskrit grammar',
+      '6. Kalpa - Knowledge of rituals (Dharma sutras)'
+    ]
+  },
+  {
+    id: 'vedic-11',
+    category: 'vedic',
+    subcategory: 'Vedic Terms',
+    title: 'Vedic Terms - Social Structure',
+    content: 'Govikartana: Forest chief. Gavyuti: Measure of distance. Duhitri: Daughter (one who milks cow). Godhuli: Measure of time (Dusk). Takshan: Carpenter. Gana: Troops. Varthaka: Business People. Gauri: Buffalo. Gaun: Places where cattle are kept. Jivagribha and Ugra: Police Officers.',
+    period: 'Vedic Period',
+    importance: 'medium',
+    facts: [
+      'Govikartana - Forest chief',
+      'Gavyuti - Measure of distance',
+      'Duhitri - Daughter (one who milks cow)',
+      'Godhuli - Measure of time (Dusk)',
+      'Takshan - Carpenter',
+      'Gana - Troops',
+      'Varthaka - Business People',
+      'Gauri - Buffalo',
+      'Gaun - Places for cattle',
+      'Jivagribha & Ugra - Police Officers'
+    ]
+  },
+  {
+    id: 'vedic-12',
+    category: 'vedic',
+    subcategory: 'Vedic Terms',
+    title: 'Vedic Terms - Agriculture & Trade',
+    content: 'Vap: To sow. Gojit: Winner of cows/Hero. Srini: Sickle. Sabhavati: Women who attended the assembly. Spasa: Spy. Dhanya: Cereals. Akshvapa: Accountant. Panis: Traders or caravan trader. Suta: Charioteer. Bhagadugha: Tax Collector.',
+    period: 'Vedic Period',
+    importance: 'medium',
+    facts: [
+      'Vap - To sow',
+      'Gojit - Winner of cows/Hero',
+      'Srini - Sickle',
+      'Sabhavati - Women in assembly',
+      'Spasa - Spy',
+      'Dhanya - Cereals',
+      'Akshvapa - Accountant',
+      'Panis - Traders/caravan trader',
+      'Suta - Charioteer',
+      'Bhagadugha - Tax Collector'
+    ]
+  },
+  {
+    id: 'vedic-13',
+    category: 'vedic',
+    subcategory: 'Vedic Terms',
+    title: 'Vedic Terms - Society & Culture',
+    content: 'Madhyamasi: Mediator in Disputes. Soma/Sura: Intoxicating drink. Sthapati: Chief Judge. Nishka: Gold or silver ornament. Ghrita: Butter. Gavisthi: Search/War for cows. Kshata: Keeper of the King\'s household. Niyoga: Special type of widow-remarriage. Goghna: Guest/one who is fed on cattle. Palagala: Messenger.',
+    period: 'Vedic Period',
+    importance: 'medium',
+    facts: [
+      'Madhyamasi - Mediator in Disputes',
+      'Soma/Sura - Intoxicating drink',
+      'Sthapati - Chief Judge',
+      'Nishka - Gold/silver ornament',
+      'Ghrita - Butter',
+      'Gavisthi - Search/War for cows',
+      'Kshata - Keeper of King\'s household',
+      'Niyoga - Widow-remarriage type',
+      'Goghna - Guest fed on cattle',
+      'Palagala - Messenger'
     ]
   }
 ];
