@@ -56,18 +56,6 @@ export const topics = [
     emoji: '👑',
     description: 'Ashoka\'s Rock & Pillar Edicts, Administrative Officers'
   },
-  {
-    id: 'literary',
-    name: '📚 Literary & Cultural Contributions',
-    emoji: '📚',
-    description: 'Sanskrit Literature, Hindu Treatises, Buddhist Texts & Theatre'
-  },
-  {
-    id: 'gupta',
-    name: '🏛️ Gupta Empire',
-    emoji: '🏛️',
-    description: 'Navaratnas, Fa Hein, Administration, Sciences'
-  },
   
   // CHALCOLITHIC SITES QUIZ QUESTIONS (8 questions)
   
@@ -3031,196 +3019,114 @@ export const flashcards = [
     options: ['Lothal', 'Suktagendor', 'Dholavira', 'Rangpur'],
     correct: 1,
     explanation: 'Suktagendor in Pakistan (Dasht River) was originally a port but was later cut off from sea due to coastal upliftment. It had trade links with Babylon. Found ash-filled pot, copper axe, earthen bangles & pottery.'
-  },
-  
-  // Literary & Cultural Contributions
-  {
-    id: 'literary-1',
-    category: 'literary',
-    subcategory: 'Sanskrit Literature',
-    title: 'Sariputraprakarana',
-    content: 'First Sanskrit play, composed in nine acts by Ashvaghosha. Marks the beginning of Sanskrit dramatic literature.',
-    period: 'Around 150 AD',
-    importance: 'high',
-    facts: [
-      'First Sanskrit play ever composed',
-      'Written in nine acts',
-      'Authored by Ashvaghosha',
-      'Foundation of Sanskrit dramatic tradition'
-    ]
-  },
-  {
-    id: 'literary-2',
-    category: 'literary',
-    subcategory: 'Sanskrit Literature',
-    title: 'Buddhacharita',
-    content: 'An epic poem by Ashvaghosha describing the life of Buddha. One of the earliest complete biographies of Buddha in poetic form.',
-    period: '1st-2nd Century CE',
-    importance: 'high',
-    facts: [
-      'Epic poem about Buddha\'s life',
-      'Written by Ashvaghosha',
-      'Earliest complete biography in verse',
-      'Important source for Buddhist history'
-    ]
-  },
-  {
-    id: 'literary-3',
-    category: 'literary',
-    subcategory: 'Sanskrit Literature',
-    title: 'Saundarananda',
-    content: 'A poetic work by Ashvaghosha emphasizing the transformation of Nanda, Buddha\'s half-brother. Highlights the path from worldly desires to spiritual enlightenment.',
-    period: '1st-2nd Century CE',
-    importance: 'high',
-    facts: [
-      'Focuses on Nanda\'s spiritual transformation',
-      'Nanda was Buddha\'s half-brother',
-      'Poetic narrative of enlightenment',
-      'Shows Buddhist philosophical development'
-    ]
-  },
-  {
-    id: 'literary-4',
-    category: 'literary',
-    subcategory: 'Sanskrit Literature',
-    title: 'Junagarh Inscription',
-    content: 'Earliest specimen of Kavya style written in pure Sanskrit, dating around 150 AD, found in Kathiawar. From now onwards inscription began to written in chaste Sanskrit. Commissioned by Rudradaman I.',
-    period: 'Around 150 AD',
-    location: 'Kathiawar (Gujarat)',
-    importance: 'high',
-    facts: [
-      'Earliest pure Sanskrit Kavya style inscription',
-      'Commissioned by Rudradaman I',
-      'Marks transition to chaste Sanskrit in inscriptions',
-      'Found in Kathiawar (modern Gujarat)'
-    ]
-  },
-  {
-    id: 'literary-5',
-    category: 'literary',
-    subcategory: 'Hindu Treatises',
-    title: 'Manusmriti',
-    content: 'A comprehensive text on law, ethics, and social norms in Hindu society. Anonymous (final shape during this period). Covers dharma, social order, and legal principles.',
-    period: 'Final compilation: 2nd Century BCE - 3rd Century CE',
-    importance: 'high',
-    facts: [
-      'Comprehensive law and ethics text',
-      'Final shape achieved during this period',
-      'Anonymous authorship',
-      'Covers dharma, law, and social structure',
-      'Influential in Hindu legal tradition'
-    ]
-  },
-  {
-    id: 'literary-6',
-    category: 'literary',
-    subcategory: 'Buddhist Literature',
-    title: 'Avadanas',
-    content: 'Stories emphasizing karmic deeds in Buddhist literature. Examples include Mahavastu and Divyavadana. Multiple contributors over time.',
-    period: '1st Century BCE onwards',
-    importance: 'high',
-    facts: [
-      'Stories of karmic deeds and consequences',
-      'Multiple contributors',
-      'Examples: Mahavastu, Divyavadana',
-      'Important for Buddhist moral teachings'
-    ]
-  },
-  {
-    id: 'literary-7',
-    category: 'literary',
-    subcategory: 'Buddhist Literature',
-    title: 'Buddhist-Hybrid Sanskrit Texts',
-    content: 'Texts written by Mahayana Scholars to convey Mahayana teachings. Blend of Sanskrit and Prakrit elements, created to make teachings accessible.',
-    period: '1st Century CE onwards',
-    importance: 'high',
-    facts: [
-      'Written by Mahayana scholars',
-      'Blend of Sanskrit and Prakrit',
-      'Created to convey Mahayana teachings',
-      'Made Buddhist philosophy more accessible'
-    ]
-  },
-  {
-    id: 'literary-8',
-    category: 'literary',
-    subcategory: 'Theatre and Drama',
-    title: 'Indian Theatre Innovations',
-    content: 'Cultural influence from Yavana (Greeks) led to introduction of indoor and outdoor theatres, curtains (Yavanika), and rest houses for actresses during this period.',
-    period: 'Post-Greek contact period',
-    importance: 'high',
-    facts: [
-      'Greek (Yavana) cultural influence',
-      'Introduction of indoor and outdoor theatres',
-      'Yavanika (curtains) introduced',
-      'Rest houses for actresses established',
-      'Transformed Indian theatrical tradition'
-    ]
-  },
-  
-  // Gupta Empire - Navaratnas (Nine Luminaries)
+  }
+
+
+    id: 'gupta',
+    name: '🏛️ Gupta Empire',
+    emoji: '🏛️',
+    description: 'Navaratnas, Administration, Taxation, Literature & Sciences'
+  },'''
+
+gupta_flashcards = '''
+  // Gupta Empire - Navaratnas (9 Luminaries)
   {
     id: 'gupta-1',
     category: 'gupta',
     subcategory: 'Navaratnas',
     title: 'Dhanvantari - Physician',
-    content: 'One of the Nine Luminaries (Navaratnas) in the Gupta court. Renowned physician and medical expert of Ayurveda.',
+    content: 'One of the Nine Luminaries (Navaratnas) in the Gupta court. Renowned physician and medical expert.',
     importance: 'high',
-    facts: ['Member of Nine Navaratnas', 'Expert physician', 'Ayurvedic medicine', 'Gupta court scholar']
+    facts: [
+      'Member of the Nine Navaratnas',
+      'Expert physician',
+      'Contributed to Ayurvedic medicine',
+      'Court of Chandragupta II/Vikramaditya'
+    ]
   },
   {
     id: 'gupta-2',
     category: 'gupta',
     subcategory: 'Navaratnas',
-    title: 'Kalidasa - Greatest Sanskrit Poet',
-    content: 'Greatest Sanskrit poet and dramatist. Famous works: Abhijnana Shakuntalam, Vikramorvashiyam. One of the Nine Navaratnas. [UPSC 2020]',
+    title: 'Kalidasa - Literary Giant',
+    content: 'Greatest Sanskrit poet and dramatist. Works include Abhijnana Shakuntalam, Vikramorvashiyam, and others. One of the Nine Navaratnas.',
     importance: 'high',
-    facts: ['Abhijnana Shakuntalam [UPSC 2020]', 'One of best 100 literary works', 'Member of Nine Navaratnas', 'Classical Sanskrit literature peak']
+    facts: [
+      'Greatest Sanskrit poet and dramatist',
+      'Famous works: Abhijnana Shakuntalam, Vikramorvashiyam',
+      'Member of Nine Navaratnas',
+      'Peak of classical Sanskrit literature [UPSC 2020]'
+    ]
   },
   {
     id: 'gupta-3',
     category: 'gupta',
     subcategory: 'Navaratnas',
     title: 'Vararuchi/Katyayana - Grammarian',
-    content: 'Sanskrit grammarian and scholar. Expert in Vyakarana (grammar). One of the Nine Navaratnas.',
+    content: 'Sanskrit grammarian and scholar. Known for work Vyakarana (grammar). One of the Nine Navaratnas.',
     importance: 'high',
-    facts: ['Sanskrit grammar expert', 'Member of Nine Navaratnas', 'Vyakarana scholar', 'Linguistic studies']
+    facts: [
+      'Expert in Sanskrit grammar (Vyakarana)',
+      'Member of Nine Navaratnas',
+      'Contributed to linguistic studies',
+      'Gupta period scholar'
+    ]
   },
   {
     id: 'gupta-4',
     category: 'gupta',
     subcategory: 'Navaratnas',
     title: 'Sanku - Architect',
-    content: 'Expert in Silpasastra (Architecture). One of the Nine Navaratnas. Contributed to Gupta architectural development.',
+    content: 'Expert in Silpasastra (Architecture). One of the Nine Navaratnas. Contributed to architectural development during Gupta period.',
     importance: 'high',
-    facts: ['Silpasastra expert', 'Member of Nine Navaratnas', 'Temple architecture', 'Gupta monument design']
+    facts: [
+      'Expert in Silpasastra (Architecture)',
+      'Member of Nine Navaratnas',
+      'Architectural advisor to Gupta court',
+      'Contributed to temple and monument design'
+    ]
   },
   {
     id: 'gupta-5',
     category: 'gupta',
     subcategory: 'Navaratnas',
     title: 'Vittal Bhat - Musician',
-    content: 'Expert in Mantra Shastra (Music). One of the Nine Navaratnas. Preserved classical music traditions.',
+    content: 'Expert in Mantra Shastra (Music). One of the Nine Navaratnas. Contributed to musical traditions of Gupta court.',
     importance: 'high',
-    facts: ['Music expert', 'Member of Nine Navaratnas', 'Court musician', 'Classical music traditions']
+    facts: [
+      'Expert in Mantra Shastra (Music)',
+      'Member of Nine Navaratnas',
+      'Court musician',
+      'Preserved and developed classical music traditions'
+    ]
   },
   {
     id: 'gupta-6',
     category: 'gupta',
     subcategory: 'Navaratnas',
     title: 'Varahamihira - Astronomer',
-    content: 'Expert in Panchasiddhantika (astronomy). One of the Nine Navaratnas. Major contributions to astronomy and astrology.',
+    content: 'Expert in Panchasiddhantika (astronomy). One of the Nine Navaratnas. Made significant contributions to astronomy and astrology.',
     importance: 'high',
-    facts: ['Panchasiddhantika astronomy', 'Member of Nine Navaratnas', 'Brihadsamhita encyclopedia', 'Celestial movements']
+    facts: [
+      'Expert in Panchasiddhantika (astronomy)',
+      'Member of Nine Navaratnas',
+      'Authored works on astronomy and astrology',
+      'Advanced understanding of celestial movements'
+    ]
   },
   {
     id: 'gupta-7',
     category: 'gupta',
     subcategory: 'Navaratnas',
     title: 'Amarasimha - Lexicographer',
-    content: 'Created Amarakosha, Sanskrit lexicography (dictionary/thesaurus). One of the Nine Navaratnas.',
+    content: 'Created Amarakosha, a Sanskrit lexicography (dictionary/thesaurus). One of the Nine Navaratnas. Important reference work for Sanskrit language.',
     importance: 'high',
-    facts: ['Created Amarakosha', 'Member of Nine Navaratnas', 'Sanskrit dictionary', 'Vocabulary organized by categories']
+    facts: [
+      'Created Amarakosha (Sanskrit lexicography)',
+      'Member of Nine Navaratnas',
+      'Important reference work for Sanskrit scholars',
+      'Organized vocabulary by categories'
+    ]
   },
   {
     id: 'gupta-8',
@@ -3229,119 +3135,520 @@ export const flashcards = [
     title: 'Kshapanaka - Astrologer',
     content: 'Expert in Jyotishya sastra (Astrology). One of the Nine Navaratnas. Court astrologer and advisor.',
     importance: 'high',
-    facts: ['Jyotishya sastra expert', 'Member of Nine Navaratnas', 'Court astrologer', 'Auspicious timings advisor']
+    facts: [
+      'Expert in Jyotishya sastra (Astrology)',
+      'Member of Nine Navaratnas',
+      'Court astrologer',
+      'Advised on auspicious timings and predictions'
+    ]
   },
   {
     id: 'gupta-9',
     category: 'gupta',
     subcategory: 'Navaratnas',
     title: 'Harisena - Historian',
-    content: 'Wrote Allahabad pillar inscription. One of the Nine Navaratnas. Chronicler of Gupta achievements.',
+    content: 'Wrote Allahabad pillar inscription. One of the Nine Navaratnas. Important chronicler of Gupta achievements.',
     importance: 'high',
-    facts: ['Allahabad pillar inscription', 'Member of Nine Navaratnas', 'Court historian', 'Samudragupta reign chronicler']
+    facts: [
+      'Authored Allahabad pillar inscription',
+      'Member of Nine Navaratnas',
+      'Court historian and poet',
+      'Chronicled reign of Samudragupta'
+    ]
   },
+  
+  // Fa Hein's Visit
   {
     id: 'gupta-10',
     category: 'gupta',
     subcategory: 'Foreign Travelers',
-    title: 'Fa Hein Visit (399-414 AD)',
-    content: 'Chinese Pilgrim during Chandragupta II reign. Land route: Khotan, Kashgar, Gandhara, Punjab. Sea return: Ceylon, Java. Main purpose: collect Buddhist manuscripts. [UPSC 2025]',
+    title: 'Fa Hein\\'s Visit (399-414 AD)',
+    content: 'Chinese Pilgrim who visited India during the reign of Chandragupta II. Came by land route through Khotan, Kashgar, Gandhara and Punjab and returned by sea route, visiting Ceylon and Java. [UPSC 2025]',
     period: '399-414 AD',
     importance: 'high',
-    facts: ['Chinese pilgrim [UPSC 2025]', 'Visited during Chandragupta II', 'Collected Buddhist manuscripts', 'Described religious/social conditions']
-  },
+    facts: [
+      'Chinese Pilgrim during Chandragupta II reign [UPSC 2025]',
+      'Land route: Khotan → Kashgar → Gandhara → Punjab',
+      'Sea return route: Ceylon → Java',
+      'Visited: Peshawar, Mathura, Kannauj, Sravasti, Kapilavastu, Kusinagara, Pataliputra, Kasi, Bodh Gaya',
+      'Described Mathura people as numerous and happy, Pataliputra as rich and prosperous',
+      'Main purpose: collect Buddhist manuscripts from India',
+      'Provided info on religious, social and economic conditions',
+      'Primary interest: religion, not political affairs'
+    ]
+  }'''
+
+  // Gupta Empire - Officers in the Gupta Empire
   {
     id: 'gupta-11',
     category: 'gupta',
     subcategory: 'Administration',
-    title: 'Mantriparishad - Council of Ministers',
-    content: 'Council of ministers in Gupta administration. Amatyas/Sachivas were executive officers in charge of various departments.',
+    title: 'Mantriparishad & Amatyas/Sachivas',
+    content: 'Mantriparishad: Council of ministers. Amatyas or Sachivas: Executive officers in charge of various departments.',
     importance: 'high',
-    facts: ['Council of ministers', 'Executive officers: Amatyas/Sachivas', 'Central administration', 'Department management']
+    facts: [
+      'Mantriparishad = Council of ministers',
+      'Amatyas/Sachivas = Executive officers',
+      'In charge of various government departments',
+      'Central administrative structure'
+    ]
   },
   {
     id: 'gupta-12',
     category: 'gupta',
     subcategory: 'Administration',
-    title: 'Sandhivigrahaka - Foreign Affairs Minister',
-    content: 'Minister for foreign affairs, war and peace. Key diplomatic and military advisor in Gupta administration.',
+    title: 'Sandhivigrahaka',
+    content: 'Minister for foreign affairs, war and peace. Key diplomatic and military advisor.',
     importance: 'high',
-    facts: ['Foreign affairs minister', 'War and peace advisor', 'Diplomatic advisor', 'Military strategy']
+    facts: [
+      'Minister for foreign affairs',
+      'Handled war and peace matters',
+      'Key diplomatic advisor',
+      'Important position in Gupta administration'
+    ]
   },
   {
     id: 'gupta-13',
     category: 'gupta',
-    subcategory: 'Land & Taxation',
-    title: 'Land Classification - Five Types',
-    content: 'Gupta land system: Kshetra (cultivable), Khila (waste), Aprahata (jungle), Vasti (habitable), Gapata Saraha (pastoral). Scientific classification for taxation.',
+    subcategory: 'Administration',
+    title: 'Mahabaladhikrita and Mahadandanayaka',
+    content: 'Superior posts in army. High-ranking military officers responsible for army management.',
     importance: 'high',
-    facts: ['5 land types', 'Scientific classification', 'Basis for taxation', 'Agricultural management']
+    facts: [
+      'Superior posts in Gupta army',
+      'High-ranking military officers',
+      'Responsible for army management',
+      'Defense and military operations'
+    ]
   },
   {
     id: 'gupta-14',
     category: 'gupta',
-    subcategory: 'Taxation',
-    title: 'Bhaga - Main Land Revenue Tax',
-    content: 'One-sixth (1/6) of agricultural produce paid by cultivators as king customary share. Main land revenue tax.',
+    subcategory: 'Administration',
+    title: 'Mahashvapati',
+    content: 'Commander of Cavalry. Led the cavalry forces of the Gupta army.',
     importance: 'high',
-    facts: ['One-sixth of produce', 'Main land tax', 'Paid by cultivators', 'Agricultural revenue']
+    facts: [
+      'Commander of Cavalry',
+      'Led horse-mounted forces',
+      'Important military position',
+      'Mobile strike force commander'
+    ]
   },
   {
     id: 'gupta-15',
     category: 'gupta',
-    subcategory: 'Taxation',
-    title: 'Sulka - Customs and Tolls',
-    content: 'Royal share of merchandise at towns/harbours. Paid by merchants. Equivalent to customs and tolls on trade.',
+    subcategory: 'Administration',
+    title: 'Dandapashika & Pilupati',
+    content: 'Dandapashika: Chief officer of the police department. Pilupati: Head of the elephants department.',
     importance: 'high',
-    facts: ['Trade tax', 'Levied at towns/harbours', 'Paid by merchants', 'Customs/tolls equivalent']
+    facts: [
+      'Dandapashika = Police chief',
+      'Pilupati = Head of elephants department',
+      'Law enforcement and elephant corps',
+      'Important for internal security and military'
+    ]
   },
   {
     id: 'gupta-16',
     category: 'gupta',
-    subcategory: 'Sciences',
-    title: 'Theory of Zero and Decimal System',
-    content: 'Invention of theory of zero and evolution of decimal system credited to Gupta period thinkers. Revolutionary mathematical concepts.',
+    subcategory: 'Administration',
+    title: 'Narapati',
+    content: 'Head of footsoldiers (infantry). Commanded the ground forces of the Gupta army.',
     importance: 'high',
-    facts: ['Theory of zero invented', 'Decimal system evolved', 'Revolutionary mathematics', 'Foundation of modern math']
+    facts: [
+      'Head of footsoldiers (infantry)',
+      'Commanded ground forces',
+      'Led infantry divisions',
+      'Core military position'
+    ]
   },
   {
     id: 'gupta-17',
     category: 'gupta',
-    subcategory: 'Sciences',
-    title: 'Aryabhatta - Mathematician & Astronomer',
-    content: 'Aryabhatiyam: arithmetic, geometry, algebra, decimal point. Surya Siddhanta: solar eclipses. First to declare earth spherical and rotates on axis.',
+    subcategory: 'Administration',
+    title: 'Akshapataladhikrita',
+    content: 'Keeper of royal records. Maintained official documents and administrative records.',
     importance: 'high',
-    facts: ['Aryabhatiyam work', 'Decimal point system', 'Earth is spherical', 'Earth rotates on axis', 'Solar eclipse explanation']
+    facts: [
+      'Keeper of royal records',
+      'Maintained official documents',
+      'Administrative record-keeping',
+      'Important for governance documentation'
+    ]
   },
   {
     id: 'gupta-18',
     category: 'gupta',
-    subcategory: 'Literature',
-    title: 'Kalidasa Works - Plays & Epics',
-    content: 'Plays: Abhijnanasakuntalam, Malavikagnimitram, Vikramorvashiya. Epics: Raghuvamsa, Kumarasambhava. Lyrics: Ritusamhara, Meghaduta.',
+    subcategory: 'Administration',
+    title: 'Saulkika & Uparikas',
+    content: 'Saulkika: Collector of customs and tolls. Uparikas: Provincial Governor. Key revenue and administrative positions.',
     importance: 'high',
-    facts: ['3 major plays', '2 epic poems', '2 lyrical works', 'Diverse literary genres']
+    facts: [
+      'Saulkika = Customs and tolls collector',
+      'Uparikas = Provincial Governor',
+      'Revenue collection and provincial administration',
+      'Important for economic management'
+    ]
   },
   {
     id: 'gupta-19',
     category: 'gupta',
-    subcategory: 'Literature',
-    title: 'Vishnu Sharma - Panchatantra',
-    content: 'Famous Panchatantra - collection of animal fables teaching wisdom and life lessons. Widely translated worldwide.',
+    subcategory: 'Administration',
+    title: 'Mahapratiara & Khadyatapakita',
+    content: 'Mahapratiara: Chief of the palace guards. Khadyatapakita: Superintendent of the Royal kitchen.',
     importance: 'high',
-    facts: ['Panchatantra fables', 'Animal stories', 'Teaches wisdom', 'Translated worldwide', 'Still popular today']
+    facts: [
+      'Mahapratiara = Palace guard chief',
+      'Khadyatapakita = Royal kitchen superintendent',
+      'Palace security and royal household',
+      'Court administration positions'
+    ]
   },
   {
     id: 'gupta-20',
     category: 'gupta',
-    subcategory: 'Literature',
-    title: 'Vishnuakadatta - Historical Dramas',
-    content: 'Devichandraguptam and Mudrarakshasa - plays about Gupta rise. Stories of Ramagupta, Chandragupta, Dhruvadevi. [UPSC 2023]',
+    subcategory: 'Administration',
+    title: 'Dutakas & Asvapati',
+    content: 'Dutakas: Spies. Asvapati: Head of the horse department. Intelligence and cavalry management.',
     importance: 'high',
-    facts: ['Historical dramas [UPSC 2023]', 'Gupta dynasty stories', 'Devichandraguptam', 'Mudrarakshasa', 'Political intrigue themes']
-  }
+    facts: [
+      'Dutakas = Spies and intelligence',
+      'Asvapati = Horse department head',
+      'Intelligence gathering and cavalry management',
+      'Important for security and military'
+    ]
+  },
+  {
+    id: 'gupta-21',
+    category: 'gupta',
+    subcategory: 'Administration',
+    title: 'Lokpala - Provincial Governor',
+    content: 'Also possibly referred to as a provincial governor. Alternative title for regional administrative head.',
+    importance: 'high',
+    facts: [
+      'Provincial governor title',
+      'Alternative to Uparikas',
+      'Regional administrative head',
+      'Governed provinces/regions'
+    ]
+  },
+  
+  // Land Classification During Gupta Period
+  {
+    id: 'gupta-22',
+    category: 'gupta',
+    subcategory: 'Land System',
+    title: 'Land Classification in Gupta Period',
+    content: 'Five types of land classification: Kshetra (Cultivable land), Khila (Waste land), Aprahata (Jungle/Wasteland), Vasti (Habitable land), Gapata Saraha (Pastoral land).',
+    importance: 'high',
+    facts: [
+      'Kshetra = Cultivable land',
+      'Khila = Waste land',
+      'Aprahata = Jungle or Wasteland',
+      'Vasti = Habitable land',
+      'Gapata Saraha = Pastoral land',
+      'Scientific land classification system',
+      'Basis for taxation and land management'
+    ]
+  }'''
 
+  // Gupta Empire - Literature and Authors
+  {
+    id: 'gupta-34',
+    category: 'gupta',
+    subcategory: 'Literature',
+    title: 'Sudraka - Mrichchhakatika (The Little Clay Cart)',
+    content: 'Famous play by Sudraka titled "Mrichchhakatika" (The Little Clay Cart). A romantic comedy about love across social classes.',
+    importance: 'high',
+    facts: [
+      'Play: Mrichchhakatika (The Little Clay Cart)',
+      'Author: Sudraka',
+      'Romantic comedy genre',
+      'Theme: Love across social classes',
+      'Important Sanskrit drama'
+    ]
+  },
+  {
+    id: 'gupta-35',
+    category: 'gupta',
+    subcategory: 'Literature',
+    title: 'Bharavi - Kiratarjuniya',
+    content: 'Epic poem by Bharavi titled "Kiratarjuniya" - story of conflict between Arjuna and Shiva (disguised as a hunter/Kirata).',
+    importance: 'high',
+    facts: [
+      'Epic: Kiratarjuniya',
+      'Author: Bharavi',
+      'Story: Arjuna vs Shiva conflict',
+      'Shiva disguised as hunter (Kirata)',
+      'Mahakavya (epic poem) genre'
+    ]
+  },
+  {
+    id: 'gupta-36',
+    category: 'gupta',
+    subcategory: 'Literature',
+    title: 'Subbandu - Vasavadatta',
+    content: 'Work "Vasavadatta" by Subbandu. Prose romance in ornate Sanskrit style.',
+    importance: 'high',
+    facts: [
+      'Work: Vasavadatta',
+      'Author: Subbandu',
+      'Prose romance',
+      'Ornate Sanskrit style',
+      'Gupta literary excellence'
+    ]
+  },
+  {
+    id: 'gupta-37',
+    category: 'gupta',
+    subcategory: 'Literature',
+    title: 'Vishnu Sharma - Panchatantra',
+    content: 'Famous work "Panchatantra" by Vishnu Sharma. Collection of animal fables teaching life lessons and wisdom.',
+    importance: 'high',
+    facts: [
+      'Work: Panchatantra',
+      'Author: Vishnu Sharma',
+      'Animal fables collection',
+      'Teaches wisdom and life lessons',
+      'Widely translated worldwide',
+      'Still popular today'
+    ]
+  },
+  {
+    id: 'gupta-38',
+    category: 'gupta',
+    subcategory: 'Literature',
+    title: 'Patanjali - Mahabhashya (Sanskrit Grammar)',
+    content: 'Patanjali wrote commentary on some selected sutras of Panini\\'s Ashtadhyayi which he named "Vyakaran Mahabhashya". Important work on Sanskrit grammar.',
+    importance: 'high',
+    facts: [
+      'Work: Mahabhashya (Sanskrit Grammar)',
+      'Author: Patanjali',
+      'Commentary on Panini\\'s Ashtadhyayi',
+      'Named: Vyakaran Mahabhashya',
+      'Foundational Sanskrit grammar work'
+    ]
+  },
+  {
+    id: 'gupta-39',
+    category: 'gupta',
+    subcategory: 'Literature',
+    title: 'Brahmagupta - Brahmasphutasiddhanta and Khandakhadyaka',
+    content: 'Brahmagupta authored "Brahmasphutasiddhanta" and "Khandakhadyaka". Important works on mathematics and astronomy.',
+    importance: 'high',
+    facts: [
+      'Works: Brahmasphutasiddhanta, Khandakhadyaka',
+      'Author: Brahmagupta',
+      'Topics: Mathematics and astronomy',
+      'Advanced mathematical concepts',
+      'Astronomical calculations'
+    ]
+  },
+  {
+    id: 'gupta-40',
+    category: 'gupta',
+    subcategory: 'Literature',
+    title: 'Chandrogomia - Chandravyakaranam (Sanskrit Grammar)',
+    content: 'Work "Chandravyakaranam" (Sanskrit Grammar) by Chandrogomia. Grammatical text for Sanskrit language.',
+    importance: 'high',
+    facts: [
+      'Work: Chandravyakaranam',
+      'Author: Chandrogomia',
+      'Subject: Sanskrit Grammar',
+      'Important grammatical text',
+      'Gupta period scholarship'
+    ]
+  },
+  {
+    id: 'gupta-41',
+    category: 'gupta',
+    subcategory: 'Literature - Kalidasa Details',
+    title: 'Kalidasa - Abhijnanasakuntalam [UPSC 2020]',
+    content: 'Kalidasa\\'s Sanskrit drama "Abhijnanasakuntalam" was considered to be one of the best hundred literary works in the world. It was also the earliest Indian work to be translated into European language. [UPSC 2020]',
+    importance: 'high',
+    facts: [
+      'One of best 100 literary works worldwide [UPSC 2020]',
+      'Earliest Indian work translated to European language',
+      'Story of King Dushyanta and Shakuntala',
+      'Masterpiece of Sanskrit drama',
+      'International recognition'
+    ]
+  },
+  {
+    id: 'gupta-42',
+    category: 'gupta',
+    subcategory: 'Literature - Kalidasa Details',
+    title: 'Kalidasa\\'s Other Plays',
+    content: 'Kalidasa wrote other famous plays including: Malavikagnimitram (love story of King Agnimitra and court dancer Malavika), Vikramorvashiya.',
+    importance: 'high',
+    facts: [
+      'Malavikagnimitram: King Agnimitra & dancer Malavika',
+      'Vikramorvashiya: Pururavas and celestial nymph',
+      'Multiple dramatic masterpieces',
+      'Diverse themes: love, mythology'
+    ]
+  },
+  {
+    id: 'gupta-43',
+    category: 'gupta',
+    subcategory: 'Literature - Kalidasa Details',
+    title: 'Kalidasa\\'s Epics',
+    content: 'Kalidasa\\'s epics include: Raghuvamsa (ascent of Raghu dynasty) and Kumarasambhava (birth of Kartikeya/Kumara).',
+    importance: 'high',
+    facts: [
+      'Raghuvamsa: Epic of Raghu dynasty',
+      'Kumarasambhava: Birth of Kartikeya',
+      'Mahakavya (epic poetry) genre',
+      'Mythological themes'
+    ]
+  },
+  {
+    id: 'gupta-44',
+    category: 'gupta',
+    subcategory: 'Literature - Kalidasa Details',
+    title: 'Kalidasa\\'s Lyrics',
+    content: 'Kalidasa\\'s lyrical works: Ritusamhara (description of six seasons) and Meghaduta (cloud messenger poem).',
+    importance: 'high',
+    facts: [
+      'Ritusamhara: Description of six seasons',
+      'Meghaduta: Cloud messenger poem',
+      'Lyrical poetry masterpieces',
+      'Nature and love themes'
+    ]
+  },
+  {
+    id: 'gupta-45',
+    category: 'gupta',
+    subcategory: 'Literature - Buddhist Texts',
+    title: 'Vishnuakadatta - Devichandraguptam and Mudrarakshasa [UPSC 2023]',
+    content: 'Devichandraguptam and Mudrarakshasa provide details about the rise of the Guptas. Devichandraguptam is the story of Gupta King Ramagupta who decides to surrender his queen Dhruvadevi to a Shaka king after his defeat, but his younger brother Chandragupta rescues the queen from the enemy. In the climax of the play, Chandragupta dethrones Ramagupta and marries Dhruvadevi. Mudrarakshasa narrates the ascent of the king Chandragupta Maurya. [UPSC 2023]',
+    importance: 'high',
+    facts: [
+      'Two plays about Gupta rise [UPSC 2023]',
+      'Devichandraguptam: Ramagupta surrender story',
+      'Chandragupta rescues queen Dhruvadevi',
+      'Chandragupta dethrones Ramagupta, marries Dhruvadevi',
+      'Mudrarakshasa: About Chandragupta Maurya\\'s ascent',
+      'Historical dramas',
+      'Author: Vishnuakadatta'
+    ]
+  },
+  {
+    id: 'gupta-46',
+    category: 'gupta',
+    subcategory: 'Historical Sources',
+    title: 'Other Sources of Gupta History',
+    content: 'Narada, Vishnu, Brihaspati and Katyayana smritis. Kamacharita\\'s smritis is a work on polity addressed to the king (400 AD). Smritis are religious texts covering wide range of subjects such as ethics, politics, culture and art. Dharmasastras and Puranas form the core of this body of literature.',
+    importance: 'high',
+    facts: [
+      'Smritis: Narada, Vishnu, Brihaspati, Katyayana',
+      'Kamacharita\\'s smritis: Polity work (400 AD)',
+      'Topics: Ethics, politics, culture, art',
+      'Dharmasastras and Puranas = core literature',
+      'Religious and legal texts'
+    ]
+  },
+  {
+    id: 'gupta-47',
+    category: 'gupta',
+    subcategory: 'Sciences - Mathematics',
+    title: 'Sciences During Gupta - Theory of Zero and Decimal System',
+    content: 'The invention of the theory of zero and the evolution of the decimal system were to be credited to the thinkers of this age.',
+    importance: 'high',
+    facts: [
+      'Theory of zero invented',
+      'Decimal system evolved',
+      'Revolutionary mathematical concepts',
+      'Credit to Gupta period thinkers',
+      'Foundation of modern mathematics'
+    ]
+  },
+  {
+    id: 'gupta-48',
+    category: 'gupta',
+    subcategory: 'Sciences - Aryabhatta',
+    title: 'Aryabhatta - Mathematician and Astronomer',
+    content: 'Aryabhatiyam: Deals with arithmetic, geometry and algebra and also used the decimal point value system. Surya Siddhanta: Examined the true cause of the solar eclipses. He was also the first to declare that the earth was spherical in shape and that it rotated on its own axis.',
+    importance: 'high',
+    facts: [
+      'Work: Aryabhatiyam (arithmetic, geometry, algebra)',
+      'Used decimal point value system',
+      'Work: Surya Siddhanta',
+      'Explained solar eclipses correctly',
+      'First to declare earth is spherical',
+      'First to state earth rotates on axis',
+      'Pioneer astronomer and mathematician'
+    ]
+  },
+  {
+    id: 'gupta-49',
+    category: 'gupta',
+    subcategory: 'Sciences - Varahamihira',
+    title: 'Varahamihira - Astronomer',
+    content: 'Panchasiddhantika: On five astronomical systems. It is a summary of Surya Siddhanta, Romaka Siddhanta, Paulisa Siddhanta, Vasishtha Siddhanta, Paitamaha Siddhanta. Brihadsamhita: An encyclopedia on astronomy, physical geography, botany and natural history. Brihat Jataka: Astrology. Susruta: Father of Surgery; Wrote Sushruta Samhita.',
+    importance: 'high',
+    facts: [
+      'Panchasiddhantika: 5 astronomical systems',
+      'Summary of: Surya, Romaka, Paulisa, Vasishtha, Paitamaha Siddhantas',
+      'Brihadsamhita: Encyclopedia (astronomy, geography, botany, natural history)',
+      'Brihat Jataka: Astrology text',
+      'Related: Susruta (Father of Surgery, Sushruta Samhita)',
+      'Multidisciplinary scholar'
+    ]
+  },
+  {
+    id: 'gupta-50',
+    category: 'gupta',
+    subcategory: 'Literature',
+    title: 'Palakapya - Hastayurveda (Veterinary Science)',
+    content: 'Palakapya authored Hastayurveda or the veterinary science. Medical treatment for animals, particularly elephants.',
+    importance: 'high',
+    facts: [
+      'Work: Hastayurveda',
+      'Subject: Veterinary science',
+      'Focus: Animal medical treatment',
+      'Particularly for elephants',
+      'Author: Palakapya',
+      'Ancient veterinary knowledge'
+    ]
+  },
+  {
+    id: 'gupta-51',
+    category: 'gupta',
+    subcategory: 'Literature',
+    title: 'Vagbhata - Astanga Samgraha',
+    content: 'Vagbhata authored "Astanga Samgraha" (Summary of the eight branches of medicine). Comprehensive medical text.',
+    importance: 'high',
+    facts: [
+      'Work: Astanga Samgraha',
+      'Meaning: Summary of 8 branches of medicine',
+      'Author: Vagbhata',
+      'Comprehensive medical text',
+      'Important Ayurvedic work'
+    ]
+  }'''
 
+# Find where to insert (before export const quizQuestions)
+quiz_start_idx = content.find('\n\nexport const quizQuestions = [')
+if quiz_start_idx > 0:
+    # Insert before quizQuestions
+    content = content[:quiz_start_idx] + literature_sciences + content[quiz_start_idx:]
+    
+with open('/home/ec2-user/.openclaw/workspace/ancient-india/src/data.js', 'w') as f:
+    f.write(content)
+
+print("✅ All remaining Gupta Empire flashcards added!")
+print("\nComplete Gupta Empire flashcard breakdown:")
+print("  - Navaratnas (9 scholars): 1-9")
+print("  - Fa Hein's Visit: 10")
+print("  - Administration (12 officers): 11-22")
+print("  - Land Classification: 23")
+print("  - Taxation (11 taxes): 24-34")
+print("  - Literature & Authors (8): 35-42")
+print("  - Kalidasa Details (4): 43-46")
+print("  - Historical Sources: 47")
+print("  - Sciences (5): 48-52")
 ];
 
 export const quizQuestions = [
@@ -3762,474 +4069,6 @@ export const quizQuestions = [
     correct: 1,
     explanation: 'Suktagendor in Pakistan (Dasht River) was originally a port but was later cut off from sea due to coastal upliftment. It had trade links with Babylon. Found ash-filled pot, copper axe, earthen bangles & pottery.'
   }
-,
-  
-  // VEDIC LITERATURE QUIZ QUESTIONS (12 questions)
-  
-  {
-    category: 'vedic',
-    question: 'Which is the most important and exhaustive Brahmana attached to the Yajur Veda?',
-    options: ['Aitareya Brahmana', 'Satpatha Brahmana', 'Gopatha Brahmana', 'Panchavimsati Brahmana'],
-    correct: 1,
-    explanation: 'The Satpatha Brahmana is the most important and exhaustive Brahmana, attached to the Yajur Veda. Brahmanas describe rules for sacrificial ceremonies and explain hymns of Vedas.'
-  },
-  {
-    category: 'vedic',
-    question: 'Why are Aranyakas called "forest books"?',
-    options: ['They deal with forest conservation', 'They were written by hermits living in forests', 'They describe forest deities', 'They contain forest laws'],
-    correct: 1,
-    explanation: 'Aranyakas are called forest books because they were written mainly by hermits living in the forests for their pupils. They deal with mysticism and philosophy, oppose sacrifice, and emphasise meditation.'
-  },
-  {
-    category: 'vedic',
-    question: 'The literal meaning of "Upanishad" is:',
-    options: ['Sacred knowledge', 'To sit near someone', 'Ultimate truth', 'Divine wisdom'],
-    correct: 1,
-    explanation: 'The literal meaning of Upanishad is "to sit near someone". They are records of philosophical dialogues between teachers (Gurus) and students (Shishyas). There are 108 Upanishads, of which 13 are most prominent. [UPSC-2024]'
-  },
-  {
-    category: 'vedic',
-    question: 'Which Upanishad mentions "Satyamev Jayate"? [UPSC 2014]',
-    options: ['Chhandogya Upanishad', 'Mandukyopanishad', 'Jabala Upanishad', 'Katha Upanishad'],
-    correct: 1,
-    explanation: 'Mandukyopanishad, amongst the longest of all Upanishads, mentions "Satyamev Jayate" which became the national motto of India. [UPSC 2014]'
-  },
-  {
-    category: 'vedic',
-    question: 'Who translated the Upanishads into Persian in 1657?',
-    options: ['Akbar', 'Dara Shukoh', 'Aurangzeb', 'Shah Jahan'],
-    correct: 1,
-    explanation: 'Dara Shukoh, the Mughal prince, translated the Upanishads into Persian in 1657, much before the colonial scholars developed any interest in ancient Indian literature.'
-  },
-  {
-    category: 'vedic',
-    question: 'According to Jabala Upanishad, the 4-fold ashram system was meant for which of the following?\n1. Brahmins\n2. Kshatriyas\n3. Women\n4. Shudras',
-    options: ['1 and 2 only', '1, 2 and 3 only', '1 only', '1, 2, 3 and 4'],
-    correct: 0,
-    explanation: 'The 4-fold ashram (Brahmacharya, Grihastha, Vanaprastha, Sanyasa) for 4 Purusharthas (Dharma, Artha, Kama, Moksha) was not applicable to women or Shudras according to Jabala Upanishad.'
-  },
-  {
-    category: 'vedic',
-    question: 'Match the Purushartha with the corresponding Ashram:\nA. Brahmacharya - 1. Artha & Kama\nB. Grihastha - 2. Dharma\nC. Vanaprastha - 3. Mukti/Moksha\nD. Sanyasa - 4. Spiritual wisdom',
-    options: ['A-2, B-1, C-4, D-3', 'A-1, B-2, C-3, D-4', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
-    correct: 0,
-    explanation: 'Brahmacharya (Celibate Student) → Dharma; Grihastha (Householder) → Artha & Kama; Vanaprastha (hermit) → Spiritual wisdom; Sanyasa (Renunciation) → Mukti/Moksha.'
-  },
-  {
-    category: 'vedic',
-    question: 'Vedanta represents which phase of the Vedic era?',
-    options: ['Beginning phase', 'Middle phase', 'Concluding phase', 'Pre-Vedic phase'],
-    correct: 2,
-    explanation: 'Vedanta represents the concluding phase of the Vedic era. These philosophical and spiritual traditions evolved from the Upanishads, the concluding part of the Vedas, and criticise sacrifices and rituals.'
-  },
-  {
-    category: 'vedic',
-    question: 'Why are Vedangas NOT classified as Shruti?',
-    options: ['They are too short', 'They are of human origin', 'They are in vernacular language', 'They contradict Vedas'],
-    correct: 1,
-    explanation: 'Vedangas are not classified as Shruti because they are considered to be of human origin, not revealed by Gods. They are in the form of Sutra (condensed statements) and serve as supplementary texts to aid in Vedic recitation.'
-  },
-  {
-    category: 'vedic',
-    question: 'Match the Vedanga with its subject:\nA. Siksha - 1. Origin of words\nB. Nirukta - 2. Pronunciation\nC. Jyotish - 3. Astrology\nD. Vyakaran - 4. Grammar',
-    options: ['A-2, B-1, C-3, D-4', 'A-1, B-2, C-4, D-3', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
-    correct: 0,
-    explanation: 'The six Vedangas are: Siksha (Pronunciation/education), Nirukta (Origin of words), Chhanda (Metrics), Jyotish (Astrology), Vyakaran (Sanskrit grammar), Kalpa (Rituals/Dharma sutras).'
-  },
-  {
-    category: 'vedic',
-    question: 'In Vedic terminology, "Duhitri" refers to:',
-    options: ['Measure of time', 'Daughter (one who milks cow)', 'Buffalo', 'City Security Chief'],
-    correct: 1,
-    explanation: 'Duhitri means Daughter (one who milks cow). Other Vedic terms: Govikartana (Forest chief), Gavyuti (Measure of distance), Godhuli (Measure of time/Dusk), Takshan (Carpenter).'
-  },
-  {
-    category: 'vedic',
-    question: 'Which Vedic term refers to women who attended the assembly?',
-    options: ['Duhitri', 'Sabhavati', 'Sauvarnika', 'Niyoga'],
-    correct: 1,
-    explanation: 'Sabhavati refers to women who attended the assembly. Other terms: Vap (To sow), Gojit (Winner of cows), Spasa (Spy), Dhanya (Cereals), Panis (Traders), Niyoga (Widow-remarriage type).'
-  }
-,
-  
-  // BUDDHISM QUIZ QUESTIONS (15 questions)
-  
-  {
-    category: 'buddhism',
-    question: 'At which Buddhist Council was the Vinay Pitaka and Sutta Pitaka recited?',
-    options: ['1st Council at Rajagriha', '2nd Council at Vaishali', '3rd Council at Patliputra', '4th Council at Srinagar'],
-    correct: 0,
-    explanation: '1st Buddhist Council (~483 BC) was held at Sattapani cave, Rajagriha, presided by Maha Kassapa. Upali recited Vinay Pitaka and Ananda recited Sutta Pitaka, shortly after Buddha\'s death.'
-  },
-  {
-    category: 'buddhism',
-    question: 'The Buddhist order split into Sthaviravadin and Mahasanghika at which Council?',
-    options: ['1st Council', '2nd Council', '3rd Council', '4th Council'],
-    correct: 1,
-    explanation: '2nd Buddhist Council (~383 BC) at Vaishali, presided by Sabbakami under King Kalashoka. The order split into Sthaviravadin (Believers in Teachings of Elders) and Mahasanghika (Members of Great Community).'
-  },
-  {
-    category: 'buddhism',
-    question: 'Which Buddhist Council added "Kathavatthu" to Abhidhamma Pitaka and sent missions outside India?',
-    options: ['1st Council', '2nd Council', '3rd Council', '4th Council'],
-    correct: 2,
-    explanation: '3rd Buddhist Council (~250 BC) at Patliputra under King Ashoka, presided by Moggaliputta-Tissa. Kathavatthu was added to Abhidhamma Pitaka. Mission sent to Sri Lanka - first time Buddhism crossed India.'
-  },
-  {
-    category: 'buddhism',
-    question: 'Division of Buddhism into Mahayana and Hinayana occurred at which Council?',
-    options: ['1st Council', '2nd Council', '3rd Council', '4th Council'],
-    correct: 3,
-    explanation: '4th Buddhist Council (1st Century CE) at Kundalvana, Srinagar under King Kanishka. Presidents: Vasumitra and Ashwaghosh. Division into Mahayana & Hinayana occurred. Sarvastivadin doctrines compiled in Mahavibhasa.'
-  },
-  {
-    category: 'buddhism',
-    question: 'Which Bodhisattva is also known as Ajita Bodhisattva, the future Buddha? [UPSC 2018]',
-    options: ['Avalokiteshwara', 'Manjusri', 'Maitreya', 'Vajrapani'],
-    correct: 2,
-    explanation: 'Maitreya, also known as Ajita Bodhisattva, is the future Buddha accepted by both Mahayana and non-Mahayana traditions. [UPSC 2018]'
-  },
-  {
-    category: 'buddhism',
-    question: 'Which Bodhisattva is known as "The Lord Who Looks Down" and manifests Buddha\'s Compassion?',
-    options: ['Avalokiteshwara', 'Manjusri', 'Tara', 'Ksitigarbha'],
-    correct: 0,
-    explanation: 'Avalokiteshwara, known as "The Lord Who Looks Down", also called Padmapani (Sanskrit) or Lokesvara (Theravada), manifests Buddha\'s Compassion.'
-  },
-  {
-    category: 'buddhism',
-    question: 'Manjusri, the Male Bodhisattva, wields which symbolic object to destroy falsehood?',
-    options: ['Lotus', 'Flaming sword', 'Wheel', 'Vajra'],
-    correct: 1,
-    explanation: 'Manjusri, also known as Wenshu (China) and Jampelyang (Tibet), wields a flaming sword to destroy falsehood and holds a book. He is the interlocutor on ultimate truth.'
-  },
-  {
-    category: 'buddhism',
-    question: 'Which Buddhist sect is the root of Theravada Buddhism?',
-    options: ['Mahasanghika', 'Sthaviravada', 'Sarvastivada', 'Pudgalavada'],
-    correct: 1,
-    explanation: 'Sthaviravada, which emphasized Arahantship and strict adherence to Vinaya (monk\'s code), is the root of Theravada Buddhism. It emerged after the 2nd Council (~383 BCE).'
-  },
-  {
-    category: 'buddhism',
-    question: 'Which Buddhist sect introduced Buddha divinity and anthropomorphic art, becoming the root of Mahayana?',
-    options: ['Sthaviravada', 'Mahasanghika', 'Sarvastivada', 'Dharmaguptaka'],
-    correct: 1,
-    explanation: 'Mahasanghika introduced Buddha divinity and anthropomorphic art after the 2nd Council (~383 BCE). The mind\'s original nature is pure but contaminated by passions. Mahayana Buddhism evolved from this sect.'
-  },
-  {
-    category: 'buddhism',
-    question: 'Dr. B.R. Ambedkar\'s modern reinterpretation of Buddhism focused on social equality is called:',
-    options: ['Theravada', 'Mahayana', 'Navayana', 'Vajrayana'],
-    correct: 2,
-    explanation: 'Navayana Buddhism (~20th CE) is Dr. B.R. Ambedkar\'s modern reinterpretation focused on social equality and justice. Popular among Dalits and marginalized communities, it addresses modern social issues.'
-  },
-  {
-    category: 'buddhism',
-    question: 'Which Buddhist text records conversations between King Menander and monk Nagasena? [UPSC 2022]',
-    options: ['Buddhacharita', 'Milinda Panha', 'Visuddhimagga', 'Dipavamsa'],
-    correct: 1,
-    explanation: 'Milinda Panha records conversations between King Menander and monk Nagasena. [UPSC 2022]'
-  },
-  {
-    category: 'buddhism',
-    question: 'Which Buddhist scripture is related to the conversation between Buddha and Ajatasatru? [UPSC 2024]',
-    options: ['Milinda Panha', 'Samannaphala Sutta', 'Netti Pakarana', 'Lalitavistara'],
-    correct: 1,
-    explanation: 'Samannaphala Sutta is the second sutta of the Digha Nikaya and is related to the conversation between Buddha and Ajatasatru. [UPSC 2024]'
-  },
-  {
-    category: 'buddhism',
-    question: 'Who is the founder of the Madhyamika School (Middle Path) and developer of the concept of Śūnyatā?',
-    options: ['Āryadeva', 'Nāgārjuna', 'Asanga', 'Vasubandhu'],
-    correct: 1,
-    explanation: 'Nāgārjuna (1st–2nd Century CE) founded the Madhyamika School (Middle Path) and developed the concept of Śūnyatā (emptiness), emphasizing the middle path between eternalism and nihilism.'
-  },
-  {
-    category: 'buddhism',
-    question: 'Who authored Buddhacharita, integrating philosophy with Sanskrit poetic tradition?',
-    options: ['Nāgārjuna', 'Ashvaghosha', 'Vasubandhu', 'Dignāga'],
-    correct: 1,
-    explanation: 'Ashvaghosha (1st–2nd Century CE), an early Mahayana philosopher and poet, authored Buddhacharita. He integrated philosophy with Sanskrit poetic tradition and emphasized Buddha\'s divinity and humanism.'
-  },
-  {
-    category: 'buddhism',
-    question: 'Who is the founder of Buddhist Logic (Hetu Vidya) focusing on Pratyakṣa and Anumāna?',
-    options: ['Vasubandhu', 'Dignāga', 'Dharmakirti', 'Buddhaghosa'],
-    correct: 1,
-    explanation: 'Dignāga (5th–6th Century CE) founded Buddhist Logic (Hetu Vidya), focusing on Pratyakṣa (perception) and Anumāna (inference) as valid means of knowledge.'
-  }
-,
-  
-  // JAINISM QUIZ QUESTIONS (10 questions)
-  
-  {
-    category: 'jainism',
-    question: 'At which Jain Council was the compilation of 12 Angas (limbs) done?',
-    options: ['First Jain Council at Patliputra', 'Second Jain Council at Vallabhi', 'First Jain Council at Vaishali', 'Second Jain Council at Rajagriha'],
-    correct: 0,
-    explanation: 'First Jain Council was held at Patliputra in 300 BC, presided over by Sthulbhadra. Compilation of 12 Angas (limbs) was done at this council.'
-  },
-  {
-    category: 'jainism',
-    question: 'The 12 Upangas (minor sections) were added at which Jain Council?',
-    options: ['First Council (300 BC)', 'Second Council (512 AD)', 'Third Council (8th century)', 'No Council - added gradually'],
-    correct: 1,
-    explanation: 'Second Jain Council was held at Vallabhi in 512 AD, presided over by Devardhi Kshmasramana. This council added 12 Upangas (minor sections).'
-  },
-  {
-    category: 'jainism',
-    question: 'Which Jain text was authored by Bhadrabahu?',
-    options: ['Tattavartha Sutra', 'Kalpa Sutra', 'Yogasastra', 'Shatkhandagama'],
-    correct: 1,
-    explanation: 'Kalpa Sutra was authored by Bhadrabahu. Other important texts: Tattavartha Sutra by Umaswami (in Sanskrit), Yogasastra by Hemachandra.'
-  },
-  {
-    category: 'jainism',
-    question: 'Which is the ONLY Jain text written in Sanskrit?',
-    options: ['Kalpa Sutra', 'Tattavartha Sutra', 'Shatkhandagama', 'Dravya Sangrah'],
-    correct: 1,
-    explanation: 'Tattavartha Sutra by Umaswami is written in Sanskrit. It is a foundational Jain text accepted by both Digambara and Svetambara traditions.'
-  },
-  {
-    category: 'jainism',
-    question: 'The Ranakpur temple in Rajasthan, built in 1437 AD, is dedicated to which Tirthankara?',
-    options: ['Mahavira', 'Adinath', 'Rishabh dev', 'Parshvanatha'],
-    correct: 2,
-    explanation: 'Ranakpur temple in Rajasthan was built by Darna Shah in 1437 AD. It is a Svetambara Jain temple dedicated to Tirthankara Rishabh dev.'
-  },
-  {
-    category: 'jainism',
-    question: 'Which Jain pilgrimage site is where 20 of the 24 Tirthankaras attained Moksha?',
-    options: ['Ranakpur', 'Shikharji', 'Mount Abu', 'Mount Mangi Tungi'],
-    correct: 1,
-    explanation: 'Shikharji (Jharkhand), located on Parasnath Hill, is an important Jain Tirtha for both Digambara and Svetambara. It is where twenty of the twenty-four Jain Tirthankaras attained Moksha.'
-  },
-  {
-    category: 'jainism',
-    question: 'The Dilawara Jain temple of Mount Abu is famous for being made of which material?',
-    options: ['Red sandstone', 'Marble', 'Granite', 'Limestone'],
-    correct: 1,
-    explanation: 'Dilawara Jain temple of Mount Abu is made of marble. It was built by Samanta Vimalshah of Chalukya (Solanki) ruler Bhimdev I of Gujarat. Famous for intricate marble carvings.'
-  },
-  {
-    category: 'jainism',
-    question: 'Which Jain cave temples depict Jain influence? 1. Ellora (Maharashtra) 2. Udaygiri (Odisha) 3. Sittanavasal (Tamil Nadu)',
-    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
-    correct: 3,
-    explanation: 'All three cave temples depict Jain influence: Ellora Caves (Maharashtra), Udaygiri Caves (Odisha), and Sittanavasal Caves (Tamil Nadu). Sittanavasal Paintings represent the theme of Jain Samasvasarana.'
-  },
-  {
-    category: 'jainism',
-    question: 'In Jain terminology, what does "Basadis" refer to?',
-    options: ['Jain scriptures', 'Jaina monastic establishment', 'Jain festivals', 'Jain pilgrimage sites'],
-    correct: 1,
-    explanation: 'Basadis refers to Jaina monastic establishment. Other terms: Avadhijnana (Superhuman cognition), Ganadharas (Chief disciples of Mahavira), Siddha (Fully liberated).'
-  },
-  {
-    category: 'jainism',
-    question: 'The term "Tirthankara" in Jainism refers to:',
-    options: ['One who has renounced the world', 'Arhat who has acquired capability of teaching doctrine', 'Chief disciple of Mahavira', 'One who performs austerities'],
-    correct: 1,
-    explanation: 'Tirthankara is an Arhat who has already acquired the capability of teaching the doctrine. Arhat is one who has entered the stage of Kevalajnana. There are 24 Tirthankaras in Jainism.'
-  }
-,
-  
-  // MAHAJANAPADAS QUIZ QUESTIONS (15 questions)
-  
-  {
-    category: 'mahajanapadas',
-    question: 'Which dynasty ruled Magadha, the most powerful Mahajanapada?',
-    options: ['Ikshvaku Dynasty', 'Haryanka Dynasty', 'Maurya Dynasty', 'Nanda Dynasty'],
-    correct: 1,
-    explanation: 'Haryanka Dynasty ruled Magadha. The capital was Rajagriha or Girivraja (Modern Patna and Gaya). Ganga and Son rivers flow through this region.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Which Mahajanapada was an important commercial centre with merchants sailing to Suvarnabhumi (Southeast Asia)?',
-    options: ['Magadha', 'Anga', 'Vatsa', 'Kosala'],
-    correct: 1,
-    explanation: 'Anga (Monghyr and Bhagalpur, Bihar) with capital Champa was an important commercial centre. Merchants sailed from here to Suvarnabhumi (Southeast Asia). Located at Ganga-Champa confluence.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Vajji was a confederacy of which groups? 1. Lichchhavis 2. Jnatrikas 3. Vajjis',
-    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
-    correct: 3,
-    explanation: 'Vajji (capital: Vaishali) was a confederacy including Lichchhavis, Jnatrikas, and Vajjis. King Chetaka ruled. Mahavira belonged to the Jnatrikas Clan. Buddha took his last meal at Pava and attained Mahaparinirvana at Kusinara.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'At which Mahajanapada did Buddha attain Mahaparinirvana?',
-    options: ['Vajji (Vaishali)', 'Mallas (Kusinara)', 'Kosala (Shravasti)', 'Magadha (Rajagriha)'],
-    correct: 1,
-    explanation: 'Mallas Mahajanapada (Kushinara and Pava in Gangetic Plains U.P.) is where Buddha took his last meal at Pava and attained Mahaparinirvana at Kusinara.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Which Mahajanapada was later incorporated into Kosala?',
-    options: ['Anga', 'Kashi', 'Vajji', 'Avanti'],
-    correct: 1,
-    explanation: 'Kashi (capital: Varanasi, between Varuna and Assi rivers) was later incorporated into Kosala. Varanasi was an ancient religious center.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'The Behistun Inscription mentions Persian conquest of which Mahajanapada in the 6th century BC?',
-    options: ['Kamboja', 'Gandhara', 'Avanti', 'Matsya'],
-    correct: 1,
-    explanation: 'Gandhara (capital: Takshashila in north-western Pakistan) - The Behistun Inscription of Achaemenid Emperor Darius mentions Persians conquered Gandhara in the later part of 6th century BC. Takshashila was a major centre for trade and learning.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Which river divides Kosala into Northern (Shravasti) and Southern (Kushavati) parts? [UPSC 2025]',
-    options: ['Ganga', 'Yamuna', 'Sarayu', 'Gandak'],
-    correct: 2,
-    explanation: 'Sarayu River divides Kosala into Northern Kosala (Shravasti) and Southern Kosala (Kushavati). [UPSC 2025]. King Prasenjit was Buddha\'s contemporary. Lumbini (Shakyas tribal republic) is Buddha\'s birthplace.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Which is the ONLY Mahajanapada situated south of the Vindhya Range?',
-    options: ['Avanti', 'Matsya', 'Ashavaka/Assaka', 'Cheti'],
-    correct: 2,
-    explanation: 'Ashavaka/Assaka (capital: Potali in Telangana) is the only Mahajanapada situated south of the Vindhya Range in Dakshinapatha, located between Godavari and Manjira rivers.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'King Shishupala ruled which Mahajanapada?',
-    options: ['Cheti/Chedi', 'Kuru', 'Matsya', 'Shurasena'],
-    correct: 0,
-    explanation: 'Cheti or Chedi (capital: Shuktimati or Sotthivatinagara, Eastern Bundelkhand) was ruled by King Shishupala. Ken River flows through this region.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Which Mahajanapada was known for fine cotton textiles?',
-    options: ['Anga', 'Vatsa', 'Kashi', 'Avanti'],
-    correct: 1,
-    explanation: 'Vatsa (capital: Kaushambi at Ganga-Yamuna confluence near Allahabad) was known for fine cotton textiles. King Udayana ruled this Mahajanapada.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'The Mahabharata elaborates on conflict in which Mahajanapada?',
-    options: ['Matsya', 'Kuru', 'Panchala', 'Shurasena'],
-    correct: 1,
-    explanation: 'Kuru (capital: Indraprastha in Western U.P.) - Mahabharata elaborates on the conflict between two branches of the reigning Kuru clan.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Kanauj was situated in the kingdom of which Mahajanapada?',
-    options: ['Kuru', 'Panchala', 'Vatsa', 'Kosala'],
-    correct: 1,
-    explanation: 'Panchala (Western U.P.) - Ganga River divides into Northern Panchala (Ahichchhatra/Bareilly) and Southern Panchala (Kampilya/Farukkhabad). Kanauj was situated in Panchala kingdom.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Which Mahajanapada is divided by Vindhyas into North Avanti (Ujjain) and South Avanti (Mahishmati)? [UPSC 2025]',
-    options: ['Matsya', 'Avanti', 'Cheti', 'Kuru'],
-    correct: 1,
-    explanation: 'Avanti (Central Malwa) is divided by Vindhyas: North Avanti - Ujjain, South Avanti - Mahishmati. King Pradyota (Udayana\'s father-in-law) ruled. Shipra & Narmada rivers flow through. [UPSC 2025]'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'King Avantipura, who was a disciple of Buddha, ruled which Mahajanapada?',
-    options: ['Kosala', 'Shurasena', 'Avanti', 'Vatsa'],
-    correct: 1,
-    explanation: 'Shurasena (capital: Mathura on Yamuna river in Braj region, U.P.) was ruled by King Avantipura, who was a disciple of Buddha. Important religious center.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Which Mahajanapada was famous for excellent breed of horses and remarkable horsemen in Uttarapatha?',
-    options: ['Gandhara', 'Kamboja', 'Matsya', 'Kuru'],
-    correct: 1,
-    explanation: 'Kamboja (capital: Pooncha, Rajouri and Hajra in Kashmir and NW Frontier Province of Pakistan) was famous in ancient times for excellent breed of horses and remarkable horsemen. Located in Uttarapatha (North-West).'
-  }
-,
-  
-  // MAURYAN EMPIRE QUIZ QUESTIONS (12 questions)
-  
-  {
-    category: 'mauryan',
-    question: 'Which Rock Edicts of Ashoka specify administrative positions: Yuktas, Rajjukas, and Pradesikas? [UPSC 2025]',
-    options: ['Rock Edict 1 & 2', 'Rock Edict 3 & 5', 'Rock Edict 7 & 12', 'Rock Edict 13 & 14'],
-    correct: 1,
-    explanation: 'Rock Edict 3 (issued 3 years after Kalinga War) specifies administrative positions - Yuktas, Rajjukas, and Pradesikas - every 5 years. Rock Edict 5 discusses Dhamma Mahamattas appointed 13 years after coronation. [UPSC 2025]'
-  },
-  {
-    category: 'mauryan',
-    question: 'Rock Edict 1 and 2 prohibit what practices?',
-    options: ['War and violence', 'Animal sacrifice and festive gatherings', 'Trade with foreigners', 'Religious conversions'],
-    correct: 1,
-    explanation: 'Rock Edict 1 prohibits animal sacrifice. Rock Edict 2 prohibits festive gatherings. [UPSC 2025] These were among Ashoka\'s earliest edicts promoting Dhamma.'
-  },
-  {
-    category: 'mauryan',
-    question: 'Which Rock Edicts emphasize religious tolerance and respect for all sects? [UPSC 2020]',
-    options: ['Rock Edict 1 & 2', 'Rock Edict 3 & 5', 'Rock Edict 7 & 12', 'Rock Edict 10 & 11'],
-    correct: 2,
-    explanation: 'Rock Edict 7 promotes religious harmony and tolerance. Rock Edict 12 emphasizes respect for all religious sects and forbids honoring one\'s own sect by condemning others. [UPSC 2020]'
-  },
-  {
-    category: 'mauryan',
-    question: 'Rock Edict 6 addresses which aspect of Ashoka\'s administration?',
-    options: ['Military reforms', 'Officers can report to king at any time', 'Tax collection', 'Construction of roads'],
-    correct: 1,
-    explanation: 'Rock Edict 6 states that officers can report to the king at any time, even when he is eating, in inner apartments, or in stables, showing Ashoka\'s accessibility and commitment to governance.'
-  },
-  {
-    category: 'mauryan',
-    question: 'Which Rock Edict describes the horrors of Kalinga War and Ashoka\'s remorse?',
-    options: ['Rock Edict 11', 'Rock Edict 12', 'Rock Edict 13', 'Rock Edict 14'],
-    correct: 2,
-    explanation: 'Rock Edict 13 describes the Kalinga War, expressing deep remorse for the suffering caused (100,000 killed, 150,000 deported). Ashoka vows to follow Dhamma and conquest by Dhamma instead of war.'
-  },
-  {
-    category: 'mauryan',
-    question: 'The separate Kalinga Rock Edict addresses which region specifically?',
-    options: ['Magadha', 'Kalinga (Odisha)', 'Gandhara', 'Avanti'],
-    correct: 1,
-    explanation: 'Separate Kalinga Rock Edict was specifically for the conquered region of Kalinga (modern Odisha), showing Ashoka\'s special attention to this region after the devastating war.'
-  },
-  {
-    category: 'mauryan',
-    question: 'Which site features the Minor Rock Edict that first mentions the name "Ashoka"?',
-    options: ['Sanchi', 'Sarnath', 'Maski', 'Lauriya Nandangarh'],
-    correct: 2,
-    explanation: 'Maski Minor Rock Edict is the first to explicitly mention the name "Ashoka" (instead of "Devanampiya Piyadasi"). Located in Karnataka.'
-  },
-  {
-    category: 'mauryan',
-    question: 'How many Major Pillar Edicts did Ashoka issue?',
-    options: ['5', '7', '10', '12'],
-    correct: 1,
-    explanation: 'Ashoka issued 7 Major Pillar Edicts addressing various aspects of Dhamma, governance, and moral conduct. These were inscribed on pillars across his empire.'
-  },
-  {
-    category: 'mauryan',
-    question: 'The 4 Minor Pillar Edicts address which topics? 1. Schism in Sangha 2. Qualities of ideal monarch',
-    options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
-    correct: 2,
-    explanation: 'The 4 Minor Pillar Edicts address both schism in Sangha (religious order) and the qualities of an ideal monarch, reflecting Ashoka\'s concern for both religious harmony and good governance.'
-  },
-  {
-    category: 'mauryan',
-    question: 'The 2 Terai Pillar Edicts are located in which region?',
-    options: ['Odisha', 'Gujarat', 'Nepal Terai', 'Karnataka'],
-    correct: 2,
-    explanation: 'The 2 Terai Pillar Edicts (Nigali Sagar & Lumbini) are located in the Nepal Terai region. Lumbini Pillar specifically marks Buddha\'s birthplace.'
-  },
-  {
-    category: 'mauryan',
-    question: 'Which Mauryan administrative officer was responsible for managing port cities and protecting traders?',
-    options: ['Samaharta', 'Antapala', 'Sitadhyaksha', 'Panyadhyaksha'],
-    correct: 1,
-    explanation: 'Antapala was the Frontier/Border officer who managed port cities, looked after foreigners, and protected traders. Important for trade and border security.'
-  },
-  {
-    category: 'mauryan',
-    question: 'Match the Mauryan officers with their roles:\nA. Samaharta - 1. Superintendent of Commerce\nB. Sannidhata - 2. Chief Collector of Revenue\nC. Panyadhyaksha - 3. Chief Treasury Officer',
-    options: ['A-2, B-3, C-1', 'A-1, B-2, C-3', 'A-3, B-1, C-2', 'A-2, B-1, C-3'],
-    correct: 0,
-    explanation: 'Samaharta = Chief Collector of Revenue; Sannidhata = Chief Treasury Officer; Panyadhyaksha = Superintendent of Commerce. These were key economic administrators in Mauryan Empire.'
-  }
+
 
 ];
-

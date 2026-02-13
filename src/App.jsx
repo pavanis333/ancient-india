@@ -87,6 +87,8 @@ function App() {
       filtered = topicsData.filter(v => v.category === 'mauryan')
     } else if (selectedTopic === 'literary') {
       filtered = topicsData.filter(v => v.category === 'literary')
+    } else if (selectedTopic === 'gupta') {
+      filtered = topicsData.filter(v => v.category === 'gupta')
     }
 
     return filtered
@@ -192,6 +194,8 @@ function App() {
     const mauryanQuiz = quizQuestions.filter(q => q.category === 'mauryan').length
     const literaryCount = topicsData.filter(t => t.category === 'literary').length
     const literaryQuiz = quizQuestions.filter(q => q.category === 'literary').length
+    const guptaCount = topicsData.filter(t => t.category === 'gupta').length
+    const guptaQuiz = quizQuestions.filter(q => q.category === 'gupta').length
 
     return (
       <div className="mode-selector">
@@ -253,6 +257,12 @@ function App() {
           <div className="mode-icon">📚</div>
           <h3>Literary & Cultural Contributions</h3>
           <p>{literaryCount} flashcards · {literaryQuiz} quiz questions</p>
+        </div>
+
+        <div className="mode-card" onClick={() => setSelectedTopic('gupta')}>
+          <div className="mode-icon">🏛️</div>
+          <h3>Gupta Empire</h3>
+          <p>{guptaCount} flashcards · {guptaQuiz} quiz questions</p>
         </div>
       </div>
     )
