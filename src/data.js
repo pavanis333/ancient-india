@@ -55,7 +55,322 @@ export const topics = [
     name: '👑 Mauryan Empire',
     emoji: '👑',
     description: 'Ashoka\'s Rock & Pillar Edicts, Administrative Officers'
+  },
+  
+  // CHALCOLITHIC SITES QUIZ QUESTIONS (8 questions)
+  
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic site in South-eastern Rajasthan provided copper supply to Harappa? [UPSC 2021]',
+    options: ['Ahar', 'Gilund', 'Ganeshwar', 'Kayatha'],
+    correct: 2,
+    explanation: 'Ganeshwar in South-eastern Rajasthan provided copper supply to Harappa. This site was an important source of copper for the Harappan civilization. [UPSC 2021]'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Consider the following Chalcolithic sites of South-eastern Rajasthan:\n1. Ahar - Shows absence of stone axes or blades\n2. Gilund - Had stone-blade industry\n3. Ganeshwar - Copper supply to Harappa\n\nWhich statements are correct?',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three statements are correct. Ahar shows absence of stone axes/blades, Gilund had stone-blade industry, and Ganeshwar provided copper to Harappa.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Flat and rectangular copper axes have been found at which Western Maharashtra Chalcolithic site? [UPSC 2024]',
+    options: ['Jorwe', 'Nevasa', 'Daimabad', 'Chandoli'],
+    correct: 0,
+    explanation: 'Jorwe in Western Maharashtra shows flat and rectangular copper axes. Chandoli provides evidence of copper chisels. This region is notable for early metallurgy. [UPSC 2024]'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic region is specifically noted for "early metallurgy" in addition to hunting and agriculture?',
+    options: ['South-eastern Rajasthan', 'Western Madhya Pradesh', 'Western Maharashtra', 'Eastern India'],
+    correct: 2,
+    explanation: 'Western Maharashtra (sites: Jorwe, Nevasa, Daimabad, Chandoli, Songaon, Inamgaon) had economy of hunting, agriculture, AND early metallurgy, unlike other Chalcolithic regions which primarily had hunting and agriculture.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Chalcolithic settlements in the Allahabad region of Uttar Pradesh are found in proximity to which mountain range?',
+    options: ['Himalayas', 'Vindhyas', 'Aravalli', 'Satpura'],
+    correct: 1,
+    explanation: 'Multiple Chalcolithic sites in the Allahabad region, Uttar Pradesh are in proximity to Vindhyas. Multiple Chalcolithic settlements have been found in this area.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Western Madhya Pradesh sites show evidence of Chalcolithic settlements? 1. Kayatha 2. Eran (Malwa) 3. Navdatoli (Narmada)',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three - Kayatha, Eran (Malwa region), and Navdatoli (Narmada valley) in Western Madhya Pradesh show evidence of Chalcolithic settlements with hunting and agriculture economy.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which unique characteristic distinguishes Andhra Pradesh Chalcolithic sites (Kodekal, Utnur, Nagatjunkonda, Palavoy)?',
+    options: ['Presence of stone-blade industry', 'Evidence of early metallurgy', 'Absence of copper objects', 'Presence of iron tools'],
+    correct: 2,
+    explanation: 'Andhra Pradesh Chalcolithic sites show some Chalcolithic elements but are uniquely characterized by the absence of copper objects, unlike other Chalcolithic regions.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Eastern India Chalcolithic sites include Chirand on which river?',
+    options: ['Ganga River', 'Yamuna River', 'Narmada River', 'Godavari River'],
+    correct: 0,
+    explanation: 'Chirand on the Ganga River, along with Pandu Rajar Dhibi and Mahishdal in West Bengal, are Eastern India Chalcolithic settlements with hunting and agriculture economy.'
+  },
+  
+  // CHALCOLITHIC SITES QUIZ QUESTIONS (8 questions)
+  
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic site in South-eastern Rajasthan provided copper supply to Harappa? [UPSC 2021]',
+    options: ['Ahar', 'Gilund', 'Ganeshwar', 'Kayatha'],
+    correct: 2,
+    explanation: 'Ganeshwar in South-eastern Rajasthan provided copper supply to Harappa. This site was an important source of copper for the Harappan civilization. [UPSC 2021]'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Consider the following Chalcolithic sites of South-eastern Rajasthan:\n1. Ahar - Shows absence of stone axes or blades\n2. Gilund - Had stone-blade industry\n3. Ganeshwar - Copper supply to Harappa\n\nWhich statements are correct?',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three statements are correct. Ahar shows absence of stone axes/blades, Gilund had stone-blade industry, and Ganeshwar provided copper to Harappa.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Flat and rectangular copper axes have been found at which Western Maharashtra Chalcolithic site? [UPSC 2024]',
+    options: ['Jorwe', 'Nevasa', 'Daimabad', 'Chandoli'],
+    correct: 0,
+    explanation: 'Jorwe in Western Maharashtra shows flat and rectangular copper axes. Chandoli provides evidence of copper chisels. This region is notable for early metallurgy. [UPSC 2024]'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic region is specifically noted for "early metallurgy" in addition to hunting and agriculture?',
+    options: ['South-eastern Rajasthan', 'Western Madhya Pradesh', 'Western Maharashtra', 'Eastern India'],
+    correct: 2,
+    explanation: 'Western Maharashtra (sites: Jorwe, Nevasa, Daimabad, Chandoli, Songaon, Inamgaon) had economy of hunting, agriculture, AND early metallurgy, unlike other Chalcolithic regions which primarily had hunting and agriculture.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Chalcolithic settlements in the Allahabad region of Uttar Pradesh are found in proximity to which mountain range?',
+    options: ['Himalayas', 'Vindhyas', 'Aravalli', 'Satpura'],
+    correct: 1,
+    explanation: 'Multiple Chalcolithic sites in the Allahabad region, Uttar Pradesh are in proximity to Vindhyas. Multiple Chalcolithic settlements have been found in this area.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Western Madhya Pradesh sites show evidence of Chalcolithic settlements? 1. Kayatha 2. Eran (Malwa) 3. Navdatoli (Narmada)',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three - Kayatha, Eran (Malwa region), and Navdatoli (Narmada valley) in Western Madhya Pradesh show evidence of Chalcolithic settlements with hunting and agriculture economy.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which unique characteristic distinguishes Andhra Pradesh Chalcolithic sites (Kodekal, Utnur, Nagatjunkonda, Palavoy)?',
+    options: ['Presence of stone-blade industry', 'Evidence of early metallurgy', 'Absence of copper objects', 'Presence of iron tools'],
+    correct: 2,
+    explanation: 'Andhra Pradesh Chalcolithic sites show some Chalcolithic elements but are uniquely characterized by the absence of copper objects, unlike other Chalcolithic regions.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Eastern India Chalcolithic sites include Chirand on which river?',
+    options: ['Ganga River', 'Yamuna River', 'Narmada River', 'Godavari River'],
+    correct: 0,
+    explanation: 'Chirand on the Ganga River, along with Pandu Rajar Dhibi and Mahishdal in West Bengal, are Eastern India Chalcolithic settlements with hunting and agriculture economy.'
+  },
+  
+  // MEGALITHIC SITES QUIZ QUESTIONS (12 questions)
+  
+  {
+    category: 'megalithic',
+    question: 'Which Karnataka site is described as the "Largest megalithic site in South India"?',
+    options: ['Brahmagiri', 'Hirebenkal', 'Maski', 'Hallur'],
+    correct: 1,
+    explanation: 'Hirebenkal in Karnataka is the largest megalithic site in South India. It features dolmenoid cists and menhirs with artifacts including pottery, iron tools, and figurines.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which megalithic site is historically significant for being the first to mention the name "Ashoka"?',
+    options: ['Brahmagiri', 'Maski', 'Hallur', 'Nagarjunakonda'],
+    correct: 1,
+    explanation: 'Maski in Karnataka is the first site to mention the name "Ashoka". It features iron implements, black-and-red ware, and cist burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Consider the following about Adichanallur in Tamil Nadu:\n1. It has a burial mound with megalithic culture\n2. Iron objects and gold diadems were found\n3. Type of burials: Urn burials\n\nWhich are correct?',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All statements are correct. Adichanallur features burial mound with megalithic culture, artifacts include iron objects, gold diadems, and pottery, with urn burials as the burial type.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which Tamil Nadu site features pit burials, urn burials, AND chamber tombs together?',
+    options: ['Adichanallur', 'Palyampalli', 'Kodumanal', 'Amritamangalam'],
+    correct: 2,
+    explanation: 'Kodumanal in Erode, Tamil Nadu uniquely features all three types: pit burials, urn burials, and chamber tombs. Artifacts include iron tools and beads of carnelian and quartz.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Sites showing Neolithic to Megalithic transition include: 1. Brahmagiri (Karnataka) 2. Gufkral (Kashmir)',
+    options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+    correct: 2,
+    explanation: 'Both Brahmagiri and Gufkral show Neolithic to Megalithic transition. Brahmagiri has stone circle burials with iron tools and pottery. Gufkral shows early agriculture with stone tools.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Dolmenoid cists as burial type are found at which sites? 1. Hirebenkal 2. Sangarampet 3. Nagarjunakonda',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'Dolmenoid cists are found at all three: Hirebenkal (with menhirs), Sangarampet (with cist burials and dolmens), and Nagarjunakonda (with cairn burials and dolmens).'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which Maharashtra site shows continuity from Chalcolithic to Megalithic period?',
+    options: ['Nevasa', 'Jorwe', 'Junapani', 'Daimabad'],
+    correct: 1,
+    explanation: 'Jorwe in Maharashtra shows Chalcolithic and Megalithic continuity. Features include black-and-red ware, copper objects, and both pit burials and urn burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Early use of iron and agricultural settlements are characteristic features of which site?',
+    options: ['Brahmagiri', 'Hallur', 'Maski', 'Chandravalli'],
+    correct: 1,
+    explanation: 'Hallur in Karnataka is known for early use of iron and agricultural settlements. It features pottery and iron implements with cist burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Black-and-red ware pottery has been found at which sites? 1. Palyampalli 2. Maski 3. Jorwe',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'Black-and-red ware pottery is found at all three: Palyampalli (Tamil Nadu), Maski (Karnataka with iron implements), and Jorwe (Maharashtra with copper objects).'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which type of burials are found at Amritamangalam in Tamil Nadu?',
+    options: ['Urn burials', 'Pit burials', 'Cairn burials', 'Cist burials'],
+    correct: 2,
+    explanation: 'Amritamangalam in Tamil Nadu features stone circles and cairn burials. Artifacts include iron objects and beads.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Stone circles and megalithic graves characterize which Maharashtra site?',
+    options: ['Jorwe', 'Junapani', 'Nevasa', 'Chandoli'],
+    correct: 1,
+    explanation: 'Junapani in Maharashtra features stone circles and megalithic graves with pottery, iron implements, and beads. Type of burials: Stone circle burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which statement about Nagarjunakonda (Andhra Pradesh) is correct?',
+    options: ['Only urn burials found', 'Only cist burials found', 'Cairn burials and dolmens found', 'Only pit burials found'],
+    correct: 2,
+    explanation: 'Nagarjunakonda in Andhra Pradesh features cairn burials and dolmens. Artifacts include pottery, beads, and iron tools. Type: Cairn burials and dolmenoid cists.'
+  },
+  
+  // HARAPPAN CIVILIZATION QUIZ QUESTIONS (15 questions)
+  
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is described as the first archaeological site of the Indus Valley civilization to be discovered, after which the civilization is named?',
+    options: ['Mohenjodaro', 'Harappa', 'Lothal', 'Dholavira'],
+    correct: 1,
+    explanation: 'Harappa was the first archaeological site of the Indus Valley civilization to be discovered, that\'s why the civilization is named after it. Located in Punjab, Pakistan on the Ravi River.'
+  },
+  {
+    category: 'harappan',
+    question: 'Consider the following about Mohenjodaro: [UPSC 2025]\n1. Great Bath - largest building\n2. Bronze statue of dancing girl\n3. Seal with Pashupathi\n4. Planned town with citadel and lower town\n\nWhich are correct?',
+    options: ['1, 2 and 3 only', '2, 3 and 4 only', '1, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All statements are correct. Mohenjodaro features Great Bath (largest building), bronze dancing girl statue, Pashupathi seal, and a planned town built on a platform with citadel and lower town. [UPSC 2025]'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site was exclusively devoted to craft production including bead-making, shell-cutting, and metal-working?',
+    options: ['Harappa', 'Chanhudaro', 'Lothal', 'Kalibangan'],
+    correct: 1,
+    explanation: 'Chanhudaro in Sindh, Pakistan was exclusively devoted to craft production, including bead-making, shell-cutting, metal-working, seal-making and weight-making. Dog\'s paw imprint on brick and terracotta bullock cart model were found.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is known as an important naval trade site with a port and dockyard?',
+    options: ['Harappa', 'Mohenjodaro', 'Lothal', 'Suktagendor'],
+    correct: 2,
+    explanation: 'Lothal in Gujarat (confluence of Bhogava and Sabarmati rivers) was an important naval trade site with port and dockyard. It had granaries, rice husk, and double burial (male and female together).'
+  },
+  {
+    category: 'harappan',
+    question: 'Dholavira is a UNESCO World Heritage Site. Which feature is it particularly known for? [UPSC 2021]',
+    options: ['Great Granary', 'Bronze dancing girl', 'Unique water harvesting system', 'Fire altars'],
+    correct: 2,
+    explanation: 'Dholavira in Khadir Bet, Kutch, Gujarat is known for its unique water harvesting system and stormwater drainage system, giant water reservoirs, and megalithic stone circle. [UPSC 2021]'
+  },
+  {
+    category: 'harappan',
+    question: 'Which is the ONLY Harappan site divided into 3 parts (Citadel, Middle town, and Lower town)?',
+    options: ['Harappa', 'Mohenjodaro', 'Dholavira', 'Kalibangan'],
+    correct: 2,
+    explanation: 'Dholavira is the only site divided into 3 parts: Citadel, Middle town and Lower town. An ancient signboard with letters engraved was also found here.'
+  },
+  {
+    category: 'harappan',
+    question: 'Ploughed field surface, camel bones, and fire altars have been found at which Harappan site?',
+    options: ['Lothal', 'Kalibangan', 'Banawali', 'Ropar'],
+    correct: 1,
+    explanation: 'Kalibangan in Rajasthan (Ghaggar river) features bangle factory, ploughed field surface, camel bones, fire altars, and bronze figure of a bull.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is notable for having radial streets and lacking systematic drainage?',
+    options: ['Harappa', 'Banawali', 'Dholavira', 'Lothal'],
+    correct: 1,
+    explanation: 'Banawali in Haryana (Rangoi river) was centre of Pre-Harappan, Mature and Late Harappan civilisation. It had radial streets and lacked systematic drainage. Found oval-shaped settlement, barley grains, lapis lazuli.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which site was the first to be excavated after independence?',
+    options: ['Lothal', 'Ropar', 'Kalibangan', 'Banawali'],
+    correct: 1,
+    explanation: 'Ropar in Punjab (Sutlej river) was the first site to be excavated after independence. Features include dog buried with human, oval pit burials, and a copper axe.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is believed to be the largest site of IVC based on discovery of two mounds around 2016?',
+    options: ['Harappa', 'Mohenjodaro', 'Rakhi Garhi', 'Dholavira'],
+    correct: 2,
+    explanation: 'Rakhi Garhi in Haryana - discovery of two mounds around 2016 led archaeologists to believe it is the largest IVC site. It shows all three phases of Harappa Culture.'
+  },
+  {
+    category: 'harappan',
+    question: 'Consider the following about Harappan trade imports:\n1. Gold from Afghanistan, Iran, and Kolar\n2. Lapis lazuli from Shortughai (Afghanistan)\n3. Copper from Khetri (Rajasthan) and Oman\n\nWhich are correct?',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All are correct. Harappans imported gold from Afghanistan, Iran, and Kolar (South India); lapis lazuli from Shortughai (Afghanistan); and copper from Khetri (Rajasthan) and Oman.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which material for Harappan craft production came from Lothal?',
+    options: ['Lapis lazuli', 'Carnelian', 'Steatite', 'Copper'],
+    correct: 1,
+    explanation: 'Carnelian came from Lothal. Other craft materials: Shell (Nageshwar and Balakot), Steatite (South Rajasthan), Lapis lazuli (Shortughai), Copper (Rajasthan and Oman).'
+  },
+  {
+    category: 'harappan',
+    question: 'Bronze images of charioteer with chariot, ox, elephant and rhinoceros have been found at which site?',
+    options: ['Mohenjodaro', 'Lothal', 'Daimabad', 'Chanhudaro'],
+    correct: 2,
+    explanation: 'Daimabad in Maharashtra (Pravara river) has bronze images including charioteer with chariot, ox, elephant and rhinoceros.'
+  },
+  {
+    category: 'harappan',
+    question: '\'Wellfired red and buff wares\' pottery with motifs like horned deity, pipal leaves and fish scales is characteristic of which site?',
+    options: ['Kalibangan', 'Kot-Diji', 'Amri', 'Banawali'],
+    correct: 1,
+    explanation: 'Kot-Diji in Sindh, Pakistan (Sindh river) is known for wellfired red and buff wares pottery with common motifs like horned deity, pipal leaves and fish scales executed in black. Fortification made of mud bricks and stone.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site was originally a port but later cut off from the sea due to coastal upliftment?',
+    options: ['Lothal', 'Suktagendor', 'Dholavira', 'Rangpur'],
+    correct: 1,
+    explanation: 'Suktagendor in Pakistan (Dasht River) was originally a port but was later cut off from sea due to coastal upliftment. It had trade links with Babylon. Found ash-filled pot, copper axe, earthen bangles & pottery.'
   }
+
+
 ];
 
 export const flashcards = [
@@ -2391,9 +2706,686 @@ export const flashcards = [
       'Vyabharika - Chief Judge',
       'Kupyadhyaksha - Forest Officer'
     ]
+  },
+  
+  // CHALCOLITHIC SITES QUIZ QUESTIONS (8 questions)
+  
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic site in South-eastern Rajasthan provided copper supply to Harappa? [UPSC 2021]',
+    options: ['Ahar', 'Gilund', 'Ganeshwar', 'Kayatha'],
+    correct: 2,
+    explanation: 'Ganeshwar in South-eastern Rajasthan provided copper supply to Harappa. This site was an important source of copper for the Harappan civilization. [UPSC 2021]'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Consider the following Chalcolithic sites of South-eastern Rajasthan:\n1. Ahar - Shows absence of stone axes or blades\n2. Gilund - Had stone-blade industry\n3. Ganeshwar - Copper supply to Harappa\n\nWhich statements are correct?',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three statements are correct. Ahar shows absence of stone axes/blades, Gilund had stone-blade industry, and Ganeshwar provided copper to Harappa.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Flat and rectangular copper axes have been found at which Western Maharashtra Chalcolithic site? [UPSC 2024]',
+    options: ['Jorwe', 'Nevasa', 'Daimabad', 'Chandoli'],
+    correct: 0,
+    explanation: 'Jorwe in Western Maharashtra shows flat and rectangular copper axes. Chandoli provides evidence of copper chisels. This region is notable for early metallurgy. [UPSC 2024]'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic region is specifically noted for "early metallurgy" in addition to hunting and agriculture?',
+    options: ['South-eastern Rajasthan', 'Western Madhya Pradesh', 'Western Maharashtra', 'Eastern India'],
+    correct: 2,
+    explanation: 'Western Maharashtra (sites: Jorwe, Nevasa, Daimabad, Chandoli, Songaon, Inamgaon) had economy of hunting, agriculture, AND early metallurgy, unlike other Chalcolithic regions which primarily had hunting and agriculture.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Chalcolithic settlements in the Allahabad region of Uttar Pradesh are found in proximity to which mountain range?',
+    options: ['Himalayas', 'Vindhyas', 'Aravalli', 'Satpura'],
+    correct: 1,
+    explanation: 'Multiple Chalcolithic sites in the Allahabad region, Uttar Pradesh are in proximity to Vindhyas. Multiple Chalcolithic settlements have been found in this area.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Western Madhya Pradesh sites show evidence of Chalcolithic settlements? 1. Kayatha 2. Eran (Malwa) 3. Navdatoli (Narmada)',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three - Kayatha, Eran (Malwa region), and Navdatoli (Narmada valley) in Western Madhya Pradesh show evidence of Chalcolithic settlements with hunting and agriculture economy.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which unique characteristic distinguishes Andhra Pradesh Chalcolithic sites (Kodekal, Utnur, Nagatjunkonda, Palavoy)?',
+    options: ['Presence of stone-blade industry', 'Evidence of early metallurgy', 'Absence of copper objects', 'Presence of iron tools'],
+    correct: 2,
+    explanation: 'Andhra Pradesh Chalcolithic sites show some Chalcolithic elements but are uniquely characterized by the absence of copper objects, unlike other Chalcolithic regions.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Eastern India Chalcolithic sites include Chirand on which river?',
+    options: ['Ganga River', 'Yamuna River', 'Narmada River', 'Godavari River'],
+    correct: 0,
+    explanation: 'Chirand on the Ganga River, along with Pandu Rajar Dhibi and Mahishdal in West Bengal, are Eastern India Chalcolithic settlements with hunting and agriculture economy.'
+  },
+  
+  // CHALCOLITHIC SITES QUIZ QUESTIONS (8 questions)
+  
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic site in South-eastern Rajasthan provided copper supply to Harappa? [UPSC 2021]',
+    options: ['Ahar', 'Gilund', 'Ganeshwar', 'Kayatha'],
+    correct: 2,
+    explanation: 'Ganeshwar in South-eastern Rajasthan provided copper supply to Harappa. This site was an important source of copper for the Harappan civilization. [UPSC 2021]'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Consider the following Chalcolithic sites of South-eastern Rajasthan:\n1. Ahar - Shows absence of stone axes or blades\n2. Gilund - Had stone-blade industry\n3. Ganeshwar - Copper supply to Harappa\n\nWhich statements are correct?',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three statements are correct. Ahar shows absence of stone axes/blades, Gilund had stone-blade industry, and Ganeshwar provided copper to Harappa.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Flat and rectangular copper axes have been found at which Western Maharashtra Chalcolithic site? [UPSC 2024]',
+    options: ['Jorwe', 'Nevasa', 'Daimabad', 'Chandoli'],
+    correct: 0,
+    explanation: 'Jorwe in Western Maharashtra shows flat and rectangular copper axes. Chandoli provides evidence of copper chisels. This region is notable for early metallurgy. [UPSC 2024]'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic region is specifically noted for "early metallurgy" in addition to hunting and agriculture?',
+    options: ['South-eastern Rajasthan', 'Western Madhya Pradesh', 'Western Maharashtra', 'Eastern India'],
+    correct: 2,
+    explanation: 'Western Maharashtra (sites: Jorwe, Nevasa, Daimabad, Chandoli, Songaon, Inamgaon) had economy of hunting, agriculture, AND early metallurgy, unlike other Chalcolithic regions which primarily had hunting and agriculture.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Chalcolithic settlements in the Allahabad region of Uttar Pradesh are found in proximity to which mountain range?',
+    options: ['Himalayas', 'Vindhyas', 'Aravalli', 'Satpura'],
+    correct: 1,
+    explanation: 'Multiple Chalcolithic sites in the Allahabad region, Uttar Pradesh are in proximity to Vindhyas. Multiple Chalcolithic settlements have been found in this area.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Western Madhya Pradesh sites show evidence of Chalcolithic settlements? 1. Kayatha 2. Eran (Malwa) 3. Navdatoli (Narmada)',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three - Kayatha, Eran (Malwa region), and Navdatoli (Narmada valley) in Western Madhya Pradesh show evidence of Chalcolithic settlements with hunting and agriculture economy.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which unique characteristic distinguishes Andhra Pradesh Chalcolithic sites (Kodekal, Utnur, Nagatjunkonda, Palavoy)?',
+    options: ['Presence of stone-blade industry', 'Evidence of early metallurgy', 'Absence of copper objects', 'Presence of iron tools'],
+    correct: 2,
+    explanation: 'Andhra Pradesh Chalcolithic sites show some Chalcolithic elements but are uniquely characterized by the absence of copper objects, unlike other Chalcolithic regions.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Eastern India Chalcolithic sites include Chirand on which river?',
+    options: ['Ganga River', 'Yamuna River', 'Narmada River', 'Godavari River'],
+    correct: 0,
+    explanation: 'Chirand on the Ganga River, along with Pandu Rajar Dhibi and Mahishdal in West Bengal, are Eastern India Chalcolithic settlements with hunting and agriculture economy.'
+  },
+  
+  // MEGALITHIC SITES QUIZ QUESTIONS (12 questions)
+  
+  {
+    category: 'megalithic',
+    question: 'Which Karnataka site is described as the "Largest megalithic site in South India"?',
+    options: ['Brahmagiri', 'Hirebenkal', 'Maski', 'Hallur'],
+    correct: 1,
+    explanation: 'Hirebenkal in Karnataka is the largest megalithic site in South India. It features dolmenoid cists and menhirs with artifacts including pottery, iron tools, and figurines.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which megalithic site is historically significant for being the first to mention the name "Ashoka"?',
+    options: ['Brahmagiri', 'Maski', 'Hallur', 'Nagarjunakonda'],
+    correct: 1,
+    explanation: 'Maski in Karnataka is the first site to mention the name "Ashoka". It features iron implements, black-and-red ware, and cist burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Consider the following about Adichanallur in Tamil Nadu:\n1. It has a burial mound with megalithic culture\n2. Iron objects and gold diadems were found\n3. Type of burials: Urn burials\n\nWhich are correct?',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All statements are correct. Adichanallur features burial mound with megalithic culture, artifacts include iron objects, gold diadems, and pottery, with urn burials as the burial type.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which Tamil Nadu site features pit burials, urn burials, AND chamber tombs together?',
+    options: ['Adichanallur', 'Palyampalli', 'Kodumanal', 'Amritamangalam'],
+    correct: 2,
+    explanation: 'Kodumanal in Erode, Tamil Nadu uniquely features all three types: pit burials, urn burials, and chamber tombs. Artifacts include iron tools and beads of carnelian and quartz.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Sites showing Neolithic to Megalithic transition include: 1. Brahmagiri (Karnataka) 2. Gufkral (Kashmir)',
+    options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+    correct: 2,
+    explanation: 'Both Brahmagiri and Gufkral show Neolithic to Megalithic transition. Brahmagiri has stone circle burials with iron tools and pottery. Gufkral shows early agriculture with stone tools.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Dolmenoid cists as burial type are found at which sites? 1. Hirebenkal 2. Sangarampet 3. Nagarjunakonda',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'Dolmenoid cists are found at all three: Hirebenkal (with menhirs), Sangarampet (with cist burials and dolmens), and Nagarjunakonda (with cairn burials and dolmens).'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which Maharashtra site shows continuity from Chalcolithic to Megalithic period?',
+    options: ['Nevasa', 'Jorwe', 'Junapani', 'Daimabad'],
+    correct: 1,
+    explanation: 'Jorwe in Maharashtra shows Chalcolithic and Megalithic continuity. Features include black-and-red ware, copper objects, and both pit burials and urn burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Early use of iron and agricultural settlements are characteristic features of which site?',
+    options: ['Brahmagiri', 'Hallur', 'Maski', 'Chandravalli'],
+    correct: 1,
+    explanation: 'Hallur in Karnataka is known for early use of iron and agricultural settlements. It features pottery and iron implements with cist burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Black-and-red ware pottery has been found at which sites? 1. Palyampalli 2. Maski 3. Jorwe',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'Black-and-red ware pottery is found at all three: Palyampalli (Tamil Nadu), Maski (Karnataka with iron implements), and Jorwe (Maharashtra with copper objects).'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which type of burials are found at Amritamangalam in Tamil Nadu?',
+    options: ['Urn burials', 'Pit burials', 'Cairn burials', 'Cist burials'],
+    correct: 2,
+    explanation: 'Amritamangalam in Tamil Nadu features stone circles and cairn burials. Artifacts include iron objects and beads.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Stone circles and megalithic graves characterize which Maharashtra site?',
+    options: ['Jorwe', 'Junapani', 'Nevasa', 'Chandoli'],
+    correct: 1,
+    explanation: 'Junapani in Maharashtra features stone circles and megalithic graves with pottery, iron implements, and beads. Type of burials: Stone circle burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which statement about Nagarjunakonda (Andhra Pradesh) is correct?',
+    options: ['Only urn burials found', 'Only cist burials found', 'Cairn burials and dolmens found', 'Only pit burials found'],
+    correct: 2,
+    explanation: 'Nagarjunakonda in Andhra Pradesh features cairn burials and dolmens. Artifacts include pottery, beads, and iron tools. Type: Cairn burials and dolmenoid cists.'
+  },
+  
+  // HARAPPAN CIVILIZATION QUIZ QUESTIONS (15 questions)
+  
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is described as the first archaeological site of the Indus Valley civilization to be discovered, after which the civilization is named?',
+    options: ['Mohenjodaro', 'Harappa', 'Lothal', 'Dholavira'],
+    correct: 1,
+    explanation: 'Harappa was the first archaeological site of the Indus Valley civilization to be discovered, that\'s why the civilization is named after it. Located in Punjab, Pakistan on the Ravi River.'
+  },
+  {
+    category: 'harappan',
+    question: 'Consider the following about Mohenjodaro: [UPSC 2025]\n1. Great Bath - largest building\n2. Bronze statue of dancing girl\n3. Seal with Pashupathi\n4. Planned town with citadel and lower town\n\nWhich are correct?',
+    options: ['1, 2 and 3 only', '2, 3 and 4 only', '1, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All statements are correct. Mohenjodaro features Great Bath (largest building), bronze dancing girl statue, Pashupathi seal, and a planned town built on a platform with citadel and lower town. [UPSC 2025]'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site was exclusively devoted to craft production including bead-making, shell-cutting, and metal-working?',
+    options: ['Harappa', 'Chanhudaro', 'Lothal', 'Kalibangan'],
+    correct: 1,
+    explanation: 'Chanhudaro in Sindh, Pakistan was exclusively devoted to craft production, including bead-making, shell-cutting, metal-working, seal-making and weight-making. Dog\'s paw imprint on brick and terracotta bullock cart model were found.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is known as an important naval trade site with a port and dockyard?',
+    options: ['Harappa', 'Mohenjodaro', 'Lothal', 'Suktagendor'],
+    correct: 2,
+    explanation: 'Lothal in Gujarat (confluence of Bhogava and Sabarmati rivers) was an important naval trade site with port and dockyard. It had granaries, rice husk, and double burial (male and female together).'
+  },
+  {
+    category: 'harappan',
+    question: 'Dholavira is a UNESCO World Heritage Site. Which feature is it particularly known for? [UPSC 2021]',
+    options: ['Great Granary', 'Bronze dancing girl', 'Unique water harvesting system', 'Fire altars'],
+    correct: 2,
+    explanation: 'Dholavira in Khadir Bet, Kutch, Gujarat is known for its unique water harvesting system and stormwater drainage system, giant water reservoirs, and megalithic stone circle. [UPSC 2021]'
+  },
+  {
+    category: 'harappan',
+    question: 'Which is the ONLY Harappan site divided into 3 parts (Citadel, Middle town, and Lower town)?',
+    options: ['Harappa', 'Mohenjodaro', 'Dholavira', 'Kalibangan'],
+    correct: 2,
+    explanation: 'Dholavira is the only site divided into 3 parts: Citadel, Middle town and Lower town. An ancient signboard with letters engraved was also found here.'
+  },
+  {
+    category: 'harappan',
+    question: 'Ploughed field surface, camel bones, and fire altars have been found at which Harappan site?',
+    options: ['Lothal', 'Kalibangan', 'Banawali', 'Ropar'],
+    correct: 1,
+    explanation: 'Kalibangan in Rajasthan (Ghaggar river) features bangle factory, ploughed field surface, camel bones, fire altars, and bronze figure of a bull.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is notable for having radial streets and lacking systematic drainage?',
+    options: ['Harappa', 'Banawali', 'Dholavira', 'Lothal'],
+    correct: 1,
+    explanation: 'Banawali in Haryana (Rangoi river) was centre of Pre-Harappan, Mature and Late Harappan civilisation. It had radial streets and lacked systematic drainage. Found oval-shaped settlement, barley grains, lapis lazuli.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which site was the first to be excavated after independence?',
+    options: ['Lothal', 'Ropar', 'Kalibangan', 'Banawali'],
+    correct: 1,
+    explanation: 'Ropar in Punjab (Sutlej river) was the first site to be excavated after independence. Features include dog buried with human, oval pit burials, and a copper axe.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is believed to be the largest site of IVC based on discovery of two mounds around 2016?',
+    options: ['Harappa', 'Mohenjodaro', 'Rakhi Garhi', 'Dholavira'],
+    correct: 2,
+    explanation: 'Rakhi Garhi in Haryana - discovery of two mounds around 2016 led archaeologists to believe it is the largest IVC site. It shows all three phases of Harappa Culture.'
+  },
+  {
+    category: 'harappan',
+    question: 'Consider the following about Harappan trade imports:\n1. Gold from Afghanistan, Iran, and Kolar\n2. Lapis lazuli from Shortughai (Afghanistan)\n3. Copper from Khetri (Rajasthan) and Oman\n\nWhich are correct?',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All are correct. Harappans imported gold from Afghanistan, Iran, and Kolar (South India); lapis lazuli from Shortughai (Afghanistan); and copper from Khetri (Rajasthan) and Oman.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which material for Harappan craft production came from Lothal?',
+    options: ['Lapis lazuli', 'Carnelian', 'Steatite', 'Copper'],
+    correct: 1,
+    explanation: 'Carnelian came from Lothal. Other craft materials: Shell (Nageshwar and Balakot), Steatite (South Rajasthan), Lapis lazuli (Shortughai), Copper (Rajasthan and Oman).'
+  },
+  {
+    category: 'harappan',
+    question: 'Bronze images of charioteer with chariot, ox, elephant and rhinoceros have been found at which site?',
+    options: ['Mohenjodaro', 'Lothal', 'Daimabad', 'Chanhudaro'],
+    correct: 2,
+    explanation: 'Daimabad in Maharashtra (Pravara river) has bronze images including charioteer with chariot, ox, elephant and rhinoceros.'
+  },
+  {
+    category: 'harappan',
+    question: '\'Wellfired red and buff wares\' pottery with motifs like horned deity, pipal leaves and fish scales is characteristic of which site?',
+    options: ['Kalibangan', 'Kot-Diji', 'Amri', 'Banawali'],
+    correct: 1,
+    explanation: 'Kot-Diji in Sindh, Pakistan (Sindh river) is known for wellfired red and buff wares pottery with common motifs like horned deity, pipal leaves and fish scales executed in black. Fortification made of mud bricks and stone.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site was originally a port but later cut off from the sea due to coastal upliftment?',
+    options: ['Lothal', 'Suktagendor', 'Dholavira', 'Rangpur'],
+    correct: 1,
+    explanation: 'Suktagendor in Pakistan (Dasht River) was originally a port but was later cut off from sea due to coastal upliftment. It had trade links with Babylon. Found ash-filled pot, copper axe, earthen bangles & pottery.'
   }
+
+
 ];
 
 export const quizQuestions = [
-  // Quiz questions will be added here
+  // NEOLITHIC SITES QUIZ QUESTIONS (15 questions)
+  
+  {
+    category: 'neolithic',
+    question: 'Which Neolithic site in Pakistan, dating to 7000 BC, is the earliest to have evidence of plant and animal domestication in India?',
+    options: ['Harappa', 'Mehrgarh', 'Burzahom', 'Chirand'],
+    correct: 1,
+    explanation: 'Mehrgarh has produced evidence of early Neolithic times, dating to 7000 BC. Wheat and Barley were cultivated and sheep, goat and cattle were domesticated. This culture preceded the Indus Civilisation.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Consider the following statements about the 1st cultural phase of Mehrgarh (7000-5500 BC):\n1. They used pottery for storage\n2. They cultivated six-row barley and wheat\n3. They were semi-nomadic pastoral groups\n4. They used lapis lazuli ornaments\n\nWhich statements are correct?',
+    options: ['1, 2 and 3 only', '2, 3 and 4 only', '1, 3 and 4 only', '1, 2, 3 and 4'],
+    correct: 1,
+    explanation: 'Statement 1 is incorrect - the 1st phase did NOT use pottery. They cultivated six-row barley, emmer and einkorn wheat (correct), were semi-nomadic pastoral groups (correct), and used lapis lazuli ornaments (correct).'
+  },
+  {
+    category: 'neolithic',
+    question: 'The earliest evidence of drilling human tooth, seen as a prelude to dentistry, has been found at which site?',
+    options: ['Burzahom (Kashmir)', 'Mehrgarh (Pakistan)', 'Chirand (Bihar)', 'Lehuradeva (UP)'],
+    correct: 1,
+    explanation: 'From the Neolithic period, people began to eat ground grain and cooked food, which caused dental problems. The earliest evidence for drilling human tooth has been found at Mehrgarh.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Which Neolithic site is characterized by pit dwellings built to escape cold weather?',
+    options: ['Mehrgarh', 'Burzahom', 'Chirand', 'Daojali Hading'],
+    correct: 1,
+    explanation: 'Burzahom in Kashmir had people living in pit dwellings to escape the cold weather. The houses were oval in shape, wide at the bottom and narrow at the top.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Burzahom shows evidence of trade with Central Asia. Which crop particularly suggests this connection?',
+    options: ['Wheat', 'Barley', 'Lentil', 'Rice'],
+    correct: 2,
+    explanation: 'Seeds of wheat, barley, common pea and lentil have been recovered from Burzahom. The use of lentil suggests that they had contacts with Central Asia.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Which site provides the earliest evidence of rice cultivation in India, dated to 6500 BC?',
+    options: ['Chirand (Bihar)', 'Lehuradeva (UP)', 'Koldiwa (UP)', 'Mahagara (UP)'],
+    correct: 1,
+    explanation: 'The site of Lehuradeva in Uttar Pradesh has produced early evidence of rice cultivation dated to 6500 BC, making it significant for understanding agricultural history.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Cord-marked pottery is a characteristic feature of Neolithic sites in which region?',
+    options: ['Kashmir Valley', 'Ganges Valley and Central India', 'South India', 'North East India'],
+    correct: 1,
+    explanation: 'Sites like Lehuradeva, Chopani Munda, Koldiwa, Mahagara (UP) and Chirand, Senuwar (Bihar) in Ganges Valley and Central India are characterised by cord-marked pottery.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Consider the following about South Indian Neolithic sites:\n1. They are found near granite hills with water sources\n2. They are located in river valleys of Godavari, Krishna, Kaveri\n3. They show evidence of pit dwellings\n4. Ash mounds are characteristic features\n\nWhich are correct?',
+    options: ['1, 2 and 3 only', '2, 3 and 4 only', '1, 2 and 4 only', '1, 2, 3 and 4'],
+    correct: 2,
+    explanation: 'Statements 1, 2, and 4 are correct. South Indian sites are near granite hills with water, in river valleys (Godavari, Krishna, Pennaru, Tungabhadra, Kaveri), and have ash mounds. Pit dwellings (statement 3) are found in Kashmir, not South India.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Which Karnataka sites are important Neolithic locations? 1. Sanganakallu 2. Tekkalakota 3. Brahmagiri 4. Hallur',
+    options: ['1 and 2 only', '1, 2 and 3 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All these sites - Sanganakallu, Tekkalakota, Brahmagiri, Maski, Piklihal, Watkal, Hemmige and Hallur - are major Neolithic sites in Karnataka.'
+  },
+  {
+    category: 'neolithic',
+    question: 'The Neolithic culture of North East India (Assam and Garo Hills) dates from which period?',
+    options: ['7000-5500 BC', '6500-4000 BC', '2500-1500 BC', '1500-1000 BC'],
+    correct: 2,
+    explanation: 'The North East India Neolithic culture dates from 2500-1500 BC. Tools like shouldered axes and splayed celts were found in Assam, Meghalaya, Nagaland and Arunachal Pradesh.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Which of the following is a marked feature of North East Indian Neolithic culture?',
+    options: ['Rice cultivation', 'Presence of Austro-Asiatic languages', 'Use of iron tools', 'Megalithic burials'],
+    correct: 1,
+    explanation: 'The cultivation of yams and taro, building stone and wooden memorials for the dead, and the presence of Austro-Asiatic languages are the marked features of North East India.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Evidence of shifting cultivation in the Neolithic period has been found at:',
+    options: ['Burzahom and Gufkral', 'Daojali Hading and Sarutaru', 'Chirand and Senuwar', 'Mehrgarh and Kili Gul Mohammad'],
+    correct: 1,
+    explanation: 'Daojali Hading and Sarutaru in Assam/Garo Hills are important sites bearing evidence of shifting cultivation in the Neolithic period.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Menhirs (standing stones) and redware pottery have been found at which site?',
+    options: ['Mehrgarh', 'Burzahom', 'Chirand', 'Paiyyampalli'],
+    correct: 1,
+    explanation: 'At Burzahom, there was evidence of menhirs (standing stone) and the use of redware pottery and metal objects. They used copper arrowheads.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Which statement about Burzahom is correct?',
+    options: ['It was contemporary to Mehrgarh', 'It was contemporary to Harappa civilization', 'It preceded the Indus civilization', 'It belongs to post-Harappan period'],
+    correct: 1,
+    explanation: 'Burzahom was contemporary to Harappa civilization and traded with them. Evidence includes seeds of wheat, barley, common pea and lentil.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Match the Neolithic sites with their locations:\nA. Nagarjunakonda - 1. Tamil Nadu\nB. Paiyyampalli - 2. Andhra Pradesh\nC. Ramapuram - 3. Andhra Pradesh\nD. Veerapuram - 4. Andhra Pradesh',
+    options: ['A-2, B-1, C-3, D-4', 'A-1, B-2, C-3, D-4', 'A-3, B-2, C-1, D-4', 'A-4, B-3, C-2, D-1'],
+    correct: 0,
+    explanation: 'Nagarjunakonda (AP), Paiyyampalli (Tamil Nadu), Ramapuram (AP), and Veerapuram (AP) are major South Indian Neolithic sites.'
+  },
+  
+  // CHALCOLITHIC SITES QUIZ QUESTIONS (8 questions)
+  
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic site in South-eastern Rajasthan provided copper supply to Harappa? [UPSC 2021]',
+    options: ['Ahar', 'Gilund', 'Ganeshwar', 'Kayatha'],
+    correct: 2,
+    explanation: 'Ganeshwar in South-eastern Rajasthan provided copper supply to Harappa. This site was an important source of copper for the Harappan civilization. [UPSC 2021]'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Consider the following Chalcolithic sites of South-eastern Rajasthan:\n1. Ahar - Shows absence of stone axes or blades\n2. Gilund - Had stone-blade industry\n3. Ganeshwar - Copper supply to Harappa\n\nWhich statements are correct?',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three statements are correct. Ahar shows absence of stone axes/blades, Gilund had stone-blade industry, and Ganeshwar provided copper to Harappa.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Flat and rectangular copper axes have been found at which Western Maharashtra Chalcolithic site? [UPSC 2024]',
+    options: ['Jorwe', 'Nevasa', 'Daimabad', 'Chandoli'],
+    correct: 0,
+    explanation: 'Jorwe in Western Maharashtra shows flat and rectangular copper axes. Chandoli provides evidence of copper chisels. This region is notable for early metallurgy. [UPSC 2024]'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic region is specifically noted for "early metallurgy" in addition to hunting and agriculture?',
+    options: ['South-eastern Rajasthan', 'Western Madhya Pradesh', 'Western Maharashtra', 'Eastern India'],
+    correct: 2,
+    explanation: 'Western Maharashtra (sites: Jorwe, Nevasa, Daimabad, Chandoli, Songaon, Inamgaon) had economy of hunting, agriculture, AND early metallurgy, unlike other Chalcolithic regions which primarily had hunting and agriculture.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Chalcolithic settlements in the Allahabad region of Uttar Pradesh are found in proximity to which mountain range?',
+    options: ['Himalayas', 'Vindhyas', 'Aravalli', 'Satpura'],
+    correct: 1,
+    explanation: 'Multiple Chalcolithic sites in the Allahabad region, Uttar Pradesh are in proximity to Vindhyas. Multiple Chalcolithic settlements have been found in this area.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Western Madhya Pradesh sites show evidence of Chalcolithic settlements? 1. Kayatha 2. Eran (Malwa) 3. Navdatoli (Narmada)',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three - Kayatha, Eran (Malwa region), and Navdatoli (Narmada valley) in Western Madhya Pradesh show evidence of Chalcolithic settlements with hunting and agriculture economy.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which unique characteristic distinguishes Andhra Pradesh Chalcolithic sites (Kodekal, Utnur, Nagatjunkonda, Palavoy)?',
+    options: ['Presence of stone-blade industry', 'Evidence of early metallurgy', 'Absence of copper objects', 'Presence of iron tools'],
+    correct: 2,
+    explanation: 'Andhra Pradesh Chalcolithic sites show some Chalcolithic elements but are uniquely characterized by the absence of copper objects, unlike other Chalcolithic regions.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Eastern India Chalcolithic sites include Chirand on which river?',
+    options: ['Ganga River', 'Yamuna River', 'Narmada River', 'Godavari River'],
+    correct: 0,
+    explanation: 'Chirand on the Ganga River, along with Pandu Rajar Dhibi and Mahishdal in West Bengal, are Eastern India Chalcolithic settlements with hunting and agriculture economy.'
+  },
+  
+  // MEGALITHIC SITES QUIZ QUESTIONS (12 questions)
+  
+  {
+    category: 'megalithic',
+    question: 'Which Karnataka site is described as the "Largest megalithic site in South India"?',
+    options: ['Brahmagiri', 'Hirebenkal', 'Maski', 'Hallur'],
+    correct: 1,
+    explanation: 'Hirebenkal in Karnataka is the largest megalithic site in South India. It features dolmenoid cists and menhirs with artifacts including pottery, iron tools, and figurines.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which megalithic site is historically significant for being the first to mention the name "Ashoka"?',
+    options: ['Brahmagiri', 'Maski', 'Hallur', 'Nagarjunakonda'],
+    correct: 1,
+    explanation: 'Maski in Karnataka is the first site to mention the name "Ashoka". It features iron implements, black-and-red ware, and cist burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Consider the following about Adichanallur in Tamil Nadu:\n1. It has a burial mound with megalithic culture\n2. Iron objects and gold diadems were found\n3. Type of burials: Urn burials\n\nWhich are correct?',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All statements are correct. Adichanallur features burial mound with megalithic culture, artifacts include iron objects, gold diadems, and pottery, with urn burials as the burial type.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which Tamil Nadu site features pit burials, urn burials, AND chamber tombs together?',
+    options: ['Adichanallur', 'Palyampalli', 'Kodumanal', 'Amritamangalam'],
+    correct: 2,
+    explanation: 'Kodumanal in Erode, Tamil Nadu uniquely features all three types: pit burials, urn burials, and chamber tombs. Artifacts include iron tools and beads of carnelian and quartz.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Sites showing Neolithic to Megalithic transition include: 1. Brahmagiri (Karnataka) 2. Gufkral (Kashmir)',
+    options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+    correct: 2,
+    explanation: 'Both Brahmagiri and Gufkral show Neolithic to Megalithic transition. Brahmagiri has stone circle burials with iron tools and pottery. Gufkral shows early agriculture with stone tools.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Dolmenoid cists as burial type are found at which sites? 1. Hirebenkal 2. Sangarampet 3. Nagarjunakonda',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'Dolmenoid cists are found at all three: Hirebenkal (with menhirs), Sangarampet (with cist burials and dolmens), and Nagarjunakonda (with cairn burials and dolmens).'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which Maharashtra site shows continuity from Chalcolithic to Megalithic period?',
+    options: ['Nevasa', 'Jorwe', 'Junapani', 'Daimabad'],
+    correct: 1,
+    explanation: 'Jorwe in Maharashtra shows Chalcolithic and Megalithic continuity. Features include black-and-red ware, copper objects, and both pit burials and urn burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Early use of iron and agricultural settlements are characteristic features of which site?',
+    options: ['Brahmagiri', 'Hallur', 'Maski', 'Chandravalli'],
+    correct: 1,
+    explanation: 'Hallur in Karnataka is known for early use of iron and agricultural settlements. It features pottery and iron implements with cist burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Black-and-red ware pottery has been found at which sites? 1. Palyampalli 2. Maski 3. Jorwe',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'Black-and-red ware pottery is found at all three: Palyampalli (Tamil Nadu), Maski (Karnataka with iron implements), and Jorwe (Maharashtra with copper objects).'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which type of burials are found at Amritamangalam in Tamil Nadu?',
+    options: ['Urn burials', 'Pit burials', 'Cairn burials', 'Cist burials'],
+    correct: 2,
+    explanation: 'Amritamangalam in Tamil Nadu features stone circles and cairn burials. Artifacts include iron objects and beads.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Stone circles and megalithic graves characterize which Maharashtra site?',
+    options: ['Jorwe', 'Junapani', 'Nevasa', 'Chandoli'],
+    correct: 1,
+    explanation: 'Junapani in Maharashtra features stone circles and megalithic graves with pottery, iron implements, and beads. Type of burials: Stone circle burials.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which statement about Nagarjunakonda (Andhra Pradesh) is correct?',
+    options: ['Only urn burials found', 'Only cist burials found', 'Cairn burials and dolmens found', 'Only pit burials found'],
+    correct: 2,
+    explanation: 'Nagarjunakonda in Andhra Pradesh features cairn burials and dolmens. Artifacts include pottery, beads, and iron tools. Type: Cairn burials and dolmenoid cists.'
+  },
+  
+  // HARAPPAN CIVILIZATION QUIZ QUESTIONS (15 questions)
+  
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is described as the first archaeological site of the Indus Valley civilization to be discovered, after which the civilization is named?',
+    options: ['Mohenjodaro', 'Harappa', 'Lothal', 'Dholavira'],
+    correct: 1,
+    explanation: 'Harappa was the first archaeological site of the Indus Valley civilization to be discovered, that\'s why the civilization is named after it. Located in Punjab, Pakistan on the Ravi River.'
+  },
+  {
+    category: 'harappan',
+    question: 'Consider the following about Mohenjodaro: [UPSC 2025]\n1. Great Bath - largest building\n2. Bronze statue of dancing girl\n3. Seal with Pashupathi\n4. Planned town with citadel and lower town\n\nWhich are correct?',
+    options: ['1, 2 and 3 only', '2, 3 and 4 only', '1, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All statements are correct. Mohenjodaro features Great Bath (largest building), bronze dancing girl statue, Pashupathi seal, and a planned town built on a platform with citadel and lower town. [UPSC 2025]'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site was exclusively devoted to craft production including bead-making, shell-cutting, and metal-working?',
+    options: ['Harappa', 'Chanhudaro', 'Lothal', 'Kalibangan'],
+    correct: 1,
+    explanation: 'Chanhudaro in Sindh, Pakistan was exclusively devoted to craft production, including bead-making, shell-cutting, metal-working, seal-making and weight-making. Dog\'s paw imprint on brick and terracotta bullock cart model were found.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is known as an important naval trade site with a port and dockyard?',
+    options: ['Harappa', 'Mohenjodaro', 'Lothal', 'Suktagendor'],
+    correct: 2,
+    explanation: 'Lothal in Gujarat (confluence of Bhogava and Sabarmati rivers) was an important naval trade site with port and dockyard. It had granaries, rice husk, and double burial (male and female together).'
+  },
+  {
+    category: 'harappan',
+    question: 'Dholavira is a UNESCO World Heritage Site. Which feature is it particularly known for? [UPSC 2021]',
+    options: ['Great Granary', 'Bronze dancing girl', 'Unique water harvesting system', 'Fire altars'],
+    correct: 2,
+    explanation: 'Dholavira in Khadir Bet, Kutch, Gujarat is known for its unique water harvesting system and stormwater drainage system, giant water reservoirs, and megalithic stone circle. [UPSC 2021]'
+  },
+  {
+    category: 'harappan',
+    question: 'Which is the ONLY Harappan site divided into 3 parts (Citadel, Middle town, and Lower town)?',
+    options: ['Harappa', 'Mohenjodaro', 'Dholavira', 'Kalibangan'],
+    correct: 2,
+    explanation: 'Dholavira is the only site divided into 3 parts: Citadel, Middle town and Lower town. An ancient signboard with letters engraved was also found here.'
+  },
+  {
+    category: 'harappan',
+    question: 'Ploughed field surface, camel bones, and fire altars have been found at which Harappan site?',
+    options: ['Lothal', 'Kalibangan', 'Banawali', 'Ropar'],
+    correct: 1,
+    explanation: 'Kalibangan in Rajasthan (Ghaggar river) features bangle factory, ploughed field surface, camel bones, fire altars, and bronze figure of a bull.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is notable for having radial streets and lacking systematic drainage?',
+    options: ['Harappa', 'Banawali', 'Dholavira', 'Lothal'],
+    correct: 1,
+    explanation: 'Banawali in Haryana (Rangoi river) was centre of Pre-Harappan, Mature and Late Harappan civilisation. It had radial streets and lacked systematic drainage. Found oval-shaped settlement, barley grains, lapis lazuli.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which site was the first to be excavated after independence?',
+    options: ['Lothal', 'Ropar', 'Kalibangan', 'Banawali'],
+    correct: 1,
+    explanation: 'Ropar in Punjab (Sutlej river) was the first site to be excavated after independence. Features include dog buried with human, oval pit burials, and a copper axe.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is believed to be the largest site of IVC based on discovery of two mounds around 2016?',
+    options: ['Harappa', 'Mohenjodaro', 'Rakhi Garhi', 'Dholavira'],
+    correct: 2,
+    explanation: 'Rakhi Garhi in Haryana - discovery of two mounds around 2016 led archaeologists to believe it is the largest IVC site. It shows all three phases of Harappa Culture.'
+  },
+  {
+    category: 'harappan',
+    question: 'Consider the following about Harappan trade imports:\n1. Gold from Afghanistan, Iran, and Kolar\n2. Lapis lazuli from Shortughai (Afghanistan)\n3. Copper from Khetri (Rajasthan) and Oman\n\nWhich are correct?',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All are correct. Harappans imported gold from Afghanistan, Iran, and Kolar (South India); lapis lazuli from Shortughai (Afghanistan); and copper from Khetri (Rajasthan) and Oman.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which material for Harappan craft production came from Lothal?',
+    options: ['Lapis lazuli', 'Carnelian', 'Steatite', 'Copper'],
+    correct: 1,
+    explanation: 'Carnelian came from Lothal. Other craft materials: Shell (Nageshwar and Balakot), Steatite (South Rajasthan), Lapis lazuli (Shortughai), Copper (Rajasthan and Oman).'
+  },
+  {
+    category: 'harappan',
+    question: 'Bronze images of charioteer with chariot, ox, elephant and rhinoceros have been found at which site?',
+    options: ['Mohenjodaro', 'Lothal', 'Daimabad', 'Chanhudaro'],
+    correct: 2,
+    explanation: 'Daimabad in Maharashtra (Pravara river) has bronze images including charioteer with chariot, ox, elephant and rhinoceros.'
+  },
+  {
+    category: 'harappan',
+    question: '\'Wellfired red and buff wares\' pottery with motifs like horned deity, pipal leaves and fish scales is characteristic of which site?',
+    options: ['Kalibangan', 'Kot-Diji', 'Amri', 'Banawali'],
+    correct: 1,
+    explanation: 'Kot-Diji in Sindh, Pakistan (Sindh river) is known for wellfired red and buff wares pottery with common motifs like horned deity, pipal leaves and fish scales executed in black. Fortification made of mud bricks and stone.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site was originally a port but later cut off from the sea due to coastal upliftment?',
+    options: ['Lothal', 'Suktagendor', 'Dholavira', 'Rangpur'],
+    correct: 1,
+    explanation: 'Suktagendor in Pakistan (Dasht River) was originally a port but was later cut off from sea due to coastal upliftment. It had trade links with Babylon. Found ash-filled pot, copper axe, earthen bangles & pottery.'
+  }
+
+
 ];
