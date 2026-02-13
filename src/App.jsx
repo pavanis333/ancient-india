@@ -346,102 +346,31 @@ function App() {
             onClick={() => setFlipped(!flipped)}
           >
             <div className="flashcard-front">
-              <h2 style={{fontSize: '3rem', marginBottom: '20px', color: '#ff6600'}}>
-                {topic.name}
+              <h2 style={{fontSize: '1.8rem', marginBottom: '15px', color: '#ff6600'}}>
+                {topic.title}
               </h2>
-              <div style={{fontSize: '1.5rem', color: '#ff9933', marginBottom: '15px'}}>
-                {topic.category}
+              <div style={{fontSize: '1.1rem', color: '#666', marginBottom: '10px'}}>
+                {topic.subcategory}
               </div>
               <p className="flashcard-hint">👆 Tap to flip</p>
             </div>
             <div className="flashcard-back">
               <div style={{textAlign: 'left', width: '100%', maxHeight: '400px', overflowY: 'auto', paddingRight: '10px'}}>
+                <h3 style={{color: '#ff6600', marginBottom: '10px'}}>{topic.title}</h3>
+                <p style={{fontSize: '0.95rem', lineHeight: '1.6', marginBottom: '15px'}}>{topic.content}</p>
+                
                 <div className="topic-info"><strong>Category:</strong> {topic.category}</div>
                 {topic.subcategory && <div className="topic-info"><strong>Type:</strong> {topic.subcategory}</div>}
+                {topic.period && <div className="topic-info"><strong>Period:</strong> {topic.period}</div>}
+                {topic.location && <div className="topic-info"><strong>Location:</strong> {topic.location}</div>}
+                {topic.importance && <div className="topic-info"><strong>Importance:</strong> {topic.importance}</div>}
                 
-                {/* Associated Brahmanas */}
-                {topic.associatedTexts && topic.associatedTexts.brahmanas && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <strong style={{color: '#ff6600'}}>Associated Brahmanas:</strong>
-                    <ul style={{margin: '5px 0', paddingLeft: '20px', fontSize: '0.9rem'}}>
-                      {topic.associatedTexts.brahmanas.map((item, i) => <li key={i}>{item}</li>)}
+                {topic.facts && topic.facts.length > 0 && (
+                  <div style={{marginTop: '15px', borderTop: '1px solid #ccc', paddingTop: '10px'}}>
+                    <strong style={{color: '#ff6600'}}>Key Facts:</strong>
+                    <ul style={{margin: '8px 0', paddingLeft: '20px', fontSize: '0.9rem'}}>
+                      {topic.facts.map((fact, i) => <li key={i} style={{marginBottom: '5px'}}>{fact}</li>)}
                     </ul>
-                  </div>
-                )}
-                
-                {/* Associated Aranyakas */}
-                {topic.associatedTexts && topic.associatedTexts.aranyakas && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <strong style={{color: '#ff6600'}}>Associated Aranyakas:</strong>
-                    <ul style={{margin: '5px 0', paddingLeft: '20px', fontSize: '0.9rem'}}>
-                      {topic.associatedTexts.aranyakas.map((item, i) => <li key={i}>{item}</li>)}
-                    </ul>
-                  </div>
-                )}
-                
-                {/* Associated Upanishads */}
-                {topic.associatedTexts && topic.associatedTexts.upanishads && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <strong style={{color: '#ff6600'}}>Associated Upanishads:</strong>
-                    <ul style={{margin: '5px 0', paddingLeft: '20px', fontSize: '0.9rem'}}>
-                      {topic.associatedTexts.upanishads.map((item, i) => <li key={i}>{item}</li>)}
-                    </ul>
-                  </div>
-                )}
-                
-                {/* Sanskrit Drama specific fields */}
-                {topic.author && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <div className="topic-info"><strong>Author:</strong> {topic.author}</div>
-                  </div>
-                )}
-                {topic.period && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <div className="topic-info"><strong>Period:</strong> {topic.period}</div>
-                  </div>
-                )}
-                
-                {/* Books & Authors specific fields */}
-                {topic.work && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <div className="topic-info"><strong>Work:</strong> {topic.work}</div>
-                  </div>
-                )}
-                
-                {/* Foreign Travellers specific fields */}
-                {topic.nationality && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <div className="topic-info"><strong>Nationality:</strong> {topic.nationality}</div>
-                  </div>
-                )}
-                {topic.duration && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <div className="topic-info"><strong>Duration:</strong> {topic.duration}</div>
-                  </div>
-                )}
-                {topic.reign && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <div className="topic-info"><strong>Reign:</strong> {topic.reign}</div>
-                  </div>
-                )}
-                {topic.observation && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <strong style={{color: '#ff6600'}}>Observations:</strong>
-                    <div className="topic-info" style={{marginTop: '5px'}}>{topic.observation}</div>
-                  </div>
-                )}
-                
-                {topic.description && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <strong style={{color: '#ff6600'}}>Description:</strong>
-                    <div className="topic-info" style={{marginTop: '5px'}}>{topic.description}</div>
-                  </div>
-                )}
-                {topic.upscRelevance && (
-                  <div style={{marginTop: '10px', borderTop: '1px solid #ccc', paddingTop: '8px'}}>
-                    <div className="topic-info" style={{fontWeight: 'bold', color: '#ff6600'}}>
-                      {topic.upscRelevance}
-                    </div>
                   </div>
                 )}
               </div>
