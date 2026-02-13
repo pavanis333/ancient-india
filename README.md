@@ -1,54 +1,80 @@
 # 🏛️ Ancient India - UPSC Preparation
 
-A comprehensive React web application for UPSC Civil Services Examination preparation, focusing on Ancient Indian History starting with Neolithic Sites.
+A comprehensive React web application for UPSC Civil Services Examination preparation, covering Ancient Indian History from Neolithic period to Mauryan Empire.
 
 ## 🎯 Features
 
-- **23 Detailed Flashcards** covering Neolithic Sites across India
+- **134 Detailed Flashcards** covering 9 major topics
+- **114 UPSC Prelims-style Quiz Questions** with detailed explanations
 - **Interactive Learning Modes:**
   - 🗂️ Flashcards - Flip cards with detailed information
   - 📚 Browse - Explore all topics systematically
-  - ❓ Quiz Mode - UPSC-style questions (coming soon)
+  - ❓ Quiz Mode - Test your knowledge with MCQs
   - 📊 Progress Tracking - Monitor your learning journey
+- **Multi-topic Navigation** - Organized home menu with topic selection
 
 ## 📚 Topics Covered
 
-### Neolithic Sites and Their Characteristics
+### 1. 🏛️ Neolithic Sites (23 flashcards, 15 quiz questions)
+- Northwest India: Mehrgarh (7000 BC), Rana Ghundai, Sarai Kala
+- Kashmir Valley: Burzahom (pit dwellings, contemporary to Harappa)
+- Ganges Valley: Lehuradeva (6500 BC - earliest rice cultivation)
+- South India: Ash mounds, granite hill settlements
+- North East India: Austro-Asiatic culture, shifting cultivation
 
-#### Northwest India (Pakistan)
-- **Mehrgarh** (7000 BC - earliest evidence of plant & animal domestication)
-  - 1st Cultural Phase (7000-5500 BC): No pottery, crops, animal domestication
-  - 2nd & 3rd Phases (5500-3500 BC): Long-distance trade, pottery, terracotta
-  - Early Dentistry evidence
-- Rana Ghundai, Sarai Kala, Jalilpur
+### 2. ⚒️ Chalcolithic Sites (6 flashcards, 8 quiz questions)
+- Rajasthan: Ganeshwar (copper to Harappa [UPSC 2021])
+- Maharashtra: Jorwe (copper axes [UPSC 2024]), early metallurgy
+- Madhya Pradesh: Kayatha, Eran, Navdatoli
+- Andhra Pradesh: Absence of copper objects
 
-#### Valley of Kashmir
-- **Burzahom** - Pit dwellings, menhirs, redware pottery, copper arrowheads
-  - Contemporary to Harappa civilization
-  - Trade with Central Asia
-  - Two phases: aceramic and ceramic
+### 3. 🗿 Megalithic Sites (16 flashcards, 12 quiz questions)
+- Karnataka: Hirebenkal (largest), Maski (first Ashoka mention)
+- Tamil Nadu: Adichanallur, Kodumanal
+- Burial types: Dolmenoid cists, urn burials, cairn burials
+- Neolithic-to-Megalithic transitions
 
-#### Ganges Valley & Central India
-- **Lehuradeva** (6500 BC - earliest rice cultivation)
-- Chopani Munda, Koldiwa, Mahagara (Uttar Pradesh)
-- Chirand, Senuwar (Bihar)
-- Cord-marked pottery, diverse crops
+### 4. 🏛️ Harappan Civilization (18 flashcards, 15 quiz questions)
+- Major sites: Harappa, Mohenjodaro, Dholavira, Lothal
+- Mohenjodaro: Pashupathi seal [UPSC 2025], Great Bath, dancing girl
+- Dholavira: UNESCO site, water harvesting [UPSC 2021]
+- Rakhi Garhi: Largest IVC site
+- Trade routes and craft materials
 
-#### East India
-- Bihar and West Bengal sites
-- Birbhanpur, Kuchai, Golbaisasan, Sankarjang
+### 5. 📜 Vedic Literature (13 flashcards, 12 quiz questions)
+- Brahmanas, Aranyakas, Upanishads
+- Mandukyopanishad: "Satyamev Jayate" [UPSC 2014]
+- Vedanta, 6 Vedangas (Siksha, Nirukta, Chhanda, Jyotish, Vyakaran, Kalpa)
+- 4-fold Ashram system, 4 Purusharthas
+- 33 Vedic terms
 
-#### South India
-- Andhra Pradesh, Karnataka, Tamil Nadu
-- Ash mounds (Utnur, Palvoy, Kodekal, Kupgal, Budihal)
-- Near granite hills and river valleys (Godavari, Krishna, Pennaru, Tungabhadra, Kaveri)
-- Major sites: Sanganakallu, Tekkalakota, Brahmagiri, Maski, Nagarjunakonda, Paiyyampalli
+### 6. 🧘 Buddhism (17 flashcards, 15 quiz questions)
+- 4 Buddhist Councils (483 BC to 1st CE)
+- 10 Bodhisattvas: Maitreya [UPSC 2018], Avalokiteshwara, Manjusri
+- 8 Buddhist Sects: Sthaviravada, Mahasanghika, Navayana
+- Literature: Milinda Panha [UPSC 2022], Samannaphala Sutta [UPSC 2024]
+- 9 Philosophers: Nāgārjuna, Ashvaghosha, Dignāga
 
-#### North East India
-- **Assam and Garo Hills** (2500-1500 BC)
-- Shouldered axes, splayed celts
-- Daojali Hading, Sarutaru - shifting cultivation
-- Austro-Asiatic languages
+### 7. 🕉️ Jainism (11 flashcards, 10 quiz questions)
+- 2 Jain Councils (300 BC, 512 AD)
+- 12 Angas, 12 Upangas, texts & authors
+- 7 Famous temples: Ranakpur (1437 AD), Shikharji (20/24 Tirthankaras Moksha)
+- Dilawara (marble), cave temples
+- 10 Jain terminology terms
+
+### 8. 👑 Mahajanapadas (16 flashcards, 15 quiz questions)
+- All 16 ancient kingdoms with capitals and rulers
+- Magadha: Most powerful, Haryanka Dynasty
+- Kosala: Sarayu River [UPSC 2025]
+- Avanti: Shipra & Narmada [UPSC 2025]
+- Vajji: Mahavira's clan, Buddha's last meal
+- Assaka: Only kingdom south of Vindhya
+
+### 9. 👑 Mauryan Empire (14 flashcards, 12 quiz questions)
+- Ashoka's Rock Edicts: 1, 2, 3 [UPSC 2025], 6, 7, 12 [UPSC 2020], 13 (Kalinga War)
+- Maski Rock Edict: First mention of "Ashoka"
+- Ashoka's Pillar Edicts: 7 Major + 4 Minor + 2 Terai (Lumbini)
+- 18 Administrative Officers: Samaharta, Sannidhata, Antapala, etc.
 
 ## 🚀 Live Demo
 
@@ -62,7 +88,7 @@ A comprehensive React web application for UPSC Civil Services Examination prepar
 - ⚡ Vite
 - 📱 Responsive Design
 - 💾 localStorage for progress tracking
-- 🚀 GitHub Pages deployment
+- 🚀 GitHub Pages deployment with CI/CD
 
 ## 🛠️ Development
 
@@ -70,7 +96,7 @@ A comprehensive React web application for UPSC Civil Services Examination prepar
 # Install dependencies
 npm install
 
-# Run development server
+# Run development server (port 3011)
 npm run dev
 
 # Build for production
@@ -85,9 +111,9 @@ npm run preview
 ```
 ancient-india/
 ├── src/
-│   ├── App.jsx          # Main application component
-│   ├── data.js          # Flashcards and quiz data
-│   ├── index.css        # Styles
+│   ├── App.jsx          # Main application with multi-topic navigation
+│   ├── data.js          # 134 flashcards + 114 quiz questions
+│   ├── index.css        # Responsive styles
 │   └── main.jsx         # Entry point
 ├── .github/
 │   └── workflows/
@@ -95,34 +121,71 @@ ancient-india/
 └── vite.config.js       # Vite configuration
 ```
 
-## 📊 Data Coverage
+## 📊 Complete Data Coverage
 
-- **23 Flashcards** with comprehensive details
-- **6 Geographic Regions** covered
-- **20+ Archaeological Sites** documented
-- **Multiple Time Periods** (7000 BC - 1500 BC)
-- **Quiz Questions:** Coming soon
+### Flashcards
+- **Total:** 134 flashcards across 9 topics
+- **Coverage:** Archaeological sites, literature, philosophy, administrative systems
+- **UPSC References:** Embedded [UPSC year] tags throughout
+
+### Quiz Questions
+- **Total:** 114 UPSC Prelims-style MCQs
+- **Format:** 4 options per question
+- **Explanations:** Detailed explanations for all answers
+- **UPSC Years Referenced:** 2014, 2018, 2020, 2021, 2022, 2024, 2025
+
+### Topic Distribution
+| Topic | Flashcards | Quiz Questions |
+|-------|-----------|----------------|
+| Neolithic Sites | 23 | 15 |
+| Chalcolithic Sites | 6 | 8 |
+| Megalithic Sites | 16 | 12 |
+| Harappan Civilization | 18 | 15 |
+| Vedic Literature | 13 | 12 |
+| Buddhism | 17 | 15 |
+| Jainism | 11 | 10 |
+| Mahajanapadas | 16 | 15 |
+| Mauryan Empire | 14 | 12 |
+| **TOTAL** | **134** | **114** |
 
 ## 🎓 UPSC Relevance
 
-All content extracted from UPSC-relevant sources focusing on:
-- Archaeological evidence
-- Cultural phases and chronology
-- Trade and economic patterns
-- Agricultural practices
-- Technological advancements
-- Regional variations
+All content extracted from UPSC-relevant sources:
+- Archaeological evidence and site details
+- Cultural phases, chronology, and periodization
+- Trade patterns and economic systems
+- Religious and philosophical developments
+- Administrative and governance structures
+- Previous year UPSC questions integrated
 
-## 🔄 Updates
+### UPSC Question Coverage
+- **[UPSC 2014]:** Mandukyopanishad "Satyamev Jayate"
+- **[UPSC 2018]:** Maitreya Bodhisattva
+- **[UPSC 2020]:** Rock Edicts 7 & 12 (religious tolerance)
+- **[UPSC 2021]:** Ganeshwar copper to Harappa, Dholavira water harvesting
+- **[UPSC 2022]:** Milinda Panha, Netti Pakarana
+- **[UPSC 2024]:** Chandoli copper chisels, Samannaphala Sutta
+- **[UPSC 2025]:** Mohenjodaro Pashupathi seal, Kosala Sarayu River, Avanti rivers, Rock Edict 3
 
-- ✅ **Initial Release** - Neolithic Sites comprehensive coverage
-- 🔜 **Coming Soon** - Quiz questions, more ancient history topics
+## 🔄 Version History
+
+- ✅ **v1.0** - Initial release with Neolithic Sites (23 flashcards)
+- ✅ **v1.1** - Added Chalcolithic Sites (6 flashcards)
+- ✅ **v1.2** - Added Megalithic Sites (16 flashcards)
+- ✅ **v1.3** - Added Harappan Civilization (18 flashcards)
+- ✅ **v1.4** - Added Vedic Literature (13 flashcards)
+- ✅ **v1.5** - Added Buddhism (17 flashcards)
+- ✅ **v1.6** - Added Jainism (11 flashcards)
+- ✅ **v1.7** - Added Mahajanapadas (16 flashcards)
+- ✅ **v1.8** - Added Mauryan Empire (14 flashcards)
+- ✅ **v2.0** - Complete quiz questions for all 9 topics (114 questions)
 
 ## 👨‍💻 Author
 
 **Sankeerth Bussa**
 - GitHub: [@pavanis333](https://github.com/pavanis333)
 - Email: sankeerthbussa@gmail.com
+- Discord: sankeerthbussa
 
 ## 📝 License
 
@@ -135,3 +198,5 @@ Built with OpenClaw AI assistance for UPSC aspirants.
 ---
 
 **Happy Learning! 🎯📚**
+
+*"Satyamev Jayate" - Truth Alone Triumphs*
