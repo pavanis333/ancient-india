@@ -3339,6 +3339,291 @@ export const flashcards = [
     content: 'Devichandraguptam and Mudrarakshasa - plays about Gupta rise. Stories of Ramagupta, Chandragupta, Dhruvadevi. [UPSC 2023]',
     importance: 'high',
     facts: ['Historical dramas [UPSC 2023]', 'Gupta dynasty stories', 'Devichandraguptam', 'Mudrarakshasa', 'Political intrigue themes']
+  },
+  
+  // Kingdoms of South - Provincial/Village Administration
+  {
+    id: 'south-1',
+    category: 'south',
+    subcategory: 'Provincial Administration',
+    title: 'Grampohs and Gramkudas - Village Officials',
+    content: 'Village officials responsible for local administration at the grassroots level in South Indian kingdoms.',
+    importance: 'high',
+    facts: ['Village-level officials', 'Local administration', 'Grassroots governance', 'South Indian kingdoms']
+  },
+  {
+    id: 'south-2',
+    category: 'south',
+    subcategory: 'Provincial Administration',
+    title: 'Kamunda or Pokigan - Central Village Figures',
+    content: 'Central figures in village administration, appointed by the kings. Key intermediaries between royal authority and village governance.',
+    importance: 'high',
+    facts: ['Appointed by kings', 'Central village figures', 'Royal intermediaries', 'Village administration heads']
+  },
+  {
+    id: 'south-3',
+    category: 'south',
+    subcategory: 'Provincial Administration',
+    title: 'Maha-Samanta - Provincial Governors',
+    content: 'Provincial governors with military authority. Some maintained their own troops for regional security and order.',
+    importance: 'high',
+    facts: ['Provincial governors', 'Military authority', 'Maintained troops', 'Regional administration']
+  },
+  {
+    id: 'south-4',
+    category: 'south',
+    subcategory: 'Provincial Administration',
+    title: 'Mahatras - Prominent Village Men',
+    content: 'Prominent village men who played important roles in local governance and community leadership.',
+    importance: 'high',
+    facts: ['Village leaders', 'Community governance', 'Local influence', 'Social prominence']
+  },
+  {
+    id: 'south-5',
+    category: 'south',
+    subcategory: 'Provincial Administration',
+    title: 'Vishayapati - Chief of Vishaya (District)',
+    content: 'District-level chief administrator. Vishaya was the administrative district unit in South Indian kingdoms.',
+    importance: 'high',
+    facts: ['District chief', 'Vishaya = district', 'Administrative head', 'Regional authority']
+  },
+  {
+    id: 'south-6',
+    category: 'south',
+    subcategory: 'Village Administration',
+    title: 'Nala-kavundas - Traditional Revenue Officials',
+    content: 'Traditional revenue officials of the villages. Responsible for tax collection and revenue management at village level.',
+    importance: 'high',
+    facts: ['Revenue officials', 'Tax collection', 'Village-level finance', 'Traditional role']
+  },
+  {
+    id: 'south-7',
+    category: 'south',
+    subcategory: 'Village Administration',
+    title: 'Mahapurush - Village Peace Officer',
+    content: 'Responsible for maintaining order and peace in the village. Key law enforcement role at local level.',
+    importance: 'high',
+    facts: ['Peace officer', 'Order maintenance', 'Village security', 'Law enforcement']
+  },
+  {
+    id: 'south-8',
+    category: 'south',
+    subcategory: 'Village Administration',
+    title: 'Mahajanam - Village Law and Order',
+    content: 'Officials who maintained law and order in the village. Collective governance body ensuring justice.',
+    importance: 'high',
+    facts: ['Law and order', 'Village justice', 'Collective governance', 'Legal authority']
+  },
+  {
+    id: 'south-9',
+    category: 'south',
+    subcategory: 'Village Administration',
+    title: 'Nagarapatis or Purapatis - Town Officials',
+    content: 'Officials of the towns. Urban administration counterparts to village officials.',
+    importance: 'high',
+    facts: ['Town officials', 'Urban administration', 'City governance', 'Municipal authority']
+  },
+  {
+    id: 'south-10',
+    category: 'south',
+    subcategory: 'Village Administration',
+    title: 'Karana or Gramani - Village Accountant',
+    content: 'Village accountant responsible for maintaining financial records and accounts at village level.',
+    importance: 'high',
+    facts: ['Village accountant', 'Financial records', 'Account maintenance', 'Administrative documentation']
+  },
+  
+  // Kingdoms of South - Court Officials
+  {
+    id: 'south-11',
+    category: 'south',
+    subcategory: 'Court Officials',
+    title: 'Amatyas - Royal Counsellors',
+    content: 'Counsellors to the king. High-ranking advisors in the royal court providing guidance on state matters.',
+    importance: 'high',
+    facts: ['Royal counsellors', 'King advisors', 'High-ranking officials', 'State guidance']
+  },
+  {
+    id: 'south-12',
+    category: 'south',
+    subcategory: 'Court Officials',
+    title: 'Mantrins - Diplomats',
+    content: 'Diplomatic officials handling foreign relations and inter-kingdom affairs. Key role in external communications.',
+    importance: 'high',
+    facts: ['Diplomats', 'Foreign relations', 'Inter-kingdom affairs', 'External communications']
+  },
+  {
+    id: 'south-13',
+    category: 'south',
+    subcategory: 'Court Officials',
+    title: 'Rahasyadhikrita - Private Secretary',
+    content: 'Private secretary to the king. Handled confidential matters and personal correspondence.',
+    importance: 'high',
+    facts: ['Private secretary', 'Confidential matters', 'Royal correspondence', 'Trusted advisor']
+  },
+  {
+    id: 'south-14',
+    category: 'south',
+    subcategory: 'Court Officials',
+    title: 'Manikkappandaram-Kappan - Treasury Officer',
+    content: 'Treasury officer responsible for managing royal finances and state wealth.',
+    importance: 'high',
+    facts: ['Treasury officer', 'Financial management', 'Royal finances', 'State wealth']
+  },
+  {
+    id: 'south-15',
+    category: 'south',
+    subcategory: 'Court Officials',
+    title: 'Kodukkappillai - Officer of Gifts',
+    content: 'Official in charge of royal gifts and charitable donations. Managed ceremonial giving.',
+    importance: 'high',
+    facts: ['Gift officer', 'Royal donations', 'Charitable giving', 'Ceremonial management']
+  },
+  {
+    id: 'south-16',
+    category: 'south',
+    subcategory: 'Court Officials',
+    title: 'Kosaadhyaksa - Treasury Supervisor',
+    content: 'Treasury supervisor overseeing financial operations. Senior role in economic administration.',
+    importance: 'high',
+    facts: ['Treasury supervisor', 'Financial oversight', 'Economic administration', 'Senior financial officer']
+  },
+  
+  // Kingdoms of South - Trade Ports
+  {
+    id: 'south-17',
+    category: 'south',
+    subcategory: 'Ports - Chalukyas',
+    title: 'Kalyana Port (Chalukyas)',
+    content: 'Prominent port of Chalukya dynasty. Located in Bidar, Karnataka. Important trade center.',
+    importance: 'high',
+    facts: ['Chalukya port', 'Bidar, Karnataka', 'Trade center', 'Dynasty prominence']
+  },
+  {
+    id: 'south-18',
+    category: 'south',
+    subcategory: 'Ports - Pallavas',
+    title: 'Mamallapuram Port (Pallavas)',
+    content: 'Major Pallava port at Mahabalipuram, Tamil Nadu. Famous coastal trade hub and maritime center.',
+    importance: 'high',
+    facts: ['Pallava port', 'Mahabalipuram, Tamil Nadu', 'Coastal trade hub', 'Maritime center']
+  },
+  {
+    id: 'south-19',
+    category: 'south',
+    subcategory: 'Ports - Pallavas',
+    title: 'Vasavasamudram Port (Pallavas)',
+    content: 'Inland port in Tamil Nadu connected to coastal trade. Strategic location for Pallava commerce.',
+    importance: 'high',
+    facts: ['Inland port', 'Tamil Nadu', 'Connected to coastal trade', 'Pallava commerce']
+  },
+  {
+    id: 'south-20',
+    category: 'south',
+    subcategory: 'Ports - Pallavas',
+    title: 'Nirppeyaru/Mhabalipuram and Mylapore Ports (Pallavas)',
+    content: 'Twin ports in Tamil Nadu serving Pallava maritime trade. Mylapore was major urban center.',
+    importance: 'high',
+    facts: ['Twin ports', 'Tamil Nadu', 'Maritime trade', 'Mylapore urban center']
+  },
+  {
+    id: 'south-21',
+    category: 'south',
+    subcategory: 'Ports - Kadambas',
+    title: 'Banavasi Port (Kadambas of Banavasi)',
+    content: 'Port in Uttara Kannada, Karnataka. Capital region of early Kadamba dynasty.',
+    importance: 'high',
+    facts: ['Kadamba capital region', 'Uttara Kannada, Karnataka', 'Early dynasty port', 'Strategic location']
+  },
+  {
+    id: 'south-22',
+    category: 'south',
+    subcategory: 'Ports - Kadambas',
+    title: 'Honnavar Port (Kadambas of Banavasi)',
+    content: 'Important port in Uttara Kannada, Karnataka. Connected Kadamba territories to maritime trade.',
+    importance: 'high',
+    facts: ['Uttara Kannada port', 'Karnataka', 'Maritime trade connection', 'Kadamba territory']
+  },
+  {
+    id: 'south-23',
+    category: 'south',
+    subcategory: 'Ports - Kadambas',
+    title: 'Bhatkal Port (Kadambas of Banavasi)',
+    content: 'Coastal port in Karnataka. Strategic trading post on western coast.',
+    importance: 'high',
+    facts: ['Coastal Karnataka', 'Western coast', 'Strategic trading post', 'Kadamba commerce']
+  },
+  {
+    id: 'south-24',
+    category: 'south',
+    subcategory: 'Ports - Kadambas',
+    title: 'Chandrapura Port (Kadambas of Goa)',
+    content: 'Port at Chandor, Goa. Kadamba administrative center with trade functions.',
+    importance: 'high',
+    facts: ['Chandor, Goa', 'Administrative center', 'Trade functions', 'Kadamba Goa branch']
+  },
+  {
+    id: 'south-25',
+    category: 'south',
+    subcategory: 'Ports - Kadambas',
+    title: 'Gopakapattana Port (Kadambas of Goa)',
+    content: 'Port in Goa (present-day Old Goa). Major maritime hub of Kadamba Goa kingdom.',
+    importance: 'high',
+    facts: ['Old Goa location', 'Major maritime hub', 'Kadamba Goa kingdom', 'Strategic port']
+  },
+  {
+    id: 'south-26',
+    category: 'south',
+    subcategory: 'Ports - Kadambas',
+    title: 'Kapardika Dvipa Port (Kadambas of Goa)',
+    content: 'Island port associated with Kadamba Goa branch. Possibly modern island near Goa coast.',
+    importance: 'high',
+    facts: ['Island port', 'Kadamba Goa', 'Coastal islands', 'Maritime trade']
+  },
+  {
+    id: 'south-27',
+    category: 'south',
+    subcategory: 'Ports - Kadambas',
+    title: 'Bankapur Port (Kadambas of Hangal)',
+    content: 'Inland port in Karnataka connected to trade routes. Strategic for Hangal branch of Kadambas.',
+    importance: 'high',
+    facts: ['Inland port', 'Karnataka', 'Connected to trade routes', 'Hangal Kadambas']
+  },
+  {
+    id: 'south-28',
+    category: 'south',
+    subcategory: 'Ports - Kadambas',
+    title: 'Karwar Port (Kadambas of Hangal)',
+    content: 'Major port in Uttara Kannada, Karnataka. Important coastal trading center for Hangal Kadambas.',
+    importance: 'high',
+    facts: ['Uttara Kannada', 'Karnataka coast', 'Trading center', 'Hangal branch port']
+  },
+  {
+    id: 'south-29',
+    category: 'south',
+    subcategory: 'Ports - Ikshvakus',
+    title: 'Vijayapuri (Amaravati) Port (Ikshvakus)',
+    content: 'Port near modern Amaravati, Andhra Pradesh. Capital region of Ikshvaku dynasty.',
+    importance: 'high',
+    facts: ['Near Amaravati', 'Andhra Pradesh', 'Ikshvaku capital region', 'Krishna River area']
+  },
+  {
+    id: 'south-30',
+    category: 'south',
+    subcategory: 'Ports - Ikshvakus',
+    title: 'Ghantasala Port (Ikshvakus)',
+    content: 'Port in Krishna district, Andhra Pradesh. Major Buddhist center and trade hub.',
+    importance: 'high',
+    facts: ['Krishna district', 'Andhra Pradesh', 'Buddhist center', 'Trade hub']
+  },
+  {
+    id: 'south-31',
+    category: 'south',
+    subcategory: 'Ports - Ikshvakus',
+    title: 'Kottapatnam Port (Ikshvakus)',
+    content: 'Port near Ongole, Andhra Pradesh. Coastal trading post of Ikshvaku kingdom.',
+    importance: 'high',
+    facts: ['Near Ongole', 'Andhra Pradesh', 'Coastal trading post', 'Ikshvaku maritime trade']
   }
 
 
