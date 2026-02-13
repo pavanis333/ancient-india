@@ -12,7 +12,6 @@ function App() {
   const [selectedAnswer, setSelectedAnswer] = useState(null)
   const [showResult, setShowResult] = useState(false)
   const [masteredTopics, setMasteredTopics] = useState([])
-  const [filter, setFilter] = useState('all')
   const [flipped, setFlipped] = useState(false)
   const [showNavigator, setShowNavigator] = useState(false)
 
@@ -87,9 +86,7 @@ function App() {
     } else if (selectedTopic === 'mauryan') {
       filtered = topicsData.filter(v => v.category === 'mauryan')
     }
-    
-    // Then apply additional filters
-    if (filter === 'high') return filtered.filter(v => v.importance === 'high')
+
     return filtered
   }
 
@@ -97,39 +94,39 @@ function App() {
     if (quizAnswers[currentIndex]) {
       const newAnswers = [...quizAnswers]
       const correct = quizQuestions[currentIndex].correct === answerIndex
-      
+
       const oldCorrect = newAnswers[currentIndex].correct
       let newScore = score
       if (oldCorrect && !correct) newScore--
       if (!oldCorrect && correct) newScore++
-      
+
       newAnswers[currentIndex] = {
         question: currentIndex,
         selected: answerIndex,
         correct: correct
       }
-      
+
       setQuizAnswers(newAnswers)
       setScore(newScore)
       setSelectedAnswer(answerIndex)
       saveQuizState(currentIndex, newScore, newAnswers)
       return
     }
-    
+
     setSelectedAnswer(answerIndex)
     const correct = quizQuestions[currentIndex].correct === answerIndex
-    
+
     const newScore = correct ? score + 1 : score
     const newAnswers = [...quizAnswers, {
       question: currentIndex,
       selected: answerIndex,
       correct: correct
     }]
-    
+
     if (correct) {
       setScore(newScore)
     }
-    
+
     setQuizAnswers(newAnswers)
     saveQuizState(currentIndex, newScore, newAnswers)
   }
@@ -191,7 +188,7 @@ function App() {
     const mahajanapadasQuiz = quizQuestions.filter(q => q.category === 'mahajanapadas').length
     const mauryanCount = topicsData.filter(t => t.category === 'mauryan').length
     const mauryanQuiz = quizQuestions.filter(q => q.category === 'mauryan').length
-    
+
     return (
       <div className="mode-selector">
         <div className="mode-card" onClick={() => setSelectedTopic('neolithic')}>
@@ -199,49 +196,49 @@ function App() {
           <h3>Neolithic Sites</h3>
           <p>{neolithicCount} flashcards · {neolithicQuiz} quiz questions</p>
         </div>
-        
+
         <div className="mode-card" onClick={() => setSelectedTopic('chalcolithic')}>
           <div className="mode-icon">⚒️</div>
           <h3>Chalcolithic Sites</h3>
           <p>{chalcolithicCount} flashcards · {chalcolithicQuiz} quiz questions</p>
         </div>
-        
+
         <div className="mode-card" onClick={() => setSelectedTopic('megalithic')}>
           <div className="mode-icon">🗿</div>
           <h3>Megalithic Sites</h3>
           <p>{megalithicCount} flashcards · {megalithicQuiz} quiz questions</p>
         </div>
-        
+
         <div className="mode-card" onClick={() => setSelectedTopic('harappan')}>
           <div className="mode-icon">🏛️</div>
           <h3>Harappan Civilization</h3>
           <p>{harappanCount} flashcards · {harappanQuiz} quiz questions</p>
         </div>
-        
+
         <div className="mode-card" onClick={() => setSelectedTopic('vedic')}>
           <div className="mode-icon">📜</div>
           <h3>Vedic Literature</h3>
           <p>{vedicCount} flashcards · {vedicQuiz} quiz questions</p>
         </div>
-        
+
         <div className="mode-card" onClick={() => setSelectedTopic('buddhism')}>
           <div className="mode-icon">🧘</div>
           <h3>Buddhism</h3>
           <p>{buddhismCount} flashcards · {buddhismQuiz} quiz questions</p>
         </div>
-        
+
         <div className="mode-card" onClick={() => setSelectedTopic('jainism')}>
           <div className="mode-icon">🕉️</div>
           <h3>Jainism</h3>
           <p>{jainismCount} flashcards · {jainismQuiz} quiz questions</p>
         </div>
-        
+
         <div className="mode-card" onClick={() => setSelectedTopic('mahajanapadas')}>
           <div className="mode-icon">🏛️</div>
           <h3>Mahajanapadas</h3>
           <p>{mahajanapadasCount} flashcards · {mahajanapadasQuiz} quiz questions</p>
         </div>
-        
+
         <div className="mode-card" onClick={() => setSelectedTopic('mauryan')}>
           <div className="mode-icon">👑</div>
           <h3>Mauryan Empire</h3>
@@ -258,19 +255,19 @@ function App() {
         <h3>Flashcards</h3>
         <p>Learn with interactive flashcards</p>
       </div>
-      
+
       <div className="mode-card" onClick={() => setMode('browse')}>
         <div className="mode-icon">📚</div>
         <h3>Browse Topics</h3>
         <p>Explore all topics with detailed information</p>
       </div>
-      
+
       <div className="mode-card" onClick={() => setMode('quiz')}>
         <div className="mode-icon">❓</div>
         <h3>Quiz Mode</h3>
         <p>Test knowledge with UPSC-style questions</p>
       </div>
-      
+
       <div className="mode-card" onClick={() => setMode('progress')}>
         <div className="mode-icon">📊</div>
         <h3>Progress</h3>
@@ -315,33 +312,15 @@ function App() {
 
     return (
       <div>
-        <div className="filter-section">
-          <h3>Filter by Category</h3>
-          <div className="filter-buttons">
-            <button 
-              className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
-              onClick={() => { setFilter('all'); setCurrentIndex(0); }}
-            >
-              All ({topicsData.length})
-            </button>
-            <button 
-              className={`filter-btn ${filter === 'high' ? 'active' : ''}`}
-              onClick={() => { setFilter('high'); setCurrentIndex(0); }}
-            >
-              High Priority
-            </button>
-          </div>
-        </div>
-
         <div className="progress-bar">
-          <div 
-            className="progress-fill" 
+          <div
+            className="progress-fill"
             style={{width: `${((currentIndex + 1) / artCultureData.length) * 100}%`}}
           />
         </div>
 
         <div className="flashcard">
-          <div 
+          <div
             className={`flashcard-inner ${flipped ? 'flipped' : ''}`}
             onClick={() => setFlipped(!flipped)}
           >
@@ -358,13 +337,13 @@ function App() {
               <div style={{textAlign: 'left', width: '100%', maxHeight: '400px', overflowY: 'auto', paddingRight: '10px'}}>
                 <h3 style={{color: '#ff6600', marginBottom: '10px'}}>{topic.title}</h3>
                 <p style={{fontSize: '0.95rem', lineHeight: '1.6', marginBottom: '15px'}}>{topic.content}</p>
-                
+
                 <div className="topic-info"><strong>Category:</strong> {topic.category}</div>
                 {topic.subcategory && <div className="topic-info"><strong>Type:</strong> {topic.subcategory}</div>}
                 {topic.period && <div className="topic-info"><strong>Period:</strong> {topic.period}</div>}
                 {topic.location && <div className="topic-info"><strong>Location:</strong> {topic.location}</div>}
                 {topic.importance && <div className="topic-info"><strong>Importance:</strong> {topic.importance}</div>}
-                
+
                 {topic.facts && topic.facts.length > 0 && (
                   <div style={{marginTop: '15px', borderTop: '1px solid #ccc', paddingTop: '10px'}}>
                     <strong style={{color: '#ff6600'}}>Key Facts:</strong>
@@ -379,23 +358,23 @@ function App() {
         </div>
 
         <div className="controls">
-          <button 
-            className="btn btn-secondary" 
+          <button
+            className="btn btn-secondary"
             onClick={prevCard}
             disabled={currentIndex === 0}
           >
             ⬅️ Previous
           </button>
-          
-          <button 
-            className="btn btn-primary" 
+
+          <button
+            className="btn btn-primary"
             onClick={markAsMastered}
           >
             {isMastered ? '✓ Mastered (click to unmark)' : '✓ Mark as Mastered'}
           </button>
-          
-          <button 
-            className="btn btn-secondary" 
+
+          <button
+            className="btn btn-secondary"
             onClick={nextCard}
             disabled={currentIndex === artCultureData.length - 1}
           >
@@ -416,24 +395,6 @@ function App() {
 
     return (
       <div>
-        <div className="filter-section">
-          <h3>Filter by Category</h3>
-          <div className="filter-buttons">
-            <button 
-              className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
-              onClick={() => setFilter('all')}
-            >
-              All ({topicsData.length})
-            </button>
-            <button 
-              className={`filter-btn ${filter === 'high' ? 'active' : ''}`}
-              onClick={() => setFilter('high')}
-            >
-              High Priority
-            </button>
-          </div>
-        </div>
-
         <h2 style={{marginBottom: '20px', color: '#1a3a0f'}}>
           {artCultureData.length} Topic(s) Found
         </h2>
@@ -441,64 +402,34 @@ function App() {
         <div className="artCultureData-grid">
           {artCultureData.map(topic => (
             <div key={topic.id} className="topic-card">
-              <h3>{topic.name}</h3>
+              <h3>{topic.title}</h3>
               <div className="tags">
                 <span className="tag">{topic.category}</span>
-                <span className={`tag ${topic.importance === 'HIGH' ? 'high' : ''}`}>
+                {topic.importance && <span className={`tag ${topic.importance === 'high' ? 'high' : ''}`}>
                   {topic.importance}
-                </span>
+                </span>}
               </div>
-              
-              {/* Associated Texts Summary (for Vedic Literature) */}
-              {topic.associatedTexts && (
+
+              <p style={{fontSize: '0.9rem', marginTop: '10px', lineHeight: '1.5'}}>{topic.content}</p>
+
+              {topic.period && (
                 <div style={{marginTop: '8px', fontSize: '0.85rem'}}>
-                  {topic.associatedTexts.brahmanas && (
-                    <div className="topic-info"><strong>Brahmanas:</strong> {topic.associatedTexts.brahmanas.length}</div>
-                  )}
-                  {topic.associatedTexts.aranyakas && (
-                    <div className="topic-info"><strong>Aranyakas:</strong> {topic.associatedTexts.aranyakas.length}</div>
-                  )}
-                  {topic.associatedTexts.upanishads && (
-                    <div className="topic-info"><strong>Upanishads:</strong> {topic.associatedTexts.upanishads.length}</div>
-                  )}
+                  <div className="topic-info"><strong>Period:</strong> {topic.period}</div>
                 </div>
               )}
-              
-              {/* Author and Period (for Sanskrit Drama) */}
-              {topic.author && (
+
+              {topic.location && (
                 <div style={{marginTop: '8px', fontSize: '0.85rem'}}>
-                  <div className="topic-info"><strong>Author:</strong> {topic.author}</div>
-                  {topic.period && <div className="topic-info"><strong>Period:</strong> {topic.period}</div>}
+                  <div className="topic-info"><strong>Location:</strong> {topic.location}</div>
                 </div>
               )}
-              
-              {/* Work (for Books & Authors) */}
-              {topic.work && (
-                <div style={{marginTop: '8px', fontSize: '0.85rem'}}>
-                  <div className="topic-info"><strong>Work:</strong> {topic.work}</div>
-                </div>
-              )}
-              
-              {/* Traveller info (for Foreign Travellers) */}
-              {topic.nationality && (
-                <div style={{marginTop: '8px', fontSize: '0.85rem'}}>
-                  <div className="topic-info"><strong>Nationality:</strong> {topic.nationality}</div>
-                  {topic.duration && <div className="topic-info"><strong>Duration:</strong> {topic.duration}</div>}
-                  {topic.reign && <div className="topic-info"><strong>Reign:</strong> {topic.reign}</div>}
-                </div>
-              )}
-              
-              {/* Description Preview */}
-              {topic.description && (
-                <div className="topic-info" style={{marginTop: '8px', fontSize: '0.8rem', fontStyle: 'italic'}}>
-                  {topic.description.substring(0, 100)}...
-                </div>
-              )}
-              
-              {/* Observation Preview (for Foreign Travellers) */}
-              {topic.observation && !topic.description && (
-                <div className="topic-info" style={{marginTop: '8px', fontSize: '0.8rem', fontStyle: 'italic'}}>
-                  {topic.observation.substring(0, 100)}...
+
+              {topic.facts && topic.facts.length > 0 && (
+                <div style={{marginTop: '10px', fontSize: '0.85rem'}}>
+                  <strong>Key Facts:</strong>
+                  <ul style={{margin: '5px 0', paddingLeft: '20px'}}>
+                    {topic.facts.slice(0, 3).map((fact, i) => <li key={i}>{fact}</li>)}
+                  </ul>
                 </div>
               )}
             </div>
@@ -511,21 +442,9 @@ function App() {
   const renderQuiz = () => {
     // Filter quiz questions by selected topic
     const filteredQuiz = selectedTopic 
-      ? quizQuestions.filter(q => {
-          if (selectedTopic === 'vedic') return q.category === 'Vedic Literature'
-          if (selectedTopic === 'drama') return q.category === 'Sanskrit Drama'
-          if (selectedTopic === 'buddhist') return q.category === 'Buddhist Texts'
-          if (selectedTopic === 'religious') return q.category === 'Religious Literature'
-          if (selectedTopic === 'dravidian') return q.category === 'Dravidian Literature'
-          if (selectedTopic === 'medieval') return q.category === 'Medieval Literature'
-          if (selectedTopic === 'modern') return q.category === 'Modern Literature'
-          if (selectedTopic === 'unesco') return q.category === 'UNESCO Heritage'
-          if (selectedTopic === 'books') return q.category === 'Books & Authors'
-          if (selectedTopic === 'travellers') return q.category === 'Foreign Travellers'
-          return true
-        })
+      ? quizQuestions.filter(q => q.category === selectedTopic)
       : quizQuestions
-    
+
     // Check if quiz questions exist
     if (!filteredQuiz || filteredQuiz.length === 0) {
       return (
@@ -534,8 +453,8 @@ function App() {
           <p style={{fontSize: '1.2rem', marginTop: '20px'}}>
             Quiz questions for this topic are coming soon!
           </p>
-          <button 
-            className="btn btn-secondary" 
+          <button
+            className="btn btn-secondary"
             onClick={resetMode}
             style={{marginTop: '30px'}}
           >
@@ -544,10 +463,10 @@ function App() {
         </div>
       )
     }
-    
+
     if (showResult) {
       const percentage = ((score / filteredQuiz.length) * 100).toFixed(0)
-      
+
       return (
         <div className="result-screen">
           <div className="result-emoji">{getScoreEmoji()}</div>
@@ -558,7 +477,7 @@ function App() {
           <p style={{fontSize: '1.5rem', color: '#1a3a0f', marginBottom: '30px'}}>
             You scored {percentage}%
           </p>
-          
+
           <div style={{textAlign: 'left', marginBottom: '30px'}}>
             <h3 style={{marginBottom: '15px'}}>Review:</h3>
             {quizAnswers.map((answer, idx) => (
@@ -607,14 +526,14 @@ function App() {
     return (
       <div>
         <div className="progress-bar">
-          <div 
-            className="progress-fill" 
+          <div
+            className="progress-fill"
             style={{width: `${(quizAnswers.length / filteredQuiz.length) * 100}%`}}
           />
         </div>
 
         <div style={{textAlign: 'center', margin: '15px 0'}}>
-          <button 
+          <button
             className="btn btn-secondary"
             onClick={() => setShowNavigator(true)}
           >
@@ -647,7 +566,7 @@ function App() {
               boxShadow: '0 10px 40px rgba(0,0,0,0.5)',
               border: '3px solid #7cb342'
             }} onClick={(e) => e.stopPropagation()}>
-              
+
               <div style={{
                 display: 'flex',
                 justifyContent: 'space-between',
@@ -655,7 +574,7 @@ function App() {
                 marginBottom: '20px'
               }}>
                 <h3 style={{margin: 0, color: '#1a3a0f'}}>Question Navigator</h3>
-                <button 
+                <button
                   onClick={() => setShowNavigator(false)}
                   style={{
                     background: 'none',
@@ -679,7 +598,7 @@ function App() {
                   const isAnswered = quizAnswers[idx] !== undefined
                   const isCurrent = idx === currentIndex
                   const isCorrect = isAnswered && quizAnswers[idx].correct
-                  
+
                   return (
                     <button
                       key={idx}
@@ -688,9 +607,9 @@ function App() {
                         padding: '12px',
                         border: isCurrent ? '3px solid #7cb342' : '2px solid #558b2f',
                         borderRadius: '8px',
-                        background: isCurrent 
+                        background: isCurrent
                           ? '#c5e1a5'
-                          : isAnswered 
+                          : isAnswered
                             ? (isCorrect ? '#d1fae5' : '#fee2e2')
                             : 'white',
                         cursor: 'pointer',
@@ -707,7 +626,7 @@ function App() {
               </div>
 
               <div style={{marginTop: '20px', textAlign: 'center'}}>
-                <button 
+                <button
                   className="btn btn-primary"
                   onClick={() => setShowNavigator(false)}
                 >
@@ -768,16 +687,16 @@ function App() {
         </div>
 
         <div className="controls" style={{marginTop: '20px'}}>
-          <button 
-            className="btn btn-secondary" 
+          <button
+            className="btn btn-secondary"
             onClick={prevQuizQuestion}
             disabled={currentIndex === 0}
           >
             ⬅️ Previous
           </button>
-          
-          <button 
-            className="btn btn-primary" 
+
+          <button
+            className="btn btn-primary"
             onClick={nextQuizQuestion}
             disabled={currentIndex === quizQuestions.length - 1 && quizAnswers.length < quizQuestions.length}
           >
@@ -806,7 +725,7 @@ function App() {
     return (
       <div>
         <h2 style={{marginBottom: '30px', color: '#1a3a0f'}}>Your Progress</h2>
-        
+
         <div className="stats">
           <div className="stat-card">
             <h4>Total Topics</h4>
@@ -829,8 +748,8 @@ function App() {
         <div style={{marginBottom: '30px', marginTop: '30px'}}>
           <h3 style={{marginBottom: '15px', color: '#1a3a0f'}}>Overall Progress</h3>
           <div className="progress-bar" style={{height: '30px'}}>
-            <div 
-              className="progress-fill" 
+            <div
+              className="progress-fill"
               style={{
                 width: `${progress}%`,
                 display: 'flex',
@@ -859,8 +778,8 @@ function App() {
         )}
 
         <div className="controls" style={{marginTop: '30px'}}>
-          <button 
-            className="btn btn-danger" 
+          <button
+            className="btn btn-danger"
             onClick={() => {
               if (confirm('Are you sure you want to reset all progress?')) {
                 setMasteredTopics([])
@@ -889,8 +808,8 @@ function App() {
         {/* Topic Selected - Show Mode Selector */}
         {selectedTopic && !mode && (
           <div>
-            <button 
-              className="btn btn-secondary" 
+            <button
+              className="btn btn-secondary"
               onClick={() => setSelectedTopic(null)}
               style={{marginBottom: '20px'}}
             >
@@ -903,13 +822,13 @@ function App() {
         {/* Mode Selected - Show Content */}
         {selectedTopic && mode && (
           <div className="content-area">
-            <button 
-              className="btn btn-secondary" 
+            <button
+              className="btn btn-secondary"
               onClick={resetMode}
               style={{marginBottom: '20px'}}
             >
               ← Back to {
-                selectedTopic === 'chalcolithic' ? 'Chalcolithic Sites' : 
+                selectedTopic === 'chalcolithic' ? 'Chalcolithic Sites' :
                 selectedTopic === 'megalithic' ? 'Megalithic Sites' :
                 selectedTopic === 'harappan' ? 'Harappan Civilization' :
                 selectedTopic === 'vedic' ? 'Vedic Literature' :
