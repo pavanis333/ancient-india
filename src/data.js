@@ -3132,6 +3132,62 @@ export const quizQuestions = [
     correct: 0,
     explanation: 'Nagarjunakonda (AP), Paiyyampalli (Tamil Nadu), Ramapuram (AP), and Veerapuram (AP) are major South Indian Neolithic sites.'
   },
+  {
+    category: 'neolithic',
+    question: 'Match the Neolithic cultural phases with their characteristics:\n1. Mehrgarh 1st Phase (7000-5500 BC)\n2. Mehrgarh 2nd-3rd Phase (5500-3500 BC)\n3. Burzahom Aceramic Phase\n4. Burzahom Ceramic Phase\n\nCharacteristics: A. No pottery B. Long-distance trade C. Contemporary to Harappa D. Pottery and ornaments',
+    options: ['1-A, 2-B, 3-A, 4-C,D', '1-B, 2-A, 3-C, 4-D', '1-A, 2-C, 3-B, 4-D', '1-C, 2-D, 3-A, 4-B'],
+    correct: 0,
+    explanation: 'Mehrgarh 1st phase had NO pottery (A). 2nd-3rd phases show long-distance trade with lapis lazuli from Badakshan (B). Burzahom aceramic phase had no pottery (A). Burzahom ceramic phase was contemporary to Harappa and showed pottery, copper arrowheads, and ornaments (C,D).'
+  },
+  {
+    category: 'neolithic',
+    question: 'Compare the distinctive features: Burzahom had pit dwellings to escape cold. What unique evidence was found in Burzahom burial sites?',
+    options: ['Human and cattle bones together', 'Wild dog bone with antler horn', 'Multiple human burials in one pit', 'Pottery vessels with grain'],
+    correct: 1,
+    explanation: 'Burzahom burial site uniquely contained wild dog bone along with antler horn and an engraved hunting scene on stone. This shows early domestication attempts and hunting practices in Kashmir Valley Neolithic culture.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Which Neolithic sites show evidence of different agricultural crops?\n1. Lehuradeva - Rice (6500 BC)\n2. Ganges Valley - Hulled barley, wheat types\n3. Ganges Valley - Green gram, mustard, flax\n4. Mehrgarh - Six-row barley, emmer wheat',
+    options: ['1, 2 and 3 only', '2, 3 and 4 only', '1, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All are correct. Lehuradeva shows earliest rice (6500 BC). Ganges Valley sites show diverse crops: hulled/six-rowed barley, wheat types, rice, pea, green gram, gram/chicken pea, mustard, flax/linseed, and jackfruit. Mehrgarh cultivated six-row barley, emmer and einkorn wheat, jujube, ilanthai, and dates.'
+  },
+  {
+    category: 'neolithic',
+    question: 'South Indian Neolithic ash mounds are found at which sites and why are they significant?',
+    options: ['Utnur, Palvoy (AP); Kodekal, Kupgal, Budihal (Karnataka) - Evidence of fire-baked earthen figurines showing cattle keeping', 'Sanganakallu, Tekkalakota - Evidence of iron smelting', 'Brahmagiri, Maski - Evidence of megalithic burials', 'Nagarjunakonda, Ramapuram - Evidence of Buddhist stupas'],
+    correct: 0,
+    explanation: 'Ash mounds at Utnur, Palvoy (AP) and Kodekal, Kupgal, Budihal (Karnataka) show fire-baked earthen figurines indicating cattle keeping. These are characteristic features of South Indian Neolithic settlements near granite hills with water sources.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Which rivers/valleys are associated with South Indian Neolithic settlements?',
+    options: ['Ganga, Yamuna, Sarayu', 'Indus, Ravi, Sutlej', 'Godavari, Krishna, Pennaru, Tungabhadra, Kaveri', 'Narmada, Tapti, Mahanadi'],
+    correct: 2,
+    explanation: 'South Indian Neolithic settlements are found in river valleys of Godavari, Krishna, Pennaru, Tungabhadra, and Kaveri. They are located near granite hills with water sources, distinct from North Indian sites.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Compare Karnataka Neolithic sites: Which statement is correct about Sanganakallu, Tekkalakota, Brahmagiri, Maski, Piklihal, Watkal, Hemmige, and Hallur?',
+    options: ['All show evidence of iron tools', 'All are located near river valleys with ash mounds', 'All are major Neolithic sites in Karnataka showing stone axes and agricultural settlements', 'All date to 7000 BC period'],
+    correct: 2,
+    explanation: 'All these sites - Sanganakallu, Tekkalakota, Brahmagiri, Maski, Piklihal, Watkal, Hemmige, and Hallur - are major Neolithic sites in Karnataka. They show stone axes, blades, and agricultural settlements typical of South Indian Neolithic culture.'
+  },
+  {
+    category: 'neolithic',
+    question: 'North East India Neolithic culture (2500-1500 BC) shows which unique combination of features?',
+    options: ['Rice cultivation + Iron tools + Megalithic burials', 'Yams/taro cultivation + Stone/wooden memorials + Austro-Asiatic languages', 'Wheat/barley + Copper tools + Indo-Aryan languages', 'Cotton cultivation + Bronze tools + Dravidian languages'],
+    correct: 1,
+    explanation: 'North East India (Assam, Garo Hills) Neolithic culture (2500-1500 BC) uniquely shows: cultivation of yams and taro, building stone and wooden memorials for the dead, and presence of Austro-Asiatic languages. Tools include shouldered axes and splayed celts.'
+  },
+  {
+    category: 'neolithic',
+    question: 'Match the Neolithic sites with their key archaeological evidence:\nA. Daojali Hading & Sarutaru\nB. Birbhanpur, Chirand, Kuchai\nC. Nagarjunakonda, Ramapuram, Veerapuram\nD. Paiyyampalli\n\nEvidence: 1. East India sites 2. Shifting cultivation 3. Andhra Pradesh sites 4. Tamil Nadu site',
+    options: ['A-2, B-1, C-3, D-4', 'A-1, B-2, C-4, D-3', 'A-3, B-4, C-1, D-2', 'A-4, B-3, C-2, D-1'],
+    correct: 0,
+    explanation: 'Daojali Hading & Sarutaru (Assam/Garo Hills) show shifting cultivation evidence. Birbhanpur, Chirand, Kuchai, Golbaisasan, Sankarjang are East India sites in Bihar and West Bengal. Nagarjunakonda, Ramapuram, Veerapuram are Andhra Pradesh sites. Paiyyampalli is a Tamil Nadu site.'
+  },
   
   // CHALCOLITHIC SITES QUIZ QUESTIONS (8 questions)
   
