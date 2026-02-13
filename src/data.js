@@ -19,6 +19,12 @@ export const topics = [
     name: '🗿 Megalithic Sites',
     emoji: '🗿',
     description: 'Megalithic Burial Sites and Iron Age Settlements'
+  },
+  {
+    id: 'harappan',
+    name: '🏛️ Harappan Civilization',
+    emoji: '🏛️',
+    description: 'Indus Valley Civilization - Sites, Features & Trade'
   }
 ];
 
@@ -785,6 +791,339 @@ export const flashcards = [
       'Stone tools',
       'Pottery',
       'Pit burials'
+    ]
+  },
+
+  // Harappan Civilization
+  {
+    id: 'harappan-1',
+    category: 'harappan',
+    subcategory: 'Major Sites',
+    title: 'Harappa',
+    content: 'First archaeological site of the Indus Valley civilization to be discovered, that\'s why the civilization is named after it. State: Punjab (Pakistan), River: Ravi. Key features: Two rows of six Granaries, Male torso (Red sandstone), Stone symbols of lingam and Yoni, Mother Goddess and Dice, Mother goddess.',
+    period: 'Harappan Period',
+    importance: 'high',
+    location: 'Punjab, Pakistan',
+    river: 'Ravi',
+    facts: [
+      'First archaeological site discovered',
+      'Civilization named after this site',
+      'Two rows of six Granaries',
+      'Male torso (Red sandstone)',
+      'Stone symbols: lingam and Yoni',
+      'Mother Goddess and Dice artifacts'
+    ]
+  },
+  {
+    id: 'harappan-2',
+    category: 'harappan',
+    subcategory: 'Major Sites',
+    title: 'Mohenjodaro',
+    content: 'State: Sindh (Pakistan), River: Indus. Key features: Post cremation burial, Great Granary, Great Bath (largest building), Seal with Pashupathi and mother goddess, Bronze statue of the dancing girl, Bronze buffalo, bearded man. [UPSC 2025]. It had a planned town built on a platform, having two distinct areas. One is identified as a citadel and the other as the lower town.',
+    period: 'Harappan Period',
+    importance: 'high',
+    location: 'Sindh, Pakistan',
+    river: 'Indus',
+    upsc_year: '2025',
+    facts: [
+      'Post cremation burial',
+      'Great Granary',
+      'Great Bath (largest building)',
+      'Seal with Pashupathi and mother goddess [UPSC 2025]',
+      'Bronze statue of dancing girl',
+      'Bronze buffalo, bearded man',
+      'Planned town on platform',
+      'Two areas: citadel and lower town'
+    ]
+  },
+  {
+    id: 'harappan-3',
+    category: 'harappan',
+    subcategory: 'Craft & Industry',
+    title: 'Chanhudaro',
+    content: 'State: Sindh (Pakistan), River: Indus. Exclusively devoted to craft production, including bead-making, shell-cutting, metal-working, seal-making and Weight-making, dog\'s paw imprint on brick, Terracotta model of bullock cart, and Bronze toy cart.',
+    period: 'Harappan Period',
+    importance: 'high',
+    location: 'Sindh, Pakistan',
+    river: 'Indus',
+    facts: [
+      'Exclusively devoted to craft production',
+      'Bead-making center',
+      'Shell-cutting',
+      'Metal-working',
+      'Seal-making and Weight-making',
+      'Dog\'s paw imprint on brick',
+      'Terracotta bullock cart model',
+      'Bronze toy cart'
+    ]
+  },
+  {
+    id: 'harappan-4',
+    category: 'harappan',
+    subcategory: 'Port Cities',
+    title: 'Lothal',
+    content: 'State: Gujarat, River: Confluence of Bhogava and Sabarmati river. Important naval trade site, Port and Dockyard, Granaries, Rice husk, Double burial (male and female together). The Citadel was not walled off but was built at a height. The entire settlement was fortified, and sections within the town were also separated by walls.',
+    period: 'Harappan Period',
+    importance: 'high',
+    location: 'Gujarat',
+    river: 'Bhogava & Sabarmati confluence',
+    facts: [
+      'Important naval trade site',
+      'Port and Dockyard',
+      'Granaries',
+      'Rice husk found',
+      'Double burial (male and female together)',
+      'Citadel not walled, built at height',
+      'Fortified settlement',
+      'Sections separated by walls'
+    ]
+  },
+  {
+    id: 'harappan-5',
+    category: 'harappan',
+    subcategory: 'Major Sites',
+    title: 'Dholavira',
+    content: 'State: Khadir Bet, Kutch, Gujarat, River: "Mansar and Manhar". UNESCO World Heritage Site. Unique water harvesting system and its stormwater drainage system, Megalithic stone circle, specialised drill, giant water reservoirs [UPSC 2021]. Stone was used in construction. An ancient signboard had been found with letters engraved on it. Only site is divided into 3 parts (Citadel, Middle town and Lower town). The entire settlement was fortified, and sections within the town were also separated by walls.',
+    period: 'Harappan Period',
+    importance: 'high',
+    location: 'Khadir Bet, Kutch, Gujarat',
+    river: 'Mansar and Manhar',
+    upsc_year: '2021',
+    facts: [
+      'UNESCO World Heritage Site',
+      'Unique water harvesting system [UPSC 2021]',
+      'Stormwater drainage system',
+      'Megalithic stone circle',
+      'Specialised drill',
+      'Giant water reservoirs',
+      'Stone used in construction',
+      'Ancient signboard with engraved letters',
+      'Only site divided into 3 parts (Citadel, Middle, Lower)',
+      'Fortified with internal walls'
+    ]
+  },
+  {
+    id: 'harappan-6',
+    category: 'harappan',
+    subcategory: 'Minor Sites',
+    title: 'Surkotada',
+    content: 'State: Gujarat. Features: Oval grave, Pot burials.',
+    period: 'Harappan Period',
+    importance: 'medium',
+    location: 'Gujarat',
+    facts: [
+      'Oval grave',
+      'Pot burials'
+    ]
+  },
+  {
+    id: 'harappan-7',
+    category: 'harappan',
+    subcategory: 'Agricultural Sites',
+    title: 'Kalibangan',
+    content: 'State: Rajasthan, River: Ghaggar. Features: Bangle factory, Ploughed field surface, Camel bones, Fire altars, Bronze figure of a bull.',
+    period: 'Harappan Period',
+    importance: 'high',
+    location: 'Rajasthan',
+    river: 'Ghaggar',
+    facts: [
+      'Bangle factory',
+      'Ploughed field surface',
+      'Camel bones',
+      'Fire altars',
+      'Bronze figure of a bull'
+    ]
+  },
+  {
+    id: 'harappan-8',
+    category: 'harappan',
+    subcategory: 'Urban Planning',
+    title: 'Banawali',
+    content: 'State: Haryana, River: Rangoi. Centre of Pre-Harappan, Mature and Late Harappan civilisation. Oval-shaped settlement, Barley grains, Lapis Lazuli (blue gem), Fire altars. Lack of systematic drainage and the city with Radial streets.',
+    period: 'Pre-Harappan to Late Harappan',
+    importance: 'high',
+    location: 'Haryana',
+    river: 'Rangoi',
+    facts: [
+      'Pre-Harappan, Mature & Late Harappan centre',
+      'Oval-shaped settlement',
+      'Barley grains',
+      'Lapis Lazuli (blue gem)',
+      'Fire altars',
+      'Lack of systematic drainage',
+      'Radial streets layout'
+    ]
+  },
+  {
+    id: 'harappan-9',
+    category: 'harappan',
+    subcategory: 'Post-Independence Discovery',
+    title: 'Ropar',
+    content: 'State: Punjab, River: Sutlej. First site to be excavated after independence. Dog buried with human; oval pit burials. A copper axe was found.',
+    period: 'Harappan Period',
+    importance: 'medium',
+    location: 'Punjab',
+    river: 'Sutlej',
+    facts: [
+      'First site excavated after independence',
+      'Dog buried with human',
+      'Oval pit burials',
+      'Copper axe found'
+    ]
+  },
+  {
+    id: 'harappan-10',
+    category: 'harappan',
+    subcategory: 'Major Sites',
+    title: 'Rakhi Garhi',
+    content: 'State: Haryana. Largest site of IVC, discovery of two mounds around 2016 led to archaeologists believing Rakhigarhi to be the largest IVC site. Shows all three phases of Harappa Culture.',
+    period: 'Harappan Period',
+    importance: 'high',
+    location: 'Haryana',
+    facts: [
+      'Largest site of Indus Valley Civilization',
+      'Two mounds discovered around 2016',
+      'Believed to be largest IVC site',
+      'Shows all three phases of Harappa Culture'
+    ]
+  },
+  {
+    id: 'harappan-11',
+    category: 'harappan',
+    subcategory: 'Pre-Harappan',
+    title: 'Rangpur',
+    content: 'State: Gujarat, River: Madar. Remains of both pre-Harappan and mature Harappan culture: Yellow and grey colour pots of pre-Harappan people.',
+    period: 'Pre-Harappan to Mature Harappan',
+    importance: 'medium',
+    location: 'Gujarat',
+    river: 'Madar',
+    facts: [
+      'Pre-Harappan and mature Harappan remains',
+      'Yellow and grey colour pots',
+      'Pre-Harappan pottery evidence'
+    ]
+  },
+  {
+    id: 'harappan-12',
+    category: 'harappan',
+    subcategory: 'Eastern Sites',
+    title: 'Alamgirpur',
+    content: 'State: Uttar Pradesh, River: Hindon. Late Harappan Culture. A broken copper blade and an impression of cloth on a trough.',
+    period: 'Late Harappan',
+    importance: 'medium',
+    location: 'Uttar Pradesh',
+    river: 'Hindon',
+    facts: [
+      'Late Harappan Culture',
+      'Broken copper blade',
+      'Impression of cloth on trough'
+    ]
+  },
+  {
+    id: 'harappan-13',
+    category: 'harappan',
+    subcategory: 'Southern Sites',
+    title: 'Daimabad',
+    content: 'State: Maharashtra, River: Pravara. Bronze images (charioteer with chariot, ox, elephant and rhinoceros).',
+    period: 'Harappan Period',
+    importance: 'medium',
+    location: 'Maharashtra',
+    river: 'Pravara',
+    facts: [
+      'Bronze images',
+      'Charioteer with chariot',
+      'Bronze ox, elephant, rhinoceros'
+    ]
+  },
+  {
+    id: 'harappan-14',
+    category: 'harappan',
+    subcategory: 'Pottery',
+    title: 'Kot-Diji',
+    content: 'State: Sindh (Pakistan), River: Sindh. The fortification was made of mud bricks and stone. \'Wellfired red and buff wares\' pottery is found with common motifs like horned deity, pipal leaves and fish scales executed in black.',
+    period: 'Harappan Period',
+    importance: 'medium',
+    location: 'Sindh, Pakistan',
+    river: 'Sindh',
+    facts: [
+      'Fortification: mud bricks and stone',
+      'Wellfired red and buff wares pottery',
+      'Motifs: horned deity, pipal leaves, fish scales',
+      'Executed in black'
+    ]
+  },
+  {
+    id: 'harappan-15',
+    category: 'harappan',
+    subcategory: 'Pre-Harappan',
+    title: 'Amri',
+    content: 'State: Sindh (Pakistan), River: Sindh. Pre-Harappan settlement; Transitional culture between pre and post-Harappan culture; actual remains of rhinoceros.',
+    period: 'Pre to Post-Harappan transition',
+    importance: 'medium',
+    location: 'Sindh, Pakistan',
+    river: 'Sindh',
+    facts: [
+      'Pre-Harappan settlement',
+      'Transitional culture',
+      'Actual remains of rhinoceros'
+    ]
+  },
+  {
+    id: 'harappan-16',
+    category: 'harappan',
+    subcategory: 'Port Cities',
+    title: 'Suktagendor',
+    content: 'State: Pakistan, River: Dasht River. Ash-filled pot, copper axe, earthen bangles & pottery. Originally a port later cut off from sea due to coastal upliftment; had trade links with Babylon.',
+    period: 'Harappan Period',
+    importance: 'medium',
+    location: 'Pakistan',
+    river: 'Dasht River',
+    facts: [
+      'Ash-filled pot',
+      'Copper axe',
+      'Earthen bangles & pottery',
+      'Originally a port',
+      'Cut off from sea due to coastal upliftment',
+      'Trade links with Babylon'
+    ]
+  },
+  {
+    id: 'harappan-17',
+    category: 'harappan',
+    subcategory: 'Trade & Economy',
+    title: 'Harappan Trade - Imports',
+    content: 'Gold: Afghanistan, Iran, Kolar (South India). Tin: Afghanistan, Iran. Jade: Pamir. Bitumen: Balochistan, Mesopotamia. Lead: South India. Steatite: Tapi Chahya (Iran). Copper: Khetri (Rajasthan) and Oman. Lapis lazuli: Shortughai (Afghanistan). Turquoise: Iran.',
+    period: 'Harappan Period',
+    importance: 'high',
+    location: 'Various',
+    facts: [
+      'Gold: Afghanistan, Iran, Kolar (South India)',
+      'Tin: Afghanistan, Iran',
+      'Jade: Pamir',
+      'Bitumen: Balochistan, Mesopotamia',
+      'Lead: South India',
+      'Steatite: Tapi Chahya (Iran)',
+      'Copper: Khetri (Rajasthan) and Oman',
+      'Lapis lazuli: Shortughai (Afghanistan)',
+      'Turquoise: Iran'
+    ]
+  },
+  {
+    id: 'harappan-18',
+    category: 'harappan',
+    subcategory: 'Trade & Economy',
+    title: 'Harappan Art & Craft Materials',
+    content: 'Strategy for Procuring Material: The Harappans procured materials for craft production in various ways. Materials and their sources: Carnelian (Lothal), Shell (Nageshwar and Balakot), Steatite (South Rajasthan), Lapis lazuli/blue stone (Shortughai), Copper (Rajasthan and Oman).',
+    period: 'Harappan Period',
+    importance: 'high',
+    location: 'Various',
+    facts: [
+      'Carnelian: Lothal',
+      'Shell: Nageshwar and Balakot',
+      'Steatite: South Rajasthan',
+      'Lapis lazuli (blue stone): Shortughai',
+      'Copper: Rajasthan and Oman',
+      'Diverse material procurement strategy'
     ]
   }
 ];
