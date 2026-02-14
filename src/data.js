@@ -4384,91 +4384,112 @@ export const quizQuestions = [
     explanation: 'Rangpur (Gujarat, Madar river): Remains of both Pre-Harappan and Mature Harappan. Yellow and grey colour pots of pre-Harappan people. Dual phase evidence.'
   },
   
-  // VEDIC LITERATURE QUIZ QUESTIONS (12 questions)
+  // VEDIC LITERATURE QUIZ QUESTIONS (15 comprehensive questions)
   
   {
     category: 'vedic',
-    question: 'Which is the most important and exhaustive Brahmana attached to the Yajur Veda?',
+    question: 'Consider Vedic texts:\n1. Brahmanas - Rules for sacrifices\n2. Aranyakas - Forest books, oppose sacrifice\n3. Upanishads - Philosophical dialogues [UPSC 2024]\n4. Vedanta - Concluding phase\n\nWhich are correct?',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Brahmanas (sacrifice rules), Aranyakas (forest books, oppose sacrifice, meditation), Upanishads (guru-shishya dialogues [UPSC 2024]), Vedanta (concluding phase, criticises rituals).'
+  },
+  {
+    category: 'vedic',
+    question: 'Which is the most important and exhaustive Brahmana attached to Yajur Veda?',
     options: ['Aitareya Brahmana', 'Satpatha Brahmana', 'Gopatha Brahmana', 'Panchavimsati Brahmana'],
     correct: 1,
-    explanation: 'The Satpatha Brahmana is the most important and exhaustive Brahmana, attached to the Yajur Veda. Brahmanas describe rules for sacrificial ceremonies and explain hymns of Vedas.'
+    explanation: 'Satpatha Brahmana (Yajur Veda) most important and exhaustive. Brahmanas describe sacrifice rules and explain Vedic hymns orthodox manner.'
   },
   {
     category: 'vedic',
-    question: 'Why are Aranyakas called "forest books"?',
-    options: ['They deal with forest conservation', 'They were written by hermits living in forests', 'They describe forest deities', 'They contain forest laws'],
+    question: 'Aranyakas called "forest books" because:',
+    options: ['Deal with forest conservation', 'Written by hermits in forests for pupils', 'Describe forest deities', 'Forest laws'],
     correct: 1,
-    explanation: 'Aranyakas are called forest books because they were written mainly by hermits living in the forests for their pupils. They deal with mysticism and philosophy, oppose sacrifice, and emphasise meditation.'
+    explanation: 'Aranyakas = forest books (hermits in forests for pupils). Deal with mysticism+philosophy, OPPOSE sacrifice, emphasise meditation. Later Vedic period.'
   },
   {
     category: 'vedic',
-    question: 'The literal meaning of "Upanishad" is:',
-    options: ['Sacred knowledge', 'To sit near someone', 'Ultimate truth', 'Divine wisdom'],
-    correct: 1,
-    explanation: 'The literal meaning of Upanishad is "to sit near someone". They are records of philosophical dialogues between teachers (Gurus) and students (Shishyas). There are 108 Upanishads, of which 13 are most prominent. [UPSC-2024]'
+    question: 'Upanishad literal meaning and nature:\n1. Meaning: "To sit near someone" [UPSC 2024]\n2. Guru-Shishya philosophical dialogues\n3. Total 108, 13 most prominent',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Upanishad = "to sit near" [UPSC 2024], records guru-shishya philosophical dialogues, 108 total (13 prominent). Philosophical tradition.'
   },
   {
     category: 'vedic',
     question: 'Which Upanishad mentions "Satyamev Jayate"? [UPSC 2014]',
-    options: ['Chhandogya Upanishad', 'Mandukyopanishad', 'Jabala Upanishad', 'Katha Upanishad'],
+    options: ['Chhandogya', 'Mandukyopanishad', 'Jabala', 'Katha'],
     correct: 1,
-    explanation: 'Mandukyopanishad, amongst the longest of all Upanishads, mentions "Satyamev Jayate" which became the national motto of India. [UPSC 2014]'
+    explanation: 'Mandukyopanishad (longest) mentions "Satyamev Jayate" [UPSC 2014] - national motto of India. Philosophical significance.'
   },
   {
     category: 'vedic',
-    question: 'Who translated the Upanishads into Persian in 1657?',
+    question: 'Who translated Upanishads to Persian in 1657, BEFORE colonial interest?',
     options: ['Akbar', 'Dara Shukoh', 'Aurangzeb', 'Shah Jahan'],
     correct: 1,
-    explanation: 'Dara Shukoh, the Mughal prince, translated the Upanishads into Persian in 1657, much before the colonial scholars developed any interest in ancient Indian literature.'
+    explanation: 'Dara Shukoh (Mughal prince) translated Upanishads to Persian 1657, much before colonial scholars interested in Indian literature. Early cultural bridge.'
   },
   {
     category: 'vedic',
-    question: 'According to Jabala Upanishad, the 4-fold ashram system was meant for which of the following?\n1. Brahmins\n2. Kshatriyas\n3. Women\n4. Shudras',
+    question: 'Jabala Upanishad 4-fold ashram system applicable to:\n1. Brahmins\n2. Kshatriyas\n3. Women\n4. Shudras',
     options: ['1 and 2 only', '1, 2 and 3 only', '1 only', '1, 2, 3 and 4'],
     correct: 0,
-    explanation: 'The 4-fold ashram (Brahmacharya, Grihastha, Vanaprastha, Sanyasa) for 4 Purusharthas (Dharma, Artha, Kama, Moksha) was not applicable to women or Shudras according to Jabala Upanishad.'
+    explanation: 'Only Brahmins+Kshatriyas. NOT women or Shudras. 4 ashrams (Brahmacharya, Grihastha, Vanaprastha, Sanyasa) for 4 Purusharthas (Dharma, Artha, Kama, Moksha).'
   },
   {
     category: 'vedic',
-    question: 'Match the Purushartha with the corresponding Ashram:\nA. Brahmacharya - 1. Artha & Kama\nB. Grihastha - 2. Dharma\nC. Vanaprastha - 3. Mukti/Moksha\nD. Sanyasa - 4. Spiritual wisdom',
+    question: 'Match Purushartha with Ashram:\nA. Brahmacharya - 1. Artha & Kama\nB. Grihastha - 2. Dharma\nC. Vanaprastha - 3. Moksha\nD. Sanyasa - 4. Spiritual wisdom',
     options: ['A-2, B-1, C-4, D-3', 'A-1, B-2, C-3, D-4', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
     correct: 0,
-    explanation: 'Brahmacharya (Celibate Student) → Dharma; Grihastha (Householder) → Artha & Kama; Vanaprastha (hermit) → Spiritual wisdom; Sanyasa (Renunciation) → Mukti/Moksha.'
+    explanation: 'Brahmacharya (student)→Dharma, Grihastha (householder)→Artha+Kama, Vanaprastha (hermit)→Spiritual wisdom, Sanyasa (renunciation)→Moksha/Mukti. Life stages.'
   },
   {
     category: 'vedic',
-    question: 'Vedanta represents which phase of the Vedic era?',
-    options: ['Beginning phase', 'Middle phase', 'Concluding phase', 'Pre-Vedic phase'],
+    question: 'Vedanta represents which phase and criticises what?',
+    options: ['Beginning, praises sacrifices', 'Middle, neutral on rituals', 'Concluding, criticises sacrifices & rituals', 'Pre-Vedic, no view'],
     correct: 2,
-    explanation: 'Vedanta represents the concluding phase of the Vedic era. These philosophical and spiritual traditions evolved from the Upanishads, the concluding part of the Vedas, and criticise sacrifices and rituals.'
+    explanation: 'Vedanta = CONCLUDING phase of Vedic era. Evolved from Upanishads (concluding part of Vedas). CRITICISES sacrifices and rituals. Philosophical-spiritual traditions.'
   },
   {
     category: 'vedic',
-    question: 'Why are Vedangas NOT classified as Shruti?',
-    options: ['They are too short', 'They are of human origin', 'They are in vernacular language', 'They contradict Vedas'],
+    question: 'Vedangas NOT classified as Shruti because:',
+    options: ['Too short', 'Human origin, not revealed by Gods', 'Vernacular language', 'Contradict Vedas'],
     correct: 1,
-    explanation: 'Vedangas are not classified as Shruti because they are considered to be of human origin, not revealed by Gods. They are in the form of Sutra (condensed statements) and serve as supplementary texts to aid in Vedic recitation.'
+    explanation: 'Vedangas NOT Shruti = human origin (not God-revealed). Form: Sutra (condensed statements). Aid Vedic recitation+comprehension. 6 limbs of Vedas.'
   },
   {
     category: 'vedic',
-    question: 'Match the Vedanga with its subject:\nA. Siksha - 1. Origin of words\nB. Nirukta - 2. Pronunciation\nC. Jyotish - 3. Astrology\nD. Vyakaran - 4. Grammar',
+    question: 'Match Vedanga with subject:\nA. Siksha - 1. Origin of words\nB. Nirukta - 2. Pronunciation\nC. Jyotish - 3. Astrology\nD. Vyakaran - 4. Grammar',
     options: ['A-2, B-1, C-3, D-4', 'A-1, B-2, C-4, D-3', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
     correct: 0,
-    explanation: 'The six Vedangas are: Siksha (Pronunciation/education), Nirukta (Origin of words), Chhanda (Metrics), Jyotish (Astrology), Vyakaran (Sanskrit grammar), Kalpa (Rituals/Dharma sutras).'
+    explanation: '6 Vedangas: Siksha=Pronunciation/education, Nirukta=Origin of words, Chhanda=Metrics, Jyotish=Astrology, Vyakaran=Grammar, Kalpa=Rituals. Supplementary texts.'
   },
   {
     category: 'vedic',
-    question: 'In Vedic terminology, "Duhitri" refers to:',
-    options: ['Measure of time', 'Daughter (one who milks cow)', 'Buffalo', 'City Security Chief'],
-    correct: 1,
-    explanation: 'Duhitri means Daughter (one who milks cow). Other Vedic terms: Govikartana (Forest chief), Gavyuti (Measure of distance), Godhuli (Measure of time/Dusk), Takshan (Carpenter).'
+    question: 'Vedic terms - Match correctly:\nA. Duhitri - 1. Forest chief\nB. Govikartana - 2. Daughter (milks cow)\nC. Godhuli - 3. Measure of time (Dusk)\nD. Gavyuti - 4. Measure of distance',
+    options: ['A-2, B-1, C-3, D-4', 'A-1, B-2, C-4, D-3', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
+    correct: 0,
+    explanation: 'Duhitri=Daughter (milks cow), Govikartana=Forest chief, Godhuli=Time measure (Dusk), Gavyuti=Distance measure. Vedic social-measurement terms.'
   },
   {
     category: 'vedic',
-    question: 'Which Vedic term refers to women who attended the assembly?',
-    options: ['Duhitri', 'Sabhavati', 'Sauvarnika', 'Niyoga'],
+    question: 'Which Vedic term refers to women who attended assembly?',
+    options: ['Duhitri', 'Sabhavati', 'Gauri', 'Niyoga'],
     correct: 1,
-    explanation: 'Sabhavati refers to women who attended the assembly. Other terms: Vap (To sow), Gojit (Winner of cows), Spasa (Spy), Dhanya (Cereals), Panis (Traders), Niyoga (Widow-remarriage type).'
+    explanation: 'Sabhavati = women who attended assembly. Others: Vap (sow), Gojit (winner of cows), Spasa (spy), Dhanya (cereals), Panis (traders), Niyoga (widow remarriage type).'
+  },
+  {
+    category: 'vedic',
+    question: 'Vedic occupational terms:\n1. Takshan - Carpenter\n2. Panis - Traders\n3. Akshvapa - Accountant\n4. Bhagadugha - Tax Collector\n\nWhich are correct?',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Vedic occupations: Takshan=Carpenter, Panis=Traders, Akshvapa=Accountant, Bhagadugha=Tax Collector. Also: Suta=Charioteer, Varthaka=Business people. Social structure.'
+  },
+  {
+    category: 'vedic',
+    question: 'Administrative/judicial Vedic terms:\n1. Sthapati - Chief Judge\n2. Madhyamasi - Mediator\n3. Jivagribha & Ugra - Police Officers',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Vedic administration: Sthapati=Chief Judge, Madhyamasi=Mediator in disputes, Jivagribha+Ugra=Police Officers. Also: Spasa=Spy, Palagala=Messenger, Kshata=Keeper of King\'s household.'
   }
 ,
   
