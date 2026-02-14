@@ -5112,63 +5112,79 @@ export const quizQuestions = [
   }
 ,
   
-  // LITERARY & CULTURAL CONTRIBUTIONS QUIZ (8 questions)
+  // LITERARY & CULTURAL CONTRIBUTIONS QUIZ (10 comprehensive questions)
+  
   {
     category: 'literary',
-    question: 'Which work describes Ashvaghosha as "the lamp of wisdom" and credits him with Buddhist dramas?',
+    question: 'Ashvaghosha works:\n1. Sariputraprakarana - "lamp of wisdom" drama\n2. Saundarananda - Buddha\'s half-brother Nanda\n3. Buddhacharita - Buddha\'s life',
+    options: ['1 and 2 only', '1 and 3 only', '2 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Ashvaghosha (1st-2nd CE): Sariputraprakarana (Buddhist drama, "lamp of wisdom"), Saundarananda (lyrical play on Buddha\'s half-brother Nanda conversion), Buddhacharita (Buddha\'s biography). Philosopher-poet.'
+  },
+  {
+    category: 'literary',
+    question: 'Which work describes Ashvaghosha as "lamp of wisdom"?',
     options: ['Sariputraprakarana', 'Buddhacharita', 'Saundarananda', 'Vajrasuchi'],
     correct: 0,
-    explanation: 'Sariputraprakarana is a Buddhist drama where Ashvaghosha is described as "the lamp of wisdom, the adorer of the Buddha\'s foot-prints."'
+    explanation: 'Sariputraprakarana: Buddhist drama describing Ashvaghosha as "the lamp of wisdom, the adorer of the Buddha\'s foot-prints." Important Buddhist theatrical work.'
   },
   {
     category: 'literary',
-    question: 'Which of these works by Ashvaghosha is a lyrical play on Buddha\'s half-brother?',
-    options: ['Buddhacharita', 'Saundarananda', 'Sariputraprakarana', 'Vajrasuchi'],
+    question: 'Manusmriti (Manava Dharmasastra) primarily deals with:',
+    options: ['Trade and commerce', 'Social laws, varna duties, ashrama', 'Military strategy', 'Agricultural practices'],
     correct: 1,
-    explanation: 'Saundarananda is a lyrical play by Ashvaghosha dealing with the conversion of Buddha\'s half-brother Nanda.'
+    explanation: 'Manusmriti: social laws, customary laws, moral codes, duties according to varna and ashrama. Emphasizes Brahmanical ritualism. Hindu legal text.'
   },
   {
     category: 'literary',
-    question: 'Manusmriti (Manava Dharmasastra) primarily deals with which aspect of ancient Indian society?',
-    options: ['Trade and commerce', 'Social laws and varna duties', 'Military strategy', 'Agricultural practices'],
+    question: 'Visuddhimagga "Path of Purification" by Buddhaghosha is:',
+    options: ['Jain text', 'Theravada Buddhist manual in Pali', 'Mahayana sutra', 'Hindu treatise'],
     correct: 1,
-    explanation: 'Manusmriti deals with social laws, customary laws, moral codes and duties according to varna and ashrama. It emphasizes Brahmanical ritualism.'
+    explanation: 'Visuddhimagga by Buddhaghosha: comprehensive Theravada Buddhist doctrine manual in Pali. "The Path of Purification" - ethics, meditation, philosophy systematized.'
   },
   {
     category: 'literary',
-    question: 'Which Buddhist text compiled by Buddhaghosha is considered to be "the path of purification"?',
-    options: ['Milinda Panha', 'Visuddhimagga', 'Abhidhamma Pitaka', 'Mahavibhasha'],
+    question: 'Match Buddhist philosophers with doctrines:\nA. Nagarjuna - 1. Mind-only (Yogachara)\nB. Asanga & Vasubandhu - 2. Sunyavada (emptiness)\nC. Dignaga - 3. Buddhist Logic',
+    options: ['A-2, B-1, C-3', 'A-1, B-2, C-3', 'A-3, B-2, C-1', 'A-2, B-3, C-1'],
+    correct: 0,
+    explanation: 'Nagarjuna=Sunyavada (emptiness/Madhyamika Karika), Asanga+Vasubandhu=Yogachara (Vijnanavada, mind-only doctrine), Dignaga=Buddhist Logic (Hetu Vidya). Major Mahayana philosophers.'
+  },
+  {
+    category: 'literary',
+    question: 'Nagarjuna developed Sunyavada (voidness/emptiness). Chief work:',
+    options: ['Buddhacharita', 'Madhyamika Karika', 'Visuddhimagga', 'Milinda Panha'],
     correct: 1,
-    explanation: 'Visuddhimagga (The Path of Purification) by Buddhaghosha is a comprehensive Theravada Buddhist doctrine manual written in Pali.'
+    explanation: 'Nagarjuna: Sunyavada (theory of voidness/emptiness) in Mahayana Buddhism. Chief work: Madhyamika Karika. Middle Path philosophy between eternalism+nihilism.'
   },
   {
     category: 'literary',
-    question: 'Who developed the doctrine of Sunyavada (theory of voidness) in Mahayana Buddhism?',
-    options: ['Asanga', 'Vasubandhu', 'Nagarjuna', 'Ashvaghosha'],
-    correct: 2,
-    explanation: 'Nagarjuna developed Sunyavada (the theory of voidness/emptiness) in Mahayana Buddhism. His chief work was Madhyamika Karika.'
-  },
-  {
-    category: 'literary',
-    question: 'Which innovation is attributed to Bharata that revolutionized Indian theatre?',
-    options: ['Introduction of Sanskrit dialogues', 'Yavanika (curtains) in theatre', 'Use of musical instruments', 'Dance in performances'],
+    question: 'Yogachara (Vijnanavada) school founded by which brothers?',
+    options: ['Nagarjuna & Aryadeva', 'Asanga & Vasubandhu', 'Ashvaghosha & Nagarjuna', 'Dignaga & Dharmakirti'],
     correct: 1,
-    explanation: 'Bharata introduced Yavanika (curtains) in Indian theatre, which came from the Yavanas (Greeks). This transformed theatrical tradition.'
+    explanation: 'Asanga and Vasubandhu (brothers, 4th-5th CE): founded Yogachara (Vijnanavada) school of Mahayana Buddhism. Emphasized mind-only (Cittamatra) doctrine.'
   },
   {
     category: 'literary',
-    question: 'The Yogachara school of Mahayana Buddhism was founded by which brothers?',
-    options: ['Nagarjuna and Aryadeva', 'Asanga and Vasubandhu', 'Ashvaghosha and Nagarjuna', 'Dignaga and Dharmakirti'],
+    question: 'Bharata\'s innovation that revolutionized Indian theatre:',
+    options: ['Sanskrit dialogues', 'Yavanika (curtains) from Greeks', 'Musical instruments', 'Dance forms'],
     correct: 1,
-    explanation: 'Asanga and Vasubandhu founded the Yogachara (Vijnanavada) school of Mahayana Buddhism, which emphasized the mind-only doctrine.'
+    explanation: 'Bharata introduced Yavanika (curtains) in Indian theatre from Yavanas (Greeks). Transformed theatrical tradition. Greek cultural influence on Indian performing arts.'
   },
   {
     category: 'literary',
-    question: 'Which text is described as "Questions of King Milinda" dealing with dialogue between Greek king and Buddhist monk?',
-    options: ['Mahavibhasha', 'Milinda Panha', 'Visuddhimagga', 'Abhidhamma'],
+    question: 'Milinda Panha "Questions of King Milinda" dialogue between: [UPSC 2022]',
+    options: ['Ashoka-Moggaliputta', 'Indo-Greek King Menander-monk Nagasena', 'Kanishka-Vasumitra', 'Buddha-Ajatasatru'],
     correct: 1,
-    explanation: 'Milinda Panha (Questions of King Milinda) records dialogue between Indo-Greek King Menander/Milinda and Buddhist monk Nagasena. [UPSC 2022]'
+    explanation: 'Milinda Panha: dialogue between Indo-Greek King Menander (Milinda) and Buddhist monk Nagasena [UPSC 2022]. Important Buddhist philosophical text, cultural synthesis.'
   },
+  {
+    category: 'literary',
+    question: 'Compare literary contributions:\n1. Ashvaghosha - Buddhist poetry+drama\n2. Buddhaghosha - Theravada Pali manual\n3. Nagarjuna - Mahayana philosophy',
+    options: ['1 and 2 only', '1 and 3 only', '2 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All represent Buddhist literature diversity. Ashvaghosha (early Mahayana poetry+drama), Buddhaghosha (Theravada systematization in Pali), Nagarjuna (Mahayana philosophical foundations). Different schools, different contributions.'
+  }
+,
 
   // GUPTA EMPIRE QUIZ (15 questions)
   {
