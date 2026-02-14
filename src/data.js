@@ -4732,6 +4732,363 @@ export const quizQuestions = [
     correct: 0,
     explanation: 'Samaharta = Chief Collector of Revenue; Sannidhata = Chief Treasury Officer; Panyadhyaksha = Superintendent of Commerce. These were key economic administrators in Mauryan Empire.'
   }
+,
+  // LITERARY & CULTURAL CONTRIBUTIONS QUIZ (8 questions)
+  {
+    category: 'literary',
+    question: 'Which work describes Ashvaghosha as "the lamp of wisdom" and credits him with Buddhist dramas?',
+    options: ['Sariputraprakarana', 'Buddhacharita', 'Saundarananda', 'Vajrasuchi'],
+    correct: 0,
+    explanation: 'Sariputraprakarana is a Buddhist drama where Ashvaghosha is described as "the lamp of wisdom, the adorer of the Buddha\'s foot-prints."'
+  },
+  {
+    category: 'literary',
+    question: 'Which of these works by Ashvaghosha is a lyrical play on Buddha\'s half-brother?',
+    options: ['Buddhacharita', 'Saundarananda', 'Sariputraprakarana', 'Vajrasuchi'],
+    correct: 1,
+    explanation: 'Saundarananda is a lyrical play by Ashvaghosha dealing with the conversion of Buddha\'s half-brother Nanda.'
+  },
+  {
+    category: 'literary',
+    question: 'Manusmriti (Manava Dharmasastra) primarily deals with which aspect of ancient Indian society?',
+    options: ['Trade and commerce', 'Social laws and varna duties', 'Military strategy', 'Agricultural practices'],
+    correct: 1,
+    explanation: 'Manusmriti deals with social laws, customary laws, moral codes and duties according to varna and ashrama. It emphasizes Brahmanical ritualism.'
+  },
+  {
+    category: 'literary',
+    question: 'Which Buddhist text compiled by Buddhaghosha is considered to be "the path of purification"?',
+    options: ['Milinda Panha', 'Visuddhimagga', 'Abhidhamma Pitaka', 'Mahavibhasha'],
+    correct: 1,
+    explanation: 'Visuddhimagga (The Path of Purification) by Buddhaghosha is a comprehensive Theravada Buddhist doctrine manual written in Pali.'
+  },
+  {
+    category: 'literary',
+    question: 'Who developed the doctrine of Sunyavada (theory of voidness) in Mahayana Buddhism?',
+    options: ['Asanga', 'Vasubandhu', 'Nagarjuna', 'Ashvaghosha'],
+    correct: 2,
+    explanation: 'Nagarjuna developed Sunyavada (the theory of voidness/emptiness) in Mahayana Buddhism. His chief work was Madhyamika Karika.'
+  },
+  {
+    category: 'literary',
+    question: 'Which innovation is attributed to Bharata that revolutionized Indian theatre?',
+    options: ['Introduction of Sanskrit dialogues', 'Yavanika (curtains) in theatre', 'Use of musical instruments', 'Dance in performances'],
+    correct: 1,
+    explanation: 'Bharata introduced Yavanika (curtains) in Indian theatre, which came from the Yavanas (Greeks). This transformed theatrical tradition.'
+  },
+  {
+    category: 'literary',
+    question: 'The Yogachara school of Mahayana Buddhism was founded by which brothers?',
+    options: ['Nagarjuna and Aryadeva', 'Asanga and Vasubandhu', 'Ashvaghosha and Nagarjuna', 'Dignaga and Dharmakirti'],
+    correct: 1,
+    explanation: 'Asanga and Vasubandhu founded the Yogachara (Vijnanavada) school of Mahayana Buddhism, which emphasized the mind-only doctrine.'
+  },
+  {
+    category: 'literary',
+    question: 'Which text is described as "Questions of King Milinda" dealing with dialogue between Greek king and Buddhist monk?',
+    options: ['Mahavibhasha', 'Milinda Panha', 'Visuddhimagga', 'Abhidhamma'],
+    correct: 1,
+    explanation: 'Milinda Panha (Questions of King Milinda) records dialogue between Indo-Greek King Menander/Milinda and Buddhist monk Nagasena. [UPSC 2022]'
+  },
 
+  // GUPTA EMPIRE QUIZ (15 questions)
+  {
+    category: 'gupta',
+    question: 'Which of the following was NOT one of the Nine Navaratnas in the Gupta court?',
+    options: ['Kalidasa', 'Aryabhatta', 'Amarasimha', 'Harisena'],
+    correct: 1,
+    explanation: 'Aryabhatta was a great scientist of Gupta period but not one of the Nine Navaratnas. The Navaratnas included Kalidasa, Amarasimha, Harisena, Varahamihira, Dhanvantari, and others.'
+  },
+  {
+    category: 'gupta',
+    question: 'Which Navaratna created the famous Sanskrit dictionary Amarakosha?',
+    options: ['Kalidasa', 'Amarasimha', 'Vararuchi', 'Sanku'],
+    correct: 1,
+    explanation: 'Amarasimha, one of the Nine Navaratnas, created Amarakosha - a Sanskrit lexicography (dictionary/thesaurus) that remains an important reference work.'
+  },
+  {
+    category: 'gupta',
+    question: 'Fa Hein visited India during the reign of which Gupta ruler? [UPSC 2025]',
+    options: ['Samudragupta', 'Chandragupta I', 'Chandragupta II', 'Kumaragupta'],
+    correct: 2,
+    explanation: 'Chinese pilgrim Fa Hein visited India (399-414 AD) during Chandragupta II\'s reign. He came by land route and returned by sea via Ceylon and Java. [UPSC 2025]'
+  },
+  {
+    category: 'gupta',
+    question: 'What was the main purpose of Fa Hein\'s visit to India?',
+    options: ['Trade negotiations', 'Collect Buddhist manuscripts', 'Study astronomy', 'Diplomatic mission'],
+    correct: 1,
+    explanation: 'Fa Hein\'s main purpose was to collect Buddhist manuscripts from India. He also provided valuable information on religious, social and economic conditions.'
+  },
+  {
+    category: 'gupta',
+    question: 'Which official was the minister for foreign affairs, war and peace in Gupta administration?',
+    options: ['Mantriparishad', 'Sandhivigrahaka', 'Mahadandanayaka', 'Kumaramatya'],
+    correct: 1,
+    explanation: 'Sandhivigrahaka was the minister for foreign affairs, war and peace - a key diplomatic and military advisor in Gupta administration.'
+  },
+  {
+    category: 'gupta',
+    question: 'How many types of land were classified in the Gupta land system?',
+    options: ['Three', 'Five', 'Seven', 'Ten'],
+    correct: 1,
+    explanation: 'Gupta land system classified land into 5 types: Kshetra (cultivable), Khila (waste), Aprahata (jungle), Vasti (habitable), Gapata Saraha (pastoral).'
+  },
+  {
+    category: 'gupta',
+    question: 'What was "Bhaga" in the Gupta taxation system?',
+    options: ['Customs tax', 'One-sixth land revenue', 'Water tax', 'Gift tax'],
+    correct: 1,
+    explanation: 'Bhaga was the main land revenue tax - one-sixth (1/6) of agricultural produce paid by cultivators as the king\'s customary share.'
+  },
+  {
+    category: 'gupta',
+    question: 'Which tax was levied on merchandise at towns and harbours during Gupta period?',
+    options: ['Bhaga', 'Udianga', 'Sulka', 'Hiranya'],
+    correct: 2,
+    explanation: 'Sulka was the royal share of merchandise brought into towns/harbours by merchants - equivalent to customs and tolls on trade.'
+  },
+  {
+    category: 'gupta',
+    question: 'Which revolutionary mathematical concepts are credited to Gupta period thinkers?',
+    options: ['Algebra and trigonometry', 'Zero and decimal system', 'Calculus', 'Binary numbers'],
+    correct: 1,
+    explanation: 'The invention of the theory of zero and evolution of the decimal system are credited to Gupta period thinkers - revolutionary concepts that form foundation of modern mathematics.'
+  },
+  {
+    category: 'gupta',
+    question: 'Who was the first to declare that the earth is spherical and rotates on its own axis?',
+    options: ['Varahamihira', 'Aryabhatta', 'Brahmagupta', 'Bhaskara'],
+    correct: 1,
+    explanation: 'Aryabhatta was first to declare earth is spherical and rotates on its axis. His work Aryabhatiyam dealt with arithmetic, geometry, algebra and decimal system.'
+  },
+  {
+    category: 'gupta',
+    question: 'Which play by Kalidasa was considered one of the best 100 literary works in the world? [UPSC 2020]',
+    options: ['Malavikagnimitram', 'Vikramorvashiya', 'Abhijnanasakuntalam', 'Raghuvamsa'],
+    correct: 2,
+    explanation: 'Abhijnanasakuntalam by Kalidasa was considered one of best 100 literary works worldwide and earliest Indian work translated to European language. [UPSC 2020]'
+  },
+  {
+    category: 'gupta',
+    question: 'Which famous collection of animal fables teaching wisdom was written during this period?',
+    options: ['Hitopadesha', 'Panchatantra', 'Kathasaritsagara', 'Jataka Tales'],
+    correct: 1,
+    explanation: 'Panchatantra by Vishnu Sharma is a famous collection of animal fables teaching wisdom and life lessons. It has been widely translated worldwide.'
+  },
+  {
+    category: 'gupta',
+    question: 'Devichandraguptam and Mudrarakshasa provide details about the rise of which dynasty? [UPSC 2023]',
+    options: ['Mauryas and Guptas', 'Only Mauryas', 'Only Guptas', 'Satavahanas'],
+    correct: 0,
+    explanation: 'Devichandraguptam provides details about Gupta rise (story of Ramagupta, Chandragupta, Dhruvadevi). Mudrarakshasa narrates Chandragupta Maurya\'s ascent. [UPSC 2023]'
+  },
+  {
+    category: 'gupta',
+    question: 'Which epic by Kalidasa describes the ascent of Raghu dynasty?',
+    options: ['Kumarasambhava', 'Raghuvamsa', 'Meghaduta', 'Ritusamhara'],
+    correct: 1,
+    explanation: 'Raghuvamsa by Kalidasa is an epic (Mahakavya) describing the ascent of Raghu dynasty - one of his major poetic works.'
+  },
+  {
+    category: 'gupta',
+    question: 'What was the composition of the Aimperunkulu advisory committee to Gupta kings?',
+    options: ['Only ministers', 'Ministers and priests only', 'Ministers, priests, generals, envoys, spies', 'Only military officials'],
+    correct: 2,
+    explanation: 'Though mentioned in Sangam context, similar advisory structures existed. The committee comprised Ministers (Amaichchar), Priests (Anthanar), Generals, Envoys (Dutas), and Spies (orrar).'
+  },
+
+  // KINGDOMS OF SOUTH QUIZ (12 questions)
+  {
+    category: 'south',
+    question: 'Who were Kamunda or Pokigan in South Indian kingdoms administration?',
+    options: ['Village officials', 'Central village figures appointed by kings', 'Provincial governors', 'Town officials'],
+    correct: 1,
+    explanation: 'Kamunda or Pokigan were central figures in village administration, appointed by the kings as intermediaries between royal authority and village governance.'
+  },
+  {
+    category: 'south',
+    question: 'What distinguished Maha-Samanta from other provincial officials?',
+    options: ['Tax collection powers', 'Judicial authority', 'Military authority and troops', 'Religious duties'],
+    correct: 2,
+    explanation: 'Maha-Samanta were provincial governors with military authority. Some maintained their own troops for regional security and order.'
+  },
+  {
+    category: 'south',
+    question: 'What was a Vishaya in South Indian kingdoms?',
+    options: ['Village', 'District', 'Province', 'Kingdom'],
+    correct: 1,
+    explanation: 'Vishaya was the administrative district unit in South Indian kingdoms. Vishayapati was the district-level chief administrator.'
+  },
+  {
+    category: 'south',
+    question: 'Which officials were traditional revenue officials at the village level?',
+    options: ['Mahapurush', 'Nala-kavundas', 'Mahajanam', 'Grampohs'],
+    correct: 1,
+    explanation: 'Nala-kavundas were traditional revenue officials of villages, responsible for tax collection and revenue management at village level.'
+  },
+  {
+    category: 'south',
+    question: 'What was the primary role of Mahapurush in village administration?',
+    options: ['Tax collection', 'Maintaining order and peace', 'Religious ceremonies', 'Land records'],
+    correct: 1,
+    explanation: 'Mahapurush was responsible for maintaining order and peace in the village - the key law enforcement role at local level.'
+  },
+  {
+    category: 'south',
+    question: 'Which court official handled royal gifts and charitable donations?',
+    options: ['Amatyas', 'Kodukkappillai', 'Mantrins', 'Rahasyadhikrita'],
+    correct: 1,
+    explanation: 'Kodukkappillai was the officer of gifts, in charge of royal gifts and charitable donations, managing ceremonial giving.'
+  },
+  {
+    category: 'south',
+    question: 'What was the role of Mantrins in South Indian courts?',
+    options: ['Treasury management', 'Diplomats handling foreign relations', 'Military commanders', 'Religious advisors'],
+    correct: 1,
+    explanation: 'Mantrins were diplomatic officials handling foreign relations and inter-kingdom affairs, playing key role in external communications.'
+  },
+  {
+    category: 'south',
+    question: 'Which was the prominent port of Chalukya dynasty?',
+    options: ['Mamallapuram', 'Kalyana', 'Kaveripattinam', 'Korkai'],
+    correct: 1,
+    explanation: 'Kalyana (located in Bidar, Karnataka) was the prominent port of Chalukya dynasty and an important trade center.'
+  },
+  {
+    category: 'south',
+    question: 'Mamallapuram (Mahabalipuram) was a major port of which dynasty?',
+    options: ['Cholas', 'Pallavas', 'Pandyas', 'Chalukyas'],
+    correct: 1,
+    explanation: 'Mamallapuram (Mahabalipuram, Tamil Nadu) was a major Pallava port - famous coastal trade hub and maritime center.'
+  },
+  {
+    category: 'south',
+    question: 'Which port was located at present-day Old Goa under Kadambas?',
+    options: ['Banavasi', 'Honnavar', 'Gopakapattana', 'Bhatkal'],
+    correct: 2,
+    explanation: 'Gopakapattana (present-day Old Goa) was a major maritime hub of the Kadamba Goa kingdom - strategic port location.'
+  },
+  {
+    category: 'south',
+    question: 'Ghantasala port in Krishna district was associated with which dynasty?',
+    options: ['Cholas', 'Pallavas', 'Ikshvakus', 'Satavahanas'],
+    correct: 2,
+    explanation: 'Ghantasala in Krishna district, Andhra Pradesh was an Ikshvaku port - major Buddhist center and trade hub.'
+  },
+  {
+    category: 'south',
+    question: 'Which two ports served as twin maritime centers for Pallavas in Tamil Nadu?',
+    options: ['Mamallapuram and Kaveripattinam', 'Nirppeyaru/Mhabalipuram and Mylapore', 'Korkai and Arikamedu', 'Tondi and Muziri'],
+    correct: 1,
+    explanation: 'Nirppeyaru/Mhabalipuram and Mylapore were twin ports in Tamil Nadu serving Pallava maritime trade, with Mylapore being a major urban center.'
+  },
+
+  // SANGAM AGE QUIZ (15 questions)
+  {
+    category: 'sangam',
+    question: 'Which Sangam has NO surviving literary work?',
+    options: ['First Sangam', 'Second Sangam', 'Third Sangam', 'All have surviving works'],
+    correct: 0,
+    explanation: 'First Sangam at Madurai (presided by Sage Agastyar) produced works like Agatiyam, but no literary work of First Sangam is available today.'
+  },
+  {
+    category: 'sangam',
+    question: 'Which important grammar text was produced in the Second Sangam?',
+    options: ['Agatiyam', 'Tolkappiyam', 'Thirukkural', 'Pattupattu'],
+    correct: 1,
+    explanation: 'Tolkappiyam was produced in Second Sangam at Kapadapuram (President: Agastya). It is an important Tamil grammar text.'
+  },
+  {
+    category: 'sangam',
+    question: 'Who presided over the Third Sangam that produced Thirukkural?',
+    options: ['Sage Agastyar', 'Agastya', 'Nakkiralu', 'Thiruvalluvar'],
+    correct: 2,
+    explanation: 'Third Sangam at Madurai was presided by Nakkiralu. Famous scholars included Thiruvalluvar (author of Thirukkural), Ilango Adigal, and others.'
+  },
+  {
+    category: 'sangam',
+    question: 'What were Kizhar in Sangam polity?',
+    options: ['Kings', 'Village/small territory chiefs', 'Court poets', 'Military generals'],
+    correct: 1,
+    explanation: 'Kizhar were heads of villages or small territory (later called nadu) - chiefs of tribal communities living in specific areas.'
+  },
+  {
+    category: 'sangam',
+    question: 'Which royal advisory committee comprised Ministers, Priests, Generals, Envoys and Spies?',
+    options: ['Mantriparishad', 'Aimperunkulu', 'Orasavai', 'Sabha'],
+    correct: 1,
+    explanation: 'Aimperunkulu was the committee advising the king, comprised of Ministers (Amaichchar), Priests (Anthanar), Generals, Envoys (Dutas), and Spies (orrar).'
+  },
+  {
+    category: 'sangam',
+    question: 'Satiyaputra (Athiyaman) mentioned in Asokan inscription was which type of chief? [UPSC 2023]',
+    options: ['Vendar (King)', 'Velir chief', 'Kizhar', 'Imperial governor'],
+    correct: 1,
+    explanation: 'Satiyaputra (Athiyaman) mentioned in Asokan inscription is identified as a Velir chief in Sangam poems. [UPSC 2023]'
+  },
+  {
+    category: 'sangam',
+    question: 'What was Vattakirutal in Sangam age? [UPSC 2023]',
+    options: ['Victory celebration', 'Coronation ceremony', 'Ritual suicide after defeat', 'Religious festival'],
+    correct: 2,
+    explanation: 'Vattakirutal was a ritual where a defeated king committed suicide by starving himself to death - honor-based warrior code. [UPSC 2023]'
+  },
+  {
+    category: 'sangam',
+    question: 'Which Thinai (landscape) was characterized by hunting and gathering activities?',
+    options: ['Marutham', 'Kurinji', 'Mullai', 'Neythal'],
+    correct: 1,
+    explanation: 'Kurinji was the hilly/mountain region characterized by hunting and gathering activities - hunter-gatherer economy.'
+  },
+  {
+    category: 'sangam',
+    question: 'Which was the most productive eco-zone where agriculture with ploughs and irrigation was practiced?',
+    options: ['Kurinji', 'Marutham', 'Mullai', 'Palai'],
+    correct: 1,
+    explanation: 'Marutham was the riverine tract where agriculture was practiced using ploughs and irrigation - the most productive zone.'
+  },
+  {
+    category: 'sangam',
+    question: 'Which Thinai was an arid land where people engaged in cattle lifting and robbery?',
+    options: ['Mullai', 'Neythal', 'Palai', 'Kurinji'],
+    correct: 2,
+    explanation: 'Palai was the arid and parched land unsuitable for cultivation, leading people to engage in cattle lifting and robbery due to harsh survival conditions.'
+  },
+  {
+    category: 'sangam',
+    question: 'What was the capital of the Chera dynasty?',
+    options: ['Madurai', 'Uraiyur', 'Vanji', 'Karur'],
+    correct: 2,
+    explanation: 'Vanji was the capital of Chera dynasty (region: Kerala). Their emblem was Bow and Arrow, and important ruler was Cheran Senguttuvan.'
+  },
+  {
+    category: 'sangam',
+    question: 'Which dynasty had Tiger as its emblem?',
+    options: ['Cheras', 'Cholas', 'Pandyas', 'Kalabhras'],
+    correct: 1,
+    explanation: 'Chola dynasty (capital: Uraiyur, Tamil Nadu) had Tiger as emblem. Important ruler: Karikala. Main port: Kaveripattinam/Puhar.'
+  },
+  {
+    category: 'sangam',
+    question: 'Korkai was an important port of which Sangam dynasty? [UPSC 2023]',
+    options: ['Cheras', 'Cholas', 'Pandyas', 'Chalukyas'],
+    correct: 2,
+    explanation: 'Korkai (along with Nelkynda) was an important port of Pandya dynasty (capital: Madurai, emblem: Fish). [UPSC 2023]'
+  },
+  {
+    category: 'sangam',
+    question: 'Which Chera port was located at present-day Kodungallur, Kerala?',
+    options: ['Tondi', 'Naravu', 'Muziris', 'Vanji'],
+    correct: 2,
+    explanation: 'Muziris (Muchiri or Cranganore) was the Chera port at present-day Kodungallur, Kerala - major maritime trade center.'
+  },
+  {
+    category: 'sangam',
+    question: 'Kaveripattinam (Puhar) was the main port of which dynasty?',
+    options: ['Cheras', 'Cholas', 'Pandyas', 'Pallavas'],
+    correct: 1,
+    explanation: 'Kaveripattinam (also called Puhar) was the main port of Chola dynasty, serving as capital port for their maritime trade in Tamil Nadu.'
+  }
 ];
 
