@@ -5293,6 +5293,135 @@ export const quizQuestions = [
     explanation: 'Though mentioned in Sangam context, similar advisory structures existed. The committee comprised Ministers (Amaichchar), Priests (Anthanar), Generals, Envoys (Dutas), and Spies (orrar).'
   },
 
+  // GUPTA EMPIRE QUIZ (18 comprehensive questions)
+  
+  {
+    category: 'gupta',
+    question: 'Consider Gupta achievements:\n1. Navaratnas (Kalidasa, Amarasimha, Varahamihira)\n2. Fa Hein visit (399-414 AD) [UPSC 2025]\n3. Zero & decimal system\n4. Aryabhatta (earth spherical, rotates)',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Navaratnas (9 luminaries), Fa Hein (Chandragupta II [UPSC 2025]), Zero+decimal system, Aryabhatta (earth spherical/rotates). Golden Age achievements.'
+  },
+  {
+    category: 'gupta',
+    question: 'Which was NOT a Navaratna?',
+    options: ['Kalidasa', 'Aryabhatta', 'Amarasimha', 'Harisena'],
+    correct: 1,
+    explanation: 'Aryabhatta: great scientist BUT not Navaratna. Navaratnas: Kalidasa, Amarasimha, Harisena, Varahamihira, Dhanvantari, Vararuchi, Sanku, Vittal Bhat, Kshapanaka.'
+  },
+  {
+    category: 'gupta',
+    question: 'Amarasimha created which Sanskrit dictionary?',
+    options: ['Buddhacharita', 'Amarakosha', 'Raghuvamsa', 'Meghaduta'],
+    correct: 1,
+    explanation: 'Amarasimha: Amarakosha - Sanskrit lexicography (dictionary/thesaurus). Important reference work still used today.'
+  },
+  {
+    category: 'gupta',
+    question: 'Fa Hein visited during which ruler? [UPSC 2025]',
+    options: ['Samudragupta', 'Chandragupta I', 'Chandragupta II', 'Kumaragupta'],
+    correct: 2,
+    explanation: 'Fa Hein (399-414 AD): Chandragupta II [UPSC 2025]. Land route in, sea route back (Ceylon, Java). Collected Buddhist manuscripts.'
+  },
+  {
+    category: 'gupta',
+    question: 'Sandhivigrahaka official responsibilities:',
+    options: ['Tax collection', 'Foreign affairs, war, peace', 'Justice', 'Religious affairs'],
+    correct: 1,
+    explanation: 'Sandhivigrahaka: minister for foreign affairs, war, peace. Key diplomatic-military advisor.'
+  },
+  {
+    category: 'gupta',
+    question: 'Gupta land classified into 5 types:',
+    options: ['Royal, private, temple, common, waste', 'Kshetra, Khila, Aprahata, Vasti, Gapata Saraha', 'Wet, dry, forest, mountain, desert', 'Taxable, exempt, donated, leased, uncultivated'],
+    correct: 1,
+    explanation: '5 types: Kshetra (cultivable), Khila (waste), Aprahata (jungle), Vasti (habitable), Gapata Saraha (pastoral). Systematic classification.'
+  },
+  {
+    category: 'gupta',
+    question: 'Match Gupta taxes:\nA. Bhaga - 1. Customs\nB. Sulka - 2. Land revenue (1/6)\nC. Udianga - 3. Water tax\nD. Hiranya - 4. Cash',
+    options: ['A-2, B-1, C-3, D-4', 'A-1, B-2, C-4, D-3', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
+    correct: 0,
+    explanation: 'Bhaga=Land revenue (1/6), Sulka=Customs, Udianga=Water tax, Hiranya=Cash. Taxation system.'
+  },
+  {
+    category: 'gupta',
+    question: 'Revolutionary mathematical concepts from Gupta:',
+    options: ['Algebra & trigonometry', 'Zero and decimal system', 'Calculus', 'Binary'],
+    correct: 1,
+    explanation: 'Zero and decimal system invented. Foundation of modern mathematics. Scientific golden age.'
+  },
+  {
+    category: 'gupta',
+    question: 'Aryabhatta achievements:\n1. Earth spherical, rotates\n2. Aryabhatiyam\n3. Decimal system',
+    options: ['1 and 2 only', '1 and 3 only', '2 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. FIRST to declare earth spherical+rotates. Aryabhatiyam: arithmetic, geometry, algebra, decimal. Pioneer.'
+  },
+  {
+    category: 'gupta',
+    question: 'Kalidasa\'s Abhijnanasakuntalam: [UPSC 2020]',
+    options: ['First Sanskrit play', 'One of best 100 world works', 'Only Indian play', 'First drama'],
+    correct: 1,
+    explanation: 'One of best 100 literary works worldwide [UPSC 2020]. Earliest Indian work translated to European language. Masterpiece.'
+  },
+  {
+    category: 'gupta',
+    question: 'Panchatantra by Vishnu Sharma:',
+    options: ['Religious text', 'Animal fables teaching wisdom', 'War manual', 'Medical treatise'],
+    correct: 1,
+    explanation: 'Animal fables teaching wisdom and life lessons. Widely translated worldwide. Timeless moral stories.'
+  },
+  {
+    category: 'gupta',
+    question: 'Match Kalidasa works:\nA. Abhijnanasakuntalam - 1. Epic\nB. Raghuvamsa - 2. Drama\nC. Meghaduta - 3. Lyric\nD. Kumarasambhava - 4. Epic',
+    options: ['A-2, B-1, C-3, D-4', 'A-1, B-2, C-4, D-3', 'A-3, B-4, C-2, D-1', 'A-4, B-3, C-1, D-2'],
+    correct: 0,
+    explanation: 'Abhijnanasakuntalam=Drama (world famous), Raghuvamsa=Epic (Raghu dynasty), Meghaduta=Lyric poetry, Kumarasambhava=Epic. Versatility.'
+  },
+  {
+    category: 'gupta',
+    question: 'Raghuvamsa describes:',
+    options: ['Buddha\'s life', 'Raghu dynasty ascent', 'Gupta kings', 'Mauryan empire'],
+    correct: 1,
+    explanation: 'Raghuvamsa: epic describing Raghu dynasty ascent. Major poetic work.'
+  },
+  {
+    category: 'gupta',
+    question: 'Devichandraguptam & Mudrarakshasa about which dynasties? [UPSC 2023]',
+    options: ['Mauryas & Guptas', 'Only Mauryas', 'Only Guptas', 'Satavahanas'],
+    correct: 0,
+    explanation: 'Devichandraguptam: Gupta rise. Mudrarakshasa: Chandragupta Maurya ascent [UPSC 2023]. Both dynasties.'
+  },
+  {
+    category: 'gupta',
+    question: 'Vishnuakadatta authored: [UPSC 2023]',
+    options: ['Devichandraguptam', 'Mudrarakshasa', 'Both', 'Neither'],
+    correct: 0,
+    explanation: 'Vishnuakadatta: Devichandraguptam [UPSC 2023]. Mudrarakshasa authorship debated. Historical dramas.'
+  },
+  {
+    category: 'gupta',
+    question: 'Fa Hein main purpose:',
+    options: ['Trade', 'Collect Buddhist manuscripts', 'Astronomy', 'Diplomacy'],
+    correct: 1,
+    explanation: 'Collect Buddhist manuscripts + document religious, social, economic conditions. Important historical record.'
+  },
+  {
+    category: 'gupta',
+    question: 'Bhaga in taxation:',
+    options: ['Customs', 'Land revenue (1/6 of produce)', 'Water tax', 'Gift tax'],
+    correct: 1,
+    explanation: 'Bhaga: main land revenue - 1/6 of agricultural produce. King\'s customary share.'
+  },
+  {
+    category: 'gupta',
+    question: 'Compare Gupta Golden Age:\n1. Literature (Kalidasa, Panchatantra)\n2. Science (Aryabhatta, zero/decimal)\n3. Administration (sophisticated governance)',
+    options: ['1 and 2 only', '1 and 3 only', '2 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All represent Golden Age. Literature (masterpieces), Science (mathematical innovations, astronomy), Administration (sophisticated system). Comprehensive achievements.'
+  },
+
   // KINGDOMS OF SOUTH QUIZ (12 questions)
   {
     category: 'south',
