@@ -321,6 +321,13 @@ function App() {
     if (artCultureData.length === 0) return <p>No artCultureData match this filter.</p>
 
     const topic = artCultureData[currentIndex]
+    
+    // Safety check: if topic is undefined, reset to first card
+    if (!topic) {
+      setCurrentIndex(0)
+      return null
+    }
+    
     const isMastered = masteredTopics.includes(topic.name)
 
     const nextCard = () => {
@@ -520,7 +527,10 @@ function App() {
 
           <div style={{textAlign: 'left', marginBottom: '30px'}}>
             <h3 style={{marginBottom: '15px'}}>Review:</h3>
-            {quizAnswers.map((answer, idx) => (
+            {quizAnswers.map((answer, idx) => {
+              const question = filteredQuiz[idx];
+              if (!question) return null;
+              return (
               <div key={idx} style={{
                 padding: '15px',
                 marginBottom: '10px',
@@ -529,13 +539,13 @@ function App() {
                 border: '2px solid ' + (answer.correct ? '#10b981' : '#ef4444')
               }}>
                 <p style={{fontWeight: 'bold', marginBottom: '5px'}}>
-                  Q{idx + 1}: {filteredQuiz[idx].question}
+                  Q{idx + 1}: {question.question}
                 </p>
                 <p style={{color: '#666'}}>
-                  {answer.correct ? '✓ Correct!' : `✗ Wrong - ${filteredQuiz[idx].explanation}`}
+                  {answer.correct ? '✓ Correct!' : `✗ Wrong - ${question.explanation}`}
                 </p>
               </div>
-            ))}
+            )})}
           </div>
 
           <div className="controls">
@@ -551,6 +561,12 @@ function App() {
     }
 
     const question = filteredQuiz[currentIndex]
+
+    // Safety check: if question is undefined, reset to first question
+    if (!question) {
+      setCurrentIndex(0)
+      return null
+    }
 
     const jumpToQuestion = (index) => {
       setCurrentIndex(index)
