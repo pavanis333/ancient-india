@@ -4493,112 +4493,133 @@ export const quizQuestions = [
   }
 ,
   
-  // BUDDHISM QUIZ QUESTIONS (15 questions)
+  // BUDDHISM QUIZ QUESTIONS (18 comprehensive questions)
   
   {
     category: 'buddhism',
-    question: 'At which Buddhist Council was the Vinay Pitaka and Sutta Pitaka recited?',
+    question: 'Consider Buddhist Councils:\n1. 1st (Rajagriha) - Vinay + Sutta Pitaka recited\n2. 2nd (Vaishali) - Split into Sthaviravadin + Mahasanghika\n3. 3rd (Patliputra) - Kathavatthu added, missions to Sri Lanka\n4. 4th (Srinagar) - Mahayana/Hinayana division',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. 1st (~483 BC, Rajagriha, Maha Kassapa), 2nd (~383 BC, Vaishali, split), 3rd (~250 BC, Ashoka, Sri Lanka mission), 4th (1st CE, Kanishka, Mahayana/Hinayana split).'
+  },
+  {
+    category: 'buddhism',
+    question: 'At which Council was Vinay Pitaka (Upali) and Sutta Pitaka (Ananda) recited?',
     options: ['1st Council at Rajagriha', '2nd Council at Vaishali', '3rd Council at Patliputra', '4th Council at Srinagar'],
     correct: 0,
-    explanation: '1st Buddhist Council (~483 BC) was held at Sattapani cave, Rajagriha, presided by Maha Kassapa. Upali recited Vinay Pitaka and Ananda recited Sutta Pitaka, shortly after Buddha\'s death.'
+    explanation: '1st Buddhist Council (~483 BC) Sattapani cave, Rajagriha, presided by Maha Kassapa under Ajatashatru. Upali recited Vinay, Ananda recited Sutta Pitaka. Shortly after Buddha\'s death.'
   },
   {
     category: 'buddhism',
-    question: 'The Buddhist order split into Sthaviravadin and Mahasanghika at which Council?',
-    options: ['1st Council', '2nd Council', '3rd Council', '4th Council'],
+    question: 'Buddhist order split into Sthaviravadin (Elders) and Mahasanghika (Great Community) at:',
+    options: ['1st Council', '2nd Council at Vaishali', '3rd Council', '4th Council'],
     correct: 1,
-    explanation: '2nd Buddhist Council (~383 BC) at Vaishali, presided by Sabbakami under King Kalashoka. The order split into Sthaviravadin (Believers in Teachings of Elders) and Mahasanghika (Members of Great Community).'
+    explanation: '2nd Council (~383 BC) Vaishali, presided by Sabbakami under Kalashoka. Split: Sthaviravadin (Believers in Elders) vs Mahasanghika (Great Community). Century after Buddha.'
   },
   {
     category: 'buddhism',
-    question: 'Which Buddhist Council added "Kathavatthu" to Abhidhamma Pitaka and sent missions outside India?',
-    options: ['1st Council', '2nd Council', '3rd Council', '4th Council'],
+    question: 'Which Council added "Kathavatthu" to Abhidhamma Pitaka and sent first missions OUTSIDE India?',
+    options: ['1st Council', '2nd Council', '3rd Council at Patliputra', '4th Council'],
     correct: 2,
-    explanation: '3rd Buddhist Council (~250 BC) at Patliputra under King Ashoka, presided by Moggaliputta-Tissa. Kathavatthu was added to Abhidhamma Pitaka. Mission sent to Sri Lanka - first time Buddhism crossed India.'
+    explanation: '3rd Council (~250 BC) Patliputra under Ashoka, presided by Moggaliputta-Tissa. Kathavatthu added to Abhidhamma. Mission to Sri Lanka - FIRST time Buddhism crossed India.'
   },
   {
     category: 'buddhism',
-    question: 'Division of Buddhism into Mahayana and Hinayana occurred at which Council?',
-    options: ['1st Council', '2nd Council', '3rd Council', '4th Council'],
+    question: 'Mahayana/Hinayana division occurred at which Council under King Kanishka?',
+    options: ['1st Council', '2nd Council', '3rd Council', '4th Council at Srinagar'],
     correct: 3,
-    explanation: '4th Buddhist Council (1st Century CE) at Kundalvana, Srinagar under King Kanishka. Presidents: Vasumitra and Ashwaghosh. Division into Mahayana & Hinayana occurred. Sarvastivadin doctrines compiled in Mahavibhasa.'
+    explanation: '4th Council (1st CE) Kundalvana, Srinagar under Kanishka. Presidents: Vasumitra + Ashwaghosh. Mahayana/Hinayana division. Sarvastivadin doctrines compiled in Mahavibhasa.'
   },
   {
     category: 'buddhism',
-    question: 'Which Bodhisattva is also known as Ajita Bodhisattva, the future Buddha? [UPSC 2018]',
-    options: ['Avalokiteshwara', 'Manjusri', 'Maitreya', 'Vajrapani'],
+    question: 'Which Bodhisattva is the FUTURE Buddha? [UPSC 2018]',
+    options: ['Avalokiteshwara', 'Manjusri', 'Maitreya (Ajita)', 'Vajrapani'],
     correct: 2,
-    explanation: 'Maitreya, also known as Ajita Bodhisattva, is the future Buddha accepted by both Mahayana and non-Mahayana traditions. [UPSC 2018]'
+    explanation: 'Maitreya (Ajita Bodhisattva) = future Buddha [UPSC 2018]. Accepted by both Mahayana and non-Mahayana traditions. Coming saviour.'
   },
   {
     category: 'buddhism',
-    question: 'Which Bodhisattva is known as "The Lord Who Looks Down" and manifests Buddha\'s Compassion?',
-    options: ['Avalokiteshwara', 'Manjusri', 'Tara', 'Ksitigarbha'],
+    question: 'Match Bodhisattvas with attributes:\nA. Avalokiteshwara - 1. Wisdom, flaming sword\nB. Manjusri - 2. Compassion, Padmapani\nC. Tara - 3. Power\nD. Vajrapani - 4. Protection, female',
+    options: ['A-2, B-1, C-4, D-3', 'A-1, B-2, C-3, D-4', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
     correct: 0,
-    explanation: 'Avalokiteshwara, known as "The Lord Who Looks Down", also called Padmapani (Sanskrit) or Lokesvara (Theravada), manifests Buddha\'s Compassion.'
+    explanation: 'Avalokiteshwara=Compassion (Padmapani/"Lord Who Looks Down"), Manjusri=Wisdom (flaming sword destroys falsehood), Tara=Female protection, Vajrapani=Buddha\'s Power. Key attributes.'
   },
   {
     category: 'buddhism',
-    question: 'Manjusri, the Male Bodhisattva, wields which symbolic object to destroy falsehood?',
-    options: ['Lotus', 'Flaming sword', 'Wheel', 'Vajra'],
-    correct: 1,
-    explanation: 'Manjusri, also known as Wenshu (China) and Jampelyang (Tibet), wields a flaming sword to destroy falsehood and holds a book. He is the interlocutor on ultimate truth.'
-  },
-  {
-    category: 'buddhism',
-    question: 'Which Buddhist sect is the root of Theravada Buddhism?',
+    question: 'Which sect emphasized Arahantship, strict Vinaya adherence, and is ROOT of Theravada?',
     options: ['Mahasanghika', 'Sthaviravada', 'Sarvastivada', 'Pudgalavada'],
     correct: 1,
-    explanation: 'Sthaviravada, which emphasized Arahantship and strict adherence to Vinaya (monk\'s code), is the root of Theravada Buddhism. It emerged after the 2nd Council (~383 BCE).'
+    explanation: 'Sthaviravada (after 2nd Council ~383 BCE): emphasized Arahantship, strict Vinaya (monk\'s code), rejected transcendental Buddhas. ROOT of Theravada Buddhism.'
   },
   {
     category: 'buddhism',
-    question: 'Which Buddhist sect introduced Buddha divinity and anthropomorphic art, becoming the root of Mahayana?',
+    question: 'Which sect introduced Buddha divinity, anthropomorphic art, and is ROOT of Mahayana?',
     options: ['Sthaviravada', 'Mahasanghika', 'Sarvastivada', 'Dharmaguptaka'],
     correct: 1,
-    explanation: 'Mahasanghika introduced Buddha divinity and anthropomorphic art after the 2nd Council (~383 BCE). The mind\'s original nature is pure but contaminated by passions. Mahayana Buddhism evolved from this sect.'
+    explanation: 'Mahasanghika (after 2nd Council ~383 BCE): Buddha divinity, anthropomorphic art, mind\'s original purity. Mahayana evolved from this sect. Represented majority after 2nd Council.'
   },
   {
     category: 'buddhism',
-    question: 'Dr. B.R. Ambedkar\'s modern reinterpretation of Buddhism focused on social equality is called:',
+    question: 'Dr. B.R. Ambedkar\'s modern Buddhism focusing on social equality:',
     options: ['Theravada', 'Mahayana', 'Navayana', 'Vajrayana'],
     correct: 2,
-    explanation: 'Navayana Buddhism (~20th CE) is Dr. B.R. Ambedkar\'s modern reinterpretation focused on social equality and justice. Popular among Dalits and marginalized communities, it addresses modern social issues.'
+    explanation: 'Navayana (~20th CE) by Dr. B.R. Ambedkar: modern reinterpretation focused on social equality+justice. Popular among Dalits and marginalized. Addresses modern social issues.'
   },
   {
     category: 'buddhism',
-    question: 'Which Buddhist text records conversations between King Menander and monk Nagasena? [UPSC 2022]',
-    options: ['Buddhacharita', 'Milinda Panha', 'Visuddhimagga', 'Dipavamsa'],
-    correct: 1,
-    explanation: 'Milinda Panha records conversations between King Menander and monk Nagasena. [UPSC 2022]'
+    question: 'Sarvastivada doctrine "Sarvam asti" means:',
+    options: ['Nothing exists', 'Only present exists', 'Everything exists (past, present, future)', 'Only mind exists'],
+    correct: 2,
+    explanation: 'Sarvastivada: "Sarvam asti" = everything exists (past, present, future). Split from Sthaviravada (~3rd BCE). Influential in Abhidharma texts, spread to Central Asia+China.'
   },
   {
     category: 'buddhism',
-    question: 'Which Buddhist scripture is related to the conversation between Buddha and Ajatasatru? [UPSC 2024]',
+    question: 'Which text records Buddha-Ajatasatru conversation? [UPSC 2024]',
     options: ['Milinda Panha', 'Samannaphala Sutta', 'Netti Pakarana', 'Lalitavistara'],
     correct: 1,
-    explanation: 'Samannaphala Sutta is the second sutta of the Digha Nikaya and is related to the conversation between Buddha and Ajatasatru. [UPSC 2024]'
+    explanation: 'Samannaphala Sutta (second sutta of Digha Nikaya): Buddha-Ajatasatru conversation [UPSC 2024]. Important Buddhist scripture.'
   },
   {
     category: 'buddhism',
-    question: 'Who is the founder of the Madhyamika School (Middle Path) and developer of the concept of Śūnyatā?',
+    question: 'Milinda Panha records conversations between: [UPSC 2022]',
+    options: ['Buddha-Ajatasatru', 'King Menander-monk Nagasena', 'Ashoka-Moggaliputta', 'Kanishka-Vasumitra'],
+    correct: 1,
+    explanation: 'Milinda Panha: King Menander (Indo-Greek) and monk Nagasena conversations [UPSC 2022]. Important Buddhist philosophical text.'
+  },
+  {
+    category: 'buddhism',
+    question: 'Buddhaghosa authored:\n1. Visuddhimagga\n2. Sumangal-vilasini\n3. Atthakathayen',
+    options: ['1 only', '1 and 2 only', '2 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'Buddhaghosa (5th CE, Theravada scholar) authored all three: Visuddhimagga, Sumangal-vilasini, Atthakathayen. Systematized Buddhist ethics, meditation, philosophy in Pali literature.'
+  },
+  {
+    category: 'buddhism',
+    question: 'Who founded Madhyamika School (Middle Path) and developed Śūnyatā (emptiness) concept?',
     options: ['Āryadeva', 'Nāgārjuna', 'Asanga', 'Vasubandhu'],
     correct: 1,
-    explanation: 'Nāgārjuna (1st–2nd Century CE) founded the Madhyamika School (Middle Path) and developed the concept of Śūnyatā (emptiness), emphasizing the middle path between eternalism and nihilism.'
+    explanation: 'Nāgārjuna (1st–2nd CE): founded Madhyamika School (Middle Path), developed Śūnyatā (emptiness) concept. Emphasized middle path between eternalism and nihilism.'
   },
   {
     category: 'buddhism',
-    question: 'Who authored Buddhacharita, integrating philosophy with Sanskrit poetic tradition?',
+    question: 'Who authored Buddhacharita integrating philosophy with Sanskrit poetic tradition?',
     options: ['Nāgārjuna', 'Ashvaghosha', 'Vasubandhu', 'Dignāga'],
     correct: 1,
-    explanation: 'Ashvaghosha (1st–2nd Century CE), an early Mahayana philosopher and poet, authored Buddhacharita. He integrated philosophy with Sanskrit poetic tradition and emphasized Buddha\'s divinity and humanism.'
+    explanation: 'Ashvaghosha (1st–2nd CE): early Mahayana philosopher-poet, authored Buddhacharita. Integrated philosophy with Sanskrit poetry, emphasized Buddha\'s divinity+humanism. Also: Saudaranand, Vajrasuchi.'
   },
   {
     category: 'buddhism',
-    question: 'Who is the founder of Buddhist Logic (Hetu Vidya) focusing on Pratyakṣa and Anumāna?',
+    question: 'Yogācāra (Vijnanavada) School "Mind-only" doctrine co-founders:',
+    options: ['Nāgārjuna & Āryadeva', 'Asanga & Vasubandhu', 'Dignāga & Dharmakirti', 'Ashvaghosha & Buddhaghosa'],
+    correct: 1,
+    explanation: 'Asanga (4th CE) co-founded Yogācāra, wrote Mahayana Sutralankara, Mind-only (Cittamatra) doctrine. Vasubandhu (4th–5th CE) authored Abhidharmakośa, systematized Buddhist psychology.'
+  },
+  {
+    category: 'buddhism',
+    question: 'Who founded Buddhist Logic (Hetu Vidya) focusing on Pratyakṣa (perception) and Anumāna (inference)?',
     options: ['Vasubandhu', 'Dignāga', 'Dharmakirti', 'Buddhaghosa'],
     correct: 1,
-    explanation: 'Dignāga (5th–6th Century CE) founded Buddhist Logic (Hetu Vidya), focusing on Pratyakṣa (perception) and Anumāna (inference) as valid means of knowledge.'
+    explanation: 'Dignāga (5th–6th CE): founded Buddhist Logic (Hetu Vidya), focused on Pratyakṣa (perception) + Anumāna (inference) as valid knowledge means. Authored Pramāṇasamuccaya.'
   }
 ,
   
