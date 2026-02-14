@@ -4785,112 +4785,133 @@ export const quizQuestions = [
   }
 ,
   
-  // MAHAJANAPADAS QUIZ QUESTIONS (15 questions)
+  // MAHAJANAPADAS QUIZ QUESTIONS (18 comprehensive questions)
   
   {
     category: 'mahajanapadas',
-    question: 'Which dynasty ruled Magadha, the most powerful Mahajanapada?',
-    options: ['Ikshvaku Dynasty', 'Haryanka Dynasty', 'Maurya Dynasty', 'Nanda Dynasty'],
-    correct: 1,
-    explanation: 'Haryanka Dynasty ruled Magadha. The capital was Rajagriha or Girivraja (Modern Patna and Gaya). Ganga and Son rivers flow through this region.'
+    question: 'Consider major Mahajanapadas:\n1. Magadha - Most powerful, Haryanka Dynasty\n2. Kosala - Divided by Sarayu [UPSC 2025]\n3. Avanti - Divided by Vindhyas [UPSC 2025]\n4. Vajji - Confederacy republic',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Magadha (most powerful, Haryanka Dynasty, Rajagriha capital), Kosala (Sarayu divides North-South [UPSC 2025]), Avanti (Vindhyas divide North-South [UPSC 2025]), Vajji (confederacy: Lichchhavis, Jnatrikas, Vajjis).'
   },
   {
     category: 'mahajanapadas',
-    question: 'Which Mahajanapada was an important commercial centre with merchants sailing to Suvarnabhumi (Southeast Asia)?',
+    question: 'Which dynasty ruled Magadha, the most powerful Mahajanapada?',
+    options: ['Ikshvaku', 'Haryanka', 'Maurya', 'Nanda'],
+    correct: 1,
+    explanation: 'Haryanka Dynasty ruled Magadha. Capital: Rajagriha/Girivraja (modern Patna+Gaya). Ganga+Son rivers. Most powerful Mahajanapada.'
+  },
+  {
+    category: 'mahajanapadas',
+    question: 'Which Mahajanapada was commercial centre with merchants sailing to Suvarnabhumi (Southeast Asia)?',
     options: ['Magadha', 'Anga', 'Vatsa', 'Kosala'],
     correct: 1,
-    explanation: 'Anga (Monghyr and Bhagalpur, Bihar) with capital Champa was an important commercial centre. Merchants sailed from here to Suvarnabhumi (Southeast Asia). Located at Ganga-Champa confluence.'
+    explanation: 'Anga (capital Champa, Monghyr+Bhagalpur, Bihar): important commercial centre. Merchants sailed to Suvarnabhumi (Southeast Asia). Ganga-Champa confluence.'
   },
   {
     category: 'mahajanapadas',
-    question: 'Vajji was a confederacy of which groups? 1. Lichchhavis 2. Jnatrikas 3. Vajjis',
+    question: 'Vajji confederacy included:\n1. Lichchhavis\n2. Jnatrikas (Mahavira\'s clan)\n3. Vajjis',
     options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
     correct: 3,
-    explanation: 'Vajji (capital: Vaishali) was a confederacy including Lichchhavis, Jnatrikas, and Vajjis. King Chetaka ruled. Mahavira belonged to the Jnatrikas Clan. Buddha took his last meal at Pava and attained Mahaparinirvana at Kusinara.'
+    explanation: 'Vajji (capital Vaishali): confederacy of Lichchhavis, Jnatrikas (Mahavira\'s clan), Vajjis. King Chetaka. Buddha\'s last meal at Pava, Mahaparinirvana at Kusinara.'
   },
   {
     category: 'mahajanapadas',
     question: 'At which Mahajanapada did Buddha attain Mahaparinirvana?',
     options: ['Vajji (Vaishali)', 'Mallas (Kusinara)', 'Kosala (Shravasti)', 'Magadha (Rajagriha)'],
     correct: 1,
-    explanation: 'Mallas Mahajanapada (Kushinara and Pava in Gangetic Plains U.P.) is where Buddha took his last meal at Pava and attained Mahaparinirvana at Kusinara.'
+    explanation: 'Mallas (Kushinara+Pava, Gangetic Plains UP): Buddha\'s last meal at Pava, Mahaparinirvana at Kusinara. Important Buddhist site.'
   },
   {
     category: 'mahajanapadas',
-    question: 'Which Mahajanapada was later incorporated into Kosala?',
-    options: ['Anga', 'Kashi', 'Vajji', 'Avanti'],
+    question: 'Sarayu River divides which Mahajanapada into North and South? [UPSC 2025]',
+    options: ['Magadha', 'Kosala', 'Panchala', 'Avanti'],
     correct: 1,
-    explanation: 'Kashi (capital: Varanasi, between Varuna and Assi rivers) was later incorporated into Kosala. Varanasi was an ancient religious center.'
+    explanation: 'Kosala: Sarayu divides North (Shravasti) and South (Kushavati) [UPSC 2025]. King Prasenjit (Buddha\'s contemporary). Lumbini (Shakyas tribal republic) = Buddha\'s birthplace.'
   },
   {
     category: 'mahajanapadas',
-    question: 'The Behistun Inscription mentions Persian conquest of which Mahajanapada in the 6th century BC?',
-    options: ['Kamboja', 'Gandhara', 'Avanti', 'Matsya'],
+    question: 'Vindhyas divide which Mahajanapada into North (Ujjain) and South (Mahishmati)? [UPSC 2025]',
+    options: ['Matsya', 'Avanti', 'Cheti', 'Kuru'],
     correct: 1,
-    explanation: 'Gandhara (capital: Takshashila in north-western Pakistan) - The Behistun Inscription of Achaemenid Emperor Darius mentions Persians conquered Gandhara in the later part of 6th century BC. Takshashila was a major centre for trade and learning.'
+    explanation: 'Avanti (Central Malwa): Vindhyas divide North (Ujjain) and South (Mahishmati) [UPSC 2025]. King Pradyota. Rivers: Shipra+Narmada.'
   },
   {
     category: 'mahajanapadas',
-    question: 'Which river divides Kosala into Northern (Shravasti) and Southern (Kushavati) parts? [UPSC 2025]',
-    options: ['Ganga', 'Yamuna', 'Sarayu', 'Gandak'],
-    correct: 2,
-    explanation: 'Sarayu River divides Kosala into Northern Kosala (Shravasti) and Southern Kosala (Kushavati). [UPSC 2025]. King Prasenjit was Buddha\'s contemporary. Lumbini (Shakyas tribal republic) is Buddha\'s birthplace.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Which is the ONLY Mahajanapada situated south of the Vindhya Range?',
+    question: 'Which is the ONLY Mahajanapada south of Vindhya Range in Dakshinapatha?',
     options: ['Avanti', 'Matsya', 'Ashavaka/Assaka', 'Cheti'],
     correct: 2,
-    explanation: 'Ashavaka/Assaka (capital: Potali in Telangana) is the only Mahajanapada situated south of the Vindhya Range in Dakshinapatha, located between Godavari and Manjira rivers.'
+    explanation: 'Ashavaka/Assaka (capital Potali, Telangana): ONLY Mahajanapada south of Vindhya in Dakshinapatha. Between Godavari+Manjira rivers.'
+  },
+  {
+    category: 'mahajanapadas',
+    question: 'Behistun Inscription mentions Persian conquest (6th century BC) of:',
+    options: ['Kamboja', 'Gandhara', 'Avanti', 'Matsya'],
+    correct: 1,
+    explanation: 'Gandhara (capital Takshashila, NW Pakistan): Behistun Inscription of Achaemenid Darius mentions Persian conquest (late 6th century BC). Major trade+learning centre.'
+  },
+  {
+    category: 'mahajanapadas',
+    question: 'Match Mahajanapadas with distinctive features:\nA. Vatsa - 1. Fine cotton textiles\nB. Kamboja - 2. Excellent horses\nC. Kashi - 3. Later incorporated into Kosala\nD. Anga - 4. Suvarnabhumi trade',
+    options: ['A-1, B-2, C-3, D-4', 'A-2, B-1, C-4, D-3', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
+    correct: 0,
+    explanation: 'Vatsa=Fine cotton textiles (Kaushambi), Kamboja=Excellent horses (Uttarapatha), Kashi=Incorporated into Kosala (Varanasi), Anga=Suvarnabhumi trade (Champa). Each unique.'
+  },
+  {
+    category: 'mahajanapadas',
+    question: 'Vatsa (capital Kaushambi) known for:',
+    options: ['Horses', 'Fine cotton textiles', 'Precious stones', 'Iron weapons'],
+    correct: 1,
+    explanation: 'Vatsa (capital Kaushambi, Ganga-Yamuna confluence near Allahabad): fine cotton textiles. King Udayana ruled.'
+  },
+  {
+    category: 'mahajanapadas',
+    question: 'Kamboja (Uttarapatha) famous for:',
+    options: ['Fine textiles', 'Excellent breed of horses and horsemen', 'Learning centre', 'Commercial hub'],
+    correct: 1,
+    explanation: 'Kamboja (capital Pooncha, Kashmir+NW Frontier): excellent breed of horses and remarkable horsemen. Uttarapatha (North-West).'
+  },
+  {
+    category: 'mahajanapadas',
+    question: 'Mahabharata elaborates conflict in which Mahajanapada?',
+    options: ['Matsya', 'Kuru', 'Panchala', 'Shurasena'],
+    correct: 1,
+    explanation: 'Kuru (capital Indraprastha, Western UP): Mahabharata elaborates conflict between two branches of reigning Kuru clan. Historical-mythological significance.'
+  },
+  {
+    category: 'mahajanapadas',
+    question: 'Panchala - which river divides North (Ahichchhatra) and South (Kampilya)?',
+    options: ['Yamuna', 'Ganga', 'Sarayu', 'Chambal'],
+    correct: 1,
+    explanation: 'Panchala (Western UP): Ganga divides North Panchala (Ahichchhatra/Bareilly) and South Panchala (Kampilya/Farukkhabad). Kanauj situated in Panchala.'
   },
   {
     category: 'mahajanapadas',
     question: 'King Shishupala ruled which Mahajanapada?',
     options: ['Cheti/Chedi', 'Kuru', 'Matsya', 'Shurasena'],
     correct: 0,
-    explanation: 'Cheti or Chedi (capital: Shuktimati or Sotthivatinagara, Eastern Bundelkhand) was ruled by King Shishupala. Ken River flows through this region.'
+    explanation: 'Cheti/Chedi (capital Shuktimati/Sotthivatinagara, Eastern Bundelkhand): King Shishupala ruled. Ken River flows through.'
   },
   {
     category: 'mahajanapadas',
-    question: 'Which Mahajanapada was known for fine cotton textiles?',
-    options: ['Anga', 'Vatsa', 'Kashi', 'Avanti'],
-    correct: 1,
-    explanation: 'Vatsa (capital: Kaushambi at Ganga-Yamuna confluence near Allahabad) was known for fine cotton textiles. King Udayana ruled this Mahajanapada.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'The Mahabharata elaborates on conflict in which Mahajanapada?',
-    options: ['Matsya', 'Kuru', 'Panchala', 'Shurasena'],
-    correct: 1,
-    explanation: 'Kuru (capital: Indraprastha in Western U.P.) - Mahabharata elaborates on the conflict between two branches of the reigning Kuru clan.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Kanauj was situated in the kingdom of which Mahajanapada?',
-    options: ['Kuru', 'Panchala', 'Vatsa', 'Kosala'],
-    correct: 1,
-    explanation: 'Panchala (Western U.P.) - Ganga River divides into Northern Panchala (Ahichchhatra/Bareilly) and Southern Panchala (Kampilya/Farukkhabad). Kanauj was situated in Panchala kingdom.'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'Which Mahajanapada is divided by Vindhyas into North Avanti (Ujjain) and South Avanti (Mahishmati)? [UPSC 2025]',
-    options: ['Matsya', 'Avanti', 'Cheti', 'Kuru'],
-    correct: 1,
-    explanation: 'Avanti (Central Malwa) is divided by Vindhyas: North Avanti - Ujjain, South Avanti - Mahishmati. King Pradyota (Udayana\'s father-in-law) ruled. Shipra & Narmada rivers flow through. [UPSC 2025]'
-  },
-  {
-    category: 'mahajanapadas',
-    question: 'King Avantipura, who was a disciple of Buddha, ruled which Mahajanapada?',
+    question: 'King Avantipura (Buddha\'s disciple) ruled:',
     options: ['Kosala', 'Shurasena', 'Avanti', 'Vatsa'],
     correct: 1,
-    explanation: 'Shurasena (capital: Mathura on Yamuna river in Braj region, U.P.) was ruled by King Avantipura, who was a disciple of Buddha. Important religious center.'
+    explanation: 'Shurasena (capital Mathura on Yamuna, Braj region UP): King Avantipura (Buddha\'s disciple) ruled. Important religious center.'
   },
   {
     category: 'mahajanapadas',
-    question: 'Which Mahajanapada was famous for excellent breed of horses and remarkable horsemen in Uttarapatha?',
-    options: ['Gandhara', 'Kamboja', 'Matsya', 'Kuru'],
+    question: 'Which Mahajanapada was later incorporated into Kosala?',
+    options: ['Anga', 'Kashi', 'Vajji', 'Avanti'],
     correct: 1,
-    explanation: 'Kamboja (capital: Pooncha, Rajouri and Hajra in Kashmir and NW Frontier Province of Pakistan) was famous in ancient times for excellent breed of horses and remarkable horsemen. Located in Uttarapatha (North-West).'
+    explanation: 'Kashi (capital Varanasi, between Varuna+Assi rivers): later incorporated into Kosala. Ancient religious centre.'
+  },
+  {
+    category: 'mahajanapadas',
+    question: 'Compare Buddhist associations:\n1. Mallas - Mahaparinirvana at Kusinara\n2. Kosala - Buddha\'s birthplace (Lumbini in Shakyas)\n3. Shurasena - King was Buddha\'s disciple',
+    options: ['1 and 2 only', '1 and 3 only', '2 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Mallas: Mahaparinirvana at Kusinara. Kosala: Buddha born at Lumbini (Shakyas tribal republic), King Prasenjit contemporary. Shurasena: King Avantipura was Buddha\'s disciple. Buddhist connections.'
   }
 ,
   
