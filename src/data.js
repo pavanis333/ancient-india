@@ -4697,6 +4697,94 @@ export const quizQuestions = [
   }
 ,
   
+  // JAINISM QUIZ QUESTIONS (12 comprehensive questions)
+  
+  {
+    category: 'jainism',
+    question: 'Consider Jain Councils:\n1. First (Patliputra, 300 BC) - 12 Angas compilation\n2. Second (Vallabhi, 512 AD) - 12 Upangas added\n\nWhich are correct?',
+    options: ['1 only', '2 only', 'Both 1 and 2', 'Neither'],
+    correct: 2,
+    explanation: 'Both correct. 1st Council: Patliputra (300 BC), presided by Sthulbhadra, compiled 12 Angas. 2nd Council: Vallabhi (512 AD), presided by Devardhi Kshmasramana, added 12 Upangas (minor sections).'
+  },
+  {
+    category: 'jainism',
+    question: 'At which Council was 12 Angas (limbs) compilation done?',
+    options: ['First at Patliputra (300 BC)', 'Second at Vallabhi (512 AD)', 'First at Vaishali', 'Second at Rajagriha'],
+    correct: 0,
+    explanation: 'First Jain Council: Patliputra (300 BC), presided by Sthulbhadra. Compiled 12 Angas (limbs). Foundation of Jain canonical literature.'
+  },
+  {
+    category: 'jainism',
+    question: '12 Upangas (minor sections) added at which Council?',
+    options: ['First (300 BC)', 'Second at Vallabhi (512 AD)', 'Third (8th century)', 'No Council - gradual'],
+    correct: 1,
+    explanation: 'Second Jain Council: Vallabhi (512 AD), presided by Devardhi Kshmasramana. Added 12 Upangas (minor sections) to canonical texts.'
+  },
+  {
+    category: 'jainism',
+    question: 'Match Jain texts with authors:\nA. Kalpa Sutra - 1. Umaswami\nB. Tattavartha Sutra - 2. Bhadrabahu\nC. Yogasastra - 3. Pushpadanta & Bhutabali\nD. Shatkhandagama - 4. Hemachandra',
+    options: ['A-2, B-1, C-4, D-3', 'A-1, B-2, C-3, D-4', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
+    correct: 0,
+    explanation: 'Kalpa Sutra=Bhadrabahu, Tattavartha Sutra=Umaswami (Sanskrit), Yogasastra=Hemachandra, Shatkhandagama=Pushpadanta+Bhutabali. Key Jain literature.'
+  },
+  {
+    category: 'jainism',
+    question: 'Which is the ONLY Jain text written in Sanskrit?',
+    options: ['Kalpa Sutra', 'Tattavartha Sutra by Umaswami', 'Shatkhandagama', 'Dravya Sangrah'],
+    correct: 1,
+    explanation: 'Tattavartha Sutra by Umaswami: ONLY in Sanskrit. Foundational text accepted by both Digambara+Svetambara. Other texts in Prakrit/Ardhamagadhi.'
+  },
+  {
+    category: 'jainism',
+    question: 'Jain sacred sites:\n1. Shikharji (Jharkhand) - 20 of 24 Tirthankaras attained Moksha\n2. Ranakpur (Rajasthan, 1437 AD) - Dedicated to Rishabh dev',
+    options: ['1 only', '2 only', 'Both 1 and 2', 'Neither'],
+    correct: 2,
+    explanation: 'Both correct. Shikharji (Parasnath Hill): 20 of 24 Tirthankaras attained Moksha, important for Digambara+Svetambara. Ranakpur (1437 AD, Darna Shah): Svetambara temple for Rishabh dev.'
+  },
+  {
+    category: 'jainism',
+    question: 'Dilwara Jain temple (Mount Abu) is famous for:',
+    options: ['Red sandstone', 'Marble carvings', 'Granite sculptures', 'Bronze statues'],
+    correct: 1,
+    explanation: 'Dilwara temple (Mount Abu): Made of MARBLE, built by Samanta Vimalshah of Chalukya (Solanki) ruler Bhimdev I. Famous for intricate marble carvings.'
+  },
+  {
+    category: 'jainism',
+    question: 'Which Jain cave temples depict Jain influence?\n1. Ellora (Maharashtra)\n2. Udaygiri (Odisha)\n3. Sittanavasal (Tamil Nadu)',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three: Ellora (Maharashtra), Udaygiri (Odisha), Sittanavasal (Tamil Nadu). Sittanavasal paintings depict Jain Samasvasarana theme. Wide Jain influence.'
+  },
+  {
+    category: 'jainism',
+    question: 'Match Jain terminology:\nA. Basadis - 1. Chief disciples of Mahavira\nB. Ganadharas - 2. Monastic establishment\nC. Siddha - 3. Fully liberated\nD. Tirthankara - 4. Teacher of doctrine',
+    options: ['A-2, B-1, C-3, D-4', 'A-1, B-2, C-4, D-3', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
+    correct: 0,
+    explanation: 'Basadis=Monastic establishment, Ganadharas=Chief disciples, Siddha=Fully liberated, Tirthankara=Arhat who can teach doctrine (24 Tirthankaras). Jain terminology.'
+  },
+  {
+    category: 'jainism',
+    question: '"Tirthankara" refers to:',
+    options: ['One who renounced world', 'Arhat who can teach doctrine', 'Chief disciple', 'One who performs austerities'],
+    correct: 1,
+    explanation: 'Tirthankara = Arhat who acquired capability of teaching doctrine. Arhat = one who entered Kevalajnana stage. 24 Tirthankaras in Jainism.'
+  },
+  {
+    category: 'jainism',
+    question: 'Ranakpur temple (1437 AD) by Darna Shah dedicated to:',
+    options: ['Mahavira', 'Adinath', 'Rishabh dev', 'Parshvanatha'],
+    correct: 2,
+    explanation: 'Ranakpur (Rajasthan, 1437 AD) by Darna Shah: Svetambara temple dedicated to Tirthankara Rishabh dev. Important architectural achievement.'
+  },
+  {
+    category: 'jainism',
+    question: 'Hemachandra authored:\n1. Yogasastra\n2. Parishishta Parvan\n3. Arhaniti',
+    options: ['1 only', '1 and 2 only', '2 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'Hemachandra authored all three: Yogasastra, Parishishta Parvan, Arhaniti. Prolific Jain scholar and writer. Important contributions to Jain literature.'
+  }
+,
+  
   // MAHAJANAPADAS QUIZ QUESTIONS (15 questions)
   
   {
