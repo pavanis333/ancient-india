@@ -4011,63 +4011,105 @@ export const quizQuestions = [
     explanation: 'Daojali Hading & Sarutaru (Assam/Garo Hills) show shifting cultivation evidence. Birbhanpur, Chirand, Kuchai, Golbaisasan, Sankarjang are East India sites in Bihar and West Bengal. Nagarjunakonda, Ramapuram, Veerapuram are Andhra Pradesh sites. Paiyyampalli is a Tamil Nadu site.'
   },
   
-  // CHALCOLITHIC SITES QUIZ QUESTIONS (8 questions)
+  // CHALCOLITHIC SITES QUIZ QUESTIONS (14 comprehensive questions)
   
   {
     category: 'chalcolithic',
-    question: 'Which Chalcolithic site in South-eastern Rajasthan provided copper supply to Harappa? [UPSC 2021]',
+    question: 'Consider the following about South-eastern Rajasthan Chalcolithic sites:\n1. Ahar - Shows absence of stone axes or blades\n2. Gilund - Had stone-blade industry\n3. Ganeshwar - Provided copper supply to Harappa [UPSC 2021]\n4. All three had hunting and agriculture economy\n\nWhich are correct?',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Ahar (absence of stone tools), Gilund (stone-blade industry), Ganeshwar (copper to Harappa [UPSC 2021]), all had hunting + agriculture economy. South-eastern Rajasthan was major Chalcolithic region.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic site provided copper supply to Harappan civilization? [UPSC 2021]',
     options: ['Ahar', 'Gilund', 'Ganeshwar', 'Kayatha'],
     correct: 2,
-    explanation: 'Ganeshwar in South-eastern Rajasthan provided copper supply to Harappa. This site was an important source of copper for the Harappan civilization. [UPSC 2021]'
+    explanation: 'Ganeshwar in South-eastern Rajasthan provided copper supply to Harappa. Important source of copper for Indus civilization. [UPSC 2021]'
   },
   {
     category: 'chalcolithic',
-    question: 'Consider the following Chalcolithic sites of South-eastern Rajasthan:\n1. Ahar - Shows absence of stone axes or blades\n2. Gilund - Had stone-blade industry\n3. Ganeshwar - Copper supply to Harappa\n\nWhich statements are correct?',
-    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
-    correct: 3,
-    explanation: 'All three statements are correct. Ahar shows absence of stone axes/blades, Gilund had stone-blade industry, and Ganeshwar provided copper to Harappa.'
-  },
-  {
-    category: 'chalcolithic',
-    question: 'Flat and rectangular copper axes have been found at which Western Maharashtra Chalcolithic site? [UPSC 2024]',
-    options: ['Jorwe', 'Nevasa', 'Daimabad', 'Chandoli'],
-    correct: 0,
-    explanation: 'Jorwe in Western Maharashtra shows flat and rectangular copper axes. Chandoli provides evidence of copper chisels. This region is notable for early metallurgy. [UPSC 2024]'
-  },
-  {
-    category: 'chalcolithic',
-    question: 'Which Chalcolithic region is specifically noted for "early metallurgy" in addition to hunting and agriculture?',
-    options: ['South-eastern Rajasthan', 'Western Madhya Pradesh', 'Western Maharashtra', 'Eastern India'],
+    question: 'Match the Western Maharashtra Chalcolithic sites with their characteristics:\nA. Jorwe - 1. Copper chisels [UPSC 2024]\nB. Chandoli - 2. Flat, rectangular copper axes\nC. Daimabad - 3. Early metallurgy center\nD. Nevasa - 4. Bronze objects',
+    options: ['A-2, B-1, C-3, D-4', 'A-3, B-2, C-4, D-1', 'A-2, B-1, C-4, D-3', 'A-1, B-2, C-3, D-4'],
     correct: 2,
-    explanation: 'Western Maharashtra (sites: Jorwe, Nevasa, Daimabad, Chandoli, Songaon, Inamgaon) had economy of hunting, agriculture, AND early metallurgy, unlike other Chalcolithic regions which primarily had hunting and agriculture.'
+    explanation: 'Jorwe (flat/rectangular copper axes), Chandoli (copper chisels [UPSC 2024]), Daimabad (bronze objects), Nevasa (early metallurgy). Western Maharashtra notable for advanced metallurgy.'
   },
   {
     category: 'chalcolithic',
-    question: 'Chalcolithic settlements in the Allahabad region of Uttar Pradesh are found in proximity to which mountain range?',
-    options: ['Himalayas', 'Vindhyas', 'Aravalli', 'Satpura'],
+    question: 'Which Chalcolithic region is UNIQUELY noted for "early metallurgy" as part of its economy (beyond just hunting + agriculture)?',
+    options: ['South-eastern Rajasthan', 'Western Madhya Pradesh', 'Western Maharashtra', 'Allahabad region UP'],
+    correct: 2,
+    explanation: 'Western Maharashtra (Jorwe, Nevasa, Daimabad, Chandoli, Songaon, Inamgaon) had hunting + agriculture + EARLY METALLURGY. Other regions primarily just hunting + agriculture.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Chalcolithic settlements in Allahabad region (Uttar Pradesh) are found near which geographic feature?',
+    options: ['Himalayas', 'Vindhya mountains', 'Aravalli hills', 'Satpura range'],
     correct: 1,
-    explanation: 'Multiple Chalcolithic sites in the Allahabad region, Uttar Pradesh are in proximity to Vindhyas. Multiple Chalcolithic settlements have been found in this area.'
+    explanation: 'Multiple Chalcolithic sites in Allahabad region, UP are in proximity to Vindhyas. Shows settlement pattern near mountain ranges.'
   },
   {
     category: 'chalcolithic',
-    question: 'Which Western Madhya Pradesh sites show evidence of Chalcolithic settlements? 1. Kayatha 2. Eran (Malwa) 3. Navdatoli (Narmada)',
+    question: 'Which Western Madhya Pradesh Chalcolithic sites show evidence of settlements?\n1. Kayatha\n2. Eran (Malwa region)\n3. Navdatoli (Narmada valley)',
     options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
     correct: 3,
-    explanation: 'All three - Kayatha, Eran (Malwa region), and Navdatoli (Narmada valley) in Western Madhya Pradesh show evidence of Chalcolithic settlements with hunting and agriculture economy.'
+    explanation: 'All three: Kayatha, Eran (Malwa), Navdatoli (Narmada valley) in Western MP show Chalcolithic settlements with hunting + agriculture economy.'
   },
   {
     category: 'chalcolithic',
-    question: 'Which unique characteristic distinguishes Andhra Pradesh Chalcolithic sites (Kodekal, Utnur, Nagatjunkonda, Palavoy)?',
-    options: ['Presence of stone-blade industry', 'Evidence of early metallurgy', 'Absence of copper objects', 'Presence of iron tools'],
+    question: 'What UNIQUE characteristic distinguishes Andhra Pradesh Chalcolithic sites (Kodekal, Utnur, Nagarjunakonda, Palavoy)?',
+    options: ['Advanced stone-blade industry', 'Most advanced metallurgy', 'ABSENCE of copper objects', 'Earliest pottery'],
     correct: 2,
-    explanation: 'Andhra Pradesh Chalcolithic sites show some Chalcolithic elements but are uniquely characterized by the absence of copper objects, unlike other Chalcolithic regions.'
+    explanation: 'Andhra Pradesh sites uniquely show ABSENCE of copper objects, unlike other Chalcolithic regions. Shows some Chalcolithic elements but lacks copper metallurgy.'
   },
   {
     category: 'chalcolithic',
-    question: 'Eastern India Chalcolithic sites include Chirand on which river?',
-    options: ['Ganga River', 'Yamuna River', 'Narmada River', 'Godavari River'],
+    question: 'Eastern India Chalcolithic sites include which locations?\n1. Chirand (on Ganga River)\n2. Pandu Rajar Dhibi (West Bengal)\n3. Mahishdal (West Bengal)',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All three are Eastern India Chalcolithic: Chirand (Ganga River), Pandu Rajar Dhibi (WB), Mahishdal (WB). Economy: hunting + agriculture.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Compare Chalcolithic economies by region:\nRegion A: Hunting + Agriculture\nRegion B: Hunting + Agriculture + Early Metallurgy\n\nWhich regions match?',
+    options: ['A=All regions, B=None', 'A=Most regions, B=Western Maharashtra only', 'A=Rajasthan only, B=All others', 'A=None, B=All regions'],
+    correct: 1,
+    explanation: 'Most Chalcolithic regions had hunting + agriculture (A). ONLY Western Maharashtra had the additional component of early metallurgy (B). Shows regional specialization.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Arrange these Chalcolithic regions from West to East:\n1. Western Maharashtra\n2. South-eastern Rajasthan\n3. Western Madhya Pradesh\n4. Eastern India (West Bengal)',
+    options: ['2-1-3-4', '1-2-3-4', '2-3-1-4', '1-3-2-4'],
     correct: 0,
-    explanation: 'Chirand on the Ganga River, along with Pandu Rajar Dhibi and Mahishdal in West Bengal, are Eastern India Chalcolithic settlements with hunting and agriculture economy.'
+    explanation: 'West to East: Rajasthan (west) → Maharashtra (west-central) → Madhya Pradesh (central) → Eastern India/WB (east). Shows spread of Chalcolithic culture across India.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which statement about Chalcolithic metallurgy is INCORRECT?',
+    options: ['Ganeshwar supplied copper to Harappa [UPSC 2021]', 'Chandoli had copper chisels [UPSC 2024]', 'Jorwe had flat/rectangular copper axes', 'All Chalcolithic regions had equal metallurgy skills'],
+    correct: 3,
+    explanation: 'False: Not all regions had equal metallurgy. Western Maharashtra had ADVANCED early metallurgy. Andhra Pradesh LACKED copper objects. Rajasthan supplied copper but varied in processing.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'UPSC has asked about which two Chalcolithic sites in recent years (2021, 2024)?',
+    options: ['Ahar and Gilund', 'Ganeshwar and Chandoli', 'Kayatha and Eran', 'Jorwe and Nevasa'],
+    correct: 1,
+    explanation: 'UPSC 2021: Ganeshwar (copper supply to Harappa). UPSC 2024: Chandoli (copper chisels). Both Maharashtra/Rajasthan metallurgy sites - shows UPSC focus on regional specializations.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'Which Chalcolithic sites are associated with rivers/valleys?\n1. Navdatoli - Narmada valley\n2. Chirand - Ganga River\n3. Eran - Malwa region (not river-specific)',
+    options: ['1 and 2 are river-associated', '2 and 3 are river-associated', '1 and 3 are river-associated', 'All three are river-associated'],
+    correct: 0,
+    explanation: 'River-associated: Navdatoli (Narmada valley), Chirand (Ganga River). Eran is in Malwa REGION (not specifically river valley). Shows importance of water sources for Chalcolithic settlements.'
+  },
+  {
+    category: 'chalcolithic',
+    question: 'What does the diversity of Chalcolithic cultures across India (Rajasthan, Maharashtra, MP, AP, WB) indicate?',
+    options: ['Uniform culture across India', 'Regional variations with distinct characteristics', 'No trade between regions', 'All regions had same technology'],
+    correct: 1,
+    explanation: 'Chalcolithic showed REGIONAL DIVERSITY: copper supply (Rajasthan), advanced metallurgy (Maharashtra), absence of copper (AP). Indicates local adaptations while sharing overall Chalcolithic features.'
   },
   
   // MEGALITHIC SITES QUIZ QUESTIONS (12 questions)
