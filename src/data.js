@@ -5002,6 +5002,116 @@ export const quizQuestions = [
     explanation: 'Samaharta = Chief Collector of Revenue; Sannidhata = Chief Treasury Officer; Panyadhyaksha = Superintendent of Commerce. These were key economic administrators in Mauryan Empire.'
   }
 ,
+  
+  // MAURYAN EMPIRE QUIZ QUESTIONS (15 comprehensive questions)
+  
+  {
+    category: 'mauryan',
+    question: 'Consider Ashoka\'s Rock Edicts themes:\n1. RE 1 & 2 - Prohibit animal sacrifice, festive gatherings\n2. RE 3 & 5 - Administrative positions (Yuktas, Rajjukas) [UPSC 2025]\n3. RE 7 & 12 - Religious tolerance [UPSC 2020]\n4. RE 13 - Kalinga War remorse',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. RE 1&2 (animal sacrifice prohibition), RE 3&5 (officials: Yuktas, Rajjukas, Pradesikas, Dhamma Mahamattas [UPSC 2025]), RE 7&12 (religious tolerance [UPSC 2020]), RE 13 (Kalinga remorse).'
+  },
+  {
+    category: 'mauryan',
+    question: 'Rock Edict 3 & 5 specify administrative positions (Yuktas, Rajjukas, Pradesikas). [UPSC 2025]',
+    options: ['RE 1 & 2', 'RE 3 & 5', 'RE 7 & 12', 'RE 13 & 14'],
+    correct: 1,
+    explanation: 'RE 3 (3 years after Kalinga): Yuktas, Rajjukas, Pradesikas every 5 years. RE 5: Dhamma Mahamattas appointed 13 years after coronation [UPSC 2025].'
+  },
+  {
+    category: 'mauryan',
+    question: 'Rock Edict 1 & 2 prohibit:',
+    options: ['War and violence', 'Animal sacrifice and festive gatherings', 'Trade with foreigners', 'Religious conversions'],
+    correct: 1,
+    explanation: 'RE 1: prohibits animal sacrifice. RE 2: prohibits festive gatherings [UPSC 2025]. Earliest edicts promoting Dhamma. Also describe Cholas, Pandyas, Satyaputras, Keralaputras of South India.'
+  },
+  {
+    category: 'mauryan',
+    question: 'Rock Edict 7 & 12 emphasize religious tolerance [UPSC 2020]. What do they say?',
+    options: ['Promote Buddhism only', 'All religions coexist, honor all sects', 'Suppress other religions', 'Favor Brahmanism'],
+    correct: 1,
+    explanation: 'RE 7: promotes religious harmony+tolerance. RE 12: respect ALL religious sects, forbids condemning others [UPSC 2020]. All religions should co-exist, ascetics of all honored.'
+  },
+  {
+    category: 'mauryan',
+    question: 'Rock Edict 6 shows Ashoka\'s governance accessibility:',
+    options: ['Military reforms', 'Officers can report to king anytime', 'Tax collection', 'Road construction'],
+    correct: 1,
+    explanation: 'RE 6: officers can report to king anytime - even when eating, in inner apartments, or stables. Shows Ashoka\'s accessibility and commitment to constant information about people\'s conditions.'
+  },
+  {
+    category: 'mauryan',
+    question: 'Rock Edict 13 describes Kalinga War. What does it say?',
+    options: ['Celebrates victory', 'Deep remorse, vow to follow Dhamma', 'Plans future wars', 'Military strategy'],
+    correct: 1,
+    explanation: 'RE 13: Kalinga War horrors (100,000 killed, 150,000 deported), deep remorse for suffering. Vows to follow Dhamma and conquest by Dhamma instead of war. Policy transformation.'
+  },
+  {
+    category: 'mauryan',
+    question: 'RE 2 mentions state function of providing:',
+    options: ['Military training', 'Medical care for humans and animals', 'Agricultural subsidies', 'Trade licenses'],
+    correct: 1,
+    explanation: 'RE 2: state function to provide medical care. Ordered hospitals for humans AND animals. Also describes Chola, Pandyas, Satyaputras, Keralaputras of South India. Welfare state.'
+  },
+  {
+    category: 'mauryan',
+    question: 'Separate Kalinga Rock Edict for which region after devastating war?',
+    options: ['Magadha', 'Kalinga (Odisha)', 'Gandhara', 'Avanti'],
+    correct: 1,
+    explanation: 'Separate Kalinga Rock Edict: specifically for conquered Kalinga (modern Odisha). Shows Ashoka\'s special attention after war. Officials should be impartial, just. Verification every 5 years.'
+  },
+  {
+    category: 'mauryan',
+    question: 'Which site first mentions name "Ashoka" (instead of "Devanampiya Piyadasi")?',
+    options: ['Sanchi', 'Sarnath', 'Maski', 'Lauriya Nandangarh'],
+    correct: 2,
+    explanation: 'Maski Minor Rock Edict: FIRST to explicitly mention "Ashoka" (not "Devanampiya"). Located in Karnataka. Important for identification.'
+  },
+  {
+    category: 'mauryan',
+    question: 'How many Major Pillar Edicts did Ashoka issue?',
+    options: ['5', '7', '10', '12'],
+    correct: 1,
+    explanation: '7 Major Pillar Edicts: address Dhamma, governance, moral conduct. Locations: Meerut-Delhi, Topra-Delhi, Allahabad, Lauriya-nandangarh, Lauriya-Areraj, Rampurva.'
+  },
+  {
+    category: 'mauryan',
+    question: '4 Minor Pillar Edicts address:\n1. Schism in Sangha\n2. Qualities of ideal monarch',
+    options: ['1 only', '2 only', 'Both 1 and 2', 'Neither'],
+    correct: 2,
+    explanation: '4 Minor Pillar Edicts: both schism in Sangha (religious order) and ideal monarch qualities. Ashoka\'s concern for religious harmony+good governance.'
+  },
+  {
+    category: 'mauryan',
+    question: '2 Terai Pillar Edicts located in Nepal Terai. One marks what?',
+    options: ['Ashoka\'s birthplace', 'Buddha\'s birthplace (Lumbini)', 'First sermon site', 'Mahaparinirvana site'],
+    correct: 1,
+    explanation: '2 Terai Pillar Edicts: Nigali Sagar & Lumbini (Nepal Terai). Lumbini Pillar marks BUDDHA\'S BIRTHPLACE. Important Buddhist pilgrimage.'
+  },
+  {
+    category: 'mauryan',
+    question: 'Common theme in Ashoka\'s edicts:',
+    options: ['Military expansion', 'Preventing animal slaughter, respecting all life', 'Tax increases', 'Trade promotion'],
+    correct: 1,
+    explanation: 'Recurrent theme: preventing unnecessary animal slaughter, showing respect for ALL living beings. Reflects Dhamma policy and non-violence principle.'
+  },
+  {
+    category: 'mauryan',
+    question: 'Match Mauryan officers:\nA. Antapala - 1. Chief Revenue Collector\nB. Samaharta - 2. Border/Port officer\nC. Sannidhata - 3. Superintendent of Commerce\nD. Panyadhyaksha - 4. Chief Treasury',
+    options: ['A-2, B-1, C-4, D-3', 'A-1, B-2, C-3, D-4', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
+    correct: 0,
+    explanation: 'Antapala=Border/Port officer (manages ports, protects traders, foreigners), Samaharta=Chief Revenue Collector, Sannidhata=Chief Treasury, Panyadhyaksha=Superintendent of Commerce. Economic administration.'
+  },
+  {
+    category: 'mauryan',
+    question: 'Antapala (Frontier/Border officer) responsibilities:',
+    options: ['Tax collection', 'Managing port cities, protecting traders', 'Military command', 'Religious affairs'],
+    correct: 1,
+    explanation: 'Antapala: Frontier/Border officer. Managed port cities, looked after foreigners, protected traders. Important for trade+border security.'
+  }
+,
+  
   // LITERARY & CULTURAL CONTRIBUTIONS QUIZ (8 questions)
   {
     category: 'literary',
