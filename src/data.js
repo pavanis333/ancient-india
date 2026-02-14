@@ -4252,117 +4252,137 @@ export const quizQuestions = [
     question: 'Variety of burial types (urn, pit, chamber, cairn, cist, dolmen) indicates:',
     options: ['Chaotic practices', 'Regional variations and social stratification', 'Single uniform culture', 'Lack of organization'],
     correct: 1,
-    explanation: 'Diversity indicates: Regional cultural variations, social stratification (elite burials?), cultural sophistication. Shows organized diverse society, not chaos.'
+    explanation: 'Variety indicates: Regional cultural variations, social stratification (elite burials?), cultural sophistication. Shows organized diverse society, not chaos.'
   },
   
-  // HARAPPAN CIVILIZATION QUIZ QUESTIONS (15 questions)
+  // HARAPPAN CIVILIZATION QUIZ QUESTIONS (18 comprehensive questions)
   
   {
     category: 'harappan',
-    question: 'Which Harappan site is described as the first archaeological site of the Indus Valley civilization to be discovered, after which the civilization is named?',
+    question: 'Consider major Harappan sites:\n1. Harappa - First discovered site\n2. Mohenjodaro - Great Bath, Pashupathi seal [UPSC 2025]\n3. Dholavira - Unique water harvesting [UPSC 2021]\n4. Lothal - Port and dockyard\n\nWhich are correct?',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Harappa (first discovered, Ravi river), Mohenjodaro (Great Bath, Pashupathi seal [UPSC 2025]), Dholavira (water harvesting [UPSC 2021]), Lothal (naval trade port).'
+  },
+  {
+    category: 'harappan',
+    question: 'Which site is the first archaeological site of Indus Valley discovered, after which civilization is named?',
     options: ['Mohenjodaro', 'Harappa', 'Lothal', 'Dholavira'],
     correct: 1,
-    explanation: 'Harappa was the first archaeological site of the Indus Valley civilization to be discovered, that\'s why the civilization is named after it. Located in Punjab, Pakistan on the Ravi River.'
+    explanation: 'Harappa (Punjab, Pakistan, Ravi river) was first discovered. Civilization named after it. Features: six granaries, male torso, lingam-yoni symbols.'
   },
   {
     category: 'harappan',
-    question: 'Consider the following about Mohenjodaro: [UPSC 2025]\n1. Great Bath - largest building\n2. Bronze statue of dancing girl\n3. Seal with Pashupathi\n4. Planned town with citadel and lower town\n\nWhich are correct?',
-    options: ['1, 2 and 3 only', '2, 3 and 4 only', '1, 3 and 4 only', 'All of the above'],
-    correct: 3,
-    explanation: 'All statements are correct. Mohenjodaro features Great Bath (largest building), bronze dancing girl statue, Pashupathi seal, and a planned town built on a platform with citadel and lower town. [UPSC 2025]'
+    question: 'Match Harappan sites with unique features:\nA. Mohenjodaro - 1. Port & dockyard\nB. Chanhudaro - 2. Great Bath [UPSC 2025]\nC. Lothal - 3. Craft production center\nD. Dholavira - 4. Water harvesting [UPSC 2021]',
+    options: ['A-2, B-3, C-1, D-4', 'A-1, B-2, C-4, D-3', 'A-3, B-4, C-2, D-1', 'A-4, B-1, C-3, D-2'],
+    correct: 0,
+    explanation: 'Mohenjodaro=Great Bath+Pashupathi seal, Chanhudaro=Craft production (beads, shells), Lothal=Port+dockyard, Dholavira=Water harvesting. Each site specialized.'
   },
   {
     category: 'harappan',
-    question: 'Which Harappan site was exclusively devoted to craft production including bead-making, shell-cutting, and metal-working?',
+    question: 'Which site was EXCLUSIVELY devoted to craft production (bead-making, shell-cutting, metal-working)?',
     options: ['Harappa', 'Chanhudaro', 'Lothal', 'Kalibangan'],
     correct: 1,
-    explanation: 'Chanhudaro in Sindh, Pakistan was exclusively devoted to craft production, including bead-making, shell-cutting, metal-working, seal-making and weight-making. Dog\'s paw imprint on brick and terracotta bullock cart model were found.'
+    explanation: 'Chanhudaro (Sindh, Pakistan) exclusively craft production: bead-making, shell-cutting, metal-working, seal-making, weight-making. Dog paw imprint on brick.'
   },
   {
     category: 'harappan',
-    question: 'Which Harappan site is known as an important naval trade site with a port and dockyard?',
+    question: 'Dholavira is UNIQUE for:\n1. Only site divided into 3 parts (Citadel, Middle, Lower)\n2. Water harvesting system [UPSC 2021]\n3. Ancient signboard with engraved letters\n4. Stone used in construction',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Dholavira (Gujarat) unique: 3-part division, water harvesting [UPSC 2021], ancient signboard, stone construction, megalithic stone circle.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which Harappan site is known for naval trade with port and dockyard?',
     options: ['Harappa', 'Mohenjodaro', 'Lothal', 'Suktagendor'],
     correct: 2,
-    explanation: 'Lothal in Gujarat (confluence of Bhogava and Sabarmati rivers) was an important naval trade site with port and dockyard. It had granaries, rice husk, and double burial (male and female together).'
+    explanation: 'Lothal (Gujarat, Bhogava-Sabarmati confluence) naval trade site: port+dockyard, granaries, rice husk, double burial (male-female together).'
   },
   {
     category: 'harappan',
-    question: 'Dholavira is a UNESCO World Heritage Site. Which feature is it particularly known for? [UPSC 2021]',
-    options: ['Great Granary', 'Bronze dancing girl', 'Unique water harvesting system', 'Fire altars'],
-    correct: 2,
-    explanation: 'Dholavira in Khadir Bet, Kutch, Gujarat is known for its unique water harvesting system and stormwater drainage system, giant water reservoirs, and megalithic stone circle. [UPSC 2021]'
-  },
-  {
-    category: 'harappan',
-    question: 'Which is the ONLY Harappan site divided into 3 parts (Citadel, Middle town, and Lower town)?',
-    options: ['Harappa', 'Mohenjodaro', 'Dholavira', 'Kalibangan'],
-    correct: 2,
-    explanation: 'Dholavira is the only site divided into 3 parts: Citadel, Middle town and Lower town. An ancient signboard with letters engraved was also found here.'
-  },
-  {
-    category: 'harappan',
-    question: 'Ploughed field surface, camel bones, and fire altars have been found at which Harappan site?',
+    question: 'Agricultural/ritualistic features - which site had ploughed field, camel bones, fire altars?',
     options: ['Lothal', 'Kalibangan', 'Banawali', 'Ropar'],
     correct: 1,
-    explanation: 'Kalibangan in Rajasthan (Ghaggar river) features bangle factory, ploughed field surface, camel bones, fire altars, and bronze figure of a bull.'
+    explanation: 'Kalibangan (Rajasthan, Ghaggar river): ploughed field surface, camel bones, fire altars, bangle factory, bronze bull. Agricultural evidence.'
   },
   {
     category: 'harappan',
-    question: 'Which Harappan site is notable for having radial streets and lacking systematic drainage?',
+    question: 'Urban planning: Which site had RADIAL streets and LACKED systematic drainage?',
     options: ['Harappa', 'Banawali', 'Dholavira', 'Lothal'],
     correct: 1,
-    explanation: 'Banawali in Haryana (Rangoi river) was centre of Pre-Harappan, Mature and Late Harappan civilisation. It had radial streets and lacked systematic drainage. Found oval-shaped settlement, barley grains, lapis lazuli.'
+    explanation: 'Banawali (Haryana, Rangoi) unique: radial streets, NO systematic drainage. Pre-Harappan to Late Harappan centre. Oval settlement, barley, lapis lazuli.'
   },
   {
     category: 'harappan',
-    question: 'Which site was the first to be excavated after independence?',
+    question: 'Which was the FIRST site excavated after independence?',
     options: ['Lothal', 'Ropar', 'Kalibangan', 'Banawali'],
     correct: 1,
-    explanation: 'Ropar in Punjab (Sutlej river) was the first site to be excavated after independence. Features include dog buried with human, oval pit burials, and a copper axe.'
+    explanation: 'Ropar (Punjab, Sutlej river) first after independence. Features: dog buried with human, oval pit burials, copper axe.'
   },
   {
     category: 'harappan',
-    question: 'Which Harappan site is believed to be the largest site of IVC based on discovery of two mounds around 2016?',
-    options: ['Harappa', 'Mohenjodaro', 'Rakhi Garhi', 'Dholavira'],
-    correct: 2,
-    explanation: 'Rakhi Garhi in Haryana - discovery of two mounds around 2016 led archaeologists to believe it is the largest IVC site. It shows all three phases of Harappa Culture.'
-  },
-  {
-    category: 'harappan',
-    question: 'Consider the following about Harappan trade imports:\n1. Gold from Afghanistan, Iran, and Kolar\n2. Lapis lazuli from Shortughai (Afghanistan)\n3. Copper from Khetri (Rajasthan) and Oman\n\nWhich are correct?',
-    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
-    correct: 3,
-    explanation: 'All are correct. Harappans imported gold from Afghanistan, Iran, and Kolar (South India); lapis lazuli from Shortughai (Afghanistan); and copper from Khetri (Rajasthan) and Oman.'
-  },
-  {
-    category: 'harappan',
-    question: 'Which material for Harappan craft production came from Lothal?',
-    options: ['Lapis lazuli', 'Carnelian', 'Steatite', 'Copper'],
+    question: 'Rakhi Garhi is believed to be the LARGEST IVC site based on:',
+    options: ['Size of Great Bath', 'Discovery of two mounds (2016)', 'Number of granaries', 'Length of city walls'],
     correct: 1,
-    explanation: 'Carnelian came from Lothal. Other craft materials: Shell (Nageshwar and Balakot), Steatite (South Rajasthan), Lapis lazuli (Shortughai), Copper (Rajasthan and Oman).'
+    explanation: 'Rakhi Garhi (Haryana): Discovery of two mounds around 2016 led archaeologists to believe it is LARGEST IVC site. Shows all three Harappa phases.'
   },
   {
     category: 'harappan',
-    question: 'Bronze images of charioteer with chariot, ox, elephant and rhinoceros have been found at which site?',
+    question: 'Bronze images (charioteer with chariot, ox, elephant, rhinoceros) found at:',
     options: ['Mohenjodaro', 'Lothal', 'Daimabad', 'Chanhudaro'],
     correct: 2,
-    explanation: 'Daimabad in Maharashtra (Pravara river) has bronze images including charioteer with chariot, ox, elephant and rhinoceros.'
+    explanation: 'Daimabad (Maharashtra, Pravara river): Bronze images - charioteer with chariot, ox, elephant, rhinoceros. Southern Harappan site.'
   },
   {
     category: 'harappan',
-    question: '\'Wellfired red and buff wares\' pottery with motifs like horned deity, pipal leaves and fish scales is characteristic of which site?',
+    question: 'Consider Harappan trade imports:\n1. Gold from Afghanistan, Iran, Kolar\n2. Lapis lazuli from Shortughai (Afghanistan)\n3. Copper from Khetri (Rajasthan) and Oman\n4. Tin from Afghanistan, Iran',
+    options: ['1, 2 and 3 only', '2, 3 and 4 only', '1, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Wide trade network: Gold (Afghanistan, Iran, Kolar), Lapis (Shortughai), Copper (Khetri, Oman), Tin (Afghanistan, Iran). Shows extensive contacts.'
+  },
+  {
+    category: 'harappan',
+    question: 'Match craft materials with sources:\nA. Carnelian - 1. Shortughai\nB. Lapis lazuli - 2. Nageshwar & Balakot\nC. Shell - 3. Lothal\nD. Steatite - 4. South Rajasthan',
+    options: ['A-3, B-1, C-2, D-4', 'A-1, B-3, C-4, D-2', 'A-2, B-4, C-1, D-3', 'A-4, B-2, C-3, D-1'],
+    correct: 0,
+    explanation: 'Carnelian=Lothal, Lapis lazuli=Shortughai (Afghanistan), Shell=Nageshwar & Balakot, Steatite=South Rajasthan. Craft material procurement strategy.'
+  },
+  {
+    category: 'harappan',
+    question: '"Wellfired red and buff wares" pottery with horned deity, pipal leaves, fish scales motifs:',
     options: ['Kalibangan', 'Kot-Diji', 'Amri', 'Banawali'],
     correct: 1,
-    explanation: 'Kot-Diji in Sindh, Pakistan (Sindh river) is known for wellfired red and buff wares pottery with common motifs like horned deity, pipal leaves and fish scales executed in black. Fortification made of mud bricks and stone.'
+    explanation: 'Kot-Diji (Sindh, Pakistan): Wellfired red/buff pottery with motifs - horned deity, pipal leaves, fish scales (black). Fortification: mud bricks+stone.'
   },
   {
     category: 'harappan',
-    question: 'Which Harappan site was originally a port but later cut off from the sea due to coastal upliftment?',
+    question: 'Which port was LATER cut off from sea due to coastal upliftment?',
     options: ['Lothal', 'Suktagendor', 'Dholavira', 'Rangpur'],
     correct: 1,
-    explanation: 'Suktagendor in Pakistan (Dasht River) was originally a port but was later cut off from sea due to coastal upliftment. It had trade links with Babylon. Found ash-filled pot, copper axe, earthen bangles & pottery.'
-  }
-,
+    explanation: 'Suktagendor (Pakistan, Dasht River): Originally port, later cut off by coastal upliftment. Had trade links with Babylon. Ash-filled pot, copper axe.'
+  },
+  {
+    category: 'harappan',
+    question: 'Compare site features:\n1. Mohenjodaro - Post cremation burial\n2. Lothal - Double burial (male-female)\n3. Ropar - Dog buried with human',
+    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All show burial diversity. Mohenjodaro: post cremation, Lothal: double burial (male-female together), Ropar: dog with human. Different practices across sites.'
+  },
+  {
+    category: 'harappan',
+    question: 'Which site shows transitional culture between Pre and Post-Harappan with rhinoceros remains?',
+    options: ['Kot-Diji', 'Amri', 'Rangpur', 'Alamgirpur'],
+    correct: 1,
+    explanation: 'Amri (Sindh, Pakistan): Pre-Harappan settlement, transitional culture Pre→Post-Harappan, actual rhinoceros remains. Shows cultural continuity.'
+  },
+  {
+    category: 'harappan',
+    question: 'Pre-Harappan and Mature Harappan remains with yellow-grey pots found at:',
+    options: ['Rangpur', 'Banawali', 'Kot-Diji', 'Amri'],
+    correct: 0,
+    explanation: 'Rangpur (Gujarat, Madar river): Remains of both Pre-Harappan and Mature Harappan. Yellow and grey colour pots of pre-Harappan people. Dual phase evidence.'
+  },
   
   // VEDIC LITERATURE QUIZ QUESTIONS (12 questions)
   
