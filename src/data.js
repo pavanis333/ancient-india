@@ -5507,6 +5507,27 @@ export const quizQuestions = [
     correct: 1,
     explanation: 'Nirppeyaru/Mhabalipuram and Mylapore were twin ports in Tamil Nadu serving Pallava maritime trade, with Mylapore being a major urban center.'
   },
+  {
+    category: 'south',
+    question: 'Compare South dynasty ports:\n1. Chalukyas - Kalyana\n2. Pallavas - Mamallapuram\n3. Kadambas - Gopakapattana (Old Goa)',
+    options: ['1 and 2 only', '1 and 3 only', '2 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Chalukyas: Kalyana (Bidar, Karnataka). Pallavas: Mamallapuram/Mahabalipuram (TN coastal). Kadambas: Gopakapattana (Old Goa). Strategic maritime hubs.'
+  },
+  {
+    category: 'south',
+    question: 'Match South administrative officials:\nA. Kamunda/Pokigan - 1. District chief\nB. Vishayapati - 2. Village intermediary\nC. Nala-kavundas - 3. Provincial military\nD. Maha-Samanta - 4. Village revenue',
+    options: ['A-2, B-1, C-4, D-3', 'A-1, B-2, C-3, D-4', 'A-4, B-3, C-2, D-1', 'A-3, B-4, C-1, D-2'],
+    correct: 0,
+    explanation: 'Kamunda/Pokigan=Village intermediary (king-appointed), Vishayapati=District chief (Vishaya unit), Nala-kavundas=Village revenue officials, Maha-Samanta=Provincial governors (military authority). Administrative hierarchy.'
+  },
+  {
+    category: 'south',
+    question: 'Ikshvaku port Ghantasala significance:',
+    options: ['Only trade hub', 'Buddhist center + trade hub', 'Military fort', 'Religious center only'],
+    correct: 1,
+    explanation: 'Ghantasala (Krishna district, AP): major Buddhist center AND trade hub. Ikshvaku port combining religious+commercial importance.'
+  }
 
   // SANGAM AGE QUIZ (15 questions)
   {
@@ -5613,6 +5634,27 @@ export const quizQuestions = [
     options: ['Cheras', 'Cholas', 'Pandyas', 'Pallavas'],
     correct: 1,
     explanation: 'Kaveripattinam (also called Puhar) was the main port of Chola dynasty, serving as capital port for their maritime trade in Tamil Nadu.'
+  },
+  {
+    category: 'sangam',
+    question: 'Compare Three Sangam dynasties:\n1. Cheras (Kerala) - Bow & Arrow, Vanji capital\n2. Cholas (TN) - Tiger, Uraiyur capital  \n3. Pandyas (TN) - Fish, Madurai capital',
+    options: ['1 and 2 only', '1 and 3 only', '2 and 3 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Cheras: Bow+Arrow emblem, Vanji capital, Kerala, Muziris port. Cholas: Tiger emblem, Uraiyur capital, Karikala, Kaveripattinam port. Pandyas: Fish emblem, Madurai capital, Korkai port [UPSC 2023]. Three major dynasties.'
+  },
+  {
+    category: 'sangam',
+    question: 'Five Thinai eco-zones. Match with activities:\nA. Kurinji - 1. Agriculture (plough+irrigation)\nB. Marutham - 2. Hunting & gathering\nC. Mullai - 3. Fishing & salt\nD. Neythal - 4. Pastoralism\nE. Palai - 5. Cattle lifting',
+    options: ['A-2, B-1, C-4, D-3, E-5', 'A-1, B-2, C-3, D-4, E-5', 'A-5, B-4, C-3, D-2, E-1', 'A-3, B-5, C-1, D-4, E-2'],
+    correct: 0,
+    explanation: 'Kurinji=Hilly (hunting/gathering), Marutham=Riverine (agriculture, most productive), Mullai=Pastoral (herding), Neythal=Coastal (fishing/salt), Palai=Arid (cattle lifting/robbery). Five eco-zones with distinct economies.'
+  },
+  {
+    category: 'sangam',
+    question: 'Match Sangam dynasty ports [UPSC 2023]:\nA. Cheras - 1. Kaveripattinam/Puhar\nB. Cholas - 2. Korkai\nC. Pandyas - 3. Muziris (Kodungallur)',
+    options: ['A-3, B-1, C-2', 'A-1, B-3, C-2', 'A-2, B-3, C-1', 'A-3, B-2, C-1'],
+    correct: 0,
+    explanation: 'Cheras: Muziris/Muchiri (Kodungallur, Kerala). Cholas: Kaveripattinam/Puhar (main port, TN). Pandyas: Korkai+Nelkynda [UPSC 2023]. Major maritime hubs.'
   }
 ];
 
