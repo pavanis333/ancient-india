@@ -4112,91 +4112,147 @@ export const quizQuestions = [
     explanation: 'Chalcolithic showed REGIONAL DIVERSITY: copper supply (Rajasthan), advanced metallurgy (Maharashtra), absence of copper (AP). Indicates local adaptations while sharing overall Chalcolithic features.'
   },
   
-  // MEGALITHIC SITES QUIZ QUESTIONS (12 questions)
+  // MEGALITHIC SITES QUIZ QUESTIONS (20 comprehensive questions)
   
   {
     category: 'megalithic',
-    question: 'Which Karnataka site is described as the "Largest megalithic site in South India"?',
+    question: 'Consider Karnataka megalithic sites:\n1. Hirebenkal - Largest in South India\n2. Maski - First Ashoka mention\n3. Brahmagiri - Neolithic→Megalithic transition\n4. Hallur - Early iron + agriculture\n\nWhich are correct?',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 3,
+    explanation: 'All correct. Hirebenkal (largest, dolmenoid cists+menhirs), Maski (first Ashoka, iron+black-red ware), Brahmagiri (transition), Hallur (early iron+agriculture).'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which Karnataka site is the "Largest megalithic site in South India"?',
     options: ['Brahmagiri', 'Hirebenkal', 'Maski', 'Hallur'],
     correct: 1,
-    explanation: 'Hirebenkal in Karnataka is the largest megalithic site in South India. It features dolmenoid cists and menhirs with artifacts including pottery, iron tools, and figurines.'
+    explanation: 'Hirebenkal in Karnataka is the largest megalithic site in South India. Features dolmenoid cists and menhirs with pottery, iron tools, and figurines.'
   },
   {
     category: 'megalithic',
-    question: 'Which megalithic site is historically significant for being the first to mention the name "Ashoka"?',
-    options: ['Brahmagiri', 'Maski', 'Hallur', 'Nagarjunakonda'],
-    correct: 1,
-    explanation: 'Maski in Karnataka is the first site to mention the name "Ashoka". It features iron implements, black-and-red ware, and cist burials.'
+    question: 'Match Karnataka sites with significance:\nA. Maski - 1. Largest\nB. Hirebenkal - 2. Early iron\nC. Hallur - 3. First Ashoka\nD. Brahmagiri - 4. Transition',
+    options: ['A-3, B-1, C-2, D-4', 'A-1, B-3, C-4, D-2', 'A-2, B-4, C-1, D-3', 'A-4, B-2, C-3, D-1'],
+    correct: 0,
+    explanation: 'Maski=First Ashoka, Hirebenkal=Largest, Hallur=Early iron, Brahmagiri=Transition. Each site unique.'
   },
   {
     category: 'megalithic',
-    question: 'Consider the following about Adichanallur in Tamil Nadu:\n1. It has a burial mound with megalithic culture\n2. Iron objects and gold diadems were found\n3. Type of burials: Urn burials\n\nWhich are correct?',
-    options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
+    question: 'Consider Tamil Nadu sites:\n1. Adichanallur - Iron, gold diadems, urn burials\n2. Kodumanal - Three burial types\n3. Amritamangalam - Cairn burials\n4. Palyampalli - Black-red ware\n\nWhich are correct?',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
     correct: 3,
-    explanation: 'All statements are correct. Adichanallur features burial mound with megalithic culture, artifacts include iron objects, gold diadems, and pottery, with urn burials as the burial type.'
+    explanation: 'All correct. Shows Tamil Nadu megalithic diversity: Adichanallur (gold unique), Kodumanal (all 3 burial types), Amritamangalam (cairns), Palyampalli (pottery).'
   },
   {
     category: 'megalithic',
-    question: 'Which Tamil Nadu site features pit burials, urn burials, AND chamber tombs together?',
+    question: 'Which Tamil Nadu site UNIQUELY has pit, urn, AND chamber tombs together?',
     options: ['Adichanallur', 'Palyampalli', 'Kodumanal', 'Amritamangalam'],
     correct: 2,
-    explanation: 'Kodumanal in Erode, Tamil Nadu uniquely features all three types: pit burials, urn burials, and chamber tombs. Artifacts include iron tools and beads of carnelian and quartz.'
+    explanation: 'Kodumanal (Erode) uniquely features ALL THREE burial types. Artifacts: iron tools, carnelian/quartz beads. Shows burial practice diversity.'
   },
   {
     category: 'megalithic',
-    question: 'Sites showing Neolithic to Megalithic transition include: 1. Brahmagiri (Karnataka) 2. Gufkral (Kashmir)',
-    options: ['1 only', '2 only', 'Both 1 and 2', 'Neither 1 nor 2'],
+    question: 'Sites showing Neolithic→Megalithic transition:\n1. Brahmagiri (Karnataka)\n2. Gufkral (Kashmir)',
+    options: ['1 only', '2 only', 'Both 1 and 2', 'Neither'],
     correct: 2,
-    explanation: 'Both Brahmagiri and Gufkral show Neolithic to Megalithic transition. Brahmagiri has stone circle burials with iron tools and pottery. Gufkral shows early agriculture with stone tools.'
+    explanation: 'Both show transition. Brahmagiri: stone circles+iron+pottery. Gufkral: agriculture+stone tools. Demonstrates cultural evolution.'
   },
   {
     category: 'megalithic',
-    question: 'Dolmenoid cists as burial type are found at which sites? 1. Hirebenkal 2. Sangarampet 3. Nagarjunakonda',
+    question: 'Dolmenoid cists found at:\n1. Hirebenkal (with menhirs)\n2. Sangarampet (with dolmens)\n3. Nagarjunakonda (with cairns)',
     options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
     correct: 3,
-    explanation: 'Dolmenoid cists are found at all three: Hirebenkal (with menhirs), Sangarampet (with cist burials and dolmens), and Nagarjunakonda (with cairn burials and dolmens).'
+    explanation: 'All three have dolmenoid cists. Hirebenkal (Karnataka), Sangarampet, Nagarjunakonda (AP). Shows widespread burial type.'
   },
   {
     category: 'megalithic',
-    question: 'Which Maharashtra site shows continuity from Chalcolithic to Megalithic period?',
+    question: 'Which Maharashtra site shows Chalcolithic→Megalithic continuity?',
     options: ['Nevasa', 'Jorwe', 'Junapani', 'Daimabad'],
     correct: 1,
-    explanation: 'Jorwe in Maharashtra shows Chalcolithic and Megalithic continuity. Features include black-and-red ware, copper objects, and both pit burials and urn burials.'
+    explanation: 'Jorwe shows continuity. Features: black-red ware, copper objects (Chalcolithic), pit+urn burials (Megalithic). Cultural evolution.'
   },
   {
     category: 'megalithic',
-    question: 'Early use of iron and agricultural settlements are characteristic features of which site?',
+    question: 'Maharashtra sites - what connects Jorwe and Junapani?',
+    options: ['Urn burials only', 'Stone circles', 'Iron implements', 'Copper objects'],
+    correct: 2,
+    explanation: 'Both have iron implements. Jorwe (continuity, black-red ware, pit+urn). Junapani (stone circles+graves, pottery+iron+beads).'
+  },
+  {
+    category: 'megalithic',
+    question: 'Which Karnataka site is known for EARLY iron use and agriculture?',
     options: ['Brahmagiri', 'Hallur', 'Maski', 'Chandravalli'],
     correct: 1,
-    explanation: 'Hallur in Karnataka is known for early use of iron and agricultural settlements. It features pottery and iron implements with cist burials.'
+    explanation: 'Hallur: early iron + agricultural settlements. Features: pottery, iron implements, cist burials. Agricultural-megalithic connection.'
   },
   {
     category: 'megalithic',
-    question: 'Black-and-red ware pottery has been found at which sites? 1. Palyampalli 2. Maski 3. Jorwe',
+    question: 'Black-and-red ware at:\n1. Palyampalli (TN)\n2. Maski (Karnataka)\n3. Jorwe (Maharashtra)',
     options: ['1 and 2 only', '2 and 3 only', '1 and 3 only', 'All of the above'],
     correct: 3,
-    explanation: 'Black-and-red ware pottery is found at all three: Palyampalli (Tamil Nadu), Maski (Karnataka with iron implements), and Jorwe (Maharashtra with copper objects).'
+    explanation: 'All three. Common pottery type across South Indian megalithic sites showing cultural connections.'
   },
   {
     category: 'megalithic',
-    question: 'Which type of burials are found at Amritamangalam in Tamil Nadu?',
-    options: ['Urn burials', 'Pit burials', 'Cairn burials', 'Cist burials'],
+    question: 'Amritamangalam (Tamil Nadu) burial type:',
+    options: ['Urn burials', 'Pit burials', 'Cairn burials with stone circles', 'Cist burials'],
     correct: 2,
-    explanation: 'Amritamangalam in Tamil Nadu features stone circles and cairn burials. Artifacts include iron objects and beads.'
+    explanation: 'Amritamangalam: stone circles + cairn burials. Artifacts: iron, beads. Cairn circles characteristic of South India.'
   },
   {
     category: 'megalithic',
-    question: 'Stone circles and megalithic graves characterize which Maharashtra site?',
+    question: 'Stone circles and megalithic graves with pottery, iron, beads - which Maharashtra site?',
     options: ['Jorwe', 'Junapani', 'Nevasa', 'Chandoli'],
     correct: 1,
-    explanation: 'Junapani in Maharashtra features stone circles and megalithic graves with pottery, iron implements, and beads. Type of burials: Stone circle burials.'
+    explanation: 'Junapani: stone circles + graves, pottery + iron + beads. Type: Stone circle burials. Maharashtra traditions.'
   },
   {
     category: 'megalithic',
-    question: 'Which statement about Nagarjunakonda (Andhra Pradesh) is correct?',
-    options: ['Only urn burials found', 'Only cist burials found', 'Cairn burials and dolmens found', 'Only pit burials found'],
+    question: 'Compare burial types:\n1. Kodumanal - 3 types\n2. Jorwe - 2 types\n3. Adichanallur - 1 type\n\nWhich have multiple?',
+    options: ['1 only', '1 and 2 only', '2 and 3 only', 'All three'],
+    correct: 1,
+    explanation: 'Multiple: Kodumanal (3: pit+urn+chamber), Jorwe (2: pit+urn). Adichanallur primarily urn. Shows diversity within megalithic.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Arrange by historical significance:\n1. Transition site\n2. First Ashoka\n3. Largest site\n4. Early iron',
+    options: ['1-Brahmagiri, 2-Maski, 3-Hirebenkal, 4-Hallur', '1-Hallur, 2-Hirebenkal, 3-Maski, 4-Brahmagiri', '1-Maski, 2-Brahmagiri, 3-Hallur, 4-Hirebenkal', '1-Hirebenkal, 2-Hallur, 3-Brahmagiri, 4-Maski'],
+    correct: 0,
+    explanation: '1-Brahmagiri (Neolithic→Megalithic), 2-Maski (first Ashoka name), 3-Hirebenkal (largest South India), 4-Hallur (early iron). Each unique importance.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Nagarjunakonda (AP) features:',
+    options: ['Only urn burials', 'Only cist burials', 'Cairn burials + dolmens', 'Only pit burials'],
     correct: 2,
-    explanation: 'Nagarjunakonda in Andhra Pradesh features cairn burials and dolmens. Artifacts include pottery, beads, and iron tools. Type: Cairn burials and dolmenoid cists.'
+    explanation: 'Nagarjunakonda: cairn burials + dolmens, pottery + iron. Type: Cairn circles + dolmenoid cists. Andhra Pradesh traditions.'
+  },
+  {
+    category: 'megalithic',
+    question: 'What distinguishes Adichanallur from other Tamil Nadu sites?',
+    options: ['Iron tools (common)', 'Gold diadems (unique)', 'Black-red ware (common)', 'Stone circles (common)'],
+    correct: 1,
+    explanation: 'Adichanallur unique: GOLD DIADEMS + iron + pottery. Gold rare in megalithic sites. Shows wealth/status differentiation in society.'
+  },
+  {
+    category: 'megalithic',
+    question: 'Common artifacts across most megalithic sites:\n1. Iron implements\n2. Pottery (black-red ware)\n3. Beads\n4. Gold objects',
+    options: ['1, 2 and 3 only', '1, 2 and 4 only', '2, 3 and 4 only', 'All of the above'],
+    correct: 0,
+    explanation: 'Common: Iron (Maski, Hallur, Junapani), Pottery (Palyampalli, Maski, Jorwe), Beads (Kodumanal, Junapani). Gold RARE (only Adichanallur).'
+  },
+  {
+    category: 'megalithic',
+    question: 'Megalithic geographic distribution:',
+    options: ['Only Karnataka', 'Only South India (Karnataka+TN)', 'Karnataka + TN + Maharashtra + AP + Kashmir', 'Only coastal regions'],
+    correct: 2,
+    explanation: 'Wide distribution: Karnataka (Hirebenkal, Maski, Brahmagiri, Hallur), Tamil Nadu (Adichanallur, Kodumanal, Amritamangalam, Palyampalli), Maharashtra (Jorwe, Junapani), AP (Nagarjunakonda), Kashmir (Gufkral).'
+  },
+  {
+    category: 'megalithic',
+    question: 'Variety of burial types (urn, pit, chamber, cairn, cist, dolmen) indicates:',
+    options: ['Chaotic practices', 'Regional variations and social stratification', 'Single uniform culture', 'Lack of organization'],
+    correct: 1,
+    explanation: 'Diversity indicates: Regional cultural variations, social stratification (elite burials?), cultural sophistication. Shows organized diverse society, not chaos.'
   },
   
   // HARAPPAN CIVILIZATION QUIZ QUESTIONS (15 questions)
