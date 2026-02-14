@@ -91,6 +91,8 @@ function App() {
       filtered = topicsData.filter(v => v.category === 'gupta')
     } else if (selectedTopic === 'south') {
       filtered = topicsData.filter(v => v.category === 'south')
+    } else if (selectedTopic === 'sangam') {
+      filtered = topicsData.filter(v => v.category === 'sangam')
     }
 
     return filtered
@@ -200,6 +202,8 @@ function App() {
     const guptaQuiz = quizQuestions.filter(q => q.category === 'gupta').length
     const southCount = topicsData.filter(t => t.category === 'south').length
     const southQuiz = quizQuestions.filter(q => q.category === 'south').length
+    const sangamCount = topicsData.filter(t => t.category === 'sangam').length
+    const sangamQuiz = quizQuestions.filter(q => q.category === 'sangam').length
 
     return (
       <div className="mode-selector">
@@ -273,6 +277,12 @@ function App() {
           <div className="mode-icon">🌴</div>
           <h3>Kingdoms of South</h3>
           <p>{southCount} flashcards · {southQuiz} quiz questions</p>
+        </div>
+
+        <div className="mode-card" onClick={() => setSelectedTopic('sangam')}>
+          <div className="mode-icon">📜</div>
+          <h3>Sangam Age</h3>
+          <p>{sangamCount} flashcards · {sangamQuiz} quiz questions</p>
         </div>
       </div>
     )

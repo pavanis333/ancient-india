@@ -3624,6 +3624,223 @@ export const flashcards = [
     content: 'Port near Ongole, Andhra Pradesh. Coastal trading post of Ikshvaku kingdom.',
     importance: 'high',
     facts: ['Near Ongole', 'Andhra Pradesh', 'Coastal trading post', 'Ikshvaku maritime trade']
+  },
+  
+  // Sangam Age - Three Sangams
+  {
+    id: 'sangam-1',
+    category: 'sangam',
+    subcategory: 'Three Sangams',
+    title: 'First Sangam at Madurai',
+    content: 'Place: Madurai. President: Sage Agastyar. Scholars: Agastya, Murugavel, Mudinagarayar, Murunjiyur. Important Works: Agatiyam, Paripadal, Mudukurugu, Kalariyavirai. Note: No literary work of First Sangam is available.',
+    importance: 'high',
+    facts: ['President: Sage Agastyar', '4 scholars', '4 important works', 'No literary work survives', 'Held at Madurai']
+  },
+  {
+    id: 'sangam-2',
+    category: 'sangam',
+    subcategory: 'Three Sangams',
+    title: 'Second Sangam at Kapadapuram',
+    content: 'Place: Kapadapuram. President: Agastya. Scholars: Irundiyar, Tolkappiyar, Karungoli, Pandurangan, Tarainamaran, Vellurkappiyarar. Important Works: Tolkappiyam Mapuram, Isainunukam, Bhutapuram, Kali, Kuruku, Vendali.',
+    importance: 'high',
+    facts: ['President: Agastya', 'Key work: Tolkappiyam', 'Multiple scholars', 'Held at Kapadapuram', 'Important grammar text']
+  },
+  {
+    id: 'sangam-3',
+    category: 'sangam',
+    subcategory: 'Three Sangams',
+    title: 'Third Sangam at Madurai',
+    content: 'Place: Madurai. President: Nakkiralu. Scholars: Thiruvalluvar, Valluvar, Ilango Adigal, Seethalai Sathanar, Nakkiranar, Kapilar, Paranar, Auvaiyar, Mangudi Marudanar. Important Works: Pattupattu, Ettutogai, Pathinen Kilkanakku, Kural, Thirukkural.',
+    importance: 'high',
+    facts: ['President: Nakkiralu', 'Famous scholars: Thiruvalluvar, Ilango Adigal', 'Major works: Thirukkural, Pattupattu', 'Most surviving literature', 'Held at Madurai']
+  },
+  
+  // Sangam Age - Polity
+  {
+    id: 'sangam-4',
+    category: 'sangam',
+    subcategory: 'Polity - Rulers',
+    title: 'Kizhar - Village/Small Territory Chiefs',
+    content: 'Heads of villages or small territory, later known as nadu. Chiefs of tribal communities living in specific areas.',
+    importance: 'high',
+    facts: ['Village heads', 'Small territory chiefs', 'Later called nadu', 'Tribal community chiefs', 'Local governance']
+  },
+  {
+    id: 'sangam-5',
+    category: 'sangam',
+    subcategory: 'Polity - Rulers',
+    title: 'Vendar - Kings of Larger Territories',
+    content: 'Kings who controlled larger and fertile territories. Titles: Kadungo, Imayavaramban, Vanavaramban, Peru Vazhuthi. Patronised bards and poets in courts (avaiyam). Absolute powers, conducted Vedic sacrifices. Advised by Aimperunkulu committee (Ministers, Priests, Generals, Envoys, Spies).',
+    importance: 'high',
+    facts: ['Controlled large fertile territories', 'Royal titles to distinguish from common people', 'Patronised bards/poets', 'Absolute powers, Vedic sacrifices', 'Advised by Aimperunkulu committee']
+  },
+  {
+    id: 'sangam-6',
+    category: 'sangam',
+    subcategory: 'Polity - Rulers',
+    title: 'Aimperunkulu - Royal Advisory Committee',
+    content: 'Committee advising the king comprised of: Ministers (Amaichchar), Priests (Anthanar), Generals, Envoys (Dutas or thuthar), Spies (orrar). Also advised by imperial court (Orasavai or Vettavai) and court poets.',
+    importance: 'high',
+    facts: ['Advisory committee to king', 'Ministers (Amaichchar)', 'Priests (Anthanar)', 'Generals, Envoys, Spies', 'Imperial court guidance']
+  },
+  {
+    id: 'sangam-7',
+    category: 'sangam',
+    subcategory: 'Polity - Rulers',
+    title: 'Royal Titles in Sangam Age',
+    content: 'Kings ruled with different titles by region: Vanavaramban, Vanavan, Villavar (Chera rulers). Senni, Valavan, Killi (Chola rulers). Thennavar, Minavar (Pandya rulers).',
+    importance: 'high',
+    facts: ['Chera: Vanavaramban, Vanavan, Villavar', 'Chola: Senni, Valavan, Killi', 'Pandya: Thennavar, Minavar', 'Regional title variations']
+  },
+  {
+    id: 'sangam-8',
+    category: 'sangam',
+    subcategory: 'Polity - Velir',
+    title: 'Velir - Hilly and Forest Chiefs',
+    content: 'Controlled mainly hilly and forest areas between Muvendar fertile territories. Notable Chiefs: Athiyaman, Pari, Ay, Evvi, Irungo. Patronised poets. Held military might, often clashing and occasionally uniting against main kings.',
+    importance: 'high',
+    facts: ['Hilly/forest area chiefs', 'Between fertile territories', 'Notable: Athiyaman, Pari, Ay', 'Patronised poets', 'Military might, clashed with kings']
+  },
+  {
+    id: 'sangam-9',
+    category: 'sangam',
+    subcategory: 'Polity - Velir',
+    title: 'Satiyaputra (Athiyaman) - Velir Chief [UPSC 2023]',
+    content: 'Satiyaputra (Athiyaman) mentioned in Asokan inscription is a Velir chief in Sangam poems. [UPSC 2023]',
+    importance: 'high',
+    facts: ['Velir chief [UPSC 2023]', 'Mentioned in Asokan inscription', 'Also in Sangam poems', 'Historical cross-reference']
+  },
+  {
+    id: 'sangam-10',
+    category: 'sangam',
+    subcategory: 'Polity - Ritual',
+    title: 'Vattakirutal Ritual - Defeated King Suicide [UPSC 2023]',
+    content: 'A king who was defeated in battle committed ritual suicide by starving himself to death. [UPSC 2023]',
+    importance: 'high',
+    facts: ['Ritual suicide after defeat [UPSC 2023]', 'Method: Starvation to death', 'Honor-based practice', 'Sangam age warrior code']
+  },
+  
+  // Sangam Age - Tamil Eco-Zones (Thinai)
+  {
+    id: 'sangam-11',
+    category: 'sangam',
+    subcategory: 'Eco-Zones (Thinai)',
+    title: 'Five Tamil Landscapes - Thinai Concept',
+    content: 'According to Thinai (landscape) concept, Tamilagam was divided into five landscapes. Each region had distinct characteristics - presiding deity, people, and cultural life according to environmental conditions.',
+    importance: 'high',
+    facts: ['Five distinct landscapes', 'Based on environment', 'Each has presiding deity', 'Distinct people and culture', 'Eco-social classification']
+  },
+  {
+    id: 'sangam-12',
+    category: 'sangam',
+    subcategory: 'Eco-Zones (Thinai)',
+    title: 'Kurinji - Hilly Region',
+    content: 'Hilly region characterised by hunting and gathering activities. Mountain landscape.',
+    importance: 'high',
+    facts: ['Hilly/mountain region', 'Hunting activities', 'Gathering activities', 'Hunter-gatherer economy']
+  },
+  {
+    id: 'sangam-13',
+    category: 'sangam',
+    subcategory: 'Eco-Zones (Thinai)',
+    title: 'Marutham - Riverine Agricultural Region',
+    content: 'Riverine tract where agriculture was practised using ploughs and irrigation. Most productive region.',
+    importance: 'high',
+    facts: ['Riverine tract', 'Agriculture with ploughs', 'Irrigation used', 'Most productive zone']
+  },
+  {
+    id: 'sangam-14',
+    category: 'sangam',
+    subcategory: 'Eco-Zones (Thinai)',
+    title: 'Mullai - Forest Pastoral Region',
+    content: 'Forest region where pastoralism was combined with shifting cultivation. Mixed economy.',
+    importance: 'high',
+    facts: ['Forest region', 'Pastoralism (animal herding)', 'Shifting cultivation', 'Mixed economy']
+  },
+  {
+    id: 'sangam-15',
+    category: 'sangam',
+    subcategory: 'Eco-Zones (Thinai)',
+    title: 'Neythal - Coastal Fishing Region',
+    content: 'Coastal land primarily used for fishing and salt production. Maritime economy.',
+    importance: 'high',
+    facts: ['Coastal region', 'Fishing activities', 'Salt production', 'Maritime economy']
+  },
+  {
+    id: 'sangam-16',
+    category: 'sangam',
+    subcategory: 'Eco-Zones (Thinai)',
+    title: 'Palai - Arid Desert Region',
+    content: 'Arid and parched land unsuitable for cultivation, leading people to engage in cattle lifting and robbery. Harsh environment.',
+    importance: 'high',
+    facts: ['Arid/desert land', 'Unsuitable for cultivation', 'Cattle lifting', 'Robbery activities', 'Harsh survival']
+  },
+  
+  // Sangam Age - Dynasties Summary
+  {
+    id: 'sangam-17',
+    category: 'sangam',
+    subcategory: 'Dynasties - Cheras',
+    title: 'Chera Dynasty Overview',
+    content: 'Region: Kerala. Capital: Vanji. Important Ruler: Cheran Senguttuvan. Important Ports: Musiri, Tondi. Emblem: Bow and Arrow.',
+    importance: 'high',
+    facts: ['Region: Kerala', 'Capital: Vanji', 'Ruler: Cheran Senguttuvan', 'Ports: Musiri, Tondi', 'Emblem: Bow and Arrow']
+  },
+  {
+    id: 'sangam-18',
+    category: 'sangam',
+    subcategory: 'Dynasties - Cholas',
+    title: 'Chola Dynasty Overview',
+    content: 'Region: Tamil Nadu. Capital: Uraiyur. Important Ruler: Karikala. Important Ports: Kaveripattinam/Puhar. Emblem: Tiger.',
+    importance: 'high',
+    facts: ['Region: Tamil Nadu', 'Capital: Uraiyur', 'Ruler: Karikala', 'Port: Kaveripattinam/Puhar', 'Emblem: Tiger']
+  },
+  {
+    id: 'sangam-19',
+    category: 'sangam',
+    subcategory: 'Dynasties - Pandyas',
+    title: 'Pandya Dynasty Overview [UPSC 2023]',
+    content: 'Region: Tamil Nadu. Capital: Madurai. Important Ruler: Nedunchezhiyan. Important Ports: Nelkynda, Korkai [UPSC 2023]. Emblem: Fish.',
+    importance: 'high',
+    facts: ['Region: Tamil Nadu', 'Capital: Madurai', 'Ruler: Nedunchezhiyan', 'Ports: Nelkynda, Korkai [UPSC 2023]', 'Emblem: Fish']
+  },
+  
+  // Sangam Age - Important Ports
+  {
+    id: 'sangam-20',
+    category: 'sangam',
+    subcategory: 'Ports - Chera',
+    title: 'Chera Dynasty Ports',
+    content: 'Muziris (Muchiri or Cranganore) - Present-day Kodungallur, Kerala. Tondi (Tyndis) - Near Ponnani, Kerala. Naravu - Near Kannur, Kerala.',
+    importance: 'high',
+    facts: ['Muziris: Kodungallur, Kerala', 'Tondi: Near Ponnani, Kerala', 'Naravu: Near Kannur, Kerala', '3 major Chera ports']
+  },
+  {
+    id: 'sangam-21',
+    category: 'sangam',
+    subcategory: 'Ports - Chola',
+    title: 'Chola Dynasty Ports',
+    content: 'Nagapattinam, Poompuhar/Puhar (Kaveripattinam), Korkai. Tharangambadi, Kodikarai (Point Calimere). Nagapattinam - Near Puducherry. Arikamedu - Tamil Nadu. Korkai - Tamil Nadu.',
+    importance: 'high',
+    facts: ['Kaveripattinam (capital port)', 'Nagapattinam', 'Korkai', 'Arikamedu', 'Multiple strategic ports']
+  },
+  {
+    id: 'sangam-22',
+    category: 'sangam',
+    subcategory: 'Ports - Pandya',
+    title: 'Pandya Dynasty Ports',
+    content: 'Korkai - Tamil Nadu. Saliyur. Marungur.',
+    importance: 'high',
+    facts: ['Korkai (major port)', 'Saliyur', 'Marungur', 'Tamil Nadu coast']
+  },
+  {
+    id: 'sangam-23',
+    category: 'sangam',
+    subcategory: 'Ports - Kalabhra',
+    title: 'Kalabhra Dynasty Ports',
+    content: 'Kaveripattinam - Tamil Nadu. Tondi (Tyndis) - Kerala. Vanji - Kerala.',
+    importance: 'high',
+    facts: ['Kaveripattinam: Tamil Nadu', 'Tondi: Kerala', 'Vanji: Kerala', 'Inter-regional control']
   }
 
 
