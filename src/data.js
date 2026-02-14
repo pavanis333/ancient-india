@@ -5528,8 +5528,9 @@ export const quizQuestions = [
     correct: 1,
     explanation: 'Ghantasala (Krishna district, AP): major Buddhist center AND trade hub. Ikshvaku port combining religious+commercial importance.'
   }
+,
 
-  // SANGAM AGE QUIZ (15 questions)
+  // SANGAM AGE QUIZ (18 comprehensive questions)
   {
     category: 'sangam',
     question: 'Which Sangam has NO surviving literary work?',
